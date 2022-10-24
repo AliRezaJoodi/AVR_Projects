@@ -1,2 +1,1 @@
-# AVR_Projects_Beginning
- AVR Exercises
+It's my **AVR Programming** exercises.

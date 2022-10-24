@@ -1,0 +1,26 @@
+# Personal folders and files for ignore
+_Pending
+
+# Proteus folders and files for ignore
+Project Backups
+*.workspace
+
+# BascomAVR folders and files for ignore
+*.bin
+*.BM
+*.dbg
+*.obj
+*.rpt
+
+# CodeVisionAVR folders and files for ignore
+Debug
+Linker
+List
+Obj
+*.cbi
+*.cof
+*.fct
+*.rom
+Main.txt
+*.c~
+*.cci
