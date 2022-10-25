@@ -10,6 +10,7 @@ We need to create few folders and files on the main page. Included:
   - `ReadMe.md`
 - `Pictures`
 - `Hardware`
+  - `ReadMe.md`
 - `Pictures`
 
 ## README.md
@@ -25,9 +26,9 @@ Voltage References:  AVCC
 It has included:
 - `Code_BascomAVR` (Code with Basic Language)
 - `Code_CodeVisionAVR` (Code with C Language)
-- `Simulate` (Simulator File)
 - `Hardware` (Hardware Layers)
 - `Pictures` (Photos Samples Made)
+- `Simulate` (Simulator File)
 
 ### Simulate: v1.0
 ![](Simulate/v1.0.png)
@@ -56,6 +57,7 @@ It's a folder and will be included code with **C Language**. We should create a 
 Its content is:	
 ```
 ### Description
+
 v1.0:
 - Last opened with CodeVisionAVR v3.12
 ```
@@ -66,6 +68,7 @@ It's a folder and will be included simulator file. We should create a file insid
 Its content is:	
 ```
 ### Description
+
 v1.0:
 - Last opened with Proteus 8 Professional v8.13 SP0
 - Usable for `Code_BascomAVR` and `Code_CodeVisionAVR`
@@ -77,6 +80,7 @@ It's a folder and will be included hardware layers. We should create a file insi
 Its content is:	
 ```
 ### Description
+
 V1.0:
 - Last opened with Proteus 8 Professional v8.13 SP0
 ```
