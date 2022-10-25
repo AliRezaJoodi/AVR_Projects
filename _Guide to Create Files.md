@@ -9,6 +9,8 @@ We need to create few folders and files on the main page. Included:
 - `Simulate`
   - `ReadMe.md`
 - `Pictures`
+- `Hardware`
+- `Pictures`
 
 ## README.md
 Its content is:	
@@ -24,9 +26,14 @@ It has included:
 - `Code_BascomAVR` (Code with Basic Language)
 - `Code_CodeVisionAVR` (Code with C Language)
 - `Simulate` (Simulator File)
+- `Hardware` (Hardware Layers)
+- `Pictures` (Photos Samples Made)
 
 ### Simulate: v1.0
 ![](Simulate/v1.0.png)
+
+### Pictures: v1.0
+![](Pictures/v1.0.jpg)
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
@@ -62,5 +69,15 @@ Its content is:
 v1.0:
 - Last opened with Proteus 8 Professional v8.13 SP0
 - Usable for `Code_BascomAVR` and `Code_CodeVisionAVR`
+```
+
+## Hardware
+It's a folder and will be included hardware layers. We should create a file inside this folder. Included:
+- `ReadMe.md`   
+Its content is:	
+```
+### Description
+V1.0:
+- Last opened with Proteus 8 Professional v8.13 SP0
 ```
 
