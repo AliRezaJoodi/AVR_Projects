@@ -11,16 +11,15 @@ We need to create few folders and files on the main page. Included:
 - `Pictures`
 - `Hardware`
   - `ReadMe.md`
-- `Pictures`
 
 ## README.md
 Its content is:	
 ```
 ### Project Information
-Title:               Thermometer Using LM35  
-MCU:                 ATmega32  
-Clock Frequency:     1.000000 MHz  
-Voltage References:  AVCC  
+Title:          Thermometer Using LM35  
+MCU:            ATmega32  
+Frequency:      1.000000 MHz  
+ADC VREF:	AVCC  
 
 ### Folder and Files Information
 It has included:
@@ -77,6 +76,7 @@ v1.0:
 - Last opened with Proteus 8 Professional v8.13 SP0
 - Usable for `Code_BascomAVR`
 - Usable for `Code_CodeVisionAVR`
+- Usable for `mikroC PRO for AVR`
 ```
 
 ## Hardware
