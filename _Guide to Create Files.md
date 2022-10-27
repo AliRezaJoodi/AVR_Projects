@@ -49,6 +49,8 @@ Its content is:
 ### Description
 v1.0:
 - Last opened with BascomAVR v2.0.7.5
+- Used successfully
+- It's **Best Version**.
 ```
 
 ## Code_CodeVisionAVR
@@ -60,6 +62,8 @@ Its content is:
 
 v1.0:
 - Last opened with CodeVisionAVR v3.12
+- Used successfully
+- It's **Best Version**.
 ```
 
 ## Simulate
@@ -71,7 +75,8 @@ Its content is:
 
 v1.0:
 - Last opened with Proteus 8 Professional v8.13 SP0
-- Usable for `Code_BascomAVR` and `Code_CodeVisionAVR`
+- Usable for `Code_BascomAVR`
+- Usable for `Code_CodeVisionAVR`
 ```
 
 ## Hardware
@@ -83,5 +88,7 @@ Its content is:
 
 V1.0:
 - Last opened with Proteus 8 Professional v8.13 SP0
+- Used successfully
+- It's **Best Version**.
 ```
 

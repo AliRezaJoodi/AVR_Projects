@@ -1,8 +1,7 @@
 ### Project Information
-Title:               Thermometer Using LM35  
-MCU:                 ATmega32  
-Clock Frequency:     1.000000 MHz  
-Voltage References:  AVCC (5V)  
+Title:               	Thermometer Using LM35  
+MCU:                 	ATmega32  
+Clock:		     	1.000000 MHz   
 
 ### Folder and Files Information
 It has included:

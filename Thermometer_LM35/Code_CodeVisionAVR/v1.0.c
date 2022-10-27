@@ -26,10 +26,10 @@ flash byte char0[8]={
     0b10000000
 };
 
-void Configuration_LCD(void);
+void Config_LCD(void);
+void Display_Advertising(void);
 void define_char(byte flash *pc,byte);
-void Configuration_ADC(void);
-void Display_LCD_Start(void);
+void Config_ADC(void);
 float Read_adc(unsigned char);
 float Convert(float);
 void Display_LCD_1(float);
@@ -39,10 +39,10 @@ float Input_mV=0;
 float Temp=0;
 
 void main(void){
-    Configuration_ADC();
-    Configuration_LCD();
+    Config_ADC();
+    Config_LCD();
     define_char(char0,0); 
-    Display_LCD_Start(); 
+    Display_Advertising(); 
     
     while (1){
         Input_mV=Read_adc(7);
@@ -54,7 +54,7 @@ void main(void){
 }
 
 //********************************************************
-void Configuration_LCD(void){
+void Config_LCD(void){
     lcd_init(16); lcd_clear();   
 }
 
@@ -66,7 +66,7 @@ void define_char(byte flash *pc,byte char_code){
 }
 
 //********************************************************
-void Configuration_ADC(void){
+void Config_ADC(void){
     // Analog Comparator initialization
     // Analog Comparator: Off
     // Analog Comparator Input Capture by Timer/Counter 1: Off
@@ -81,7 +81,7 @@ void Configuration_ADC(void){
 }
 
 //********************************************************
-void Display_LCD_Start(void){
+void Display_Advertising(void){
     lcd_clear(); 
     lcd_gotoxy(0,0); lcd_putsf("GitHub.com");
     lcd_gotoxy(0,1); lcd_putsf("AliRezaJoodi");
