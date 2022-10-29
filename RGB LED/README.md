@@ -1,5 +1,5 @@
 ### Project Information
-Title:               RGB LED Driver 
+Title:               RGB LED Driver  
 MCU:                 ATmega16  
 Clock Frequency:     8.000000 MHz  
 
