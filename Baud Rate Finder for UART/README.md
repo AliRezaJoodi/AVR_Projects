@@ -1,5 +1,5 @@
 ### Project Information
-Title:               	Baud Rate Finder for UART.  
+Title:               	Baud Rate Finder for UART  
 MCU:                 	ATmega32  
 Clock:		     	8.000000 MHz   
 
