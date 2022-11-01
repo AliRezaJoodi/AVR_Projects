@@ -8,3 +8,4 @@ I'm uploading my old files on the GitHub now.
 ![](Thermometer%20Using%20LM335/Simulate/Album.png)
 ![](Baud%20Rate%20Finder%20for%20UART/Simulate/Album.png)
 ![](UART%20Relay%20Controller_8CH/Simulate/Album.png)
+![](UART%20Relay%20Controller_1CH/Simulate/Album.png)
