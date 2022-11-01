@@ -3,6 +3,8 @@ Title:               UART Relay Controller_8CH
 MCU:                 ATmega32  
 Clock Frequency:     8.000000 MHz    
 
+Note: RS232 to UART and USB to UART is usable for connection the project to computer.
+
 ### Folder and Files Information
 It has included:
 - `Code_BascomAVR` (Code with Basic Language)
