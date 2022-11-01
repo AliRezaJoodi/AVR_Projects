@@ -32,6 +32,9 @@ It has included:
 ### Simulate: v1.0
 ![](Simulate/v1.0.png)
 
+### Schematic: v1.0
+![](Hardware/v1.0.png)
+
 ### Pictures: v1.0
 ![](Pictures/v1.0.jpg)
 
