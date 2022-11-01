@@ -19,4 +19,7 @@ AVR_Exercises\Display_LCD_Syntax\Code_CodeVisionAVR\v1.0.c
 AVR_Exercises\Display_LCD_Syntax\Code_mikroC PRO for AVR\v1_0.c
 - Included `Display_loading` and `Display_Advertising`
 
+### Include External Files
+AVR_Exercises\Include External Files\Code_CodeVisionAVR\Attachment\Config_Hardware_v1.0
+
 
