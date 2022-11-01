@@ -1,5 +1,5 @@
 It's my **AVR Programming** exercises.  
-I'm uploading my old files on the GitHub now.
+I'm uploading my old files on the repository now.
 
 ### Pictures of the Repository
 ![](Thermometer%20Using%20LM35/Simulate/Album.png)
