@@ -12,8 +12,10 @@ AVR_Exercises\Button\Code_CodeVisionAVR\v1.0.c
 ### Start text on the LCD
 AVR_Exercises\Display_LCD_Syntax\Code_BascomAVR\v1.0.bas
 - Included `Display_loading` and `Display_Advertising`
+
 AVR_Exercises\Display_LCD_Syntax\Code_CodeVisionAVR\v1.0.c
 - Included `Display_loading` and `Display_Advertising`
+
 AVR_Exercises\Display_LCD_Syntax\Code_mikroC PRO for AVR\v1_0.c
 - Included `Display_loading` and `Display_Advertising`
 
