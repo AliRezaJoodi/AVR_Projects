@@ -5,6 +5,10 @@ F:\GoogleDriveWork\GitHub\AVR_Exercises\Keypad_4x4\Code_CodeVisionAVR\v1.0.c
 AVR_Projects_Beginning\Thermometer_LM35\Code_BascomAVR\v3.1.bas
 - Included sampling and averaging
 
+### Display ^C
+AVR_Projects_Beginning\Thermometer Using DS18B20\Code_BascomAVR\v1.0.bas
+AVR_Projects_Beginning\Thermometer Using DS18B20\Code_CodeVisionAVR\v1.0c
+
 ### Button Driver
 AVR_Exercises\Button\Code_CodeVisionAVR\v1.0.c
 - Checked the old status of the button.
