@@ -1,4 +1,4 @@
-'Github Account: Github.com/Alirezajoodi
+'Github Account: Github.com/AliRezaJoodi
 
 $regfile = "m16def.dat"
 $crystal = 8000000
