@@ -1,7 +1,8 @@
-It's my **AVR Programming** exercises.  
+## AVR Microcontroller Projects for Beginners
+
 I'm uploading my old files on the repository now.
 
-### Pictures of the Repository
+### Gallery of the Repository
 ![](Thermometer%20Using%20LM35/Simulate/Album.png)
 ![](Voltmeter%20for%200-20V%20with%20Bar%20Display/Simulate/Album.png)
 ![](Thermostat%20Using%20LM35/Simulate/Album.png)
