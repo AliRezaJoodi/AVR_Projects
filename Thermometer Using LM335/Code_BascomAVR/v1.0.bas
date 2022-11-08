@@ -15,8 +15,8 @@ Const Gain = 5000 / 1023
 Dim W As Word
 Dim Input_mv As Single
 'Dim Input_v As Single
-Dim Temp_c As Single
 Dim Temp_k As Single
+Dim Temp_c As Single
 
 Gosub Display_lcd_start_text
 
@@ -45,14 +45,14 @@ Return
 
 '**********************************************
 Convert:
-   Temp_c = Input_mv / 10                                   'Lm335 outputs 10mv for each a K degree
-   Temp_k = Temp_c - 273.15                                 'Convert Kelvin to Celsius
+   Temp_k = Input_mv / 10                                   'Lm335 outputs 10mv for each a K degree
+   Temp_c = Temp_k - 273.15                                 'Convert Kelvin to Celsius
 Return
 
 '**********************************************
 Display_:
    Deflcdchar 0 , 7 , 5 , 7 , 32 , 32 , 32 , 32 , 32
    'Locate 1 , 1 : Lcd "Input: " ; Fusing(input_mv , "#.#") ; "mV"
-   Locate 1 , 1 : Lcd "Temp(" ; Chr(0) ; "K):" ; Fusing(temp_K , "#.#")
-   Locate 2 , 1 : Lcd "Temp(" ; Chr(0); "C):" ; Fusing(temp_c , "#.#")
+   Locate 1 , 1 : Lcd "Temp(" ; Chr(0) ; "K):" ; Fusing(temp_k , "#.#")
+   Locate 2 , 1 : Lcd "Temp(" ; Chr(0) ; "C):" ; Fusing(temp_c , "#.#")
 Return

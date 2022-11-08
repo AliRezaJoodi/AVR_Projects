@@ -1,6 +1,6 @@
 //Github Account: Github.com/Alirezajoodi
 
-#include<mega16.h>
+#include<mega32.h>
 #include<delay.h>
 #define xtal 1000000
 

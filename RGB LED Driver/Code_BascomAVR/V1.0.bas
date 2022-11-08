@@ -1,6 +1,6 @@
 'Github Account: Github.com/AliRezaJoodi
 
-$regfile = "m16def.dat"
+$regfile = "m32def.dat"
 $crystal = 8000000
 
 Enable Interrupts
@@ -23,9 +23,9 @@ Start Timer0
 
 Do
    Gosub Color_1 : Waitms 500
-   Gosub Color_Red : Waitms 500
-   Gosub Color_Green : Waitms 500
-   Gosub Color_Blue : Waitms 500
+   Gosub Color_red : Waitms 500
+   Gosub Color_green : Waitms 500
+   Gosub Color_blue : Waitms 500
 Loop
 
 End
@@ -51,23 +51,22 @@ Color_1:
 Return
 
 '***********************************************
-Color_Red:
+Color_red:
    Value_r = 10
    Value_g = 0
    Value_b = 0
 Return
 
 '***********************************************
-Color_Green:
+Color_green:
    Value_r = 0
    Value_g = 10
    Value_b = 0
 Return
 
 '***********************************************
-Color_Blue:
+Color_blue:
    Value_r = 0
    Value_g = 0
    Value_b = 10
 Return
-
