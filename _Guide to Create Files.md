@@ -15,13 +15,13 @@ We need to create few folders and files on the main page. Included:
 ## README.md
 Its content is:	
 ```
-### Project Information
+### Project Description
 Title:          Thermometer Using LM35  
 MCU:            ATmega32  
 Frequency:      1.000000 MHz  
 ADC VREF:	AVCC  
 
-### Folder and Files Information
+### Folders and Files Description
 It has included:
 - `Code_BascomAVR` (Code with Basic Language)
 - `Code_CodeVisionAVR` (Code with C Language)
