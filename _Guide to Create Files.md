@@ -15,8 +15,8 @@ We need to create few folders and files on the main page. Included:
 ## README.md
 Its content is:	
 ```
-### Project Description
-Title:          Thermometer Using LM35  
+## Thermometer Using LM35
+
 MCU:            ATmega32  
 Frequency:      1.000000 MHz  
 ADC VREF:	AVCC  

@@ -1,9 +1,9 @@
-### Project Information
-Title:               	Thermometer Using DS18B20  
+## Thermometer Using DS18B20
+
 MCU:                 	ATmega32  
 Clock:		     	1.000000 MHz   
 
-### Folder and Files Information
+### Folder and Files Description
 It has included:
 - `Code_BascomAVR` (Code with Basic Language)
 - `Code_CodeVisionAVR` (Code with C Language)

@@ -1,11 +1,11 @@
-### Project Information
-Title:     	UART Relay Controller for 1CH  
+## UART Relay Controller for 1CH
+
 MCU:            ATmega32  
 Frequency:     	8.000000 MHz    
 
 Note:	RS232 to UART and USB to UART is usable for connection the project to computer.
 
-### Folder and Files Information
+### Folder and Files Description
 It has included:
 - `Code_BascomAVR` (Code with Basic Language)
 - `Simulate` (Simulator File)

@@ -1,9 +1,9 @@
-### Project Information
-Title:               Flasher  
-MCU:                 ATmega16  
-Clock Frequency:     1.000000 MHz    
+## Flasher
 
-### Folder and Files Information
+MCU:       	ATmega16  
+Frequency:     	1.000000 MHz    
+
+### Folder and Files Description
 It has included:
 - `Code_BascomAVR` (Code with Basic Language)
 - `Code_CodeVisionAVR` (Code with C Language)

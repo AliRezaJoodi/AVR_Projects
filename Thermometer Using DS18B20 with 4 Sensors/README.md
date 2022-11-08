@@ -1,9 +1,9 @@
-### Project Information
-Title:               	Thermometer Using DS18B20 with 4 Sensors  
+## Thermometer Using DS18B20 with 4 Sensors
+ 
 MCU:                 	ATmega32  
 Clock:		     	1.000000 MHz   
 
-### Folder and Files Information
+### Folder and Files Description
 It has included:
 - `Code_CodeVisionAVR` (Code with C Language)
 - `Simulate` (Simulator File)

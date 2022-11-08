@@ -1,9 +1,9 @@
-### Project Information
-Title:               RGB LED Driver  
-MCU:                 ATmega16  
-Clock Frequency:     8.000000 MHz  
+## RGB LED Driver
+ 
+MCU: 		ATmega16  
+Frequency:     8.000000 MHz  
 
-### Folder and Files Information
+### Folder and Files Description
 It has included:
 - `Code_BascomAVR` (Code with Basic Language)
 - `Simulate` (Simulator File)
