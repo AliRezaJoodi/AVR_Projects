@@ -15,11 +15,11 @@ We need to create few folders and files on the main page. Included:
 ## README.md
 Its content is:	
 ```
-## Thermometer Using LM35
+## Title
 
 MCU:            ATmega32  
 Frequency:      1.000000 MHz  
-ADC VREF:	AVCC  
+VREF:		AVCC  
 
 ### Folders and Files Description
 It has included:
