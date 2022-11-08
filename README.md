@@ -1,6 +1,6 @@
 ## AVR Microcontroller Projects for Beginners
 
-I'm uploading my old files on the repository now.
+I'm uploading my old files on the repository.
 
 ### Gallery of the Repository
 ![](Thermometer%20Using%20LM35/Simulate/Album.png)
