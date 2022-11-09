@@ -1,7 +1,8 @@
 ## Flasher
 
-MCU:       	ATmega16  
-Frequency:     	1.000000 MHz    
+MCU:        ATmega32  
+Frequency:  1.000000 MHz  
+Display:    8LEDs      
 
 ### Folder and Files Description
 It has included:

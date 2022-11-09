@@ -1,7 +1,7 @@
 ## Music Player
   
-MCU:		ATmega32  
-Frequency:   	1.000000 MHz   
+MCU:        ATmega32  
+Frequency:  1.000000 MHz  
 
 ### Folder and Files Description
 It has included:

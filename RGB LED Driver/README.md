@@ -1,7 +1,8 @@
 ## RGB LED Driver
  
-MCU: 		ATmega16  
-Frequency:     8.000000 MHz  
+MCU:        ATmega32  
+Frequency:  8.000000 MHz  
+Display:    RGB LED    
 
 ### Folder and Files Description
 It has included:
