@@ -1,8 +1,8 @@
 ## Thermometer Using DS18B20
 
-MCU: 		    ATmega32  
+MCU: 		ATmega32  
 Frequency:	1.000000 MHz  
-Display:    16x2 Character LCD  
+Display:    	16x2 Character LCD  
 
 ### Folder and Files Description
 It has included:
