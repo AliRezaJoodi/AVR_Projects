@@ -13,13 +13,12 @@ I'm uploading my old files on the repository.
 
 ![](UART%20Relay%20Controller%20for%201CH/Simulate/Album.png)
 ![](UART%20Relay%20Controller%20for%208CH/Simulate/Album.png)
-![](Baud%20Rate%20Finder%20for%20UART/Simulate/Album.png)
+![](UART%20Baud%20Rate%20Finder/Simulate/Album.png)
 
 ### List of the Repository
 
 |Title                                    |BascomAVR  |CodeVisionAVR  |
 |:----------------------------------------|:---------:|:-------------:|
-|Baud Rate Finder for UART                | Y         | -             |
 |Bulletin Board with Character LCD        | Y         | -             |
 |Flasher Using 8LEDs                      | Y         | Y             |
 |Music Player                             | Y         | -             |
@@ -29,6 +28,7 @@ I'm uploading my old files on the repository.
 |Thermometer Using LM35                   | Y         | Y             |
 |Thermometer Using LM335                  | Y         | Y             |
 |Thermostat Using LM35                    | Y         | -             |
+|UART Baud Rate Finder                    | Y         | -             |
 |UART Relay Controller for 1CH            | Y         | -             |
 |UART Relay Controller for 8CH            | Y         | -             |
 |Voltmeter for 0-20V with Bar Display     | Y         | -             |
