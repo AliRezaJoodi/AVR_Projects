@@ -1,4 +1,4 @@
-## UART Baud Rate FinderT
+## UART Baud Rate Finder
  
 MCU:        ATmega32  
 Frequency:  8.000000 MHz      
