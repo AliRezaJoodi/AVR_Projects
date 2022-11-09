@@ -17,9 +17,10 @@ Its content is:
 ```
 ## Title
 
-MCU:            ATmega32  
-Frequency:      1.000000 MHz  
-VREF:		AVCC  
+MCU:        ATmega32  
+Frequency:  1.000000 MHz  
+VREF:       AVCC (5V)  
+Display:    16x2 Character LCD
 
 ### Folders and Files Description
 It has included:
