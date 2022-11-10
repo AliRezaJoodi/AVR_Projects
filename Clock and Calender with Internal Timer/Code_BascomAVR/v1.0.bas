@@ -22,7 +22,7 @@ Config Date = Ymd , Separator = / : Date$ = "22/11/10"
 Dim Weekday_b As Byte
 Dim Weekday_str As String * 10
 
-Gosub Display_time
+Gosub Sectic
 
 Do
    Debounce Key_set , 0 , Menu_hour , Sub
@@ -33,6 +33,8 @@ End
 
 '*****************************************
 Sectic:
+   Weekday_b = Dayofweek()
+   Weekday_str = Lookupstr(weekday_b , Data_weekdays)
    Gosub Display_time
 Return
 
@@ -40,8 +42,6 @@ Return
 Display_time:
    Locate 1 , 1 : Lcd Time$ ; "  "
    Locate 2 , 1 : Lcd Date$ ; "  "
-   Weekday_b = Dayofweek()
-   Weekday_str = Lookupstr(weekday_b , data_Weekdays)
    Locate 2 , 12 : Lcd Weekday_str ; "  "
 Return
 
