@@ -1,5 +1,8 @@
+### Create Menu
+AVR_Projects_Beginning\Clock and Calender with Internal Timer\Code_BascomAVR\v1.0.bas
+
 ### Keypad Reading
-F:\GoogleDriveWork\GitHub\AVR_Exercises\Keypad_4x4\Code_CodeVisionAVR\v1.0.c
+AVR_Exercises\Keypad_4x4\Code_CodeVisionAVR\v1.0.c
 
 ### ADC Reading
 AVR_Projects_Beginning\Thermometer_LM35\Code_BascomAVR\v3.1.bas
