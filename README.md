@@ -24,6 +24,7 @@ I'm uploading my old files on the repository.
 |Clock and Calender with Internal Timer   | Y         | -             |
 |Flasher Using 8LEDs                      | Y         | Y             |
 |Music Player                             | Y         | -             |
+|PWM creator with custom-made channels    | Y         | -             |
 |RGB LED Driver                           | Y         | -             |
 |Thermometer Using DS18B20                | Y         | Y             |
 |Thermometer Using DS18B20 with 4 Sensors | Y         | Y             |

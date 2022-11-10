@@ -1,4 +1,4 @@
-'Github Account: Github.com/AliRezaJoodi
+'Github Account: GitHub.com/AliRezaJoodi
 
 $regfile = "m32def.dat"
 $crystal = 8000000
