@@ -10,7 +10,7 @@ I'm uploading my old files on the repository.
 ![](Thermometer%20Using%20DS18B20/Simulate/Album.png)
 ![](Thermometer%20Using%20DS18B20%20with%204%20Sensors/Simulate/Album.png)
 ![](Bulletin%20Board%20with%20Character%20LCD/Simulate/Album.png)
-![](Clock%20and%20Calender%20with%20Internal%20Timer/Simulate/Album.png)
+![](Clock%20and%20Date%20with%20Internal%20Timer/Simulate/Album.png)
 
 ![](UART%20Relay%20Controller%20for%201CH/Simulate/Album.png)
 ![](UART%20Relay%20Controller%20for%208CH/Simulate/Album.png)
@@ -21,10 +21,10 @@ I'm uploading my old files on the repository.
 |Title                                    |BascomAVR  |CodeVisionAVR  |
 |:----------------------------------------|:---------:|:-------------:|
 |Bulletin Board with Character LCD        | Y         | -             |
-|Clock and Calender with Internal Timer   | Y         | -             |
+|Clock and Date with Internal Timer       | Y         | -             |
 |Flasher Using 8LEDs                      | Y         | Y             |
 |Music Player                             | Y         | -             |
-|PWM creator with custom-made channels    | Y         | -             |
+|PWM Creator with Custom-Made Channels    | Y         | -             |
 |RGB LED Driver                           | Y         | -             |
 |Thermometer Using DS18B20                | Y         | Y             |
 |Thermometer Using DS18B20 with 4 Sensors | Y         | Y             |

@@ -1,4 +1,4 @@
-## Clock and Calender with Internal Timer
+## Clock and Date with Internal Timer
 
 MCU:        ATmega32  
 Frequency:  8.000000 MHz  
