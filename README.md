@@ -11,6 +11,7 @@ I'm uploading my old files on the repository.
 ![](Thermometer%20Using%20DS18B20%20with%204%20Sensors/Simulate/Album.png)
 ![](Bulletin%20Board%20with%20Character%20LCD/Simulate/Album.png)
 ![](Clock%20and%20Date%20with%20Internal%20Timer/Simulate/Album.png)
+![](Chronometer/Simulate/Album.png)
 
 ![](UART%20Relay%20Controller%20for%201CH/Simulate/Album.png)
 ![](UART%20Relay%20Controller%20for%208CH/Simulate/Album.png)
@@ -21,6 +22,7 @@ I'm uploading my old files on the repository.
 |Title                                    |BascomAVR  |CodeVisionAVR  |
 |:----------------------------------------|:---------:|:-------------:|
 |Bulletin Board with Character LCD        | Y         | -             |
+|Chronometer                              | Y         | -             |
 |Clock and Date with Internal Timer       | Y         | -             |
 |Flasher Using 8LEDs                      | Y         | Y             |
 |Music Player                             | Y         | -             |
