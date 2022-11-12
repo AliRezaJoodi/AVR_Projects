@@ -14,7 +14,7 @@ AVR_Projects_Beginning\Thermometer Using DS18B20\Code_BascomAVR\v1.0.bas
 AVR_Projects_Beginning\Thermometer Using DS18B20\Code_CodeVisionAVR\v1.0c
 
 ### Button Driver
-AVR_Exercises\Button\Code_CodeVisionAVR\v1.0.c
+AVR_Exercises\Button\Code_BascomAVR\v1.0.bas
 - Checked the old status of the button.
 
 ### Start text on the LCD
