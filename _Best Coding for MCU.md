@@ -1,5 +1,5 @@
 ### Create Menu
-AVR_Projects_Beginning\Clock and Calender with Internal Timer\Code_BascomAVR\v1.0.bas
+AVR_Projects_Beginning\Clock and Date with Internal Timer\Code_BascomAVR\v1.0.bas
 
 ### Keypad Reading
 AVR_Exercises\Keypad_4x4\Code_CodeVisionAVR\v1.0.c

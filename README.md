@@ -12,6 +12,7 @@ I'm uploading my old files on the repository.
 ![](Bulletin%20Board%20with%20Character%20LCD/Simulate/Album.png)
 ![](Clock%20and%20Date%20with%20Internal%20Timer/Simulate/Album.png)
 ![](Chronometer/Simulate/Album.png)
+![](DC%20Motor%20Speed%20Control/Simulate/Album.png)
 
 ![](UART%20Relay%20Controller%20for%201CH/Simulate/Album.png)
 ![](UART%20Relay%20Controller%20for%208CH/Simulate/Album.png)
@@ -24,6 +25,7 @@ I'm uploading my old files on the repository.
 |Bulletin Board with Character LCD        | Y         | -             |
 |Chronometer                              | Y         | -             |
 |Clock and Date with Internal Timer       | Y         | -             |
+|DC Motor Speed Control                   | Y         | -             |
 |Flasher Using 8LEDs                      | Y         | Y             |
 |Music Player                             | Y         | -             |
 |PWM Creator with Custom-Made Channels    | Y         | -             |
