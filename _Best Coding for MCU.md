@@ -1,3 +1,9 @@
+### Alias for Output
+AVR_Exercises\Display_7Segment_8Digit\Code_BascomAVR\v1.0.bas
+
+### 7-Segment Driver
+AVR_Exercises\Display_7Segment_8Digit\Code_BascomAVR\v1.0.bas
+
 ### Create Menu
 AVR_Projects_Beginning\Clock and Date with Internal Timer\Code_BascomAVR\v1.0.bas
 
