@@ -52,6 +52,7 @@ Its content is:
 ### Description
 v1.0:
 - Last opened with BascomAVR v2.0.7.5
+- It's just for exercise and not commercial. 
 - Used successfully
 - It's **Best Version**.
 ```
@@ -65,6 +66,7 @@ Its content is:
 
 v1.0:
 - Last opened with CodeVisionAVR v3.12
+- It's just for exercise and not commercial. 
 - Used successfully
 - It's **Best Version**.
 ```
