@@ -25,6 +25,7 @@ I'm uploading my old files on the repository.
 |[Bulletin Board with Character LCD](Bulletin%20Board%20with%20Character%20LCD)|Y|-|
 |[Chronometer](Chronometer)|Y|-|
 |[Clock and Date with Internal Timer](Clock%20and%20Date%20with%20Internal%20Timer)|Y|-|
+|[Counter with 2Digit 7Segment](Counter%20with%202Digit%207Segment)|Y|-|
 |[DC Motor Speed Control](DC%20Motor%20Speed%20Control)|Y|-|
 |[Flasher Using 8LEDs](Flasher%20Using%208LEDs)|Y|Y|
 |[Music Player](Music%20Player)|Y|-|
