@@ -1,6 +1,5 @@
-## Counter with 2-Digit 7-Segment 
-
-There is a varible to count input pulses. It'll save on the internal EEPROM. Also a button will reset the value.
+## Counter with 2-Digit 7-Segment
+There is a varible to count input pulses. It'll save on the internal EEPROM. Also a button will reset the value.  
 MCU:            ATmega32  
 Frequency:     	1.000000 MHz   
 
