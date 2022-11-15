@@ -12,8 +12,8 @@
 
 #include <Attachment\shtxx.h>  
 
-float Temperature; 
-float Humidity;
+float Temperature=0; 
+float Humidity=0;
 void Display_Values(void);
                                 
 void main(void){                                
