@@ -1,6 +1,6 @@
 ## Digital Clock With 7 Segment LED Display
 
-It Use Timer2 in Asynchronous Timer Mode   
+It use Timer2 in asynchronous mode   
 MCU:        ATmega32  
 Frequency:  8.000000 MHz  
 Display:    4-Digit 7-Segment     
