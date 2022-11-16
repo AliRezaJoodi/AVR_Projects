@@ -37,6 +37,7 @@ I'm uploading my old files on the repository.
 |[Thermometer Using DS18B20 with 4 Sensors](Thermometer%20Using%20DS18B20%20with%204%20Sensors)|Y|Y|
 |[Thermometer Using LM35](Thermometer%20Using%20LM35)|Y|Y|
 |[Thermometer Using LM335](Thermometer%20Using%20LM335)|Y|Y|
+|[Thermometer Using SMT160](Thermometer%20Using%20SMT160)|Y|-|
 |[Thermostat Using LM35](Thermostat%20Using%20LM35)|Y|-|
 |[UART Baud Rate Finder](UART%20Baud%20Rate%20Finder)|Y|-|
 |[UART Relay Controller for 1CH](UART%20Relay%20Controller%20for%201CH)|Y|-|
