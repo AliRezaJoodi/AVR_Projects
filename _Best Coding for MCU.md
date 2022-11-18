@@ -1,5 +1,6 @@
 ### Multiplexed 7-segment display
-AVR_Exercises\Display_7Segment_8Digit\Code_BascomAVR\v2.0.bas
+AVR_Exercises\Display_7Segment_8Digit\Code_BascomAVR\v2.0.bas  
+AVR_Exercises\Display_7Segment_8Digit\Code_CodeVisionAVR
 
 ### Create Menu
 AVR_Projects_Beginning\Clock and Date with Internal Timer\Code_BascomAVR\v1.0.bas
@@ -34,7 +35,7 @@ AVR_Exercises\Display_LCD_Syntax\Code_mikroC PRO for AVR\v1_0.c
 - Included `Display_loading` and `Display_Advertising`
 
 ### Include External Files
-AVR_Exercises\Display_7Segment_1Digit Using 4026\Code_CodeVisionAVR\Attachment\Driver_4026.h  
+AVR_Exercises\Display_7Segment_8Digit\Code_CodeVisionAVR\Attachment\Driver_4026.h  
 AVR_Exercises\Include External Files\Code_CodeVisionAVR\Attachment\Hardware_v1.0  
 
 ### Alias for IO
