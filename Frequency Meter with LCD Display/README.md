@@ -1,9 +1,9 @@
 ## Frequency Meter with LCD Display
 
 MCU:        ATmega32  
-Frequency:  11.059200 MHz (External) 
-Timer0:     Config in **Timerr Mode**
-Timer1:     Config in **Counter Mode**     
+Frequency:  11.059200 MHz (External)  
+Timer0:     Config in **Timerr Mode**  
+Timer1:     Config in **Counter Mode**  
 Display:    16x2 Character LCD  
 
 ### Folder and Files Description
