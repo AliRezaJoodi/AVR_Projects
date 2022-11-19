@@ -2,8 +2,8 @@
 
 MCU:        ATmega32  
 Frequency:  11.059200 MHz (External)  
-Timer0:     Config in **Timer Mode**  
-Timer1:     Config in **Counter Mode**  
+Timer0:     Config in Timer Mode  
+Timer1:     Config in Counter Mode  
 Display:    8-Digit 7-Segment  
 
 ### Folder and Files Description
