@@ -14,6 +14,7 @@ I'm uploading my old files on the repository.
 ![](Chronometer/Simulate/Album.png)
 ![](DC%20Motor%20Speed%20Control/Simulate/Album.png)
 ![](Hygrometer%20and%20Thermometer%20Using%20SHT10/Simulate/Album.png)
+![](Frequency%20Meter%20with%20LCD%20Display/Simulate/Album.png)
 
 ![](UART%20Relay%20Controller%20for%201CH/Simulate/Album.png)
 ![](UART%20Relay%20Controller%20for%208CH/Simulate/Album.png)
@@ -30,6 +31,7 @@ I'm uploading my old files on the repository.
 |[Counter with 2Digit 7Segment](Counter%20with%202Digit%207Segment)|Y|-|
 |[DC Motor Speed Control](DC%20Motor%20Speed%20Control)|Y|-|
 |[Flasher Using 8LEDs](Flasher%20Using%208LEDs)|Y|Y|
+|[Frequency Meter with LCD Display](Frequency%20Meter%20with%20LCD%20Display)|Y|-|
 |[Hygrometer and Thermometer Using SHT10](Hygrometer%20and%20Thermometer%20Using%20SHT10)|Y|Y|
 |[Music Player](Music%20Player)|Y|-|
 |[PWM Creator with Custom-Made Channels](PWM%20creator%20with%20custom-made%20channels)|Y|-|
