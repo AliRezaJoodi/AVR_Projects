@@ -46,5 +46,4 @@ I'm uploading my old files on the repository.
 |[UART Baud Rate Finder](UART%20Baud%20Rate%20Finder)|Y|-|
 |[UART Relay Controller for 1CH](UART%20Relay%20Controller%20for%201CH)|Y|-|
 |[UART Relay Controller for 8CH](UART%20Relay%20Controller%20for%208CH)|Y|-|
-|[Unipolar Stepper Motor Driver Using ULN2003](Unipolar%20Stepper%20Motor%20Driver%20Using%20ULN2003)|Y|-|
 |[Voltmeter for 0-20V with Bar Display](Voltmeter%20for%200-20V%20with%20Bar%20Display)|Y|-|
