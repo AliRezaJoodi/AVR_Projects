@@ -7,7 +7,7 @@ Display:    16x2 Character LCD
 ### Folder and Files Description
 It has included:
 - `Code_BascomAVR` (Code with Basic Language)
-- `Simulate` (Simulator File)
+- `Hardware` (Included hardware layers)
 
 ### Schematic: v1.0
 ![](Hardware/v1.0.png)
