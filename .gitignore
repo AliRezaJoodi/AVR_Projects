@@ -28,3 +28,5 @@ Main.txt
 *.c~
 *.cci
 *.i
+*.h~
+*.hci

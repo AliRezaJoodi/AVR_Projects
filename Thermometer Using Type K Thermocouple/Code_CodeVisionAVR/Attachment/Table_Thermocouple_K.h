@@ -1,3 +1,13 @@
+// GitHub Account:  GitHub.com/AliRezaJoodi
+
+#ifndef CH_TC
+    #define CH_TC   0
+#endif
+
+#ifndef GAIN_TC
+    #define GAIN_TC 1/90
+#endif
+
 flash float Table_TC_K[]={
 -6.458,-6.457,-6.456,-6.455,-6.453,-6.452,-6.450,-6.448,-6.446,-6.444,
 -6.441,-6.438,-6.435,-6.432,-6.429,-6.425,-6.421,-6.417,-6.413,-6.408,
@@ -168,16 +178,29 @@ flash float Table_TC_K[]={
 };
 
 //******************************************
-int Converter_Thermocouple_K(float mv){
+//Input:    ADC Channel Voltage(mV)
+//Output:   Temp(^C)
+int Get_Temp_TC(float mv){
     unsigned int index=0;
     int temp=-271;
-    char status_error=0;
+    char error=0;
+    
+    mv=mv*GAIN_TC; 
     
     while(Table_TC_K[index] <= mv){
         ++index;
-        if(index>=1374+270){status_error=1; break;};
+        if(index>=1374+270){error=1; break;};
     } 
-    if(status_error==0){temp=(index-1)-270;} else{temp=-271;}; 
+    if(error==0){temp=(index-1)-270;} else{temp=-271;}; 
     
     return temp;
+}
+
+//******************************************
+//Input:    Temp(^C)
+//Output:   TC Voltage(mV)
+float Get_mV_TC(int temp){
+    float mv=0;
+    mv=Table_TC_K[temp+27]; 
+    return mv;
 }
