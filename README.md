@@ -15,6 +15,7 @@ I'm uploading my old files on the repository.
 ![](DC%20Motor%20Speed%20Control/Simulate/Album.png)
 ![](Hygrometer%20and%20Thermometer%20Using%20SHT10/Simulate/Album.png)
 ![](Frequency%20Meter%20with%20LCD%20Display/Simulate/Album.png)
+![](Thermometer%20Using%20Type%20K%20Thermocouple/Simulate/Album.png)
 
 ![](UART%20Relay%20Controller%20for%201CH/Simulate/Album.png)
 ![](UART%20Relay%20Controller%20for%208CH/Simulate/Album.png)
@@ -43,6 +44,7 @@ I'm uploading my old files on the repository.
 |[Thermometer Using LM35](Thermometer%20Using%20LM35)|Y|Y|
 |[Thermometer Using LM335](Thermometer%20Using%20LM335)|Y|Y|
 |[Thermometer Using SMT160](Thermometer%20Using%20SMT160)|Y|-|
+|[Thermometer Using Type K Thermocouple](Thermometer%20Using%20Type%20K%20Thermocouple)|-|Y|
 |[Thermostat Using LM35](Thermostat%20Using%20LM35)|Y|-|
 |[UART Baud Rate Finder](UART%20Baud%20Rate%20Finder)|Y|-|
 |[UART Relay Controller for 1CH](UART%20Relay%20Controller%20for%201CH)|Y|-|
