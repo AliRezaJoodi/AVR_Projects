@@ -6,6 +6,8 @@
 #include <stdlib.h>
 #include <delay.h>
 
+#include <Attachment\LM35.h>
+
 // Alphanumeric LCD Module functions
 #asm
    .equ __lcd_port=0x12 ;PORTD
@@ -31,7 +33,6 @@ void Display_Advertising(void);
 void define_char(byte flash *pc,byte);
 void Config_ADC(void);
 float Read_adc(unsigned char);
-float Convert(float);
 void Display_LCD_1(float);
 void Display_LCD_2(unsigned int);
 
@@ -45,8 +46,8 @@ void main(void){
     Display_Advertising(); 
     
     while (1){
-        Input_mV=Read_adc(7);
-        Temp=Convert(Input_mV);
+        Input_mV=Read_adc(CH_LM35);
+        Temp=Get_Temp_LM35(Input_mV);
         Display_LCD_1(Temp);
         Display_LCD_2(Input_mV);
         delay_ms(300);                                        
@@ -101,12 +102,6 @@ float Read_adc(unsigned char adc_input){
     ADCSRA|=0x10;
     x=ADCW; x= x*GAIN;
     return x;
-}
-
-//********************************************************
-float Convert(float x){
-     x=x/10;	//Lm35 outputs 10mv for each C degree
-     return x;
 }
 
 //********************************************************
