@@ -8,19 +8,7 @@
 #include <Attachment\Hardware_v1.0.h>
 #include <Attachment\Table_Thermocouple_K.h>
 #include <Attachment\Define_Char.h>
-
-// Read the AD conversion result
-unsigned int read_adc(unsigned char adc_input){
-    ADMUX=adc_input | ADC_VREF_TYPE;
-    // Delay needed for the stabilization of the ADC input voltage
-    delay_us(10);
-    // Start the AD conversion
-    ADCSRA|=(1<<ADSC);
-    // Wait for the AD conversion to complete
-    while ((ADCSRA & (1<<ADIF))==0);
-    ADCSRA|=(1<<ADIF);
-    return ADCW;
-}
+#include <Attachment\Config_ADC.h>
 
 float tc_mv=0;
 int tc_temp;
@@ -38,7 +26,7 @@ void main(void){
     //Test();
      
     while (1){   
-        tc_mv=Get_ADC(CH_TC); tc_temp=Get_Temp_TC(tc_mv);
+        tc_mv=Get_ADC_mV(CH_TC); tc_temp=Get_Temp_TC(tc_mv);
         Display_Temp(tc_mv,tc_temp);       
         delay_ms(250);
     }
@@ -51,28 +39,6 @@ void Test(void){
     //tc_temp=Get_Temp_TC(tc_mv);
     Display_Temp(tc_mv,tc_temp); 
     while(1){}
-}
-
-//******************************************
-float Get_ADC(unsigned char ch){
-    float out=0;
-    unsigned int x=0;  
-    x=read_adc(ch);
-    out=x; 
-    out=out*GAIN_ADC;
-    //out=out*GAIN_TC;   
-    return out;
-}
-
-//********************************************************
-// ADC initialization
-// ADC Clock frequency: 125.000 kHz
-// ADC Voltage Reference: AVCC pin
-// ADC Auto Trigger Source: ADC Stopped
-void Config_ADC(void){
-    ADMUX=ADC_VREF_TYPE;
-    ADCSRA=(1<<ADEN) | (0<<ADSC) | (0<<ADATE) | (0<<ADIF) | (0<<ADIE) | (0<<ADPS2) | (1<<ADPS1) | (1<<ADPS0);
-    SFIOR=(0<<ADTS2) | (0<<ADTS1) | (0<<ADTS0);
 }
 
 //******************************************

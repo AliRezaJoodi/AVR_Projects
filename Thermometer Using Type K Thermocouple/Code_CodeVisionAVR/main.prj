@@ -7,9 +7,9 @@ A=
 C=
 D=11/9/2016
 Files=1
-OpenedFiles=4
+OpenedFiles=5
 OF1=v1.0.c
-Active1=1
+Active1=0
 DebugOutputListFilesDirectory=Debug\List
 DebugOutputObjectFilesDirectory=Debug
 DebugOutputExecutableFilesDirectory=.
@@ -26,28 +26,28 @@ Active0=0
 EditorPanel0=0
 PageIndex0=0
 EditorPanel1=0
-TimeStamp1=1434237466
+TimeStamp1=1434281805
 PageIndex1=1
 OF2=Attachment\Table_Thermocouple_K.h
 Active2=0
 EditorPanel2=0
-TimeStamp2=1434234733
-PageIndex2=2
+TimeStamp2=1434260688
+PageIndex2=4
 OF3=Attachment\Hardware_v1.0.h
-Active3=0
+Active3=1
 EditorPanel3=0
-TimeStamp3=1434237172
-PageIndex3=4
+TimeStamp3=1434259468
+PageIndex3=3
 OF4=Attachment\Define_Char.h
 Active4=0
 EditorPanel4=0
-TimeStamp4=1434229292
-PageIndex4=3
-OF5=C:\cvavr\inc\alcd.h
+TimeStamp4=1434259174
+PageIndex4=5
+OF5=Attachment\Config_ADC.h
 Active5=0
 EditorPanel5=0
-TimeStamp5=1032675656
-PageIndex5=5
+TimeStamp5=1434282084
+PageIndex5=2
 F1=v1.0.c
 [CompilerDebug]
 Chip=ATmega32A
@@ -147,8 +147,8 @@ WatchAVR8LAutoVariables=0
 UseEEPROMLocation0=1
 RebuildAll=0
 LinkageInformationPresent=1
-COFFileTimeStamp=1434260698
-Build=1334
+COFFileTimeStamp=1434282216
+Build=1355
 [DefinedSymbolsDebug]
 Count=0
 [Compiler]
@@ -250,7 +250,7 @@ UseEEPROMLocation0=1
 RebuildAll=1
 LinkageInformationPresent=0
 COFFileTimeStamp=-1
-Build=1334
+Build=1355
 IncludePath0=
 IncludePath1=
 IncludePath2=
@@ -498,10 +498,10 @@ L13=Enhanced function parameters passing: Yes
 L14=Automatic register allocation: Yes
 L15=Smart register allocation: Yes
 L16=
-L17=Build: 1334
-L18=13609 line(s) compiled
+L17=Build: 1354
+L18=13629 line(s) compiled
 L19=No errors
-L20=3 warning(s)
+L20=5 warning(s)
 L21=
 L22=Bit variables size: 0 byte(s)
 L23=
@@ -526,7 +526,7 @@ L39=454 words (908 bytes), 11.4% reduced by Code Compression
 L1=AVRASM: AVR macro assembler 2.1.30 (build 592 Nov  7 2008 12:38:17)
 L2=Copyright (C) 1995-2008 ATMEL Corporation
 L3=
-L4=F:\GitHub\AVR_Projects_Beginning\Thermometer Using Type K Thermocouple\Code_CodeVisionAVR\Debug\List\main.asm(4838): No EEPROM data, deleting F:\GitHub\AVR_Projects_Beginning\Thermometer Using Type K Thermocouple\Code_CodeVisionAVR\main.eep
+L4=F:\GitHub\AVR_Projects_Beginning\Thermometer Using Type K Thermocouple\Code_CodeVisionAVR\Debug\List\main.asm(4803): No EEPROM data, deleting F:\GitHub\AVR_Projects_Beginning\Thermometer Using Type K Thermocouple\Code_CodeVisionAVR\main.eep
 L5=
 L6=ATmega32A memory use summary [bytes]:
 L7=Segment   Begin    End      Code   Data   Used    Size   Use%
@@ -548,9 +548,9 @@ Row=0
 Column=0
 ScrollPosX=0
 ScrollPosY=0
-TimeStamp=1434237557
+TimeStamp=1434282262
 [BookmarksFoldedCode]
-Files=59
+Files=60
 F1=E:\Projects\Induction Furnace 10KW\Controler Bord\Compiler_Codevision AVR v3.12 2014\Tools_LCD\T3.c
 F2=T3.c
 F3=P3_change LCD pin.c
@@ -610,6 +610,7 @@ F56=Attachment\Hardware_v1.0.txt
 F57=Attachment\Define_Char.h
 F58=Attachment\Hardware_v1.0.h
 F59=Attachment\Table_Thermocouple_K.h
+F60=Attachment\Config_ADC.h
 [Bookmarks1]
 TimeStamp=1231638592
 Row=358
@@ -1563,11 +1564,11 @@ Blocks=0
 [FoldedCode46]
 Blocks=0
 [Bookmarks54]
-TimeStamp=1434237466
-Row=36
-Column=34
+TimeStamp=1434281805
+Row=14
+Column=43
 ScrollPosX=0
-ScrollPosY=21
+ScrollPosY=15
 BK0=-1
 BK1=-1
 BK2=-1
@@ -1616,11 +1617,9 @@ BK8=-1
 BK9=-1
 [FoldedCode56]
 Blocks=0
-[FoldedCode54]
-Blocks=0
 [Bookmarks57]
-TimeStamp=1434259116
-Row=2
+TimeStamp=1434259174
+Row=0
 Column=0
 ScrollPosX=0
 ScrollPosY=0
@@ -1635,8 +1634,24 @@ BK7=-1
 BK8=-1
 BK9=-1
 [Bookmarks58]
-TimeStamp=1434237172
+TimeStamp=1434259468
 Row=6
+Column=31
+ScrollPosX=0
+ScrollPosY=0
+BK0=-1
+BK1=-1
+BK2=-1
+BK3=-1
+BK4=-1
+BK5=-1
+BK6=-1
+BK7=-1
+BK8=-1
+BK9=-1
+[Bookmarks59]
+TimeStamp=1434260688
+Row=5
 Column=25
 ScrollPosX=0
 ScrollPosY=0
@@ -1650,14 +1665,12 @@ BK6=-1
 BK7=-1
 BK8=-1
 BK9=-1
-[FoldedCode58]
-Blocks=0
-[Bookmarks59]
-TimeStamp=1434234733
-Row=170
-Column=3
+[Bookmarks60]
+TimeStamp=1434282084
+Row=16
+Column=15
 ScrollPosX=0
-ScrollPosY=159
+ScrollPosY=6
 BK0=-1
 BK1=-1
 BK2=-1
@@ -1668,15 +1681,11 @@ BK6=-1
 BK7=-1
 BK8=-1
 BK9=-1
-[FoldedCode59]
-Blocks=0
-[FoldedCode57]
-Blocks=0
 [HeadersList]
 Files=1
 F1=F:\GitHub\AVR_Projects_Beginning\Thermometer Using Type K Thermocouple\Code_CodeVisionAVR\v1.0.c
 [Header1]
-Files=10
+Files=11
 F1=C:\Program Files (x86)\CVAVR\inc\mega32a.h
 F2=C:\Program Files (x86)\CVAVR\inc\mega32_bits.h
 F3=C:\Program Files (x86)\CVAVR\inc\stdio.h
@@ -1687,3 +1696,14 @@ F7=C:\Program Files (x86)\CVAVR\inc\alcd.h
 F8=Attachment\Hardware_v1.0.h
 F9=Attachment\Table_Thermocouple_K.h
 F10=Attachment\Define_Char.h
+F11=Attachment\Config_ADC.h
+[FoldedCode54]
+Blocks=0
+[FoldedCode60]
+Blocks=0
+[FoldedCode57]
+Blocks=0
+[FoldedCode58]
+Blocks=0
+[FoldedCode59]
+Blocks=0
