@@ -2,7 +2,7 @@
   
 MCU:        ATmega32  
 Frequency:  1.000000 MHz  
-Display:    16x2 Character LCD
+Display:    16x2 Character LCD  
 Sensor:     LM35     
 
 ### Folder and Files Description
