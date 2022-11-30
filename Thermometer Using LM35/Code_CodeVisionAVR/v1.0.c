@@ -33,8 +33,7 @@ void Display_Advertising(void);
 void define_char(byte flash *pc,byte);
 void Config_ADC(void);
 float Read_adc(unsigned char);
-void Display_LCD_1(float);
-void Display_LCD_2(unsigned int);
+void Display_Temp(float,float);
 
 float Input_mV=0;
 float Temp=0;
@@ -43,13 +42,12 @@ void main(void){
     Config_ADC();
     Config_LCD();
     define_char(char0,0); 
-    Display_Advertising(); 
+    //Display_Advertising(); 
     
     while (1){
         Input_mV=Read_adc(CH_LM35);
         Temp=Get_Temp_LM35(Input_mV);
-        Display_LCD_1(Temp);
-        Display_LCD_2(Input_mV);
+        Display_Temp(Input_mV,Temp);
         delay_ms(300);                                        
     };
 }
@@ -105,23 +103,11 @@ float Read_adc(unsigned char adc_input){
 }
 
 //********************************************************
-void Display_LCD_1(float x){
-    char buffer[16];
-    lcd_gotoxy(0,1); 
-    lcd_putsf("Temp: ");
-    ftoa(x,1,buffer); lcd_puts(buffer); 
-    lcd_putsf(" ");
-    lcd_putchar(0);
-    lcd_putsf("C");   
+void Display_Temp(float mv,float temp){
+    char txt[16]; 
+    lcd_gotoxy(0,0); lcd_putsf("Input:"); ftoa(mv,1,txt); lcd_puts(txt); lcd_putsf(" mV"); lcd_putsf(" ");
+    lcd_gotoxy(0,1); lcd_putsf("Temp:"); ftoa(temp,1,txt); lcd_puts(txt); lcd_putchar(0); lcd_putsf("C"); lcd_putsf(" ");   
 }
 
-//********************************************************
-void Display_LCD_2(unsigned int x){
-    char buffer[16];
-    lcd_gotoxy(0,0); 
-    lcd_putsf("Input: ");
-    ftoa(x,1,buffer); lcd_puts(buffer);
-    lcd_putsf(" mV");
-}
 
 
