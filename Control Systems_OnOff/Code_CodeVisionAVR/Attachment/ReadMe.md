@@ -1,4 +1,4 @@
 ### ControlSystem_OnOff.h
 
-Outputs Description:  
+Functions Description:  
 ![](ControlSystem_OnOff.png)
