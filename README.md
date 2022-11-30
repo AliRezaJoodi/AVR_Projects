@@ -5,7 +5,6 @@ I'm uploading my old files on the repository.
 ### Gallery of the Repository
 ![](Thermometer%20Using%20LM35/Simulate/Album.png)
 ![](Voltmeter%20for%200-20V%20with%20Bar%20Display/Simulate/Album.png)
-![](Thermostat%20Using%20LM35/Simulate/Album.png)
 ![](Thermometer%20Using%20LM335/Simulate/Album.png)
 ![](Thermometer%20Using%20DS18B20/Simulate/Album.png)
 ![](Thermometer%20Using%20DS18B20%20with%204%20Sensors/Simulate/Album.png)
@@ -17,6 +16,7 @@ I'm uploading my old files on the repository.
 ![](Frequency%20Meter%20with%20LCD%20Display/Simulate/Album.png)
 ![](Thermometer%20Using%20Type%20K%20Thermocouple/Simulate/Album.png)
 ![](Control%20Systems_OnOff/Simulate/Album.png)
+![](Thermometer%20with%202Alarm/Simulate/Album.png)
 
 ![](UART%20Relay%20Controller%20for%201CH/Simulate/Album.png)
 ![](UART%20Relay%20Controller%20for%208CH/Simulate/Album.png)
@@ -47,7 +47,7 @@ I'm uploading my old files on the repository.
 |[Thermometer Using LM335](Thermometer%20Using%20LM335)|Y|Y|
 |[Thermometer Using SMT160](Thermometer%20Using%20SMT160)|Y|-|
 |[Thermometer Using Type K Thermocouple](Thermometer%20Using%20Type%20K%20Thermocouple)|-|Y|
-|[Thermostat Using LM35](Thermostat%20Using%20LM35)|Y|-|
+|[Thermometer with 2Alarm](Thermometer%20with%202Alarm)|Y|-|
 |[UART Baud Rate Finder](UART%20Baud%20Rate%20Finder)|Y|-|
 |[UART Relay Controller for 1CH](UART%20Relay%20Controller%20for%201CH)|Y|-|
 |[UART Relay Controller for 8CH](UART%20Relay%20Controller%20for%208CH)|Y|-|

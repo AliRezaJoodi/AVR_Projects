@@ -19,8 +19,8 @@ Config Portb.7 = Input : Portb.7 = 1 : Down_key1 Alias Pinb.7
 Config Portb.5 = Input : Portb.5 = 1 : Up_key2 Alias Pinb.5
 Config Portb.4 = Input : Portb.4 = 1 : Down_key2 Alias Pinb.4
 
-Config Portc.6 = Output : Portc.6 = 0 : Heaters Alias Portc.6
-Config Portc.7 = Output : Portc.7 = 0 : Fan Alias Portc.7
+Config Portc.6 = Output : Portc.6 = 0 : ALARM_LOW Alias Portc.6
+Config Portc.7 = Output : Portc.7 = 0 : Alarm_high Alias Portc.7
 
 Dim W As Word , Temp As Single
 Dim Input_mv As Single
@@ -37,29 +37,32 @@ Dim Minimum_temperature_low As Single
 
 Dim T As Word : T = 300
 
+Dim high_status As Bit
+Dim low_status As Bit
+
 'Gosub Eeprom_default
 Gosub Eeprom_load
 
 Do
    If Up_key1 = 0 Then
-      Gosub Up_maximum_temperature
+      Gosub Incr_maximum_temperature
       Gosub Eeprom_save
    End If
    If Down_key1 = 0 Then
-      Gosub Down_maximum_temperature
+      Gosub decr_maximum_temperature
       Gosub Eeprom_save
    End If
    If Up_key2 = 0 Then
-      Gosub Up_minimum_temperature
+      Gosub incr_minimum_temperature
       Gosub Eeprom_save
    End If
    If Down_key2 = 0 Then
-      Gosub Down_minimum_temperature
+      Gosub decr_minimum_temperature
       Gosub Eeprom_save
    End If
    Gosub Red_temp
-   Gosub Setting_hiter
-   Gosub Setting_fan
+   Gosub Setting_low
+   Gosub Setting_high
    Gosub Show_temp
    Waitms T
 Loop
@@ -88,25 +91,25 @@ Eeprom_load:
 Return
 
 '**********************************************
-Up_maximum_temperature:
+Incr_maximum_temperature:
    Maximum_temperature = Maximum_temperature + 0.5
    If Maximum_temperature < 0 Or Maximum_temperature > 99 Then Maximum_temperature = 0
 Return
 
 '**********************************************
-Down_maximum_temperature:
+decr_maximum_temperature:
    Maximum_temperature = Maximum_temperature - 0.5
    If Maximum_temperature < 0 Or Maximum_temperature > 99 Then Maximum_temperature = 99
 Return
 
 '**********************************************
-Up_minimum_temperature:
+incr_minimum_temperature:
    Minimum_temperature = Minimum_temperature + 0.5
    If Minimum_temperature < 0 Or Minimum_temperature > 99 Then Minimum_temperature = 0
 Return
 
 '**********************************************
-Down_minimum_temperature:
+decr_minimum_temperature:
    Minimum_temperature = Minimum_temperature - 0.5
    If Minimum_temperature < 0 Or Minimum_temperature > 99 Then Minimum_temperature = 99
 Return
@@ -120,33 +123,35 @@ Return
 
 '**********************************************
 Show_temp:
-   Locate 1 , 1 : Lcd "Temp Controler: "
-   Locate 2 , 1 : Lcd Fusing(minimum_temperature , "#.#")
-   Locate 2 , 5 : Lcd "<"
-   Locate 2 , 6 : Lcd Fusing(temp , "#.#")
-   Locate 2 , 10 : Lcd "<"
-   Locate 2 , 11 : Lcd Fusing(maximum_temperature , "#.#")
+   Locate 1 , 1 : Lcd Fusing(minimum_temperature , "#.#")
+   Locate 1 , 5 : Lcd "<"
+   Locate 1 , 6 : Lcd Fusing(temp , "#.#")
+   Locate 1 , 10 : Lcd "<"
+   Locate 1 , 11 : Lcd Fusing(maximum_temperature , "#.#")
+
+   Locate 2 , 1 : Lcd "Low:" ; low_status
+   Locate 2 , 11 : Lcd "High:" ; high_status
 Return
 
 '**********************************************
-Setting_fan:
+Setting_high:
    Maximum_temperature_high = Maximum_temperature
    Maximum_temperature_low = Maximum_temperature - 1
    If Temp > Maximum_temperature_high Then
-      Set Fan
+      Set Alarm_high : high_status = 1
    Elseif Temp < Maximum_temperature_low Then
-      Reset Fan
+      Reset Alarm_high : high_status = 0
    End If
 Return
 
 '**********************************************
-Setting_hiter:
+Setting_low:
    Minimum_temperature_high = Minimum_temperature + 1
    Minimum_temperature_low = Minimum_temperature
    If Temp < Minimum_temperature_low Then
-      Set Heaters
+      Set ALARM_LOW : low_status = 1
    Elseif Temp > Minimum_temperature_high Then
-      Reset Heaters
+      Reset ALARM_LOW : low_status = 0
    End If
 Return
 
