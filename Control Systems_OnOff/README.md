@@ -13,7 +13,7 @@ Frequency:  1.000000 MHz
 Display:    16x2 Character LCD  
 Sensor:     LM35   
 
-Outputs Description:
+Outputs Description:  
 ![](OutputsDescription.png)
 
 ### Folder and Files Description
