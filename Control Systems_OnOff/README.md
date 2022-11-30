@@ -1,7 +1,7 @@
 ## ON/OFF Control Systems
 It's a ON/OFF Temperature Controller.  
 The outputs of this system are a heater and a cooler.  
-It's an example for practice. So, We will fix the `setpoint` and `hystersis` variables.  
+It's an example for practice. So, We use constant value for the `setpoint` and `hysteresis` variables.  
 The value of these variables are:  
 ``` c
 sp=25;
