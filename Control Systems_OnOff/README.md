@@ -7,14 +7,13 @@ The value of these variables are:
 sp=25;
 hystersis=10;
 ```
-  
+Outputs Description:  
+![](OutputsDescription.png)
+
 MCU:        ATmega32  
 Frequency:  1.000000 MHz  
 Display:    16x2 Character LCD  
 Sensor:     LM35   
-
-Outputs Description:  
-![](OutputsDescription.png)
 
 ### Folder and Files Description
 It has included:
