@@ -15,6 +15,8 @@ Frequency:  1.000000 MHz
 Display:    16x2 Character LCD  
 Sensor:     LM35   
 
+Note: `ControlSystem_OnOff.h` is a header file for ON/OFF control system functions. It usable for other uses.
+
 ### Folder and Files Description
 It has included:
 - `Code_CodeVisionAVR` (Code with C Language)

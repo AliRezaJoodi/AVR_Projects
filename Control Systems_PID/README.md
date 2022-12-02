@@ -6,6 +6,8 @@ MCU:        ATmega32
 Frequency:  8.000000 MHz  
 Display:    16x2 Character LCD   
 
+Note: `ControlSystem_PID.h` is a header file for pid control system function. It usable for other uses.
+
 ### Folder and Files Description
 It has included:
 - `Code_CodeVisionAVR` (Code with C Language)
