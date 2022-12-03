@@ -54,8 +54,8 @@ void main(void){
     while (1){
         in_mv=Get_ADC_mV(CH_LM35); temp=Get_Temp_LM35(in_mv);  
         Display_Temp(sp,temp);
-        HEATER_RLY=Control2_Heater(sp,temp,hystersis);
-        COOLER_RLY=Control2_Cooler(sp,temp,hystersis);
+        HEATER_RLY=OnOff_ControlSystem2_Heater(sp,temp,hystersis);
+        COOLER_RLY=OnOff_ControlSystem2_Cooler(sp,temp,hystersis);
     }
 }
 

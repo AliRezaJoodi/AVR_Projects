@@ -7,7 +7,7 @@ A=
 C=
 D=11/9/2016
 Files=1
-OpenedFiles=3
+OpenedFiles=4
 OF1=v1.0.c
 Active1=1
 DebugOutputListFilesDirectory=Debug\List
@@ -26,22 +26,22 @@ Active0=0
 EditorPanel0=0
 PageIndex0=0
 EditorPanel1=0
-TimeStamp1=1434366458
+TimeStamp1=1434716553
 PageIndex1=1
 OF2=Attachment\ControlSystem_OnOff.h
 Active2=0
 EditorPanel2=0
-TimeStamp2=1434352443
-PageIndex2=3
-OF3=Attachment\LM35.h
+TimeStamp2=1434716477
+PageIndex2=2
+OF3=Attachment\Define_Char.h
 Active3=0
 EditorPanel3=0
-TimeStamp3=1434592531
-PageIndex3=2
-OF4=C:\cvavr\inc\mega16_bits.h
+TimeStamp3=1434259174
+PageIndex3=3
+OF4=Attachment\Config_ADC.h
 Active4=0
 EditorPanel4=0
-TimeStamp4=982084135
+TimeStamp4=1434282084
 PageIndex4=4
 OF5=C:\cvavr\inc\alcd.h
 Active5=0
@@ -148,8 +148,8 @@ WatchAVR8LAutoVariables=0
 UseEEPROMLocation0=1
 RebuildAll=0
 LinkageInformationPresent=1
-COFFileTimeStamp=1434592551
-Build=2572
+COFFileTimeStamp=1434716697
+Build=2577
 [DefinedSymbolsDebug]
 Count=0
 [Compiler]
@@ -251,7 +251,7 @@ UseEEPROMLocation0=1
 RebuildAll=1
 LinkageInformationPresent=0
 COFFileTimeStamp=-1
-Build=2572
+Build=2577
 IncludePath0=
 IncludePath1=
 IncludePath2=
@@ -499,7 +499,7 @@ L13=Enhanced function parameters passing: Yes
 L14=Automatic register allocation: Yes
 L15=Smart register allocation: Yes
 L16=
-L17=Build: 2571
+L17=Build: 2576
 L18=13565 line(s) compiled
 L19=No errors
 L20=5 warning(s)
@@ -519,20 +519,20 @@ L33=
 L34=Heap size: 0 byte(s)
 L35=
 L36=EEPROM usage: 0 byte(s), 0.0% of EEPROM
-L37=Program size: 2719 words (5438 bytes), 16.6% of FLASH
-L38=345 words (690 bytes), 11.3% reduced by Code Compression
+L37=Program size: 2718 words (5436 bytes), 16.6% of FLASH
+L38=343 words (686 bytes), 11.2% reduced by Code Compression
 Lines=38
 L39=14 words (28 bytes), 3.2% reduced by Code Compression
 [BuildInfoAssembler]
 L1=AVRASM: AVR macro assembler 2.1.30 (build 592 Nov  7 2008 12:38:17)
 L2=Copyright (C) 1995-2008 ATMEL Corporation
 L3=
-L4=F:\GitHub\AVR_Projects_Beginning\Control Systems_OnOff\Code_CodeVisionAVR\Debug\List\Main.asm(4132): No EEPROM data, deleting F:\GitHub\AVR_Projects_Beginning\Control Systems_OnOff\Code_CodeVisionAVR\Main.eep
+L4=F:\GitHub\AVR_Projects_Beginning\Control Systems_OnOff\Code_CodeVisionAVR\Debug\List\Main.asm(4131): No EEPROM data, deleting F:\GitHub\AVR_Projects_Beginning\Control Systems_OnOff\Code_CodeVisionAVR\Main.eep
 L5=
 L6=ATmega32A memory use summary [bytes]:
 L7=Segment   Begin    End      Code   Data   Used    Size   Use%
 L8=---------------------------------------------------------------
-L9=[.cseg] 0x000000 0x00153e   5290    148   5438   32768  16.6%
+L9=[.cseg] 0x000000 0x00153c   5288    148   5436   32768  16.6%
 L10=[.dseg] 0x000060 0x00026a      0     10     10    2048   0.5%
 L11=[.eseg] 0x000000 0x000000      0      0      0    1024   0.0%
 L12=
@@ -549,7 +549,7 @@ Row=0
 Column=0
 ScrollPosX=0
 ScrollPosY=0
-TimeStamp=1434593999
+TimeStamp=1434716712
 [BookmarksFoldedCode]
 Files=109
 F1=E:\Projects\Induction Furnace 10KW\Controler Bord\Compiler_Codevision AVR v3.12 2014\Tools_LCD\T3.c
@@ -2510,11 +2510,11 @@ BK7=-1
 BK8=-1
 BK9=-1
 [Bookmarks104]
-TimeStamp=1434352443
-Row=12
-Column=44
+TimeStamp=1434716477
+Row=15
+Column=68
 ScrollPosX=0
-ScrollPosY=24
+ScrollPosY=0
 BK0=-1
 BK1=-1
 BK2=-1
@@ -2546,11 +2546,11 @@ BK9=-1
 [FoldedCode105]
 Blocks=0
 [Bookmarks106]
-TimeStamp=1434366458
-Row=51
-Column=23
+TimeStamp=1434716553
+Row=12
+Column=0
 ScrollPosX=0
-ScrollPosY=36
+ScrollPosY=0
 BK0=-1
 BK1=-1
 BK2=-1
@@ -2613,9 +2613,7 @@ BK6=-1
 BK7=-1
 BK8=-1
 BK9=-1
-[FoldedCode107]
-Blocks=0
-[FoldedCode109]
+[FoldedCode108]
 Blocks=0
 [HeadersList]
 Files=1
@@ -2636,7 +2634,9 @@ F11=Attachment\LM35.h
 F12=Attachment\ControlSystem_OnOff.h
 [FoldedCode106]
 Blocks=0
-[FoldedCode108]
+[FoldedCode109]
+Blocks=0
+[FoldedCode107]
 Blocks=0
 [FoldedCode104]
 Blocks=0
