@@ -9,8 +9,8 @@
 //******************************************
 //Input:    ADC Channel Voltage(mV)
 //Output:   Temp(^C)
-float Get_Temp_Oven(float v){
+float Get_OvenTemp(float volt){
     float temp=0;
-    temp = v*GAIN_OVEN;
+    temp = volt*GAIN_OVEN;
     return temp;
 }

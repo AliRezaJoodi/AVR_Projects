@@ -32,7 +32,7 @@ void main(void){
     Display_LCD_Starter(250); 
    
     while (1){  
-        in_v=Get_ADC_V(CH_OVEN); temp=Get_Temp_Oven(in_v);
+        in_v=Get_ADC_V(CH_OVEN); temp=Get_OvenTemp(in_v);
         ++count; if(count>100){Display_LCD(sp,temp); count=0;}
         output_power=PID_ControlSystem(sp,temp,1); 
         if(output_power>100){sprintf(txt,"PID=%3.1f(100%%) ",output_power); lcd_gotoxy(0,1); lcd_puts(txt);}
