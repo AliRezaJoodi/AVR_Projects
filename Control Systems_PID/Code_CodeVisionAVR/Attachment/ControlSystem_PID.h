@@ -1,15 +1,15 @@
 // GitHub Account:  GitHub.com/AliRezaJoodi
 
 #ifndef KP
-    #define KP 1
+    #define KP 0.5
 #endif
 
 #ifndef KI
-    #define KI 0.000006666
+    #define KI 0.000001
 #endif
 
 #ifndef KD
-    #define KD 4
+    #define KD 0.1
 #endif
 
 //******************************************

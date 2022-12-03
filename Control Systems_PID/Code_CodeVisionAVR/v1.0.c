@@ -11,43 +11,45 @@ flash char LCD_COLUMN=16;
 #include <Attachment\ControlSystem_PID.h>
 
 void Config_LCD(void);
+void Display_LoadingPage(unsigned int);
+void Display_MainPage(float,float,float);
 void Config_Timer1(void);
-void Display_LCD_Starter(unsigned int);
-void Display_LCD(float,float);
 void PWM_Driver(float);
 
 void main(void){
-    char txt[LCD_COLUMN];
     float in_v=0;
     float temp=0;
     float sp=250;
     float output_power=0;
-    unsigned int count=0;
+    unsigned int display_counter=0;
     
     Config_ADC();      
     Config_LCD(); 
     define_char(CHAR_DEGREE,0);
     Config_Timer1();
    
-    Display_LCD_Starter(250); 
+    Display_LoadingPage(250); 
    
     while (1){  
         in_v=Get_ADC_V(CH_OVEN); temp=Get_OvenTemp(in_v);
-        ++count; if(count>100){Display_LCD(sp,temp); count=0;}
         output_power=PID_ControlSystem(sp,temp,1); 
-        if(output_power>100){sprintf(txt,"PID=%3.1f(100%%) ",output_power); lcd_gotoxy(0,1); lcd_puts(txt);}
-            else {sprintf(txt,"PID=%3.1f%%       ",output_power); lcd_gotoxy(0,1); lcd_puts(txt);}
-        PWM_Driver(output_power);   
+        PWM_Driver(output_power); 
+        
+        ++display_counter; if(display_counter>100){Display_MainPage(sp,temp,output_power); display_counter=0;}   
     }
 }
 
 //******************************************
-void Display_LCD(float sp,float pv){
+void Display_MainPage(float sp,float pv,float output_power){
     char txt[LCD_COLUMN];
     //lcd_clear(); 
-    lcd_gotoxy(0,0); lcd_putsf("                ");
+    lcd_gotoxy(0,0); lcd_putsf("                "); 
+    
     sprintf(txt,"SP:%3.0f",sp); lcd_gotoxy(0,0); lcd_puts(txt); lcd_putchar(0); 
     sprintf(txt,"PV:%3.0f",pv); lcd_gotoxy(8,0); lcd_puts(txt);  lcd_putchar(0); 
+    
+    if(output_power>100){sprintf(txt,"PID=%3.1f(100%%) ",output_power); lcd_gotoxy(0,1); lcd_puts(txt);}
+        else {sprintf(txt,"PID=%3.1f%%       ",output_power); lcd_gotoxy(0,1); lcd_puts(txt);}
     //lcd_gotoxy(0,1); lcd_putsf("PID Control");
 }
 
@@ -95,7 +97,7 @@ void Config_Timer1(void){
 }
 
 //******************************************
-void Display_LCD_Starter(unsigned int t){
+void Display_LoadingPage(unsigned int t){
     lcd_gotoxy(0,0); lcd_putsf("Please Wait ...");
     delay_ms(t); lcd_clear();
 } 

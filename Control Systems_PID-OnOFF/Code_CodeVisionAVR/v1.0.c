@@ -27,8 +27,8 @@ flash char LCD_COLUMN=16;
 
 void Config_IO(void);
 void Config_LCD(void);
-void Display_LCD_Starter(unsigned int);
-void Display_LCD(float,float);
+void Display_LoadingPage(unsigned int);
+void Display_MainPage(float,float,float);
 void Config_Timer0(void);
 
 unsigned int count=0;
@@ -39,7 +39,6 @@ interrupt [TIM0_OVF] void timer0_ovf_isr(void){
 }
 
 void main(void){
-    char txt[LCD_COLUMN];
     float in_v=0;
     float temp=0;
     float sp=250;
@@ -51,7 +50,7 @@ void main(void){
     Config_IO();     
     Config_LCD(); 
     define_char(CHAR_DEGREE,0);
-    Display_LCD_Starter(250); 
+    Display_LoadingPage(250); 
     DDRD.5=1; PORTD.5=0;
     Config_Timer0();
     
@@ -59,16 +58,8 @@ void main(void){
         in_v=Get_ADC_V(CH_OVEN); temp=Get_OvenTemp(in_v);
         output_power=PID_ControlSystem(sp,temp,1);
         if(count<=output_power){HEATER_RLY=ACTIVATE_RLY;} else {HEATER_RLY=DEACTIVATE_RLY;}   //Convert PID Controller to ON/OFF PID Controller 
-        
-        ++display_counter; 
-        if(display_counter>=100){
-            display_counter=0;
-            Display_LCD(sp,temp); 
-            if(output_power>100){sprintf(txt,"PID=%3.1f(100%%) ",output_power); lcd_gotoxy(0,1); lcd_puts(txt);}
-                else {sprintf(txt,"PID=%3.1f%%       ",output_power); lcd_gotoxy(0,1); lcd_puts(txt);} 
-        } 
-              
-        
+         
+        ++display_counter; if(display_counter>100){Display_MainPage(sp,temp,output_power); display_counter=0;}      
     }
 }
 
@@ -98,17 +89,20 @@ void Config_IO(void){
 }
 
 //******************************************
-void Display_LCD(float sp,float pv){
+void Display_MainPage(float sp,float pv,float output_power){
     char txt[LCD_COLUMN];
     //lcd_clear(); 
     lcd_gotoxy(0,0); lcd_putsf("                ");
     sprintf(txt,"SP:%3.0f",sp); lcd_gotoxy(0,0); lcd_puts(txt); lcd_putchar(0); 
-    sprintf(txt,"PV:%3.0f",pv); lcd_gotoxy(8,0); lcd_puts(txt);  lcd_putchar(0); 
+    sprintf(txt,"PV:%3.0f",pv); lcd_gotoxy(8,0); lcd_puts(txt);  lcd_putchar(0);
+    
+    if(output_power>100){sprintf(txt,"PID=%3.1f(100%%) ",output_power); lcd_gotoxy(0,1); lcd_puts(txt);}
+        else {sprintf(txt,"PID=%3.1f%%       ",output_power); lcd_gotoxy(0,1); lcd_puts(txt);} 
     //lcd_gotoxy(0,1); lcd_putsf("ON/OFF PID");
 }
 
 //******************************************
-void Display_LCD_Starter(unsigned int t){
+void Display_LoadingPage(unsigned int t){
     lcd_gotoxy(0,0); lcd_putsf("Please Wait ...");
     delay_ms(t); lcd_clear();
 } 
