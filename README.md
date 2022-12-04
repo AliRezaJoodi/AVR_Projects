@@ -40,8 +40,8 @@ I'm uploading my old files on the repository.
 |[Flasher Using 8LEDs](Flasher%20Using%208LEDs)|Y|Y|
 |[Frequency Meter with 7Segment Display](Frequency%20Meter%20with%207Segment%20Display)|Y|-|
 |[Frequency Meter with LCD Display](Frequency%20Meter%20with%20LCD%20Display)|Y|-|
+|[Gyroscope and Accelerometer using CMPS10](Gyroscope%20and%20Accelerometer%20using%20CMPS10)|Y|Y|
 |[Hygrometer and Thermometer Using SHT10](Hygrometer%20and%20Thermometer%20Using%20SHT10)|Y|Y|
-|[Magnetometer and Accelerometer using CMPS10](Magnetometer%20and%20Accelerometer%20using%20CMPS10)|Y|Y|
 |[Music Player](Music%20Player)|Y|-|
 |[PWM Creator with Custom-Made Channels](PWM%20creator%20with%20custom-made%20channels)|Y|-|
 |[RGB LED Driver](RGB%20LED%20Driver)|Y|-|
