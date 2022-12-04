@@ -24,6 +24,8 @@ I'm uploading my old files on the repository.
 ![](UART%20Relay%20Controller%20for%208CH/Simulate/Album.png)
 ![](UART%20Baud%20Rate%20Finder/Simulate/Album.png)
 
+![](IR%20Training%20Board/Simulate/Album.png)
+
 ### List of the Repository
 
 |Title|BascomAVR|CodeVisionAVR|
@@ -43,6 +45,7 @@ I'm uploading my old files on the repository.
 |[Gyroscope and Accelerometer using CMPS10](Gyroscope%20and%20Accelerometer%20using%20CMPS10)|Y|Y|
 |[Gyroscope and Accelerometer using MPU6050](Gyroscope%20and%20Accelerometer%20using%20MPU6050)|Y|-|
 |[Hygrometer and Thermometer Using SHT10](Hygrometer%20and%20Thermometer%20Using%20SHT10)|Y|Y|
+|[IR Training Board](IR%20Training%20Board)|Y|-|
 |[Music Player](Music%20Player)|Y|-|
 |[PWM Creator with Custom-Made Channels](PWM%20creator%20with%20custom-made%20channels)|Y|-|
 |[RGB LED Driver](RGB%20LED%20Driver)|Y|-|
