@@ -24,7 +24,7 @@ I'm uploading my old files on the repository.
 ![](UART%20Relay%20Controller%20for%208CH/Simulate/Album.png)
 ![](UART%20Baud%20Rate%20Finder/Simulate/Album.png)
 
-![](IR%20Training%20Board/Simulate/Album.png)
+![](IR%20Training%20Board/Pictures/Album.png)
 
 ### List of the Repository
 
