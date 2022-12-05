@@ -2,7 +2,7 @@
 
 MCU:        ATmega32   
 Frequency:  4.000000 MHz  
-Interface:  UART   
+Interface:  UART
 
 Note: It's old code. I don't remember much about it. I am not sure if it will work.
 
