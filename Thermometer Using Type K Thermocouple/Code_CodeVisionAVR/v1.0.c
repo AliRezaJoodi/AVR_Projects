@@ -6,7 +6,7 @@
 #include <alcd.h>
 
 #include <Attachment\Hardware_v1.0.h>
-#include <Attachment\Table_Thermocouple_K.h>
+#include <Attachment\Thermocouple_K.h>
 #include <Attachment\Define_Char.h>
 #include <Attachment\Config_ADC.h>
 
