@@ -4,7 +4,7 @@ I'm uploading my old files on the repository.
 
 ### Gallery of the Repository
 ![](Thermometer%20Using%20LM35/Simulate/Album.png)
-![](Voltmeter%20for%200-20V%20with%20Bar%20Display/Simulate/Album.png)
+![](Voltmeter%20for%200-20V%20with%20Bar%20Graph%20Display/Simulate/Album.png)
 ![](Thermometer%20Using%20LM335/Simulate/Album.png)
 ![](Thermometer%20Using%20DS18B20/Simulate/Album.png)
 ![](Thermometer%20Using%20DS18B20%20with%204%20Sensors/Simulate/Album.png)
@@ -59,4 +59,4 @@ I'm uploading my old files on the repository.
 |[UART Baud Rate Finder](UART%20Baud%20Rate%20Finder)|Y|-|
 |[UART Relay Controller for 1CH](UART%20Relay%20Controller%20for%201CH)|Y|-|
 |[UART Relay Controller for 8CH](UART%20Relay%20Controller%20for%208CH)|Y|-|
-|[Voltmeter for 0-20V with Bar Display](Voltmeter%20for%200-20V%20with%20Bar%20Display)|Y|-|
+|[Voltmeter for 0-20V with Bar Graph Display](Voltmeter%20for%200-20V%20with%20Bar%20Graph%20Display)|Y|-|
