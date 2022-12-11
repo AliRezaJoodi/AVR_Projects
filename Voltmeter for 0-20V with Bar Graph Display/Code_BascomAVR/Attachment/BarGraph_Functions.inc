@@ -10,6 +10,9 @@ Sub Display_bar(byval Percent As Single)
 
    Locate 2 , 1
 
+   If Percent < 0 Then Percent = 0
+   If Percent > 100 Then Percent = 100
+
    Bar_single = percent / 100 : Bar_single = Bar_single * Maximum_bars : Bar = Bar_single
    N5 = Bar / 5
    For I = 1 To N5
