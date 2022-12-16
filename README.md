@@ -13,7 +13,7 @@ I'm uploading my old files on the repository.
 ![](Chronometer/Simulate/Album.png)
 ![](DC%20Motor%20Speed%20Control/Simulate/Album.png)
 ![](Hygrometer%20and%20Thermometer%20Using%20SHT10/Simulate/Album.png)
-![](Frequency%20Meter%20with%20LCD%20Display/Simulate/Album.png)
+![](FrequencyMeter_11.059200MHz_Timer0_1S/Simulate/Album.png)
 ![](Thermometer%20Using%20Type%20K%20Thermocouple/Simulate/Album.png)
 ![](Control%20Systems_OnOff/Simulate/Album.png)
 ![](Thermometer%20with%202Alarm/Simulate/Album.png)
@@ -41,7 +41,7 @@ I'm uploading my old files on the repository.
 |[DC Motor Speed Control](DC%20Motor%20Speed%20Control)|Y|-|
 |[Flasher Using 8LEDs](Flasher%20Using%208LEDs)|Y|Y|
 |[Frequency Meter with 7Segment Display](Frequency%20Meter%20with%207Segment%20Display)|Y|-|
-|[Frequency Meter with LCD Display](Frequency%20Meter%20with%20LCD%20Display)|Y|-|
+|[FrequencyMeter_11.059200MHz_Timer0_1S](FrequencyMeter_11.059200MHz_Timer0_1S)|Y|-|
 |[Gyroscope and Accelerometer using CMPS10](Gyroscope%20and%20Accelerometer%20using%20CMPS10)|Y|Y|
 |[Gyroscope and Accelerometer using MPU6050](Gyroscope%20and%20Accelerometer%20using%20MPU6050)|Y|-|
 |[Hygrometer and Thermometer Using SHT10](Hygrometer%20and%20Thermometer%20Using%20SHT10)|Y|Y|
