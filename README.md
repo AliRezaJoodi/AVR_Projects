@@ -39,7 +39,6 @@ I'm uploading my old files on the repository.
 |[Control Systems_PID-OnOFF](Control%20Systems_PID-OnOFF)|-|Y|
 |[Counter with 2Digit 7Segment](Counter%20with%202Digit%207Segment)|Y|-|
 |[DC Motor Speed Control](DC%20Motor%20Speed%20Control)|Y|-|
-|[Flasher Using 8LEDs](Flasher%20Using%208LEDs)|Y|Y|
 |[FrequencyMeter_Timer0_0.1S_4MHz](FrequencyMeter_Timer0_0.1S_4MHz)|-|Y|
 |[FrequencyMeter_Timer0_1S_11.059200MHz](FrequencyMeter_Timer0_1S_11.059200MHz)|Y|-|
 |[FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay](FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay)|Y|-|
