@@ -39,8 +39,6 @@ I'm uploading my personal old projects on the repository.
 |[FrequencyMeter_Timer0_0.1S_4MHz](FrequencyMeter_Timer0_0.1S_4MHz)|-|Y|
 |[FrequencyMeter_Timer0_1S_11.059200MHz](FrequencyMeter_Timer0_1S_11.059200MHz)|Y|-|
 |[FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay](FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay)|Y|-|
-|[Gyroscope and Accelerometer using CMPS10](Gyroscope%20and%20Accelerometer%20using%20CMPS10)|Y|Y|
-|[Gyroscope and Accelerometer using MPU6050](Gyroscope%20and%20Accelerometer%20using%20MPU6050)|Y|-|
 |[Hygrometer and Thermometer Using SHT10](Hygrometer%20and%20Thermometer%20Using%20SHT10)|Y|Y|
 |[Music Player](Music%20Player)|Y|-|
 |[PWM Creator with Custom-Made Channels](PWM%20creator%20with%20custom-made%20channels)|Y|-|
