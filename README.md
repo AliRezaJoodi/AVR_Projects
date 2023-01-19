@@ -21,7 +21,6 @@ I'm uploading my personal old projects on the repository.
 
 ![](UART%20Relay%20Controller%20for%201CH/Simulate/Album.png)
 ![](UART%20Relay%20Controller%20for%208CH/Simulate/Album.png)
-![](UART%20Baud%20Rate%20Finder/Simulate/Album.png)
 
 ### List of the Repository
 
@@ -50,7 +49,6 @@ I'm uploading my personal old projects on the repository.
 |[Thermometer Using SMT160](Thermometer%20Using%20SMT160)|Y|-|
 |[Thermometer Using Type K Thermocouple](Thermometer%20Using%20Type%20K%20Thermocouple)|-|Y|
 |[Thermometer with 2Alarm](Thermometer%20with%202Alarm)|Y|-|
-|[UART Baud Rate Finder](UART%20Baud%20Rate%20Finder)|Y|-|
 |[UART Relay Controller for 1CH](UART%20Relay%20Controller%20for%201CH)|Y|-|
 |[UART Relay Controller for 8CH](UART%20Relay%20Controller%20for%208CH)|Y|-|
 |[Voltmeter for 0-20V with Bar Graph Display](Voltmeter%20for%200-20V%20with%20Bar%20Graph%20Display)|Y|-|
