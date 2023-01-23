@@ -43,7 +43,6 @@ I'm uploading my personal old projects on the repository.
 |[RGB LED Driver](RGB%20LED%20Driver)|Y|-|
 |[Thermometer Using DS18B20](Thermometer%20Using%20DS18B20)|Y|Y|
 |[Thermometer Using DS18B20 with 4 Sensors](Thermometer%20Using%20DS18B20%20with%204%20Sensors)|Y|Y|
-|[Thermometer Using SMT160](Thermometer%20Using%20SMT160)|Y|-|
 |[Thermometer Using Type K Thermocouple](Thermometer%20Using%20Type%20K%20Thermocouple)|-|Y|
 |[Thermometer with 2Alarm](Thermometer%20with%202Alarm)|Y|-|
 |[UART Relay Controller for 1CH](UART%20Relay%20Controller%20for%201CH)|Y|-|
