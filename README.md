@@ -4,7 +4,6 @@ I'm uploading my personal old projects on the repository.
 ### Gallery of the Repository
 
 ![](Voltmeter%20for%200-20V%20with%20Bar%20Graph%20Display/Simulate/Album.png)
-![](Thermometer%20Using%20DS18B20/Simulate/Album.png)
 ![](Thermometer%20Using%20DS18B20%20with%204%20Sensors/Simulate/Album.png)
 ![](Bulletin%20Board%20with%20Character%20LCD/Simulate/Album.png)
 ![](Clock%20and%20Date%20with%20Internal%20Timer/Simulate/Album.png)
@@ -41,7 +40,6 @@ I'm uploading my personal old projects on the repository.
 |[Music Player](Music%20Player)|Y|-|
 |[PWM Creator with Custom-Made Channels](PWM%20creator%20with%20custom-made%20channels)|Y|-|
 |[RGB LED Driver](RGB%20LED%20Driver)|Y|-|
-|[Thermometer Using DS18B20](Thermometer%20Using%20DS18B20)|Y|Y|
 |[Thermometer Using DS18B20 with 4 Sensors](Thermometer%20Using%20DS18B20%20with%204%20Sensors)|Y|Y|
 |[Thermometer Using Type K Thermocouple](Thermometer%20Using%20Type%20K%20Thermocouple)|-|Y|
 |[Thermometer with 2Alarm](Thermometer%20with%202Alarm)|Y|-|
