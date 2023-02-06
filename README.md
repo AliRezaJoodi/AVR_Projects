@@ -20,8 +20,7 @@ I'm uploading my personal projects on the repository.
 ![](UART%20Relay%20Controller%20for%201CH/Simulate/Album.png)
 ![](UART%20Relay%20Controller%20for%208CH/Simulate/Album.png)
 
-### List of the Repository
-
+### Table of Contents
 |Title|BascomAVR|CodeVisionAVR|
 |:----|:-------:|:-----------:|
 |[Bulletin Board with Character LCD](Bulletin%20Board%20with%20Character%20LCD)|Y|-|
