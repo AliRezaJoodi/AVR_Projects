@@ -10,7 +10,6 @@ I'm uploading my personal projects on the repository.
 ![](DC%20Motor%20Speed%20Control/Simulate/Album.png)
 ![](Hygrometer%20and%20Thermometer%20Using%20SHT10/Simulate/Album.png)
 ![](FrequencyMeter_Timer0_1S_11.059200MHz/Simulate/Album.png)
-![](Thermometer%20Using%20Type%20K%20Thermocouple/Simulate/Album.png)
 ![](Control%20Systems_OnOff/Simulate/Album.png)
 ![](Thermometer%20with%202Alarm/Simulate/Album.png)
 ![](Control%20Systems_PID/Simulate/Album.png)
@@ -37,7 +36,6 @@ I'm uploading my personal projects on the repository.
 |[Hygrometer and Thermometer Using SHT10](Hygrometer%20and%20Thermometer%20Using%20SHT10)|Y|Y|
 |[Music Player](Music%20Player)|Y|-|
 |[PWM Creator with Custom-Made Channels](PWM%20creator%20with%20custom-made%20channels)|Y|-|
-|[Thermometer Using Type K Thermocouple](Thermometer%20Using%20Type%20K%20Thermocouple)|-|Y|
 |[Thermometer with 2Alarm](Thermometer%20with%202Alarm)|Y|-|
 |[UART Relay Controller for 1CH](UART%20Relay%20Controller%20for%201CH)|Y|-|
 |[UART Relay Controller for 8CH](UART%20Relay%20Controller%20for%208CH)|Y|-|
