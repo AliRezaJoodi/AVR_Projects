@@ -15,7 +15,6 @@ I'm uploading my personal projects on the repository.
 ![](ControlSystems_PID/Simulate/Album.png)
 ![](ControlSystems_PID-OnOFF/Simulate/Album.png)
 
-![](UART%20Relay%20Controller%20for%201CH/Simulate/Album.png)
 ![](UART%20Relay%20Controller%20for%208CH/Simulate/Album.png)
 
 ### Table of Contents
@@ -37,6 +36,5 @@ I'm uploading my personal projects on the repository.
 |[Music Player](Music%20Player)|Y|-|
 |[PWM Creator with Custom-Made Channels](PWM%20creator%20with%20custom-made%20channels)|Y|-|
 |[Thermometer with 2Alarm](Thermometer%20with%202Alarm)|Y|-|
-|[UART Relay Controller for 1CH](UART%20Relay%20Controller%20for%201CH)|Y|-|
 |[UART Relay Controller for 8CH](UART%20Relay%20Controller%20for%208CH)|Y|-|
 |[Voltmeter for 0-20V with Bar Graph Display](Voltmeter%20for%200-20V%20with%20Bar%20Graph%20Display)|Y|-|
