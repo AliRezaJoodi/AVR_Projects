@@ -7,7 +7,6 @@ I'm uploading my personal projects on the repository.
 ![](Bulletin%20Board%20with%20Character%20LCD/Simulate/Album.png)
 ![](Clock%20and%20Date%20with%20Internal%20Timer/Simulate/Album.png)
 ![](Chronometer/Simulate/Album.png)
-![](DC%20Motor%20Speed%20Control/Simulate/Album.png)
 ![](Hygrometer%20and%20Thermometer%20Using%20SHT10/Simulate/Album.png)
 ![](FrequencyMeter_Timer0_1S_11.059200MHz/Simulate/Album.png)
 ![](ControlSystems_OnOff/Simulate/Album.png)
@@ -26,7 +25,6 @@ I'm uploading my personal projects on the repository.
 |[ControlSystems_PID](ControlSystems_PID)|-|Y|
 |[ControlSystems_PID-OnOFF](ControlSystems_PID-OnOFF)|-|Y|
 |[Counter with 2Digit 7Segment](Counter%20with%202Digit%207Segment)|Y|-|
-|[DC Motor Speed Control](DC%20Motor%20Speed%20Control)|Y|-|
 |[FrequencyMeter_Timer0_0.1S_4MHz](FrequencyMeter_Timer0_0.1S_4MHz)|-|Y|
 |[FrequencyMeter_Timer0_1S_11.059200MHz](FrequencyMeter_Timer0_1S_11.059200MHz)|Y|-|
 |[FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay](FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay)|Y|-|
