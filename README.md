@@ -4,7 +4,6 @@ I'm uploading my personal projects on the repository.
 ### Gallery of the Repository
 
 ![](Voltmeter%20for%200-20V%20with%20Bar%20Graph%20Display/Simulate/Album.png)
-![](Bulletin%20Board%20with%20Character%20LCD/Simulate/Album.png)
 ![](Clock%20and%20Date%20with%20Internal%20Timer/Simulate/Album.png)
 ![](Chronometer/Simulate/Album.png)
 ![](Hygrometer%20and%20Thermometer%20Using%20SHT10/Simulate/Album.png)
@@ -17,7 +16,6 @@ I'm uploading my personal projects on the repository.
 ### Table of Contents
 |Title|BascomAVR|CodeVisionAVR|
 |:----|:-------:|:-----------:|
-|[Bulletin Board with Character LCD](Bulletin%20Board%20with%20Character%20LCD)|Y|-|
 |[Chronometer](Chronometer)|Y|-|
 |[Clock and Date with Internal Timer](Clock%20and%20Date%20with%20Internal%20Timer)|Y|-|
 |[Clock with 7Segment](Clock%20with%207Segment)|-|Y|
