@@ -27,6 +27,5 @@ I'm uploading my personal projects on the repository.
 |[FrequencyMeter_Timer0_1S_11.059200MHz](FrequencyMeter_Timer0_1S_11.059200MHz)|Y|-|
 |[FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay](FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay)|Y|-|
 |[Hygrometer and Thermometer Using SHT10](Hygrometer%20and%20Thermometer%20Using%20SHT10)|Y|Y|
-|[PWM Creator with Custom-Made Channels](PWM%20creator%20with%20custom-made%20channels)|Y|-|
 |[Thermometer with 2Alarm](Thermometer%20with%202Alarm)|Y|-|
 |[Voltmeter for 0-20V with Bar Graph Display](Voltmeter%20for%200-20V%20with%20Bar%20Graph%20Display)|Y|-|
