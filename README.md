@@ -3,9 +3,8 @@ I'm uploading my personal projects on the repository.
 
 ### Gallery of the Repository
 
-![](Voltmeter%20for%200-20V%20with%20Bar%20Graph%20Display/Simulate/Album.png)
-![](Clock%20and%20Date%20with%20Internal%20Timer/Simulate/Album.png)
-![](Chronometer/Simulate/Album.png)
+![](Voltmeter_20V_BarGraphDisplay/Simulate/Album.png)
+![](Clock_InternalTimer_7SegmentDisplay/Simulate/Album.png)
 ![](FrequencyMeter_Timer0_1S_11.059200MHz/Simulate/Album.png)
 ![](ControlSystems_OnOff/Simulate/Album.png)
 ![](Thermometer%20with%202Alarm/Simulate/Album.png)
@@ -15,9 +14,8 @@ I'm uploading my personal projects on the repository.
 ### Table of Contents
 |Title|BascomAVR|CodeVisionAVR|
 |:----|:-------:|:-----------:|
-|[Chronometer](Chronometer)|Y|-|
-|[Clock and Date with Internal Timer](Clock%20and%20Date%20with%20Internal%20Timer)|Y|-|
-|[Clock with 7Segment](Clock%20with%207Segment)|-|Y|
+|[Clock&Date_InternalTimer](Clock&Date_InternalTimer)|Y|-|
+|[Clock_InternalTimer_7SegmentDisplay](Clock_InternalTimer_7SegmentDisplay)|-|Y|
 |[ControlSystems_OnOff](ControlSystems_OnOff)|-|Y|
 |[ControlSystems_PID](ControlSystems_PID)|-|Y|
 |[ControlSystems_PID-OnOFF](ControlSystems_PID-OnOFF)|-|Y|
@@ -26,4 +24,4 @@ I'm uploading my personal projects on the repository.
 |[FrequencyMeter_Timer0_1S_11.059200MHz](FrequencyMeter_Timer0_1S_11.059200MHz)|Y|-|
 |[FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay](FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay)|Y|-|
 |[Thermometer with 2Alarm](Thermometer%20with%202Alarm)|Y|-|
-|[Voltmeter for 0-20V with Bar Graph Display](Voltmeter%20for%200-20V%20with%20Bar%20Graph%20Display)|Y|-|
+|[Voltmeter_20V_BarGraphDisplay](Voltmeter_20V_BarGraphDisplay)|Y|-|
