@@ -7,7 +7,7 @@ I'm uploading my personal projects on the repository.
 ![](Clock_InternalTimer_7SegmentDisplay/Simulate/Album.png)
 ![](FrequencyMeter_Timer0_1S_11.059200MHz/Simulate/Album.png)
 ![](ControlSystems_OnOff/Simulate/Album.png)
-![](Thermometer%20with%202Alarm/Simulate/Album.png)
+![](Thermometer_2Alarm/Simulate/Album.png)
 ![](ControlSystems_PID/Simulate/Album.png)
 ![](ControlSystems_PID-OnOFF/Simulate/Album.png)
 
@@ -19,9 +19,9 @@ I'm uploading my personal projects on the repository.
 |[ControlSystems_OnOff](ControlSystems_OnOff)|-|Y|
 |[ControlSystems_PID](ControlSystems_PID)|-|Y|
 |[ControlSystems_PID-OnOFF](ControlSystems_PID-OnOFF)|-|Y|
-|[Counter with 2Digit 7Segment](Counter%20with%202Digit%207Segment)|Y|-|
+|[Counter_2Digit_7SegmentDisplay](Counter_2Digit_7SegmentDisplay)|Y|-|
 |[FrequencyMeter_Timer0_0.1S_4MHz](FrequencyMeter_Timer0_0.1S_4MHz)|-|Y|
 |[FrequencyMeter_Timer0_1S_11.059200MHz](FrequencyMeter_Timer0_1S_11.059200MHz)|Y|-|
 |[FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay](FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay)|Y|-|
-|[Thermometer with 2Alarm](Thermometer%20with%202Alarm)|Y|-|
+|[Thermometer_2Alarm](Thermometer_2Alarm)|Y|-|
 |[Voltmeter_20V_BarGraphDisplay](Voltmeter_20V_BarGraphDisplay)|Y|-|
