@@ -1,4 +1,4 @@
-## AVR Microcontroller Projects for Beginners
+## AVR Microcontroller Projects
 I'm uploading my personal projects on the repository.
 
 ### Gallery of the Repository
