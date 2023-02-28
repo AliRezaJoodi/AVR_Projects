@@ -2,6 +2,7 @@
 I'm uploading my personal projects on the repository.
 
 ### Gallery of the Repository
+![](TextDisplay_Keybord/Pictures/Album.jpg)
 
 ![](Voltmeter_20V_BarGraphDisplay/Simulate/Album.png)
 ![](Clock_InternalTimer_7SegmentDisplay/Simulate/Album.png)
@@ -23,5 +24,6 @@ I'm uploading my personal projects on the repository.
 |[FrequencyMeter_Timer0_0.1S_4MHz](FrequencyMeter_Timer0_0.1S_4MHz)|-|Y|
 |[FrequencyMeter_Timer0_1S_11.059200MHz](FrequencyMeter_Timer0_1S_11.059200MHz)|Y|-|
 |[FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay](FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay)|Y|-|
+|[TextDisplay_Keybord](TextDisplay_Keybord)|Y|Y|
 |[Thermometer_2Alarm](Thermometer_2Alarm)|Y|-|
 |[Voltmeter_20V_BarGraphDisplay](Voltmeter_20V_BarGraphDisplay)|Y|-|
