@@ -9,24 +9,22 @@ Config Lcd = 16 * 2
 Cursor Blink
 Cls
 
-
-Dim Txt As String * 22
-Dim Command As String * 5
-Dim Content As String * 16
+Dim Buffer As String * 17
+Dim Command As String * 1
+Dim Text As String * 16
 
 Do
-   Input Txt
-   Command = Mid(txt , 1 , 1)
-   Content = Mid(txt , 2 , 17)
+   Input Buffer
+   Command = Mid(buffer , 1 , 1)
+   Text = Mid(buffer , 2 , 17)
 
    If Command = "1" Then
       Locate 1 , 1 : Lcd "                "
-      Locate 1 , 1 : Lcd Content
+      Locate 1 , 1 : Lcd Text
    Elseif Command = "2" Then
       Locate 2 , 1 : Lcd "                "
-      Locate 2 , 1 : Lcd Content
+      Locate 2 , 1 : Lcd Text
    End If
 Loop
 
 End
-

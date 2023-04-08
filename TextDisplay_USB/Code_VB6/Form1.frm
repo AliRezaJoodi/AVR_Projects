@@ -117,6 +117,7 @@ Private Sub Text1_KeyPress(KeyAscii As Integer)
         MSComm1.PortOpen = False
     End If
 End Sub
+
 Private Sub Text2_KeyPress(KeyAscii As Integer)
     If KeyAscii = 13 Then
         CPN = Val(Combo1.Text): MSComm1.CommPort = CPN
