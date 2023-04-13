@@ -12,8 +12,8 @@ void main(void){
     DDRD.2=1; PORTD.2=0;
     
     while (1){
-        if (SENSOR_ON==1 & SENSOR_OFF==0){RELAY=1;} 
-        if (SENSOR_ON==0 & SENSOR_OFF==1){RELAY=0;}
+        if (SENSOR_ON==1 && SENSOR_OFF==0){RELAY=1;} 
+        if (SENSOR_ON==0 && SENSOR_OFF==1){RELAY=0;}
     }
 }
 
