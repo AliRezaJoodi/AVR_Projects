@@ -14,7 +14,6 @@ I'm uploading my personal projects on the repository.
 
 ![](Voltmeter_20V_BarGraphDisplay/Simulate/Album.png)
 ![](Clock_InternalTimer_7SegmentDisplay/Simulate/Album.png)
-![](FrequencyMeter_Timer0_1S_11.059200MHz/Simulate/Album.png)
 ![](ControlSystems_OnOff/Simulate/Album.png)
 ![](Thermometer_2Alarm/Simulate/Album.png)
 ![](ControlSystems_PID/Simulate/Album.png)
@@ -30,9 +29,6 @@ I'm uploading my personal projects on the repository.
 |[ControlSystems_PID-OnOFF](ControlSystems_PID-OnOFF)|-|Y|
 |[Counter_2Digit_7SegmentDisplay](Counter_2Digit_7SegmentDisplay)|Y|-|
 |[DigitalMeter_Ultrasonic_SRF02_LCD](DigitalMeter_Ultrasonic_SRF02_LCD)|Y|Y|Y|
-|[FrequencyMeter_Timer0_0.1S_4MHz](FrequencyMeter_Timer0_0.1S_4MHz)|-|Y|
-|[FrequencyMeter_Timer0_1S_11.059200MHz](FrequencyMeter_Timer0_1S_11.059200MHz)|Y|-|
-|[FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay](FrequencyMeter_Timer0_1S_11.059200MHz_7SegmentDisplay)|Y|-|
 |[RelayController_LaserPointer_1CH_ATmega8](RelayController_LaserPointer_1CH_ATmega8)|Y|Y|
 |[RelayController_LaserPointer_1CH_ATtiny13](RelayController_LaserPointer_1CH_ATtiny13)|Y|Y|
 |[RelayController_LaserPointer_1CH_ATtiny26](RelayController_LaserPointer_1CH_ATtiny26)|Y|Y|
