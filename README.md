@@ -2,6 +2,7 @@
 I'm uploading my personal projects on the repository.
 
 ### Gallery of the Repository
+![](TelCardReader/Pictures/Album.jpg)
 ![](TextDisplay_Keyboard/Pictures/Album.jpg)
 ![](TextDisplay_USB/Pictures/Album.jpg)
 ![](TextDisplay_USB/Pictures/Album2.jpg)
@@ -9,7 +10,6 @@ I'm uploading my personal projects on the repository.
 ![](RelayController_LaserPointer_1CH_ATtiny26/Pictures/Album.jpg)
 ![](RelayController_LaserPointer_1CH_ATtiny13/Pictures/Album.jpg)
 ![](RelayController_LaserPointer_1CH_ATtiny2313/Pictures/Album.jpg)
-![](TelCardReader/Pictures/Album.jpg)
 ![](DigitalMeter_Ultrasonic_SRF02_LCD/Pictures/Album.jpg)
 ![](DigitalMeter_Ultrasonic_SRF05_LCD/Pictures/Album.jpg)
 ![](DigitalMeter_Ultrasonic_SRF02_GLCD/Pictures/Album.jpg)
