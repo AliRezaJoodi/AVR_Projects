@@ -13,6 +13,7 @@ I'm uploading my personal projects on the repository.
 ![](DigitalMeter_Ultrasonic_SRF02_LCD/Pictures/Album.jpg)
 ![](DigitalMeter_Ultrasonic_SRF05_LCD/Pictures/Album.jpg)
 ![](DigitalMeter_Ultrasonic_SRF02_GLCD/Pictures/Album.jpg)
+![](DigitalMeter_Ultrasonic_SRF02_7Segment/Pictures/Album.jpg)
 
 ![](Voltmeter_20V_BarGraphDisplay/Simulate/Album.png)
 ![](Clock_InternalTimer_7SegmentDisplay/Simulate/Album.png)
@@ -30,6 +31,7 @@ I'm uploading my personal projects on the repository.
 |[ControlSystems_PID](ControlSystems_PID)|-|Y|
 |[ControlSystems_PID-OnOFF](ControlSystems_PID-OnOFF)|-|Y|
 |[Counter_2Digit_7SegmentDisplay](Counter_2Digit_7SegmentDisplay)|Y|-|
+|[DigitalMeter_Ultrasonic_SRF02_7Segment](DigitalMeter_Ultrasonic_SRF02_7Segment)|Y|-|-|
 |[DigitalMeter_Ultrasonic_SRF02_GLCD](DigitalMeter_Ultrasonic_SRF02_GLCD)|Y|-|-|
 |[DigitalMeter_Ultrasonic_SRF02_LCD](DigitalMeter_Ultrasonic_SRF02_LCD)|Y|Y|Y|
 |[DigitalMeter_Ultrasonic_SRF05_LCD](DigitalMeter_Ultrasonic_SRF05_LCD)|Y|-|-|
