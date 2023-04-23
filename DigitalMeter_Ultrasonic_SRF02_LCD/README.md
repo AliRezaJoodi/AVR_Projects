@@ -5,14 +5,16 @@ Frequency:     	11.059200MHz (External Crystal)
 Display:        16x2 LCD   
 Sensor:		SRF02 Ultrasonic Moudle (I2C Interfacing)     
 
-Note: Included schematic and PCB layout with Proteus  
-Note: It's a prototype and should get better
+Note: Included schematic and PCB layout with Proteus.  
+Note: It's a prototype and should get better.  
+Note: `Code_BascomAVR_DepthMeasuring` is a code for Depth Measuring Project.  
 
 ### Folder and Files Description
 It has included:
-- `Code_BascomAVR` (Code with Basic Language)
-- `Code_CodeVisionAVR` (Code with C Language)
-- `Code_mikroC PRO for AVR` (Code with C Language)
+- `Code_BascomAVR` (Basic Programming)
+- `Code_BascomAVR_DepthMeasuring` (Basic Programming)
+- `Code_CodeVisionAVR` (C Programming)
+- `Code_mikroC PRO for AVR` (C Programming)
 - `Hardware` (Included hardware layers)
 - `Pictures` (Photos Samples Made)
 
