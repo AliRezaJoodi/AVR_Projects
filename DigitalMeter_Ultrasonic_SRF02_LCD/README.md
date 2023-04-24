@@ -7,7 +7,7 @@ Sensor:		SRF02 Ultrasonic Moudle (I2C Interfacing)
 
 Note: Included schematic and PCB layout with Proteus.  
 Note: It's a prototype and should get better.  
-Note: `Code_BascomAVR_DepthMeasuring` is a code for Depth Measuring Project.  
+Note: `Code_BascomAVR_DigitalWaterLevelMeter` is a code for Digital Water Level Meter Project.  
 
 ### Folder and Files Description
 It has included:
