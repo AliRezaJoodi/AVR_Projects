@@ -36,11 +36,11 @@ I'm uploading my personal projects on the repository.
 |[DigitalMeter_Ultrasonic_SRF02_GLCD](DigitalMeter_Ultrasonic_SRF02_GLCD)|Y|-|-|
 |[DigitalMeter_Ultrasonic_SRF02_LCD](DigitalMeter_Ultrasonic_SRF02_LCD)|Y|Y|Y|
 |[DigitalMeter_Ultrasonic_SRF05_LCD](DigitalMeter_Ultrasonic_SRF05_LCD)|Y|-|-|
+|[DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD](DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD)|Y|-|
 |[RelayController_LaserPointer_1CH_ATmega8](RelayController_LaserPointer_1CH_ATmega8)|Y|Y|
 |[RelayController_LaserPointer_1CH_ATtiny13](RelayController_LaserPointer_1CH_ATtiny13)|Y|Y|
 |[RelayController_LaserPointer_1CH_ATtiny26](RelayController_LaserPointer_1CH_ATtiny26)|Y|Y|
 |[RelayController_LaserPointer_1CH_ATtiny2313](RelayController_LaserPointer_1CH_ATtiny2313)|Y|Y|
-|[DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD](DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD)|Y|-|
 |[TelCardReader](TelCardReader)|Y|Y|
 |[TextDisplay_Keyboard](TextDisplay_Keyboard)|Y|Y|
 |[TextDisplay_USB](TextDisplay_USB)|Y|Y|
