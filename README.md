@@ -15,6 +15,7 @@ I'm uploading my personal projects on the repository.
 ![](DigitalMeter_Ultrasonic_SRF02_GLCD/Pictures/Album.jpg)
 ![](DigitalMeter_Ultrasonic_SRF02_7Segment/Pictures/Album.jpg)
 ![](DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD/Pictures/Album.jpg)
+![](Calculator_LCD/Pictures/Album.jpg)
 
 ![](Voltmeter_20V_BarGraphDisplay/Simulate/Album.png)
 ![](Clock_InternalTimer_7SegmentDisplay/Simulate/Album.png)
@@ -26,6 +27,7 @@ I'm uploading my personal projects on the repository.
 ### Table of Contents
 |Title|BascomAVR|CodeVisionAVR|mikroC PRO for AVR|
 |:----|:-------:|:-----------:|:----------------:|
+|[Calculator_LCD](Calculator_LCD)|Y|Y|-|
 |[Clock&Date_InternalTimer](Clock&Date_InternalTimer)|Y|-|
 |[Clock_InternalTimer_7SegmentDisplay](Clock_InternalTimer_7SegmentDisplay)|-|Y|
 |[ControlSystems_OnOff](ControlSystems_OnOff)|-|Y|
