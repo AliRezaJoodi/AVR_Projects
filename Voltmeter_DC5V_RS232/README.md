@@ -4,12 +4,12 @@ MCU:			ATmega32A
 Frequency:     		11.059200MHz (External Crystal)   
 Display:        	16x2 LCD        
 Computer Interfacing:	UART to RS232 Converter  
-Computer Software:	VB6
-Input Voltage: 		0~5V DC	
+Computer Software:	VB6  
+Input Voltage: 		0~5V DC  
 
-Note: Frame format is String.
+Note: Frame format is String.  
 Note: Included schematic and PCB layout with Proteus.  
-Note: It's a prototype and should get better.
+Note: It's a prototype and should get better.  
 
 ### Folder and Files Description
 It has included:
