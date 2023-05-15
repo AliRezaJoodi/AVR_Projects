@@ -49,6 +49,6 @@ I'm uploading my personal projects on the repository.
 |[TextDisplay_Keyboard](TextDisplay_Keyboard)|Y|Y|
 |[TextDisplay_USB](TextDisplay_USB)|Y|Y|
 |[Thermometer_2Alarm](Thermometer_2Alarm)|Y|-|
-|[TrainingBoard_IR](TrainingBoard_IR)|X|X|
+|[TrainingBoard_IR](TrainingBoard_IR)|X|X|X|
 |[Voltmeter_20V_BarGraphDisplay](Voltmeter_20V_BarGraphDisplay)|Y|-|
 |[Voltmeter_DC5V_RS232](Voltmeter_DC5V_RS232)|Y|-|-|
