@@ -17,6 +17,7 @@ I'm uploading my personal projects on the repository.
 ![](DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD/Pictures/Album.jpg)
 ![](Calculator_LCD/Pictures/Album.jpg)
 ![](Voltmeter_DC5V_RS232/Pictures/Album.jpg)
+![](TrainingBoard_IR/Pictures/Album.jpg)
 
 ![](Voltmeter_20V_BarGraphDisplay/Simulate/Album.png)
 ![](Clock_InternalTimer_7SegmentDisplay/Simulate/Album.png)
@@ -48,5 +49,6 @@ I'm uploading my personal projects on the repository.
 |[TextDisplay_Keyboard](TextDisplay_Keyboard)|Y|Y|
 |[TextDisplay_USB](TextDisplay_USB)|Y|Y|
 |[Thermometer_2Alarm](Thermometer_2Alarm)|Y|-|
+|[TrainingBoard_IR](TrainingBoard_IR)|X|X|
 |[Voltmeter_20V_BarGraphDisplay](Voltmeter_20V_BarGraphDisplay)|Y|-|
 |[Voltmeter_DC5V_RS232](Voltmeter_DC5V_RS232)|Y|-|-|
