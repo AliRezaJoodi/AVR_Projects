@@ -13,7 +13,7 @@ Note: The projects are prototype and should get better.
 
 ### Table of Contents
 |Picture|Title|Bascom AVR|CodeVision AVR|mikroC PRO for AVR|
-|:------|:-------:|:-----------:|:----------------:|
+|:------|:---:|:--------:|:------------:|:----------------:|
 |![](Calculator_LCD/Pictures/Album.jpg)|[Calculator_LCD](Calculator_LCD)|Y|Y|-|
 ||[Clock&Date_InternalTimer](Clock&Date_InternalTimer)|Y|-|
 ||[Clock_InternalTimer_7SegmentDisplay](Clock_InternalTimer_7SegmentDisplay)|-|Y|
