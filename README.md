@@ -12,8 +12,8 @@ Note: The projects are prototype and should get better.
 ![](ControlSystems_PID-OnOFF/Simulate/Album.png)
 
 ### Table of Contents
-|Picture|Title|Bascom AVR|CodeVision AVR|mikroC PRO for AVR|
-|:------|:---:|:--------:|:------------:|:----------------:|
+|Picture|Title|Bascom|CodeVision|mikroC|
+|:------|:----|:----:|:--------:|:----:|
 |![](Calculator_LCD/Pictures/Album.jpg)|[Calculator_LCD](Calculator_LCD)|Y|Y|-|
 ||[Clock&Date_InternalTimer](Clock&Date_InternalTimer)|Y|-|
 ||[Clock_InternalTimer_7SegmentDisplay](Clock_InternalTimer_7SegmentDisplay)|-|Y|
