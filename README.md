@@ -11,8 +11,12 @@ Note: The projects are prototype and should get better.
 ![](ControlSystems_PID/Simulate/Album.png)
 ![](ControlSystems_PID-OnOFF/Simulate/Album.png)
 
+1: Bascom AVR  
+2: CodeVision AVR  
+3: mikroC PRO for AVR  
+
 ### Table of Contents
-|Picture|Title|Bascom|CodeVision|mikroC|
+|Picture|Title|1|2|3|
 |:------|:----|:----:|:--------:|:----:|
 |![](Calculator_LCD/Pictures/Album.jpg)|[Calculator_LCD](Calculator_LCD)|Y|Y|-|
 ||[Clock&Date_InternalTimer](Clock&Date_InternalTimer)|Y|-|
