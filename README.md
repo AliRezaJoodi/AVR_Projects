@@ -26,7 +26,7 @@ Note: The projects are prototype and should get better.
 ||[ControlSystems_PID-OnOFF](ControlSystems_PID-OnOFF)|-|Y|
 ||[Counter_2Digit_7SegmentDisplay](Counter_2Digit_7SegmentDisplay)|Y|-|
 |![](DigitalMeter_Ultrasonic_SRF02_7Segment/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Module And 7 Segments Display](DigitalMeter_Ultrasonic_SRF02_7Segment)|Y|-|-|
-|![](DigitalMeter_Ultrasonic_SRF02_GLCD/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Module And GCD Display](DigitalMeter_Ultrasonic_SRF02_GLCD)|Y|-|-|
+|![](DigitalMeter_Ultrasonic_SRF02_GLCD/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Module And GLCD Display](DigitalMeter_Ultrasonic_SRF02_GLCD)|Y|-|-|
 |![](DigitalMeter_Ultrasonic_SRF02_LCD/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Moudle And LCD Display](DigitalMeter_Ultrasonic_SRF02_LCD)|Y|Y|Y|
 |![](DigitalMeter_Ultrasonic_SRF05_LCD/Pictures/Album.jpg)|[Digital Meter With SRF05 Ultrasonic Moudle And LCD Display](DigitalMeter_Ultrasonic_SRF05_LCD)|Y|-|-|
 |![](DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD/Pictures/Album.jpg)|[Digital Water Level Meter With SRF05 Ultrasonic Moudle And LCD Display](DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD)|Y|-|
