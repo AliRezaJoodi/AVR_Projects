@@ -1,4 +1,4 @@
-## AVR Training Board Exclusive for Dimmer
+## AVR Training Board Exclusive For Dimmer
 
 Features:
 - ATmega32 Microcontroller 

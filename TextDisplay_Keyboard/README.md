@@ -1,4 +1,4 @@
-## Text Control on the LCD with a PS2 Keyboard  	   
+## Text Control On The LCD With A PS2 Keyboard
 MCU:		ATmega32  
 Frequency:     	11.059200MHz (External Crystal)   
 Display:        16x2 LCD   

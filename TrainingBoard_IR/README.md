@@ -1,4 +1,4 @@
-## AVR Training Board Exclusive for IR Exercises
+## AVR Training Board Exclusive For IR Exercises
 
 Features:
 - ATmega32 Microcontroller 

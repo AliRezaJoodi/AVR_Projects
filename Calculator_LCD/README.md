@@ -1,4 +1,4 @@
-## Calculator 	   
+## Calculator with LCD Display 	   
 
 MCU:		ATmega32A  
 Frequency:     	1MHz    

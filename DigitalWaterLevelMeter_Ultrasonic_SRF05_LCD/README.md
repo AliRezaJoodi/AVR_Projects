@@ -1,4 +1,4 @@
-## Digital Water Level Meter Using SRF05 Ultrasonic Moudle
+## Digital Water Level Meter With SRF05 Ultrasonic Moudle And LCD Display
 	   
 MCU:		ATmega32  
 Frequency:     	11.059200MHz (External Crystal)   

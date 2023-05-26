@@ -1,4 +1,4 @@
-## 1CH Relay Controller with Laser Pointer
+## 1CH Relay Controller with Laser Pointer And ATtiny26 AVR MicroController
 There are one relay and two LDR sensors. One of them activates the relay and the other deactivates it.  
 
 MCU:			ATtiny26    
