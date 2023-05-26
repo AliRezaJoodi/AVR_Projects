@@ -26,7 +26,7 @@ Note: The projects are prototype and should get better.
 ||[ControlSystems_PID-OnOFF](ControlSystems_PID-OnOFF)|-|Y|
 ||[Counter_2Digit_7SegmentDisplay](Counter_2Digit_7SegmentDisplay)|Y|-|
 |![](DigitalMeter_Ultrasonic_SRF02_7Segment/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Module And 7 Segments Display](DigitalMeter_Ultrasonic_SRF02_7Segment)|Y|-|-|
-|![](DigitalMeter_Ultrasonic_SRF02_GLCD/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Module And LCD Display](DigitalMeter_Ultrasonic_SRF02_GLCD)|Y|-|-|
+|![](DigitalMeter_Ultrasonic_SRF02_GLCD/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Module And GCD Display](DigitalMeter_Ultrasonic_SRF02_GLCD)|Y|-|-|
 |![](DigitalMeter_Ultrasonic_SRF02_LCD/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Moudle And LCD Display](DigitalMeter_Ultrasonic_SRF02_LCD)|Y|Y|Y|
 |![](DigitalMeter_Ultrasonic_SRF05_LCD/Pictures/Album.jpg)|[Digital Meter With SRF05 Ultrasonic Moudle And LCD Display](DigitalMeter_Ultrasonic_SRF05_LCD)|Y|-|-|
 |![](DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD/Pictures/Album.jpg)|[Digital Water Level Meter With SRF05 Ultrasonic Moudle And LCD Display](DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD)|Y|-|
@@ -37,7 +37,7 @@ Note: The projects are prototype and should get better.
 |![](RelayController_LaserPointer_1CH_ATtiny2313/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny2313 AVR MicroController](RelayController_LaserPointer_1CH_ATtiny2313)|Y|Y|
 |![](TelCardReader/Pictures/Album.jpg)|[Tel Card Reader](TelCardReader)|Y|Y|
 |![](TextDisplay_Keyboard/Pictures/Album.jpg)|[Text Control On The LCD With A PS2 Keyboard](TextDisplay_Keyboard)|Y|Y|
-|![](TextDisplay_USB/Pictures/Album.jpg)|[Text Control On The Lcd With A Computer](TextDisplay_USB)|Y|Y|
+|![](TextDisplay_USB/Pictures/Album.jpg)|[Text Control On The LCD With A Computer](TextDisplay_USB)|Y|Y|
 ||[Thermometer_2Alarm](Thermometer_2Alarm)|Y|-|
 |![](TrainingBoard_Dimmer/Pictures/Album.jpg)|[AVR Training Board Exclusive For Dimmer](TrainingBoard_Dimmer)|X|X|X|
 |![](TrainingBoard_IR/Pictures/Album.jpg)|[AVR Training Board Exclusive For IR Exercises](TrainingBoard_IR)|X|X|X|

@@ -1,4 +1,4 @@
-## Digital Meter With SRF02 Ultrasonic Module And LCD Display
+## Digital Meter With SRF02 Ultrasonic Module And GCD Display
 	   
 MCU:		ATmega32  
 Frequency:     	11.059200MHz (External Crystal)   
