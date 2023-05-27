@@ -1,11 +1,11 @@
 ## STK200/STK300 Programer	   
  
 Note: Included schematic and PCB layout with Proteus  
-Note: It's a prototype and should get better
 
 ### Folder and Files Description
 It has included:
-- `Hardware` (Included hardware laye
+- `Hardware` (Included hardware laye)
+- `Pictures` (Photos Samples Made)
 
 ### Pictures: v2.1
 ![](Pictures/v2.1.jpg)
