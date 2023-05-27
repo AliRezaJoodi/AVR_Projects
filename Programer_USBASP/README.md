@@ -1,4 +1,4 @@
-## USPASP Programer	   
+## USBASP Programer	   
  
 Note: Included schematic and PCB layout with Proteus  
 Note: It use of a ATmega8 that drive with external crystal. So, after flash programming change fuse bits to external crystal.
