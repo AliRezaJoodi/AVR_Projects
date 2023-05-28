@@ -32,10 +32,10 @@ Note: The projects are prototype and should get better.
 |![](DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD/Pictures/Album.jpg)|[Digital Water Level Meter With SRF05 Ultrasonic Moudle And LCD Display](DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD)|Y|-|
 |![](Programer_STK200/Pictures/Album.jpg)|[STK200/STK300 Programer](Programer_STK200)|X|X|X|
 |![](Programer_USBASP/Pictures/Album.jpg)|[USBASP Programer](Programer_USBASP)|X|X|X|
-|![](RelayController_LaserPointer_1CH_ATmega8/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATmega8 AVR MicroController](RelayController_LaserPointer_1CH_ATmega8)|Y|Y|
-|![](RelayController_LaserPointer_1CH_ATtiny13/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny13 AVR MicroController](RelayController_LaserPointer_1CH_ATtiny13)|Y|Y|
-|![](RelayController_LaserPointer_1CH_ATtiny26/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny26 AVR MicroController](RelayController_LaserPointer_1CH_ATtiny26)|Y|Y|
-|![](RelayController_LaserPointer_1CH_ATtiny2313/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny2313 AVR MicroController](RelayController_LaserPointer_1CH_ATtiny2313)|Y|Y|
+|![](RelayController_LaserPointer_1CH_ATmega8/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATmega8 AVR MCU](RelayController_LaserPointer_1CH_ATmega8)|Y|Y|
+|![](RelayController_LaserPointer_1CH_ATtiny13/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny13 AVR MCU](RelayController_LaserPointer_1CH_ATtiny13)|Y|Y|
+|![](RelayController_LaserPointer_1CH_ATtiny26/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny26 AVR MCU](RelayController_LaserPointer_1CH_ATtiny26)|Y|Y|
+|![](RelayController_LaserPointer_1CH_ATtiny2313/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny2313 AVR MCU](RelayController_LaserPointer_1CH_ATtiny2313)|Y|Y|
 |![](TelCardReader/Pictures/Album.jpg)|[Tel Card Reader](TelCardReader)|Y|Y|
 |![](TextDisplay_Keyboard/Pictures/Album.jpg)|[Text Control On The LCD With A PS2 Keyboard](TextDisplay_Keyboard)|Y|Y|
 |![](TextDisplay_USB/Pictures/Album.jpg)|[Text Control On The LCD With A Computer](TextDisplay_USB)|Y|Y|

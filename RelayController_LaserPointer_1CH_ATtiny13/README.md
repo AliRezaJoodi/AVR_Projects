@@ -1,4 +1,4 @@
-## 1CH Relay Controller with Laser Pointer And ATtiny13 AVR MicroController
+## 1CH Relay Controller with Laser Pointer And ATtiny13 AVR MCU
 There are one relay and two LDR sensors. One of them activates the relay and the other deactivates it.  
 
 MCU:			ATtiny13    

@@ -1,4 +1,4 @@
-## 1CH Relay Controller with Laser Pointer And ATmega8 AVR MicroController
+## 1CH Relay Controller with Laser Pointer And ATmega8 AVR MCU
 There are one relay and two LDR sensors. One of them activates the relay and the other deactivates it.  
 
 MCU:			ATmega32A    
