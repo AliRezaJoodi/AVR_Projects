@@ -1,4 +1,4 @@
-## AVR Training Board Exclusive For IR Exercises
+## AVR Training Board Exclusive For IR Remote Send And Receive
 
 Features:
 - ATmega32 Microcontroller 

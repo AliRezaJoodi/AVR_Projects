@@ -41,6 +41,6 @@ Note: The projects are prototype and should get better.
 |![](TextDisplay_USB/Pictures/Album.jpg)|[Text Control On The LCD With A Computer](TextDisplay_USB)|Y|Y|
 ||[Thermometer_2Alarm](Thermometer_2Alarm)|Y|-|
 |![](TrainingBoard_Dimmer/Pictures/Album.jpg)|[AVR Training Board Exclusive For Dimmer](TrainingBoard_Dimmer)|X|X|X|
-|![](TrainingBoard_IR/Pictures/Album.jpg)|[AVR Training Board Exclusive For IR Exercises](TrainingBoard_IR)|X|X|X|
+|![](TrainingBoard_IR/Pictures/Album.jpg)|[AVR Training Board Exclusive For IR Remote Send And Receive](TrainingBoard_IR)|X|X|X|
 ||[Voltmeter_DC20V_BarGraph](Voltmeter_DC20V_BarGraph)|Y|-|
 |![](Voltmeter_DC5V_RS232/Pictures/Album.jpg)|[Accurate Voltmeter With LCD Display And Computer Monitoring](Voltmeter_DC5V_RS232)|Y|-|-|
