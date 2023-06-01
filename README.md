@@ -21,7 +21,6 @@ Note: The projects are prototype and should get better.
 |![](Calculator_LCD/Pictures/Album.jpg)|[Calculator with LCD Display](Calculator_LCD)|Y|Y|-|
 ||[Clock&Date_InternalTimer](Clock&Date_InternalTimer)|Y|-|
 ||[Clock_InternalTimer_7SegmentDisplay](Clock_InternalTimer_7SegmentDisplay)|-|Y|
-||[ControlSystems_OnOff](ControlSystems_OnOff)|-|Y|
 ||[ControlSystems_PID](ControlSystems_PID)|-|Y|
 ||[ControlSystems_PID-OnOFF](ControlSystems_PID-OnOFF)|-|Y|
 ||[Counter_2Digit_7SegmentDisplay](Counter_2Digit_7SegmentDisplay)|Y|-|
