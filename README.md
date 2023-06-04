@@ -1,15 +1,6 @@
 ## AVR Microcontroller Projects
 I'm uploading my personal projects on the repository.  
-  
 Note: The projects are prototype and should get better.  
-
-### Gallery of the Repository
-![](Voltmeter_20V_BarGraphDisplay/Simulate/Album.png)
-![](Clock_InternalTimer_7SegmentDisplay/Simulate/Album.png)
-![](ControlSystems_OnOff/Simulate/Album.png)
-![](Thermometer_2Alarm/Simulate/Album.png)
-![](ControlSystems_PID/Simulate/Album.png)
-![](ControlSystems_PID-OnOFF/Simulate/Album.png)
 
 1: Bascom AVR  
 2: CodeVision AVR  
@@ -37,8 +28,8 @@ Note: The projects are prototype and should get better.
 |![](TelCardReader/Pictures/Album.jpg)|[Tel Card Reader](TelCardReader)|Y|Y|
 |![](TextDisplay_Keyboard/Pictures/Album.jpg)|[Text Control On The LCD With A PS2 Keyboard](TextDisplay_Keyboard)|Y|Y|
 |![](TextDisplay_USB/Pictures/Album.jpg)|[Text Control On The LCD With A Computer](TextDisplay_USB)|Y|Y|
-||[Thermometer_2Alarm](Thermometer_2Alarm)|Y|-|
+|![](Thermometer_2Alarm/Simulate/Album.png)|[Thermometer_2Alarm](Thermometer_2Alarm)|Y|-|
 |![](TrainingBoard_Dimmer/Pictures/Album.jpg)|[AVR Training Board Exclusive For Dimmer](TrainingBoard_Dimmer)|X|X|X|
 |![](TrainingBoard_IR/Pictures/Album.jpg)|[AVR Training Board Exclusive For IR Remote Send And Receive](TrainingBoard_IR)|X|X|X|
-||[Voltmeter_DC20V_BarGraph](Voltmeter_DC20V_BarGraph)|Y|-|
+|![](Voltmeter_DC20V_BarGraph/Simulate/Album.png)|[Voltmeter_DC20V_BarGraph](Voltmeter_DC20V_BarGraph)|Y|-|
 |![](Voltmeter_DC5V_RS232/Pictures/Album.jpg)|[Accurate Voltmeter With LCD Display And Computer Monitoring](Voltmeter_DC5V_RS232)|Y|-|-|
