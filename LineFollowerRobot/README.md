@@ -14,6 +14,7 @@ It has included:
 - `Code_BascomAVR` (Code with Basic Language)
 - `Code_CodeVisionAVR` (Code with C Language)
 - `Hardware` (Included hardware laye
+- Pictures (Included photos samples made)
 
 ### Pictures: v1.0
 ![](Pictures/v1.0.jpg)
@@ -25,9 +26,9 @@ It has included:
 ![](Hardware/BottomBoard_v1.0.png)
 
 ### More Pictures: v1.0
-![](Pictures/p1.jpg)
-![](Pictures/p2.jpg)
-![](Pictures/p3.jpg)
+![](Pictures/v1.0_1.jpg)
+![](Pictures/v1.0_2.jpg)
+![](Pictures/v1.0_3.jpg)
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
