@@ -19,6 +19,7 @@ Note: The projects are prototype and should get better.
 |![](DigitalMeter_Ultrasonic_SRF05_LCD/Pictures/Album.jpg)|[Digital Meter With SRF05 Ultrasonic Moudle And LCD Display](DigitalMeter_Ultrasonic_SRF05_LCD)|Y|-|-|
 |![](DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD/Pictures/Album.jpg)|[Digital Water Level Meter With SRF05 Ultrasonic Moudle And LCD Display](DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD)|Y|-|
 |![](FlasherWithTriacs_16CH/Pictures/Album.jpg)|[16CH Flashing Light with Triacs](FlasherWithTriacs_16CH)|Y|-|-|
+|![](LineFollowerRobot/Pictures/Album.jpg)|[Line Follower Robot](LineFollowerRobot)|Y|Y|-|
 |![](Programer_STK200/Pictures/Album.jpg)|[STK200/STK300 Programer](Programer_STK200)|X|X|X|
 |![](Programer_USBASP/Pictures/Album.jpg)|[USBASP Programer](Programer_USBASP)|X|X|X|
 |![](RelayController_LaserPointer_1CH_ATmega8/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATmega8 AVR MCU](RelayController_LaserPointer_1CH_ATmega8)|Y|Y|

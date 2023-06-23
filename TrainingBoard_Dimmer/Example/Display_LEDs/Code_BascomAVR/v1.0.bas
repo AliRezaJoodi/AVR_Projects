@@ -1,7 +1,7 @@
 'GitHub Account: GitHub.com/AliRezaJoodi
 
 $regfile = "m16def.dat"
-$crystal = 11059200
+$crystal = 8000000
 
 Activate_led Alias 1
 Deactivate_led Alias 0
