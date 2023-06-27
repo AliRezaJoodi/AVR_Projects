@@ -4,6 +4,9 @@ MCU:		ATmega32A
 Frequency:     	8MHz    
 Display:        16x2 LCD  
 
+Note: IR receiver sensor need to a cover
+![](Pictures/Help1.jpg)
+
 Note: Included schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better 
 
@@ -27,10 +30,8 @@ It has included:
 ### Exit Panel Schematic: v1.0
 ![](Hardware/ExitPanel_v1.0.png)
 
-### More Pictures: v1.0
-![](Pictures/v1.0_1.jpg)
-![](Pictures/v1.0_2.jpg)
-![](Pictures/v1.0_3.jpg)
+### Simulate: v1.0
+![](Simulate/v1.0.png)
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
