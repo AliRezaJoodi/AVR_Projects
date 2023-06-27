@@ -18,8 +18,14 @@ It has included:
 ### Pictures: v1.0
 ![](Pictures/v1.0.jpg)
 
-### Schematic: v1.0
-![](Hardware/v1.0.png)
+### Input Panel Schematic: v1.0
+![](Hardware/InputPanel_v1.0.png)
+
+### Main Board Schematic: v1.0
+![](Hardware/MainBoard_v1.0.png)
+
+### Exit Panel Schematic: v1.0
+![](Hardware/ExitPanel_v1.0.png)
 
 ### More Pictures: v1.0
 ![](Pictures/v1.0_1.jpg)
