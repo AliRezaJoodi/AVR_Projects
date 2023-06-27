@@ -26,6 +26,7 @@ Note: The projects are prototype and should get better.
 |![](RelayController_LaserPointer_1CH_ATtiny13/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny13 AVR MCU](RelayController_LaserPointer_1CH_ATtiny13)|Y|Y|
 |![](RelayController_LaserPointer_1CH_ATtiny26/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny26 AVR MCU](RelayController_LaserPointer_1CH_ATtiny26)|Y|Y|
 |![](RelayController_LaserPointer_1CH_ATtiny2313/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny2313 AVR MCU](RelayController_LaserPointer_1CH_ATtiny2313)|Y|Y|
+|![](SmartParkingSimulator/Pictures/Album.jpg)|[Smart Parking Simulator](SmartParkingSimulator)|Y|-|-|
 |![](TelCardReader/Pictures/Album.jpg)|[Tel Card Reader](TelCardReader)|Y|Y|
 |![](TextDisplay_Keyboard/Pictures/Album.jpg)|[Text Control On The LCD With A PS2 Keyboard](TextDisplay_Keyboard)|Y|Y|
 |![](TextDisplay_USB/Pictures/Album.jpg)|[Text Control On The LCD With A Computer](TextDisplay_USB)|Y|Y|
