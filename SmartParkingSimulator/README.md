@@ -4,7 +4,7 @@ MCU:		ATmega32A
 Frequency:     	8MHz    
 Display:        16x2 LCD  
 
-Note: IR receiver sensor need to a cover
+Note: IR receiver sensor need to a cover  
 ![](Pictures/Help1.jpg)
 
 Note: Included schematic and PCB layout with Proteus  
