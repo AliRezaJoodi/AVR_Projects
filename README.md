@@ -12,7 +12,7 @@ Note: The projects are prototype and should get better.
 |![](Calculator_LCD/Pictures/Album.jpg)|[Calculator with LCD Display](Calculator_LCD)|Y|Y|-|
 ||[Clock&Date_InternalTimer](Clock&Date_InternalTimer)|Y|-|
 ||[Clock_InternalTimer_7SegmentDisplay](Clock_InternalTimer_7SegmentDisplay)|-|Y|
-|![](ConferenceTimer_ATmega32/Pictures/Album.jpg)|[ConferenceTimer With ATmega32 AVR MCU](ConferenceTimer_ATmega32)|Y|-|-|
+|![](ConferenceTimer_ATmega32/Pictures/Album.jpg)|[Conference Timer With ATmega32 AVR MCU](ConferenceTimer_ATmega32)|Y|-|-|
 ||[Counter_2Digit_7SegmentDisplay](Counter_2Digit_7SegmentDisplay)|Y|-|
 |![](DigitalMeter_Ultrasonic_SRF02_7Segment/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Module And 7 Segments Display](DigitalMeter_Ultrasonic_SRF02_7Segment)|Y|-|-|
 |![](DigitalMeter_Ultrasonic_SRF02_GLCD/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Module And GLCD Display](DigitalMeter_Ultrasonic_SRF02_GLCD)|Y|-|-|
