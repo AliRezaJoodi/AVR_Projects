@@ -19,8 +19,8 @@ Config Pinc.3 = Output : S4 Alias Portc.3 : Set S4
 Config Pinc.4 = Output : S5 Alias Portc.4 : Set S5
 Config Pinc.5 = Output : S6 Alias Portc.5 : Set S6
 
-Digit_off Alias 1
-Digit_on Alias 0
+Digit_off Alias 0
+Digit_on Alias 1
 
 Config Debounce = 30
 Config Pinb.0 = Input : Set Portb.0 : Up_key Alias Portb.0
