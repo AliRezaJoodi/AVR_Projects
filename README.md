@@ -12,7 +12,7 @@ Note: The projects are prototype and should get better.
 |![](Calculator_LCD/Pictures/Album.jpg)|[Calculator with LCD Display](Calculator_LCD)|Y|Y|-|
 ||[Clock&Date_InternalTimer](Clock&Date_InternalTimer)|Y|-|
 ||[Clock_InternalTimer_7SegmentDisplay](Clock_InternalTimer_7SegmentDisplay)|-|Y|
-|![](ClockWithInternalTimerOnLCD_Thermometer/Pictures/Album.jpg)|[Clock And Thermometer With Internal Timer And LCD Display](ClockWithInternalTimerOnLCD_Thermometer)|-|Y|-|
+|![](ClockWithInternalTimerOnLCD_Thermometer/Pictures/Album.jpg)|[Clock With Internal Timer And Thermometer On LCD Display](ClockWithInternalTimerOnLCD_Thermometer)|-|Y|-|
 |![](ConferenceTimer_ATmega8/Pictures/Album.jpg)|[Conference Timer With ATmega8 AVR MCU](ConferenceTimer_ATmega8)|Y|-|-|
 |![](ConferenceTimer_ATmega32/Pictures/Album.jpg)|[Conference Timer With ATmega32 AVR MCU](ConferenceTimer_ATmega32)|Y|-|-|
 ||[Counter_2Digit_7SegmentDisplay](Counter_2Digit_7SegmentDisplay)|Y|-|
