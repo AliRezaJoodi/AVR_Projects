@@ -1,4 +1,4 @@
-## Clock And Thermometer With Internal Timer And LCD Display
+## Clock With Internal Timer And Thermometer On LCD Display
   
 MCU:        ATmega32  
 Frequency:  8MHz  
