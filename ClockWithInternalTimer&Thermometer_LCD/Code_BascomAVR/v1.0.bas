@@ -11,13 +11,13 @@ Cls
 Config Pina.3 = Input
 
 Config Debounce = 30
-Config Pinc.0 = Input : Portc.0 = 1
-Config Pind.6 = Input : Portd.6 = 1
-Config Pind.7 = Input : Portd.7 = 1
+Config Pind.7 = Input : Portd.7 = 1 : Key_set Alias Pind.7
+Config Pinc.0 = Input : Portc.0 = 1 : Key_up Alias Pinc.0
+Config Pind.6 = Input : Portd.6 = 1 : Key_down Alias Pind.6
 
 Enable Interrupts
 Config Clock = Soft : Time$ = "23:59:50"
-Config Date = Ymd , Separator = / : Date$ = "90/12/01"
+Config Date = Ymd , Separator = / : Date$ = "23/12/01"
 
 Config Adc = Single , Prescaler = Auto , Reference = Avcc
 'Config Adc = Single , Prescaler = Auto , Reference = Internal
@@ -30,7 +30,7 @@ Dim Temp As Single
 
 Do
    Gosub Show_time
-   Debounce Pind.7 , 0 , Menu_hour , Sub
+   Debounce Key_set , 0 , Menu_hour , Sub
    Gosub Read_adc
    Gosub Show_temp
    Gosub Show_temp_reng
@@ -39,10 +39,8 @@ Loop
 End
 
 Show_time:
-Locate 1 , 1
-Lcd Time$ ; "  "
-Locate 2 , 1
-Lcd Date$ ; "  "
+Locate 1 , 1 : Lcd Time$ ; "  "
+Locate 2 , 1 : Lcd Date$ ; "  "
 Return
 
 Read_adc:
@@ -77,9 +75,9 @@ Disable Timer2
 Cls
 Locate 1 , 1 : Lcd "Hour=" ; _hour ; "       "
 Do
-   Debounce Pind.7 , 0 , Menu_min , Sub
-   Debounce Pinc.0 , 0 , Up_hour
-   Debounce Pind.6 , 0 , Downe_hour
+   Debounce Key_set , 0 , Menu_min , Sub
+   Debounce Key_up , 0 , Up_hour
+   Debounce Key_down , 0 , Downe_hour
 Loop
 Up_hour:
    Incr _hour
@@ -97,9 +95,9 @@ Menu_min:
 Cls
 Locate 1 , 1 : Lcd "Min=" ; _min ; "       "
 Do
-   Debounce Pind.7 , 0 , Menu_sec , Sub
-   Debounce Pinc.0 , 0 , Up_min
-   Debounce Pind.6 , 0 , Downe_min
+   Debounce Key_set , 0 , Menu_sec , Sub
+   Debounce Key_up , 0 , Up_min
+   Debounce Key_down , 0 , Downe_min
 Loop
 Up_min:
    Incr _min
@@ -117,17 +115,15 @@ Menu_sec:
 Cls
 Locate 1 , 1 : Lcd "Sec=" ; _sec ; "       "
 Do
-   Debounce Pind.7 , 0 , Menu_year , Sub
-   Debounce Pinc.0 , 0 , Up_sec
-   Debounce Pind.6 , 0 , Downe_sec
+   Debounce Key_set , 0 , Menu_year , Sub
+   Debounce Key_up , 0 , Up_sec
+   Debounce Key_down , 0 , Downe_sec
 Loop
 Up_sec:
-   Incr _sec
-   If _sec = 60 Then _sec = 0
+   Incr _sec : If _sec = 60 Then _sec = 0
    Goto Menu_sec
 Downe_sec:
-   Decr _sec
-   If _sec = 255 Then _sec = 59
+   Decr _sec : If _sec = 255 Then _sec = 59
    Goto Menu_sec
 Return
 
@@ -136,9 +132,9 @@ Menu_year:
 Cls
 Locate 1 , 1 : Lcd "Year=" ; _year ; "       "
 Do
-   Debounce Pind.7 , 0 , Menu_month , Sub
-   Debounce Pinc.0 , 0 , Up_year
-   Debounce Pind.6 , 0 , Downe_year
+   Debounce Key_set , 0 , Menu_month , Sub
+   Debounce Key_up , 0 , Up_year
+   Debounce Key_down , 0 , Downe_year
 Loop
 Up_year:
    Incr _year
@@ -153,17 +149,15 @@ Menu_month:
 Cls
 Locate 1 , 1 : Lcd "Month=" ; _month ; "       "
 Do
-   Debounce Pind.7 , 0 , Menu_day , Sub
-   Debounce Pinc.0 , 0 , Up_month
-   Debounce Pind.6 , 0 , Downe_month
+   Debounce Key_set , 0 , Menu_day , Sub
+   Debounce Key_up , 0 , Up_month
+   Debounce Key_down , 0 , Downe_month
 Loop
 Up_month:
-   Incr _month
-   If _month = 13 Then _month = 1
+   Incr _month : If _month = 13 Then _month = 1
    Goto Menu_month
 Downe_month:
-   Decr _month
-   If _month = 0 Then _month = 12
+   Decr _month : If _month = 0 Then _month = 12
    Goto Menu_month
 Return
 
@@ -172,20 +166,19 @@ Menu_day:
 Cls
 Locate 1 , 1 : Lcd "Day=" ; _day ; "       "
 Do
-   Debounce Pind.7 , 0 , Starter
-   Debounce Pinc.0 , 0 , Up_day
-   Debounce Pind.6 , 0 , Downe_day
+   Debounce Key_set , 0 , Starter
+   Debounce Key_up , 0 , Up_day
+   Debounce Key_down , 0 , Downe_day
 Loop
 Up_day:
-   Incr _day
-   If _day = 32 Then _day = 1
+   Incr _day : If _day = 32 Then _day = 1
    Goto Menu_day
 Return
 Downe_day:
-   Decr _day
-   If _day = 0 Then _day = 31
+   Decr _day : If _day = 0 Then _day = 31
    Goto Menu_day
 Return
+
 Starter:
    Enable Timer2
    Goto Repeat
