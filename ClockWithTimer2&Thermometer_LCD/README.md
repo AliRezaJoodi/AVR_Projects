@@ -12,6 +12,7 @@ Next Tasks:
 - [ ] When the day increases or decrease, match it with the calendar
 - [ ] Add bypass capacitors in Schematic
 - [ ] Edit PCB
+- [ ] Add a Buzzer in the Schematic
 
 ### Folder and Files Description
 It has included:
