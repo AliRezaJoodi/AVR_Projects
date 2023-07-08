@@ -8,6 +8,12 @@ Sensor:     LM35
 Note: Included schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better 
 
+Next Tasks:
+- [ ] Add CodeVisionAVR Code
+- [ ] When the day increases or decrease, match it with the calendar
+- [ ] Add bypass capacitors in Schematic
+- [ ] Edit PCB
+
 ### Folder and Files Description
 It has included:
 - `Code_BascomAVR` (Code with Basic Language)
