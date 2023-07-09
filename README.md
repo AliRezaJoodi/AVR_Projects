@@ -36,5 +36,5 @@ Note: The projects are prototype and should get better.
 |![](Thermometer_2Alarm/Simulate/Album.png)|[Thermometer_2Alarm](Thermometer_2Alarm)|Y|-|
 |![](TrainingBoard_Dimmer/Pictures/Album.jpg)|[AVR Training Board Exclusive For Dimmer](TrainingBoard_Dimmer)|X|X|X|
 |![](TrainingBoard_IR/Pictures/Album.jpg)|[AVR Training Board Exclusive For IR Remote Send And Receive](TrainingBoard_IR)|X|X|X|
-|![](Voltmeter_DC20V_BarGraph/Simulate/Album.png)|[Voltmeter_DC20V_BarGraph](Voltmeter_DC20V_BarGraph)|Y|-|
-|![](Voltmeter_DC5V_RS232/Pictures/Album.jpg)|[Accurate Voltmeter With LCD Display And Computer Monitoring](Voltmeter_DC5V_RS232)|Y|-|-|
+|![](VoltmeterWithBarGraph_DC20V_LCD/Simulate/Album.png)|[Voltmeter With BarGraph On LCD For 0-20V/DC](VoltmeterWithBarGraph_DC20V_LCD)|Y|-|
+|![](VoltmeterWithComputerMonitoring_DC5V_LCD/Pictures/Album.jpg)|[Voltmeter With Computer Monitoring And LCD Display For 0-5V/DC](VoltmeterWithComputerMonitoring_DC5V_LCD)|Y|-|-|

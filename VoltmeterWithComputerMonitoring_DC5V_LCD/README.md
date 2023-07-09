@@ -1,4 +1,4 @@
-## Accurate Voltmeter With LCD Display And Computer Monitoring
+## Voltmeter With Computer Monitoring And LCD Display For 0-5V/DC
 	   
 MCU:			ATmega32A  
 Frequency:     		11.059200MHz (External Crystal)   

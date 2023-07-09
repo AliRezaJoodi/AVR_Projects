@@ -1,5 +1,5 @@
-## 0~20V Voltmeter with Bar Displayn
-  
+## Voltmeter With BarGraph On LCD For 0-20V/DC
+ 
 MCU:        ATmega32  
 Frequency:  1.000000 MHz  
 VREF:       AVCC (5V)  
