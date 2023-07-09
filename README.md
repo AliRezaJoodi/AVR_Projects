@@ -8,33 +8,33 @@ Note: The projects are prototype and should get better.
 
 ### Table of Contents
 |Picture|Title|1|2|3|
-|:------|:----|:----:|:--------:|:----:|
+|:------|:----|:----:|:----:|:----:|
 |![](Calculator_LCD/Pictures/Album.jpg)|[Calculator with LCD Display](Calculator_LCD)|Y|Y|-|
-||[Clock_InternalTimer_7SegmentDisplay](Clock_InternalTimer_7SegmentDisplay)|-|Y|
+||[Clock_InternalTimer_7SegmentDisplay](Clock_InternalTimer_7SegmentDisplay)|-|Y|-|
 |![](ClockWithDS1307&Thermometer_LCD/Pictures/Album.jpg)|[Clock With DS1307 RTC And Thermometer On LCD Display](ClockWithDS1307&Thermometer_LCD)|Y|-|-|
 |![](ClockWithTimer2&Thermometer_LCD/Pictures/Album.jpg)|[Clock With Internal Timer And Thermometer On LCD Display](ClockWithTimer2&Thermometer_LCD)|Y|-|-|
-|![](ConferenceTimer_ATmega8/Pictures/Album.jpg)|[Conference Timer With ATmega8 AVR MCU](ConferenceTimer_ATmega8)|Y|-|-|
-|![](ConferenceTimer_ATmega32/Pictures/Album.jpg)|[Conference Timer With ATmega32 AVR MCU](ConferenceTimer_ATmega32)|Y|-|-|
-||[Counter_2Digit_7SegmentDisplay](Counter_2Digit_7SegmentDisplay)|Y|-|
-|![](DigitalMeter_Ultrasonic_SRF02_7Segment/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Module And 7 Segments Display](DigitalMeter_Ultrasonic_SRF02_7Segment)|Y|-|-|
-|![](DigitalMeter_Ultrasonic_SRF02_GLCD/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Module And GLCD Display](DigitalMeter_Ultrasonic_SRF02_GLCD)|Y|-|-|
-|![](DigitalMeter_Ultrasonic_SRF02_LCD/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Moudle And LCD Display](DigitalMeter_Ultrasonic_SRF02_LCD)|Y|Y|Y|
-|![](DigitalMeter_Ultrasonic_SRF05_LCD/Pictures/Album.jpg)|[Digital Meter With SRF05 Ultrasonic Moudle And LCD Display](DigitalMeter_Ultrasonic_SRF05_LCD)|Y|-|-|
-|![](DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD/Pictures/Album.jpg)|[Digital Water Level Meter With SRF05 Ultrasonic Moudle And LCD Display](DigitalWaterLevelMeter_Ultrasonic_SRF05_LCD)|Y|-|
+|![](ConferenceTimer_7Segment_ATmega8/Pictures/Album.jpg)|[Conference Timer With ATmega8 AVR MCU](ConferenceTimer_7Segment_ATmega8)|Y|-|-|
+|![](ConferenceTimer_7Segment_ATmega32/Pictures/Album.jpg)|[Conference Timer With ATmega32 AVR MCU](ConferenceTimer_7Segment_ATmega32)|Y|-|-|
+||[Counter_2Digit_7SegmentDisplay](Counter_2Digit_7SegmentDisplay)|Y|-|-|
+|![](DigitalMeterWithUltrasonicMoudle_SRF02_7Segment/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Module And 7 Segments Display](DigitalMeterWithUltrasonicMoudle_SRF02_7Segment)|Y|-|-|
+|![](DigitalMeterWithUltrasonicMoudle_SRF02_GLCD/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Module And GLCD Display](DigitalMeterWithUltrasonicMoudle_SRF02_GLCD)|Y|-|-|
+|![](DigitalMeterWithUltrasonicMoudle_SRF02_LCD/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Moudle And LCD Display](DigitalMeterWithUltrasonicMoudle_SRF02_LCD)|Y|Y|Y|
+|![](DigitalMeterWithUltrasonicMoudle_SRF05_LCD/Pictures/Album.jpg)|[Digital Meter With SRF05 Ultrasonic Moudle And LCD Display](DigitalMeterWithUltrasonicMoudle_SRF05_LCD)|Y|-|-|
+|![](DigitalWaterLevelMeterWithUltrasonicMoudle_SRF05_LCD/Pictures/Album.jpg)|[Digital Water Level Meter With SRF05 Ultrasonic Moudle And LCD Display](DigitalWaterLevelMeterWithUltrasonicMoudle_SRF05_LCD)|Y|-|-|
 |![](FlasherWithTriacs_16CH/Pictures/Album.jpg)|[16CH Flashing Light with Triacs](FlasherWithTriacs_16CH)|Y|-|-|
 |![](LineFollowerRobot/Pictures/Album.jpg)|[Line Follower Robot](LineFollowerRobot)|Y|Y|-|
 |![](Programer_STK200/Pictures/Album.jpg)|[STK200/STK300 Programer](Programer_STK200)|X|X|X|
 |![](Programer_USBASP/Pictures/Album.jpg)|[USBASP Programer](Programer_USBASP)|X|X|X|
-|![](RelayController_LaserPointer_1CH_ATmega8/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATmega8 AVR MCU](RelayController_LaserPointer_1CH_ATmega8)|Y|Y|
-|![](RelayController_LaserPointer_1CH_ATtiny13/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny13 AVR MCU](RelayController_LaserPointer_1CH_ATtiny13)|Y|Y|
-|![](RelayController_LaserPointer_1CH_ATtiny26/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny26 AVR MCU](RelayController_LaserPointer_1CH_ATtiny26)|Y|Y|
-|![](RelayController_LaserPointer_1CH_ATtiny2313/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny2313 AVR MCU](RelayController_LaserPointer_1CH_ATtiny2313)|Y|Y|
+|![](RelayControllerWithLaserPointer_1CH_ATmega8/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATmega8 AVR MCU](RelayControllerWithLaserPointer_1CH_ATmega8)|Y|Y|-|
+|![](RelayControllerWithLaserPointer_1CH_ATtiny13/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny13 AVR MCU](RelayControllerWithLaserPointer_1CH_ATtiny13)|Y|Y|-|
+|![](RelayControllerWithLaserPointer_1CH_ATtiny26/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny26 AVR MCU](RelayControllerWithLaserPointer_1CH_ATtiny26)|Y|Y|-|
+|![](RelayControllerWithLaserPointer_1CH_ATtiny2313/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny2313 AVR MCU](RelayControllerWithLaserPointer_1CH_ATtiny2313)|Y|Y|-|
 |![](SmartParkingSimulator/Pictures/Album.jpg)|[Smart Parking Simulator](SmartParkingSimulator)|Y|-|-|
-|![](TelCardReader/Pictures/Album.jpg)|[Tel Card Reader](TelCardReader)|Y|Y|
-|![](TextDisplay_Keyboard/Pictures/Album.jpg)|[Text Control On The LCD With A PS2 Keyboard](TextDisplay_Keyboard)|Y|Y|
-|![](TextDisplay_USB/Pictures/Album.jpg)|[Text Control On The LCD With A Computer](TextDisplay_USB)|Y|Y|
-|![](Thermometer_2Alarm/Simulate/Album.png)|[Thermometer_2Alarm](Thermometer_2Alarm)|Y|-|
-|![](TrainingBoard_Dimmer/Pictures/Album.jpg)|[AVR Training Board Exclusive For Dimmer](TrainingBoard_Dimmer)|X|X|X|
-|![](TrainingBoard_IR/Pictures/Album.jpg)|[AVR Training Board Exclusive For IR Remote Send And Receive](TrainingBoard_IR)|X|X|X|
-|![](VoltmeterWithBarGraph_DC20V_LCD/Simulate/Album.png)|[Voltmeter With BarGraph On LCD For 0-20V/DC](VoltmeterWithBarGraph_DC20V_LCD)|Y|-|
+|![](TelCardReader/Pictures/Album.jpg)|[Tel Card Reader](TelCardReader)|Y|Y|-|
+|![](TextDisplayWithPcKeyboardControlled_LCD/Pictures/Album.jpg)|[Text Control On The LCD With A PS2 Keyboard](TextDisplayWithPcKeyboardControlled_LCD)|Y|Y|-|
+|![](TextDisplayWithComputerControlled_USB_LCD/Pictures/Album.jpg)|[Text Control On The LCD With A Computer](TextDisplayWithComputerControlled_USB_LCD)|Y|Y|-|
+|![](Thermometer_2Alarm/Simulate/Album.png)|[Thermometer_2Alarm](Thermometer_2Alarm)|Y|-|-|
+|![](TrainingBoardExclusiveForDimmer/Pictures/Album.jpg)|[AVR Training Board Exclusive For Dimmer](TrainingBoardExclusiveForDimmer)|X|X|X|
+|![](TrainingBoardExclusiveForIR/Pictures/Album.jpg)|[AVR Training Board Exclusive For IR Remote Send And Receive](TrainingBoardExclusiveForIR)|X|X|X|
+|![](VoltmeterWithBarGraph_DC20V_LCD/Simulate/Album.png)|[Voltmeter With BarGraph On LCD For 0-20V/DC](VoltmeterWithBarGraph_DC20V_LCD)|Y|-|-|
 |![](VoltmeterWithComputerMonitoring_DC5V_LCD/Pictures/Album.jpg)|[Voltmeter With Computer Monitoring And LCD Display For 0-5V/DC](VoltmeterWithComputerMonitoring_DC5V_LCD)|Y|-|-|
