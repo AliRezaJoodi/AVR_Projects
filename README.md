@@ -32,7 +32,7 @@ Note: The projects are prototype and should get better.
 |![](SmartParkingSimulator/Pictures/Album.jpg)|[Smart Parking Simulator](SmartParkingSimulator)|Y|-|-|
 |![](TelCardReader/Pictures/Album.jpg)|[Tel Card Reader](TelCardReader)|Y|Y|-|
 |![](TextDisplayWithPcKeyboardControlled_LCD/Pictures/Album.jpg)|[Text Display With PS2 Keyboard Controlled](TextDisplayWithPcKeyboardControlled_LCD)|Y|Y|-|
-|![](TextDisplayWithComputerControlled_USB_LCD/Pictures/Album.jpg)|[Text Display With Computer Controlled](TextDisplayWithComputerControlled_USB_LCD)|Y|Y|-|
+|![](TextDisplayWithComputerControlled_LCD/Pictures/Album.jpg)|[Text Display With Computer Controlled](TextDisplayWithComputerControlled_LCD)|Y|Y|-|
 |![](Thermometer_2Alarm/Simulate/Album.png)|[Thermometer_2Alarm](Thermometer_2Alarm)|Y|-|-|
 |![](TrainingBoardExclusiveForDimmer/Pictures/Album.jpg)|[AVR Training Board Exclusive For Dimmer](TrainingBoardExclusiveForDimmer)|X|X|X|
 |![](TrainingBoardExclusiveForIR/Pictures/Album.jpg)|[AVR Training Board Exclusive For IR Remote Send And Receive](TrainingBoardExclusiveForIR)|X|X|X|
