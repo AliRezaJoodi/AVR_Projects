@@ -24,23 +24,27 @@ Config Adc = Single , Prescaler = Auto , Reference = Internal : Const Gain = 2.5
 Start Adc
 Const Ch_lm35 = 0
 
-Dim T As Byte : T = 0
-Dim D As Byte : D = 0
 Dim W As Word
 Dim I As Byte
-Dim Input_voltage As Single
 Dim Temp As Single
+Dim Temp_old As Single
+
 Dim Ex As Byte : Ex = 0
 Dim Task_time_1s As Byte
 Dim Task_time_set As Byte
 
 
 Do
+   Gosub Get_temp
+   If Temp <> Temp_old Then
+      Temp_old = Temp
+      Gosub Display_temp
+      Gosub Display_temp_reng
+   End If
+
    If Task_time_1s = 1 Then
       Task_time_1s = 0
       Gosub Display_time
-      Gosub Display_temp
-      Gosub Display_temp_reng
    End If
    Gosub Get_temp
 
@@ -71,8 +75,7 @@ Get_temp:
    If I = 10 Then
       I = 0
       W = W / 10
-      Input_voltage = W * Gain
-      Temp = Input_voltage / 10
+      Temp = W * Gain : Temp = Temp / 10
       W = 0
    End If
 Return

@@ -44,8 +44,9 @@ Dim _year As Byte
 
 Dim W As Word
 Dim I As Byte
-Dim Input_voltage As Single
 Dim Temp As Single
+Dim Temp_old As Single
+
 Dim Ex As Byte
 Dim Task_time_1s As Byte : Task_time_1s = 0
 Dim Task_time_set As Byte
@@ -55,13 +56,18 @@ Gosub Sound_menu
 
 Do
    Gosub Get_temp
+   If Temp <> Temp_old Then
+      Temp_old = Temp
+      Gosub Display_temp
+      Gosub Display_temperature_range
+   End If
+
    If Task_time_1s = 1 Then
       Task_time_1s = 0
       Gosub Read_of_the_ds1307
       Gosub Display_time
-      Gosub Display_temp
-      Gosub Display_temperature_range
    End If
+
    Debounce Button_set , 0 , Set_hour , Sub
    Ex = 0
 Loop
@@ -86,8 +92,7 @@ Get_temp:
    If I = 10 Then
       I = 0
       W = W / 10
-      Input_voltage = W * Gain
-      Temp = Input_voltage / 10
+      Temp = W * Gain : Temp = Temp / 10
       W = 0
    End If
 Return
