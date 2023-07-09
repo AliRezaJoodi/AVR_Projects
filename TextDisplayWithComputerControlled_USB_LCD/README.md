@@ -1,4 +1,5 @@
-## Text Control On The LCD With A Computer
+## Text Display With Computer Controlled And A 16*2 LCD Display
+
 Frame format is
 |Line Command|Text|End Chr|Description|
 |:-----------|:---|:------|:----------|
