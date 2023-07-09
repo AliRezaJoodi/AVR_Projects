@@ -11,6 +11,7 @@ Note: The projects are prototype and should get better.
 |:------|:----|:----:|:----:|:----:|
 |![](Calculator_LCD/Pictures/Album.jpg)|[Calculator with LCD Display](Calculator_LCD)|Y|Y|-|
 ||[Clock_InternalTimer_7SegmentDisplay](Clock_InternalTimer_7SegmentDisplay)|-|Y|-|
+|![](ClockWithDS1307&Thermometer&Voltmeter_LCD/Pictures/Album.jpg)|[Clock With DS1307 RTC, Thermometer And Voltmeter On LCD Display](ClockWithDS1307&Thermometer&Voltmeter_LCD)|Y|-|-|
 |![](ClockWithDS1307&Thermometer_LCD/Pictures/Album.jpg)|[Clock With DS1307 RTC And Thermometer On LCD Display](ClockWithDS1307&Thermometer_LCD)|Y|-|-|
 |![](ClockWithTimer2&Thermometer_LCD/Pictures/Album.jpg)|[Clock With Internal Timer And Thermometer On LCD Display](ClockWithTimer2&Thermometer_LCD)|Y|-|-|
 |![](ConferenceTimer_7Segment_ATmega8/Pictures/Album.jpg)|[Conference Timer With ATmega8 AVR MCU](ConferenceTimer_7Segment_ATmega8)|Y|-|-|
