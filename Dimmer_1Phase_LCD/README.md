@@ -1,12 +1,13 @@
-## 1-Phase Dimmer with LCD Display
+## Single Phase Dimmer with LCD Display
 A PWM pulse synchronized with zero crossing.
  
 MCU:        	ATmega32  
 Frequency:  	4MHz  
 Timer0:		PWM Mode with inverted output  
-External INT0:	Rising Mode
+External INT0:	Rising Edge Mode
 	
 Note: INT0 used for end to the timer0 task		
+Note: Used of a MOC3021 for TRIAC gate driver 
 
 ### Pictures: v1.x
 ![](Pictures/v1.x.jpg)
