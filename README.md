@@ -22,6 +22,7 @@ Note: The projects are prototype and should get better.
 |![](DigitalMeterWithUltrasonicMoudle_SRF02_LCD/Pictures/Album.jpg)|[Digital Meter With SRF02 Ultrasonic Moudle And LCD Display](DigitalMeterWithUltrasonicMoudle_SRF02_LCD)|Y|Y|Y|
 |![](DigitalMeterWithUltrasonicMoudle_SRF05_LCD/Pictures/Album.jpg)|[Digital Meter With SRF05 Ultrasonic Moudle And LCD Display](DigitalMeterWithUltrasonicMoudle_SRF05_LCD)|Y|-|-|
 |![](DigitalWaterLevelMeterWithUltrasonicMoudle_SRF05_LCD/Pictures/Album.jpg)|[Digital Water Level Meter With SRF05 Ultrasonic Moudle And LCD Display](DigitalWaterLevelMeterWithUltrasonicMoudle_SRF05_LCD)|Y|-|-|
+|![](Dimmer_1Phase_LCD/Pictures/Album.jpg)|[Single Phase Dimmer with LCD Display](Dimmer_1Phase_LCD)|-|Y|-|
 |![](FlasherWithTriacs_16CH/Pictures/Album.jpg)|[16CH Flashing Light with Triacs](FlasherWithTriacs_16CH)|Y|-|-|
 |![](LineFollowerRobot/Pictures/Album.jpg)|[Line Follower Robot](LineFollowerRobot)|Y|Y|-|
 |![](Programer_STK200/Pictures/Album.jpg)|[STK200/STK300 Programer](Programer_STK200)|X|X|X|
