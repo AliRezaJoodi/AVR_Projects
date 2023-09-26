@@ -9,7 +9,7 @@ Frame format is
 MCU:			ATmega32A  
 Frequency:     		11.059200MHz (External Crystal)   
 Display:        	16x2 LCD        
-Computer Interfacing:	UART to USB Converter  
+Computer Interfacing:	UART to USB Converter with FT232BL and FT232RL 
 Computer Software:	VB6	
 
 Note: Included schematic and PCB layout with Proteus  
