@@ -33,8 +33,8 @@ Note: The projects are prototype and should get better.
 |![](RelayControllerWithLaserPointer_1CH_ATtiny2313/Pictures/Album.jpg)|[1CH Relay Controller with Laser Pointer And ATtiny2313 AVR MCU](RelayControllerWithLaserPointer_1CH_ATtiny2313)|Y|Y|-|
 |![](SmartParkingSimulator/Pictures/Album.jpg)|[Smart Parking Simulator](SmartParkingSimulator)|Y|-|-|
 |![](TelCardReader/Pictures/Album.jpg)|[Tel Card Reader](TelCardReader)|Y|Y|-|
-|![](TextDisplayWithPcKeyboardControlled_LCD/Pictures/Album.jpg)|[Text Display With PS2 Keyboard Controlled](TextDisplayWithPcKeyboardControlled_LCD)|Y|Y|-|
-|![](TextDisplayWithComputerControlled_LCD/Pictures/Album.jpg)|[Text Display With Computer Controlled](TextDisplayWithComputerControlled_LCD)|Y|Y|-|
+|![](TextDisplayWithLCD16x2_ControlledByPcKeyboard/Pictures/Album.jpg)|[Text Display With 16*2 LCD and Controlled By PC Keyboard](TextDisplayWithLCD16x2_ControlledByPcKeyboard)|Y|Y|-|
+|![](TextDisplayWithLCD16x2_ControlledByComputer/Pictures/Album.jpg)|[Text Display With 16*2 LCD and Controlled By Computer](TextDisplayWithLCD16x2_ControlledByComputer)|Y|Y|-|
 |![](Thermometer_2Alarm/Simulate/Album.png)|[Thermometer_2Alarm](Thermometer_2Alarm)|Y|-|-|
 |![](TrainingBoardExclusiveForDimmer/Pictures/Album.jpg)|[AVR Training Board Exclusive For Dimmer](TrainingBoardExclusiveForDimmer)|X|X|X|
 |![](TrainingBoardExclusiveForIR/Pictures/Album.jpg)|[AVR Training Board Exclusive For IR Remote Send And Receive](TrainingBoardExclusiveForIR)|X|X|X|
