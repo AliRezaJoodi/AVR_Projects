@@ -1,6 +1,6 @@
 ## Tel Card Reader 	   
 
-MCU:		ATmega32A 
+MCU:		ATmega32A  
 Frequency:     	8MHz (External Crystal)   
 Display:        16x2 LCD   
 
