@@ -8,7 +8,7 @@
 '*********************************************
 
 $regfile = "m8def.dat"
-$crystal = 1000000
+$crystal = 8000000
 
 Config Portb = Output
 Config Portc = Output
