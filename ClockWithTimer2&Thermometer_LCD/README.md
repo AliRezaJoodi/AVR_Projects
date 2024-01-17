@@ -2,11 +2,13 @@
   
 MCU:        ATmega32  
 Frequency:  8MHz  
-Display:    16x2 Character LCD  
+Display:    16x2 Character LCD
+Timer: Internal Timer (Timer2)    
 Sensor:     LM35     
 
-Note: Included schematic and PCB layout with Proteus  
-Note: It's a prototype and should get better 
+Note: Included simulator, schematic and PCB layout with Proteus.  
+Note: It's a prototype and should get better. 
+Note: It's not usable because when the MCU resets the clock value will be lost.  
 
 Next Tasks:
 - [ ] When the day increases or decrease, match it with the calendar

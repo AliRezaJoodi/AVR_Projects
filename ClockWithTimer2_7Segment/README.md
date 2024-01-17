@@ -3,9 +3,12 @@
 MCU:        ATmega32  
 Frequency:  8MHz  
 Display:    4-Digit 7-Segment  
+Timer: Internal Timer (Timer2)  
 
-Note: It use of the Timer2 in asynchronous mode  
-Note: It's a practice and no good for use  
+Note: It use of the Timer2 in asynchronous mode.  
+Note: Included Simulator with Proteus.  
+Note: This is just an exercise example.  
+Note: It's not usable because when the MCU resets the clock value will be lost.  
 
 ### Folder and Files Description
 It has included:
