@@ -5,6 +5,7 @@ Frequency:     	8MHz (Intrenal RC)
 Display:        7-Segment  
 
 Note: Included schematic with Proteus  
+Note: Included simulation with Proteus  
 Note: It's a prototype and should get better 
 
 ### Folder and Files Description

@@ -5,7 +5,8 @@ Frequency:     	8MHz
 Display:        7-Segment  
 
 Note: Included schematic and PCB layout with Proteus  
-Note: It's a prototype and should get better 
+Note: Included simulation with Proteus  
+Note: It's a prototype and should get better  
 
 ### Folder and Files Description
 It has included:
