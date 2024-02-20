@@ -1,15 +1,7 @@
-'*********************************************
-'* This Program Writing By : Hossein Lachini *
-'* The Persian LED Sign Board                *
-'* For to get more details visit :           *
-'*                 www.HLachini.com          *
-'* Contact to me by : eLachini@Gmail.com     *
-'* Mobile/SMS : +98 912 381 2060             *
-'*********************************************
+'GitHub Account: GitHub.com/AliRezaJoodi
 
-'$regfile = "m16def.dat"
-$regfile = "m8535.dat"
-$crystal = 4000000
+$regfile = "m16def.dat"
+$crystal = 8000000
 
 Config Porta = Output
 
@@ -33,18 +25,6 @@ Config Portb.1 = Output : Portb.1 = 0
 
 
 Do
-
-
-' _    _  _    _  _    _     _   _  _      _____   _____   _   _  _  __   _  _      _____   _____   _    _
-'| |  | || |  | || |  | |   | | | || |    /  _  \ /  _  \ | | | || ||  \ | || |    /  _  \ /  _  \ | \  / |
-'| |/\| || |/\| || |/\| |   | |_| || |    | |_| | | | |_| | |_| || ||   \| || |    | | |_| | | | | |  \/  |
-'|      ||      ||      |   |  _  || |    |  _  | | |  _  |  _  || ||      || |    | |  _  | | | | |      |
-'|  /\  ||  /\  ||  /\  | _ | | | || |___ | | | | | |_| | | | | || || |\   || | _  | |_| | | |_| | | |\/| |
-'|_/  \_||_/  \_||_/  \_||_||_| |_||_____||_| |_| \_____/ |_| |_||_||_| \__||_||_| \_____/ \_____/ |_|  |_|
-' +---------------------------+
-' | Scrolling Text00 to Left  |
-' +---------------------------+
-
  For S = 0 To 48
   E = S + 7
 
