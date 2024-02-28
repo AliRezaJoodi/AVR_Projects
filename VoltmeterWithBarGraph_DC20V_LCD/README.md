@@ -5,6 +5,8 @@ Frequency:  1.000000 MHz
 VREF:       AVCC (5V)  
 Display:    16x2 Character LCD
 
+Note: Included simulator, schematic and PCB layout with Proteus.
+
 ### Folder and Files Description
 It has included:
 - `Code_BascomAVR` (Code with Basic Language)
