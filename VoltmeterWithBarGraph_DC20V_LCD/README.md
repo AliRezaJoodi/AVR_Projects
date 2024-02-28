@@ -1,4 +1,4 @@
-## Voltmeter With BarGraph On LCD For 0-20V/DC
+## 0-20V/DC Voltmeter With BarGraph On LCD Display
  
 MCU:        ATmega32  
 Frequency:  1.000000 MHz  
