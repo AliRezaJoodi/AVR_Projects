@@ -1,11 +1,11 @@
-## Voltmeter With Computer Monitoring And LCD Display For 0-5V/DC
+## 0-5V/DC Voltmeter with Computer Monitoring and LCD Display
 	   
 MCU:			ATmega32A  
 Frequency:     		11.059200MHz (External Crystal)   
 Display:        	16x2 LCD        
 Computer Interfacing:	UART to RS232 Converter  
-Computer Software:	VB6  
 Input Voltage: 		0~5V DC  
+Computer Software:	VB6  
 
 Note: Frame format is String.  
 Note: Included schematic and PCB layout with Proteus.  
