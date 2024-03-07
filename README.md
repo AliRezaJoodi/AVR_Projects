@@ -14,6 +14,7 @@ Note: The projects are prototype and should get better.
 |![](ClockWithDS1307&Thermometer_LCD/Pictures/Album.jpg)			|[Clock With DS1307 RTC And Thermometer On LCD Display](ClockWithDS1307&Thermometer_LCD)					|Y|-|-|
 |![](ClockWithTimer2&Thermometer_LCD/Pictures/Album.jpg)			|[Clock With Internal Timer And Thermometer On LCD Display](ClockWithTimer2&Thermometer_LCD)					|Y|-|-|
 |![](ClockWithTimer2_7Segment/Simulate/Album.png)				|[Clock With Timer2 On 7Segment Display](ClockWithTimer2_7Segment)								|Y|Y|-|
+|![](CodeLockWithTelCard_LCD/Pictures/Album.png)				|[CodeLock With TelCard and LCD Display](CodeLockWithTelCard_LCD)								|Y|-|-|
 |![](ConferenceTimer_7Segment_ATmega8/Pictures/Album.jpg)			|[Conference Timer With ATmega8 AVR MCU](ConferenceTimer_7Segment_ATmega8)							|Y|-|-|
 |![](ConferenceTimer_7Segment_ATmega32/Pictures/Album.jpg)			|[Conference Timer With ATmega32 AVR MCU](ConferenceTimer_7Segment_ATmega32)							|Y|-|-|
 |![]()										|[Counter_2Digit_7SegmentDisplay](Counter_2Digit_7SegmentDisplay)								|Y|-|-|
