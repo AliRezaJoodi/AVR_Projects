@@ -1,0 +1,1 @@
+**Note**: [You can go here to see a code for the hardware](https://github.com/AliRezaJoodi/AVR_Projects/tree/main/CodeLockWithTelCard_LCD/Code_BascomAVR)
