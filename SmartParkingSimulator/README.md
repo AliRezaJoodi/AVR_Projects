@@ -1,4 +1,4 @@
-## Smart Parking Simulator 	   
+## Smart Parking Simulator
 
 MCU:		ATmega32A  
 Frequency:     	8MHz    
@@ -7,8 +7,8 @@ Display:        16x2 LCD
 Note: IR receiver sensor need to a cover  
 ![](Pictures/Help1.jpg)
 
-Note: Included schematic and PCB layout with Proteus  
-Note: It's a prototype and should get better 
+Note: Included simulator, schematic and PCB layout with Proteus.  
+Note: It's a prototype and should get better.  
 
 ### Folder and Files Description
 It has included:
