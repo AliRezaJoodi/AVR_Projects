@@ -1,4 +1,4 @@
-## Code Lock With TelCard and LED Display	   
+## Code Lock With TelCard
 
 MCU:		ATmega32A     
 
