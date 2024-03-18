@@ -14,6 +14,7 @@ Note: The projects are prototype and should get better.
 |![](ClockWithDS1307&Thermometer_LCD/Pictures/Album.jpg)			|[Clock With DS1307 RTC And Thermometer On LCD Display](ClockWithDS1307&Thermometer_LCD)					|Y|-|-|
 |![](ClockWithTimer2&Thermometer_LCD/Pictures/Album.jpg)			|[Clock With Internal Timer And Thermometer On LCD Display](ClockWithTimer2&Thermometer_LCD)					|Y|-|-|
 |![](ClockWithTimer2_7Segment/Simulate/Album.png)				|[Clock With Timer2 On 7Segment Display](ClockWithTimer2_7Segment)								|Y|Y|-|
+|![](CodeLockWithRFID_LCD/Pictures/Album.jpg)					|[Code Lock With RFID (125KHz) And LCD Display](CodeLockWithRFID_LCD)								|Y|-|-|
 |![](CodeLockWithRFID_LED/Pictures/Album.jpg)					|[Code Lock With RFID (125KHz)](CodeLockWithRFID_LED)										|Y|-|-|
 |![](CodeLockWithTelCard_LCD/Pictures/Album.jpg)				|[Code Lock With TelCard and LCD Display](CodeLockWithTelCard_LCD)								|Y|-|-|
 |![](CodeLockWithTelCard_LED/Pictures/Album.jpg)				|[Code Lock With TelCard](CodeLockWithTelCard_LED)										|Y|Y|-|

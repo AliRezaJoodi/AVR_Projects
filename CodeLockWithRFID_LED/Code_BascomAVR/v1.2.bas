@@ -1,5 +1,6 @@
 'GitHub Account: GitHub.com/AliRezaJoodi
-$regfile = "m16def.dat"
+
+$regfile = "m32def.dat"
 $crystal = 11059200
 
 $baud = 9600
