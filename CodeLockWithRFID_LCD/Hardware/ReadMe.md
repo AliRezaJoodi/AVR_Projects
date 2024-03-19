@@ -1,6 +1,6 @@
 ### Description
 
-v1.0:
+v1.1:
 - Changed LCD pins
 - Included schematic and PCB layout
 - Last opened with Proteus 8 Professional v8.13 SP0
