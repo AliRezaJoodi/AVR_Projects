@@ -29,8 +29,8 @@ Note: The projects are prototype and should get better.
 |![](Dimmer_1Phase_LCD/Pictures/Album.jpg)					|[Single Phase Dimmer with LCD Display](Dimmer_1Phase_LCD)									|-|Y|-|
 |![](FlasherWithTriacs_16CH/Pictures/Album.jpg)					|[16CH Flashing Light with Triacs](FlasherWithTriacs_16CH)									|Y|-|-|
 |![](LineFollowerRobot/Pictures/Album.jpg)					|[Line Follower Robot](LineFollowerRobot)											|Y|Y|-|
-|![](Programer_STK200/Pictures/Album.jpg)					|[STK200/STK300 Programer](Programer_STK200)											|X|X|X|
-|![](Programer_USBASP/Pictures/Album.jpg)					|[USBASP Programer](Programer_USBASP)												|X|X|X|
+|![](Programmer_STK200/Pictures/Album.jpg)					|[STK200/STK300 Programmer](Programmer_STK200)											|X|X|X|
+|![](Programmer_USBASP/Pictures/Album.jpg)					|[USBASP Programmer](Programmer_USBASP)												|X|X|X|
 |![](RelayControllerWithLaserPointer_1CH_ATmega8/Pictures/Album.jpg)		|[1CH Relay Controller with Laser Pointer And ATmega8 AVR MCU](RelayControllerWithLaserPointer_1CH_ATmega8)			|Y|Y|-|
 |![](RelayControllerWithLaserPointer_1CH_ATtiny13/Pictures/Album.jpg)		|[1CH Relay Controller with Laser Pointer And ATtiny13 AVR MCU](RelayControllerWithLaserPointer_1CH_ATtiny13)			|Y|Y|-|
 |![](RelayControllerWithLaserPointer_1CH_ATtiny26/Pictures/Album.jpg)		|[1CH Relay Controller with Laser Pointer And ATtiny26 AVR MCU](RelayControllerWithLaserPointer_1CH_ATtiny26)			|Y|Y|-|
