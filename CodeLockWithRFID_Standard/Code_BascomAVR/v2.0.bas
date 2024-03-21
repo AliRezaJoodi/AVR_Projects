@@ -1,3 +1,5 @@
+'GitHub Account: GitHub.com/AliRezaJoodi
+
 $regfile = "m8def.dat"
 $crystal = 11059200
 

@@ -1,3 +1,5 @@
+'GitHub Account: GitHub.com/AliRezaJoodi
+
 $regfile = "ATtiny2313.DAT"
 $crystal = 8000000
 
