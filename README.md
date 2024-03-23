@@ -14,9 +14,10 @@ Note: The projects are prototype and should get better.
 |![](ClockWithDS1307&Thermometer_LCD/Pictures/Album.jpg)			|[Clock With DS1307 RTC And Thermometer On LCD Display](ClockWithDS1307&Thermometer_LCD)					|Y|-|-|
 |![](ClockWithTimer2&Thermometer_LCD/Pictures/Album.jpg)			|[Clock With Internal Timer And Thermometer On LCD Display](ClockWithTimer2&Thermometer_LCD)					|Y|-|-|
 |![](ClockWithTimer2_7Segment/Simulate/Album.png)				|[Clock With Timer2 On 7Segment Display](ClockWithTimer2_7Segment)								|Y|Y|-|
-|![](CodeLockWithRFID_Standard/Hardware/Album.png)				|[Code Lock With RFID (125KHz)](CodeLockWithRFID_Standard)									|Y|-|-|
+|![](CodeLockWithKeypad4x4/Pictures/Album.jpg)					|[Code Lock With 4x4 Keypad](CodeLockWithKeypad4x4)										|Y|-|-|
 |![](CodeLockWithRFID_LCD/Pictures/Album.jpg)					|[Code Lock With RFID (125KHz) And LCD Display](CodeLockWithRFID_LCD)								|Y|-|-|
 |![](CodeLockWithRFID_LED/Pictures/Album.jpg)					|[Code Lock With RFID (125KHz)](CodeLockWithRFID_LED)										|Y|-|-|
+|![](CodeLockWithRFID_Standard/Hardware/Album.png)				|[Code Lock With RFID (125KHz)](CodeLockWithRFID_Standard)									|Y|-|-|
 |![](CodeLockWithTelCard_LCD/Pictures/Album.jpg)				|[Code Lock With TelCard and LCD Display](CodeLockWithTelCard_LCD)								|Y|-|-|
 |![](CodeLockWithTelCard_LED/Pictures/Album.jpg)				|[Code Lock With TelCard](CodeLockWithTelCard_LED)										|Y|Y|-|
 |![](ConferenceTimer_7Segment_ATmega8/Pictures/Album.jpg)			|[Conference Timer With ATmega8 AVR MCU](ConferenceTimer_7Segment_ATmega8)							|Y|-|-|
