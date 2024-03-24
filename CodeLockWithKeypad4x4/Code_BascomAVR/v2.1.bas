@@ -3,16 +3,7 @@
 $regfile = "m16def.dat"
 $crystal = 11059200
 
-Config Lcdpin = Pin , Db4 = Pina.4 , Db5 = Pina.5 , Db6 = Pina.6 , Db7 = Pina.7 , E = Pina.2 , Rs = Pina.0
-Config Lcd = 16 * 2
-Cursor Off
-Cls
-
-Config Kbd = Portb , Debounce = 50 , Delay = 150
-
-Config Pind.6 = Input : Portd.6 = 1 : Key Alias Pind.6
-Config Portd.5 = Output : Portd.5 = 0 : Buzzer Alias Pind.5
-Config Portc.3 = Output : Portc.3 = 0 : Relay Alias Portc.3
+$include "Attachment\Hardware_Model2_v1.0_A.inc"
 
 Dim Pass As String * 8
 Dim Pass_eeprom As Eram String * 8
@@ -116,6 +107,8 @@ Loop
 
 End
 
+$include "Attachment\Hardware_Model2_v1.0_B.inc"
+
 '**********************************
 Display_menu1:
    Cls : Cursor On : Cursor Blink
@@ -176,7 +169,3 @@ Setting_default:
    Locate 2 , 1 : Lcd "Pass=1111"
    Wait 1 : Cls
 Return
-
-'**********************************
-Read_key:
-Data 1 , 4 , 7 , 15 , 2 , 5 , 8 , 0 , 3 , 6 , 9 , 13 , 10 , 11 , 14 , 12 , 16
