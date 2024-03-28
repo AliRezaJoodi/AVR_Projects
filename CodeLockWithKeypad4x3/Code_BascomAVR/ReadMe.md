@@ -1,7 +1,6 @@
 ### Description
 
-v2.1:
-- Changed Menu
+v1.3:
 - Last opened with BascomAVR v2.0.7.5
 
 v1.0:
