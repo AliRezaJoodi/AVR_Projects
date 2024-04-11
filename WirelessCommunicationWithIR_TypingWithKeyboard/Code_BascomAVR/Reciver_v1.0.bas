@@ -1,6 +1,6 @@
 'GitHub Account: GitHub.com/AliRezaJoodi
 
-$regfile = "M16def.dat"
+$regfile = "M32def.dat"
 $crystal = 11059200
 
 Config Lcdpin = Pin , Db4 = Porta.4 , Db5 = Porta.5 , Db6 = Porta.6 , Db7 = Porta.7 , E = Porta.2 , Rs = Porta.0
