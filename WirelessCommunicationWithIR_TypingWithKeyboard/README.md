@@ -1,4 +1,4 @@
-## Wireless Communication With IR, Typing With Keyboard
+## Wireless Communication With IR, Typing With PS2 Keyboard
 
 MCU:		ATmega32A  
 Display:    	16x2 Character LCD  
