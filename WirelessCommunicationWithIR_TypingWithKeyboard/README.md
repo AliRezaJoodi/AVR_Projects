@@ -1,4 +1,4 @@
-## Wireless Communication With IR, Typing With PS2 Keyboard
+## Wireless Communication With IR, From MCU to MCU, Typing With PS2 Keyboard
 
 MCU:		ATmega32A  
 Display:    	16x2 Character LCD  
@@ -16,14 +16,14 @@ It has included:
 ### Pictures: Transfer_v1.0
 ![](Pictures/Transfer_v1.0.jpg)
 
-### Pictures: Resiver_v1.0
-![](Pictures/Resiver_v1.0.jpg)
+### Pictures: Receiver_v1.0
+![](Pictures/Receiver_v1.0.jpg)
 
 ### Schematic: Transfer_v1.0
 ![](Hardware/Transfer_v1.0.png)
 
-### Schematic: Resiver_v1.0
-![](Hardware/Resiver_v1.0.png)
+### Schematic: Receiver_v1.0
+![](Hardware/Receiver_v1.0.png)
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
