@@ -49,5 +49,5 @@ Note: The projects are prototype and should get better.
 |![](TrainingBoardExclusiveForIR/Pictures/Album.jpg)				|[AVR Training Board Exclusive For IR Remote Send And Receive](TrainingBoardExclusiveForIR)					|X|X|X|
 |![](VoltmeterWithBarGraph_DC20V_LCD/Simulate/Album.png)			|[Voltmeter With BarGraph On LCD For 0-20V/DC](VoltmeterWithBarGraph_DC20V_LCD)							|Y|-|-|
 |![](VoltmeterWithComputerMonitoring_DC5V_LCD/Pictures/Album.jpg)		|[Voltmeter With Computer Monitoring And LCD Display For 0-5V/DC](VoltmeterWithComputerMonitoring_DC5V_LCD)			|Y|-|-|
-|![](WirelessCommunicationWithIR_TypingWithKeyboard/Pictures/Album.jpg)		|[Wireless Communication With IR Also Typing With Keyboard](WirelessCommunicationWithIR_TypingWithKeyboard)			|Y|-|-|
+|![](WirelessCommunicationWithIR_TypingWithKeyboard/Pictures/Album.jpg)		|[Wireless Communication With IR, From MCU to MCU, Typing With PS2 Keyboard](WirelessCommunicationWithIR_TypingWithKeyboard)			|Y|-|-|
 
