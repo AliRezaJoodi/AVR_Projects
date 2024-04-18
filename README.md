@@ -32,7 +32,7 @@ Note: The projects are prototype and should get better.
 |![](Dimmer_1Phase_LCD/Pictures/Album.jpg)					|[Single Phase Dimmer with LCD Display](Dimmer_1Phase_LCD)									|-|Y|-|
 |![](FlasherWithTriacs_16CH/Pictures/Album.jpg)					|[16CH Flashing Light with Triacs](FlasherWithTriacs_16CH)									|Y|-|-|
 |![](LineFollowerRobot/Pictures/Album.jpg)					|[Line Follower Robot](LineFollowerRobot)											|Y|Y|-|
-|![](PhoneBook_AT24C512/Pictures/Album.jpg)					|[Phone Book with External EEPROM AT24C512](PhoneBookWithDialer_AT24C512)							|Y|-|-|
+|![](PhoneBook_AT24C512/Pictures/Album.jpg)					|[Phone Book with External EEPROM AT24C512](PhoneBook_AT24C512)									|Y|-|-|
 |![](PhoneBookWithDialer/Pictures/Album.jpg)					|[Phone Book With Dialer](PhoneBookWithDialer)											|Y|-|-|
 |![](Programmer_STK200/Pictures/Album.jpg)					|[STK200/STK300 Programmer](Programmer_STK200)											|X|X|X|
 |![](Programmer_USBASP/Pictures/Album.jpg)					|[USBASP Programmer](Programmer_USBASP)												|X|X|X|
