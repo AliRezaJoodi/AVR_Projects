@@ -1,4 +1,4 @@
-## Phone Book with Dialer, External EEPROM with AT24C512
+## Phone Book With External EEPROM AT24C512
 
 MCU:		ATmega16A  
 Display:    	16x2 Character LCD
