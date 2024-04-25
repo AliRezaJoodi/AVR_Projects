@@ -52,8 +52,8 @@ Sending_data:
    If T > 9 Then
       Stop Timer0
       Print Address ; Status_string ; Data_string
-   Start Timer0
-   T = 0
+      Start Timer0
+      T = 0
    End If
 Return
 
