@@ -25,7 +25,7 @@ It has included:
 ### Pictures: Receiver_v1.0
 ![](Pictures/Receiver_v1.0.jpg)
 
-Software: v1.0
+### Software: v1.0
 ![](Code_VB6/v1.0.png)
 
 ### Schematic: TransferWithFT232BL_v1.0
