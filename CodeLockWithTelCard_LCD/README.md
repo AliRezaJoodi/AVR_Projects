@@ -1,4 +1,4 @@
-## Code Lock With TelCard and LCD Display	   
+## Code Lock With TelCard, Display with 16x2 LCD, Based on AVR MCU	   
 
 MCU:		ATmega32A   
 Display:        16x2 LCD   
