@@ -1,5 +1,5 @@
 
-### AVR Microcontroller Projects
+### Personal Projects, Based on AVR MCU, Open Source
 
 <table>
   <tr>
