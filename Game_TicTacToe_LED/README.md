@@ -1,4 +1,4 @@
-## Tic Tac Toe Game, Display with LED 	   
+## Tic Tac Toe Game, Display with LED 
 
 MCU:		ATmega16A  
 Frequency:     	8MHz  
