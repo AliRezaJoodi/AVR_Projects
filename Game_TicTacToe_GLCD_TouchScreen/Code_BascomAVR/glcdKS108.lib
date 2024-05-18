@@ -1,0 +1,401 @@
+Copyright = Mcs Electronics
+Www = Http ://Www.mcselec.com
+Email = Avr@mcselec.com
+Comment = KS0108 Graphic Display Library for 128 * 64
+Libversion = 1.00
+Date = 1 Okt 2003
+Statement = No Source Code From The Library May Be Distributed In Any Form
+Statement = Of Course This Does Not Apply For The Compiled Code When You Have A Bascom -avr License
+History= special thanks to Bob Gardner who got me a display
+
+
+[_GLCD]
+$EXTERNAL _LPMBYTE
+_set_display:
+  Clr r20
+  rcall _SelChip
+* Cbi _glcd_portm , _glcd_reset ; Reset
+* Sbi _glcd_portm , _glcd_rd
+* Cbi _glcd_portm, _glcd_enable
+
+  Ldi r24,100                      ; reset 100 mS
+  Clr R25
+* Call _waitms
+  ser r25
+* Out _glcd_port_ddr , R25          ; Make Output Port
+* Sbi _glcd_portm , _glcd_reset ; Reset High
+_set_display1:
+   Rcall _gRead_Status
+   sbrc r1,4
+   rjmp _set_display1
+   rcall _Init_display
+   ser r20
+   rcall _SelChip
+_Init_display:
+  ldi r24,$3F
+  rcall _gwrite_cmd
+  ldi r24,$C0
+  rcall _gwrite_cmd
+  ldi r24,$40
+  rcall _gwrite_cmd
+  ldi r24,$B8
+  rcall _gwrite_cmd
+ret
+
+
+_selChip:
+  Cpi r20,64                                         ; check column
+  Brlo _selChip2                                     ; smaller then 64
+_selChip1:
+* sbi _glcd_portm , _glcd_ce                         ; select the SECOND chip
+* cbi _glcd_portm , _glcd_ce2
+  subi r20,64
+  ret
+_selChip2:                                            ; do not confuse labelname with CHIP
+* sbi _glcd_portm , _glcd_ce2
+* cbi _glcd_portm , _glcd_ce                         ; select the FIRST chip
+ret
+
+
+_gwrite_cmd:
+* Cbi _glcd_portm , _glcd_cd            ; Command
+Rjmp _Gwrite_DataMisc                   ; same code
+
+_gwrite_data:
+* Sbi _glcd_portm , _glcd_cd            ; Data
+_gwrite_datamisc:
+  @genus(5)
+* Out _glcd_port , R24                  ; Write
+* Cbi _glcd_portm , _glcd_rd            ; Write Low
+* Sbi _glcd_portm , _glcd_enable        ; Enable Chip
+  @genus(1)
+* Cbi _glcd_portm , _glcd_enable            ; Disable Chip
+ ;rcall _gRead_Status
+Ret
+
+
+
+_gRead_Status:
+* Cbi _glcd_portm , _glcd_cd            ; Status
+  Rcall _gRead_data1
+  sbrc r1,7
+  rjmp _gRead_Status
+Ret
+
+_gRead_data:
+* Sbi _glcd_portm , _glcd_cd            ; Data
+_gRead_data1:
+  clr r25
+* Out _glcd_port_ddr, R25               ; read direction
+  Ser r25
+* Out _glcd_port , R25                  ; read pull ups high
+  @genus(5)
+* Sbi _glcd_portm , _glcd_rd            ; read High
+* Sbi _glcd_portm , _glcd_enable        ; Enable Chip
+  @genus(2)
+* In r1, _glcd_port_in                  ; get byte
+* Cbi _glcd_portm , _glcd_enable        ; Disable Chip
+* Out _glcd_port_ddr, R25               ; write direction
+ret
+
+
+;there is no difference between clear text and clear graphics!
+_clear_graph:
+_clear_text:
+  clr r20
+  rcall _selchip
+  rcall _clear_graph3
+  ser r20
+  rcall _selchip
+_clear_graph3:
+  Ldi r16, 0  ; 8 pages
+_clear_graph2:
+  Ldi r24,64
+  Rcall _gwrite_cmd        ; address 0
+  Ldi r24,&B10111000       ; page 0
+  Add r24,r16
+  Rcall _gwrite_cmd
+  Ldi r17,64
+
+_clear_graph1:
+  CLr r24
+  rcall _GWrite_data                    ; write 0
+  Dec r17
+  Brne _clear_graph1                    ; write 64 times
+  Inc r16
+  Cpi r16,8
+  Brne _clear_graph2
+ret
+
+;character in r24
+;in order to draw multiple fontsizes the fontdata stores the
+;number of bytes and the number of rows.
+_gwrite_lcdchar:
+$EXTERNAL _LPMBYTE, _MUL8, _GLOCATE
+  Push r30                               ; save registers
+  Push r31
+* lds r21,{___lcdrow}                    ; the row Y
+  push r21                               ; save it
+* lds r7,{___lcdcol}
+* Lds r30 ,{___fonttable}                ; start of font data
+* Lds r31 ,{___fonttable +1}
+*#IF _ROMSIZE>65536
+*  Clr r0                                ; temp reg
+*  lsl R30                               ; shift to left
+*  Rol r31                               ; rotate left with carry
+*  Rol R0                                ; MSB of address is in R0 LS bit
+*  Out RAMPZ, R0                         ; set the page
+*#ENDIF
+  call _lpmbyte                          ; get Y bytes  1 for example
+  mov r18,r0                             ; save Y
+  call _lpmbyte                          ; get X bytes , 8 for  an 8*8 font
+  mov r19,r0                             ; save X
+  call _lpmbyte                          ; get blocksize
+  mov r16,r0                             ; in accu
+  adiw r30,1                             ; adjust for words
+
+  subi r24,32                            ; chars start at 32 (space)
+  mov r20,r24
+  call _mul8                             ; get offset
+
+  Add r30,r20                            ; add to start of font data
+  Adc r31,r21
+
+_gwrite_lcdchar_rows:
+ sts {___lcdcol},r7                     ; restore column
+
+
+  mov r23,r19                            ; x bytes (8)
+
+_gwrite_lcdchar1:
+  lds r20,{___lcdcol}
+  lds r21,{___lcdrow}
+  rcall _Glocate
+
+  call _lpmbyte                          ; get byte
+  mov r24,r0
+;--------
+ lds r21,{___LCDrev}                    ; reverse display?
+  tst r21
+  breq _gwrite_lcdchar3
+  com r24                                ; not 0 so complement
+_gwrite_lcdchar3:
+;--------
+ rcall _GWrite_data                     ; write char data
+ lds r21,{___lcdcol}                    ; increase column
+ inc r21
+ sts {___lcdcol},r21                    ; save column
+ dec r23                                ; dec bytes dones
+ brne _gwrite_lcdchar1                  ; not ready
+
+*lds r21,{___lcdrow}                    ; inc row
+ inc r21
+* sts {___lcdrow},r21
+  dec r18                                ; dec rows
+  brne _gwrite_lcdchar_rows              ; for all rows
+  pop r21                                ; get original row back
+* sts {___lcdrow},r21                    ; restore
+  Pop R31
+  Pop R30
+ret
+[END]
+
+
+[_GLOCATE]
+; called with R20 X/column  R21 row/Y
+_glocate:
+  Dec r20                          ; adjust
+  Dec r21                          ; adjust
+_setcol:
+  rcall _selChip
+  ldi r24,&B10111000
+  add r24,r21                      ; add X
+  rcall _GWrite_cmd                ; page address
+  Ldi r24,64
+  Add r24,R20                      ; add Y
+  rjmp _GWrite_cmd
+[END]
+
+
+[_GPIXEL]
+$EXTERNAL _DIV8 ,  _GLOCATE , _ADJUST_PIN
+; set or reset a single pixel
+; X=R20 , Y=R21 , R25 is on/off
+_gpixel:
+  Push r0
+  Push r1
+  Push r2
+  Push r3
+  Push r16
+
+  Push r25
+    Push r20
+    Mov r16,r21                      ; row
+    Ldi R20 , 8                      ; 8 Bits In Byte
+    call _Div8                       ; r16 contains proper Y/row address now
+    Mov r0, r24                      ; save remainder
+    Pop r20                          ; get X back
+  Mov r21,r16                      ; y data location
+  mov r2,r20                       ; save for later
+  mov r3,r21
+  rcall _setcol                    ; use the code from locate
+  rcall _gread_data                ; return data in r1
+  rcall _gread_data                ; return data in r1  DO NOT REMOVE !!!
+
+  mov r20,r2
+  mov r21,r3
+  rcall _setcol                    ; use the code from locate
+
+  Mov r24,r0                       ; remainder
+  call _Adjust_pin                 ;
+  Pop r16  ;param r25
+  tst r16
+  breq _gpixel_clear
+  or r1,r24
+  rjmp _gpixel_set
+_gpixel_clear:
+  and r1,r25
+_gpixel_set:
+  mov r24,r1
+  rcall _GWrite_data               ; write data
+  Pop r16
+  Pop r3
+  Pop r2
+  Pop r1
+  Pop r0
+ret
+[END]
+
+
+[_getbytefromrom_eprom]
+$EXTERNAL _READEEPROM, _LPMBYTE
+; get a byte from code ROM or from EEPROM
+;you could write code to get the data from an external EEPROM
+_getbytefromrom:
+  Tst R23                          ; is it 0 ?
+  Breq _GetByteFromROM1            ; yes get from flash
+  Clr R26                          ; point to R0
+  Clr R27
+  jmp _ReadEEPROM1                ; get data in r0
+
+_getbytefromrom1:
+  jmp _LpmByte                    ; returns data in r0
+[END]
+
+[_showpicture]
+$EXTERNAL _DIV8 , _MUL8 , _GETBYTEFROMROM_EPROM , _GLOCATE
+; RLE encoded. When the data after the byte is AA, it means it is a repeating
+; sequence and the byte after it hold the number of repeats
+; AB, AC , AF,AA, EE means show AB,AC and AF EE times
+; needs more code but needs less picture data!
+; show a picture with ShowPic x,y , label
+; y+2 holds X, y+1 holds Y , y+0 holds EPROM/ROM flag, Z points to picture data
+; The calling code uses for example
+; clr r20
+; clr r21
+; st -y,r20      this way it will be referred to with  y+4
+; st -y,r21                   and                      y+3
+
+; ldi zl,low(plaatje * 2)        to point to picture data
+; ldi zh,high(plaatje * 2)
+; in the SED data is stored column after column with 8 rows of data
+_showpicture:
+ CLR R1                           ; repeats
+ CLR R2                           ; char to repeat
+ clr r3                           ; temp register
+ ld r23,y+                        ; 255 means get from EEPROM, 0 means get from flash
+ Call _getbytefromrom             ; Get Height Of Picture In Pixels
+ Mov r16,r0                       ;
+ Ldi r20,8
+ Call _Div8                       ; divide by 8
+ St -y,r16                        ; y+2  number of rows to do
+
+ Call _getbytefromrom             ; Get Width Of Picture In Pixels
+ st -y,r0                         ; number of cols into  y+1
+ st -y,r0                         ; number of cols into  y+0
+
+ ld r16,y+3                       ; get Y pos
+ Ldi R20 , 8
+ Call _div8                       ; Correct
+ st y+3,r16                       ; save row
+_showpicture1:
+ ld r20,y+4                       ; get X
+mov r15,r20
+ ld r21,y+3                       ; get Y
+ Rcall _setcol                    ; set address
+_showpicture2:
+; *** New RLE encoding routine ***
+  cp r1,r3                        ; is repeats 0 ?
+  brne _ShowPicture8              ; no
+  Call _getbytefromrom            ; Get Next Char
+  mov r2,r0                       ; save char
+  mov r24,r0
+  cpi r24,&HAA                    ; test for repeat char must always be shown
+  breq _ShowPicture9              ; we need to show AA
+  Call _getbytefromrom            ; Is It Rle print
+  mov r24,r0
+  cpi r24,&HAA                    ; is it a RLE encoded char?
+  breq _ShowPicture10             ; yes
+  sbiw R30,1                      ; no readjust pointer to graphic data
+  rjmp _ShowPicture11             ; show it
+
+_showpicture9:
+  adiw r30,1  ; skip 0
+  rjmp _ShowPicture11
+_showpicture8:
+  ;we are repeating
+  dec r1                          ; adjust repeat counter
+  breq _showpicture2
+  rjmp _ShowPicture11             ; show it
+_showpicture10:
+  Call _getbytefromrom            ; Get Number Of Repeats
+  Mov r24,r0
+  Tst r24                         ; is it zero?
+  Brne _showpicture15             ; no a real sequenc
+  Sbiw r30,2                      ; adjust pointer
+  Rjmp _showpicture11             ; skip somebytes
+_showpicture15:
+  mov r1,r0                       ; save number of repeats
+_showpicture11:
+  mov r24,r2
+; *** end of RLE code ***
+
+;--------------
+* lds r25,{___LCDrev}             ; reverse display?
+  tst r25
+  breq _showpicture12
+  com r24
+_showpicture12:
+;---------------
+
+  push r24
+  mov r20,r15
+  ldd r21,y+3
+  Rcall _setcol                    ; set address
+  pop r24
+  inc r15
+  rcall _Gwrite_Data
+
+
+  ld r24,y+1                      ; get column counter
+  dec r24
+  st y+1,r24                      ; save col counter
+  brne _ShowPicture2              ; for all columns
+
+  ld r24,y+3                      ; next page
+  inc r24
+  st y+3,r24
+
+  ld r24,y+0                      ; get num of cols
+  st y+1,r24                      ; save for the new row
+
+  ld r24,y+2                      ; get row counter
+  dec r24
+  st y+2,r24
+  brne _showpicture1              ; for all rows
+  adiw r28,5                      ; adjust soft stack
+  Ret
+[END]
+
+
+

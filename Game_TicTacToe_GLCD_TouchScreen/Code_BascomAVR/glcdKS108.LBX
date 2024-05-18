@@ -1,0 +1,323 @@
+Comment = Compiled LIB file, no comment included
+
+Copyright = Mcs Electronics
+Www = Http ://Www.mcselec.com
+Email = Avr@mcselec.com
+Comment = KS0108 Graphic Display Library for 128 * 64
+Libversion = 1.00
+Date = 1 Okt 2003
+Statement = No Source Code From The Library May Be Distributed In Any Form
+Statement = Of Course This Does Not Apply For The Compiled Code When You Have A Bascom -avr License
+History= special thanks to Bob Gardner who got me a display
+[_GLCD]
+$EXTERNAL _LPMBYTE
+_set_display:
+.OBJ 2744
+  rcall _SelChip
+* Cbi _glcd_portm , _glcd_reset
+* Sbi _glcd_portm , _glcd_rd
+* Cbi _glcd_portm, _glcd_enable
+.OBJ E684
+.OBJ 2799
+* Call _waitms
+.OBJ EF9F
+* Out _glcd_port_ddr , R25
+* Sbi _glcd_portm , _glcd_reset
+_set_display1:
+   Rcall _gRead_Status
+.OBJ FC14
+   rjmp _set_display1
+   rcall _Init_display
+.OBJ EF4F
+   rcall _SelChip
+_Init_display:
+.OBJ E38F
+  rcall _gwrite_cmd
+.OBJ EC80
+  rcall _gwrite_cmd
+.OBJ E480
+  rcall _gwrite_cmd
+.OBJ EB88
+  rcall _gwrite_cmd
+.OBJ 9508
+_selChip:
+.OBJ 3440
+  Brlo _selChip2
+_selChip1:
+* sbi _glcd_portm , _glcd_ce
+* cbi _glcd_portm , _glcd_ce2
+.OBJ 5440
+.OBJ 9508
+_selChip2:
+* sbi _glcd_portm , _glcd_ce2
+* cbi _glcd_portm , _glcd_ce
+.OBJ 9508
+_gwrite_cmd:
+* Cbi _glcd_portm , _glcd_cd
+Rjmp _Gwrite_DataMisc
+_gwrite_data:
+* Sbi _glcd_portm , _glcd_cd
+_gwrite_datamisc:
+  @genus(5)
+* Out _glcd_port , R24
+* Cbi _glcd_portm , _glcd_rd
+* Sbi _glcd_portm , _glcd_enable
+  @genus(1)
+* Cbi _glcd_portm , _glcd_enable
+.OBJ 9508
+_gRead_Status:
+* Cbi _glcd_portm , _glcd_cd
+  Rcall _gRead_data1
+.OBJ FC17
+  rjmp _gRead_Status
+.OBJ 9508
+_gRead_data:
+* Sbi _glcd_portm , _glcd_cd
+_gRead_data1:
+.OBJ 2799
+* Out _glcd_port_ddr, R25
+.OBJ EF9F
+* Out _glcd_port , R25
+  @genus(5)
+* Sbi _glcd_portm , _glcd_rd
+* Sbi _glcd_portm , _glcd_enable
+  @genus(2)
+* In r1, _glcd_port_in
+* Cbi _glcd_portm , _glcd_enable
+* Out _glcd_port_ddr, R25
+.OBJ 9508
+_clear_graph:
+_clear_text:
+.OBJ 2744
+  rcall _selchip
+  rcall _clear_graph3
+.OBJ EF4F
+  rcall _selchip
+_clear_graph3:
+.OBJ E000
+_clear_graph2:
+.OBJ E480
+  Rcall _gwrite_cmd
+.OBJ EB88
+.OBJ F80
+  Rcall _gwrite_cmd
+.OBJ E410
+_clear_graph1:
+.OBJ 2788
+  rcall _GWrite_data
+.OBJ 951A
+  Brne _clear_graph1
+.OBJ 9503
+.OBJ 3008
+  Brne _clear_graph2
+.OBJ 9508
+_gwrite_lcdchar:
+$EXTERNAL _LPMBYTE, _MUL8, _GLOCATE
+.OBJ 93EF
+.OBJ 93FF
+* lds r21,{___lcdrow}
+.OBJ 935F
+* lds r7,{___lcdcol}
+* Lds r30 ,{___fonttable}
+* Lds r31 ,{___fonttable +1}
+*#IF _CHIP=20 or _CHIP=21 OR _CHIP=10
+*  Clr r0
+*  lsl R30
+*  Rol r31
+*  Rol R0
+*  Out RAMPZ, R0
+*#ENDIF
+  call _lpmbyte
+.OBJ 2D20
+  call _lpmbyte
+.OBJ 2D30
+  call _lpmbyte
+.OBJ 2D00
+.OBJ 9631
+.OBJ 5280
+.OBJ 2F48
+  call _mul8
+.OBJ FE4
+.OBJ 1FF5
+_gwrite_lcdchar_rows:
+ sts {___lcdcol},r7
+.OBJ 2F73
+_gwrite_lcdchar1:
+  lds r20,{___lcdcol}
+  lds r21,{___lcdrow}
+  rcall _Glocate
+  call _lpmbyte
+.OBJ 2D80
+ lds r21,{___LCDrev}
+.OBJ 2355
+  breq _gwrite_lcdchar3
+.OBJ 9580
+_gwrite_lcdchar3:
+  rcall _GWrite_data
+ lds r21,{___lcdcol}
+.OBJ 9553
+ sts {___lcdcol},r21
+.OBJ 957A
+  brne _gwrite_lcdchar1
+*lds r21,{___lcdrow}
+.OBJ 9553
+* sts {___lcdrow},r21
+.OBJ 952A
+  brne _gwrite_lcdchar_rows
+.OBJ 915F
+* sts {___lcdrow},r21
+.OBJ 91FF
+.OBJ 91EF
+.OBJ 9508
+[END]
+[_GLOCATE]
+_glocate:
+.OBJ 954A
+.OBJ 955A
+_setcol:
+  rcall _selChip
+.OBJ EB88
+.OBJ F85
+  rcall _GWrite_cmd
+.OBJ E480
+.OBJ F84
+  rjmp _GWrite_cmd
+[END]
+[_GPIXEL]
+$EXTERNAL _DIV8 ,  _GLOCATE , _ADJUST_PIN
+_gpixel:
+.OBJ 920F
+.OBJ 921F
+.OBJ 922F
+.OBJ 923F
+.OBJ 930F
+.OBJ 939F
+.OBJ 934F
+.OBJ 2F05
+.OBJ E048
+    call _Div8
+.OBJ 2E08
+.OBJ 914F
+.OBJ 2F50
+.OBJ 2E24
+.OBJ 2E35
+  rcall _setcol
+  rcall _gread_data
+  rcall _gread_data
+.OBJ 2D42
+.OBJ 2D53
+  rcall _setcol
+.OBJ 2D80
+  call _Adjust_pin
+.OBJ 910F
+.OBJ 2300
+  breq _gpixel_clear
+.OBJ 2A18
+  rjmp _gpixel_set
+_gpixel_clear:
+.OBJ 2219
+_gpixel_set:
+.OBJ 2D81
+  rcall _GWrite_data
+.OBJ 910F
+.OBJ 903F
+.OBJ 902F
+.OBJ 901F
+.OBJ 900F
+.OBJ 9508
+[END]
+[_getbytefromrom_eprom]
+$EXTERNAL _READEEPROM, _LPMBYTE
+_getbytefromrom:
+.OBJ 2377
+  Breq _GetByteFromROM1
+.OBJ 27AA
+.OBJ 27BB
+  jmp _ReadEEPROM1
+_getbytefromrom1:
+  jmp _LpmByte
+[END]
+[_showpicture]
+$EXTERNAL _DIV8 , _MUL8 , _GETBYTEFROMROM_EPROM , _GLOCATE
+_showpicture:
+.OBJ 2411
+.OBJ 2422
+.OBJ 2433
+.OBJ 9179
+ Call _getbytefromrom
+.OBJ 2D00
+.OBJ E048
+ Call _Div8
+.OBJ 930A
+ Call _getbytefromrom
+.OBJ 920A
+.OBJ 920A
+.OBJ 810B
+.OBJ E048
+ Call _div8
+.OBJ 830B
+_showpicture1:
+.OBJ 814C
+.OBJ 2EF4
+.OBJ 815B
+ Rcall _setcol
+_showpicture2:
+.OBJ 1413
+  brne _ShowPicture8
+  Call _getbytefromrom
+.OBJ 2C20
+.OBJ 2D80
+.OBJ 3A8A
+  breq _ShowPicture9
+  Call _getbytefromrom
+.OBJ 2D80
+.OBJ 3A8A
+  breq _ShowPicture10
+.OBJ 9731
+  rjmp _ShowPicture11
+_showpicture9:
+.OBJ 9631
+  rjmp _ShowPicture11
+_showpicture8:
+.OBJ 941A
+  breq _showpicture2
+  rjmp _ShowPicture11
+_showpicture10:
+  Call _getbytefromrom
+.OBJ 2D80
+.OBJ 2388
+  Brne _showpicture15
+.OBJ 9732
+  Rjmp _showpicture11
+_showpicture15:
+.OBJ 2C10
+_showpicture11:
+.OBJ 2D82
+* lds r25,{___LCDrev}
+.OBJ 2399
+  breq _showpicture12
+.OBJ 9580
+_showpicture12:
+.OBJ 938F
+.OBJ 2D4F
+.OBJ 815B
+  Rcall _setcol
+.OBJ 918F
+.OBJ 94F3
+  rcall _Gwrite_Data
+.OBJ 8189
+.OBJ 958A
+.OBJ 8389
+  brne _ShowPicture2
+.OBJ 818B
+.OBJ 9583
+.OBJ 838B
+.OBJ 8188
+.OBJ 8389
+.OBJ 818A
+.OBJ 958A
+.OBJ 838A
+  brne _showpicture1
+.OBJ 9625
+.OBJ 9508
+[END]
