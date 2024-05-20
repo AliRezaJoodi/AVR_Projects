@@ -519,7 +519,7 @@
         />
     </td>
     <td>
-        Tic Tac Toe Game, Display with GLCD <br />
+        Tic Tac Toe Game<br />
 	<span style="color:#999">Display with 64x128 GLCD</span> <br />
 	<span style="color:#999">Input from Touch Screen</span> <br />
     </td>
@@ -542,7 +542,9 @@
         />
     </td>
     <td>
-        Tic Tac Toe Game, Display with LED <br />
+        Tic Tac Toe Game<br />
+	<span style="color:#999">Display with LED</span> <br />
+	<span style="color:#999">Input from Matrix Button</span> <br />
     </td>
     <td>
         Bascom AVR <br />
