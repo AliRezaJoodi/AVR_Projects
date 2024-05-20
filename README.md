@@ -512,6 +512,29 @@
    <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Game_TicTacToe_GLCD_TouchScreen/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="60"
+        />
+    </td>
+    <td>
+        Tic Tac Toe Game, Display with GLCD <br />
+	<span style="color:#999">Display with 64x128 GLCD</span> <br />
+	<span style="color:#999">Input from Touch Screen</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/Game_TicTacToe_GLCD_TouchScreen" target="_top">
+        <span>Open Source</span>
+    </a></td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Game_TicTacToe_LED/Simulate/Album.png"
         alt="ts"
         width="150"
