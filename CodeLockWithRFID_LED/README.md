@@ -1,4 +1,4 @@
-## RFID Code Lock with 125KHz Tag
+## Code Lock with 125KHz RFID Tag
 
 MCU:		ATmega32A  
     

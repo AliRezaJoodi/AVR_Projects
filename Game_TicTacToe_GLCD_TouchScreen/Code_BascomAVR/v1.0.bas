@@ -261,8 +261,8 @@ Do
 Loop
 
 End
-'//////////////////////////////////////////////
 
+'*****************************************
 Function Get_touch() As Byte
    Ddra.1 = 1 : Porta.1 = 0
    Ddra.3 = 1 : Porta.3 = 1
@@ -296,6 +296,7 @@ Function Get_touch() As Byte
    Get_touch = Key
 End Function
 
+'*****************************************
 Sub Table_plotted()
 For X = 2 To 62 Step 20
    Line(x , 2) -(x , 62) , 255
@@ -321,6 +322,7 @@ Next Y
    Lcdat 5 , 85 , "=" : Lcd Number_yellow
 End Sub
 
+'*****************************************
 Draw_a_circle:
    Circle(12 , 12) , 6 , 255
    Circle(32 , 12) , 6 , 255
@@ -335,6 +337,7 @@ Draw_a_circle:
    Circle(52 , 52) , 6 , 255
 Return
 
+'*****************************************
 Multiply_line:
    Line(7 , 7) -(17 , 17) , 255 : Line(7 , 17) -(17 , 7) , 255
    Line(27 , 7) -(37 , 17) , 255 : Line(27 , 17) -(37 , 7) , 255
@@ -365,6 +368,7 @@ Show_temp:
    Lcdat 4 , 78 , "Key=" : Lcd Key : Lcd "  "
 Return
 
+'*****************************************
 Sub Red_led_drive()
    If Red_1 = 1 Then Circle(12 , 12) , 6 , 255
    If Red_2 = 1 Then Circle(32 , 12) , 6 , 255
@@ -377,6 +381,7 @@ Sub Red_led_drive()
    If Red_9 = 1 Then Circle(52 , 52) , 6 , 255
 End Sub
 
+'*****************************************
 Sub Yellow_led_drive()
    If Yellow_1 = 1 Then
       Line(7 , 7) -(17 , 17) , 255 : Line(7 , 17) -(17 , 7) , 255
@@ -407,6 +412,7 @@ Sub Yellow_led_drive()
    End If
 End Sub
 
+'*****************************************
 Sub Personal_status_driver()
    Toggle Personal_status
    'Personal_status = 1
@@ -419,6 +425,7 @@ Sub Personal_status_driver()
    End If
 End Sub
 
+'*****************************************
 Sub Check_win()
    If Red_1 = 1 And Red_2 = 1 And Red_3 = 1 Then
          Win_red = 1 : Line(2 , 12) -(62 , 12) , 255
@@ -471,6 +478,7 @@ Sub Check_win()
 
 End Sub
 
+'*****************************************
 Sub Win_display()
    If Win_red = 1 Then
       Incr Number_red
@@ -494,6 +502,7 @@ Sub Win_display()
    End If
 End Sub
 
+'*****************************************
 Sub Reset_all()
       Reset Yellow_1 : Reset Yellow_2 : Reset Yellow_3
       Reset Yellow_4 : Reset Yellow_5 : Reset Yellow_6

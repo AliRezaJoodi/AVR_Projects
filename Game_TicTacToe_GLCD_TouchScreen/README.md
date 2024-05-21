@@ -2,7 +2,7 @@
 
 MCU:		ATmega16A  
 Frequency:     	4MHz  
-Display:        64x128 GLCD
+Display:        64x128 GLCD  
 Input:		Touch Screen  
 
 Note: Included simulation file with Proteus  
@@ -11,7 +11,7 @@ Note: It's a prototype and should get better
 ### Folder and Files Description
 It has included:
 - `Code_BascomAVR` (Code with Basic Language)
-- `Hardware` (Included hardware laye
+- `Hardware` (Included hardware laye)
 - `Pictures` (Photos Samples Made)
 - `Simulate` (Simulator File)
 
