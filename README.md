@@ -868,6 +868,27 @@
         <span>Open Source</span>
     </a></td>
   </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TrafficLights/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="87"
+        />
+    </td>
+    <td>
+        TrafficLights<br />
+    </td>
+    <td> 
+        Bascom AVR <br />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TrafficLights" target="_top">
+        <span>Open Source</span>
+    </a></td>
+  </tr>
  
    <tr>
     <td>
