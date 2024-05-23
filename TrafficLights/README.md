@@ -18,7 +18,7 @@ It has included:
 ![](Pictures/v1.0_2.jpg)
 
 ### Schematic: v1.0
-![](Hardware/v1.0.png)
+![](Hardware/Main_v1.0.png)
 
 ### Simulate: v1.0
 ![](Simulate/v1.0.png)
