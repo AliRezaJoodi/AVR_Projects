@@ -801,6 +801,29 @@
    <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureMonitoring_7Segment_2Digit/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="84"
+        />
+    </td>
+    <td>
+        Thermometer<br />
+	<span style="color:#999">Temperature Sensor with LM35</span> <br />
+	<span style="color:#999">Display with 7-Segment</span> <br />
+    </td>
+    <td> 
+        Bascom AVR <br />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureMonitoring_7Segment_2Digit" target="_top">
+        <span>Open Source</span>
+    </a></td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TextDisplayWithLCD16x2_ControlledByPcKeyboard/Pictures/Album.jpg"
         alt="ts"
         width="151"
