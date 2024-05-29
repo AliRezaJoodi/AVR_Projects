@@ -352,6 +352,28 @@
   <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DigitalDice/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="64"
+        />
+    </td>
+    <td>
+        Digital Dice<br />
+        <span style="color:#999">Display with 1-Digit 7-segment</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DigitalDice" target="_top">
+        <span>Open Source</span>
+    </a></td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DigitalMeterWithUltrasonicMoudle_SRF02_7Segment/Pictures/Album.jpg"
         alt="ts"
         width="151"
