@@ -1,4 +1,4 @@
-## RFID Code Lock with 125KHz Tag and LCD Display
+## RFID Code Lock with 125KHz RFID Tag
 
 MCU:		ATmega32A  
 Display:    	16x2 Character LCD  
