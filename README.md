@@ -843,6 +843,29 @@
     </a></td>
   </tr>
 
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureMonitoring_LCD_DS18B20_4Sensors/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="73"
+        />
+    </td>
+    <td>
+        Thermometer<br />
+        <span style="color:#999">DS18B20 Temperature Sensors x4</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td> 
+        Bascom AVR<br />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureMonitoring_LCD_DS18B20_4Sensors" target="_top">
+        <span>Open Source</span>
+    </a></td>
+  </tr>
+
    <tr>
     <td>
         <img
