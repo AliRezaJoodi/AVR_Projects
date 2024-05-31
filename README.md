@@ -854,7 +854,7 @@
     </td>
     <td>
         Thermometer<br />
-        <span style="color:#999">DS18B20 Temperature Sensors x4</span> <br />
+        <span style="color:#999">Temperature Sensors with DS18B20 x4</span> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td> 
