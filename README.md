@@ -330,21 +330,21 @@
   <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Counter_2Digit_7SegmentDisplay/Simulate/Album.png"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Counter_7Segment_2Digit/Simulate/Album.png"
         alt="Null"
         width="150"
         height="111"
         />
     </td>
     <td>
-        Counter with 2-Digit <br />
+        Counter<br />
         <span style="color:#999">Display with 2-Digit 7-segment</span> <br />
     </td>
     <td>
         Bascom AVR <br />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/tree/main/Counter_2Digit_7SegmentDisplay" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/tree/main/Counter_7Segment_2Digit" target="_top">
         <span>Open Source</span>
     </a></td>
   </tr>
