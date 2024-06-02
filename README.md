@@ -848,8 +848,8 @@
         <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureMonitoring_GLCD_LM35/Simulate/Album.png"
         alt="ts"
-        width="387"
-        height="187"
+        width="149"
+        height="71"
         />
     </td>
     <td>
