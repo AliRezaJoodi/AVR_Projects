@@ -846,6 +846,29 @@
   <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureMonitoring_GLCD_LM35/Simulate/Album.png"
+        alt="ts"
+        width="387"
+        height="187"
+        />
+    </td>
+    <td>
+        Thermometer<br />
+        <span style="color:#999">Temperature Sensors with LM35</span> <br />
+        <span style="color:#999">Display with 64x128 GLCD</span> <br />
+    </td>
+    <td> 
+        Bascom AVR<br />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureMonitoring_GLCD_LM35" target="_top">
+        <span>Open Source</span>
+    </a></td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureMonitoring_LCD_DS18B20_4Sensors/Pictures/Album.jpg"
         alt="ts"
         width="150"
