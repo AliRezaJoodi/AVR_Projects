@@ -1,9 +1,9 @@
-## Thermometer with LM35 Sensors
+## Thermometer with Persian Menu
   
 MCU:        ATmega32  
 Sensor:     LM35  
 Display:    64x128 GLCD  
-
+  
 Note: Included simulator with Proteus.  
 Note: It's a prototype and should get better.  
 

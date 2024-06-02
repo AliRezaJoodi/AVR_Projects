@@ -330,10 +330,10 @@
   <tr>
     <td>
         <img
-        src=""
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Counter_2Digit_7SegmentDisplay/Simulate/Album.png"
         alt="Null"
-        width="151"
-        height="66"
+        width="150"
+        height="111"
         />
     </td>
     <td>
