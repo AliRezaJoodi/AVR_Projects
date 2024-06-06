@@ -1,4 +1,4 @@
-## Thermometer with LM35 Sensors
+## Temperature and Humidity Monitoring
   
 MCU:        ATmega32  
 Sensor:     SHT10   
