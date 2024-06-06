@@ -32,11 +32,11 @@ flash byte char0[8]={
 };
  
 char buffer_lcd[16]; 
-unsigned char status_display=0;
-bit status_key_set=0;
+//unsigned char status_display=0;
+//bit status_key_set=0;
 
-float humidity;
-float temperature;
+float humidity=0;
+float temperature=0;
 
 void Config_Buzzer(void);
 void Display(void);
@@ -51,10 +51,10 @@ void main(void){
                                
     lcd_init(16);
     
-    //lcd_gotoxy(0,0); lcd_putsf("Please Wait ...");
+    lcd_gotoxy(0,0); lcd_putsf("Please Wait ...");
     //delay_ms(400);
     define_char(char0,0);
-    lcd_clear();
+    //lcd_clear();
     
     Sound_Menu();
                                        

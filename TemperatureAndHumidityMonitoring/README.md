@@ -4,6 +4,7 @@ MCU:        ATmega32
 Sensor:     SHT10   
 Display:    16x2 Character LCD  
 
+Note: Code need to check.
 Note: Included simulator, schematic and PCB layout with Proteus.  
 Note: It's a prototype and should get better.  
 
@@ -11,6 +12,7 @@ Note: It's a prototype and should get better.
 It has included:
 - `Code_CodeVisionAVR` (Code with C Language)
 - `Hardware` (Included hardware laye)
+- `Simulate` (Simulator File)
 
 ### Schematic: v1.0
 ![](Hardware/v1.0.png)
