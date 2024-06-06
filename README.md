@@ -820,6 +820,29 @@
     </a></td>
   </tr>
  
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityMonitoring/Simulate/Album.png"
+        alt="ts"
+        width="150"
+        height="60"
+        />
+    </td>
+    <td>
+        Temperature and Humidity Monitoring<br />
+        <span style="color:#999">Sensor with SHT10</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td>
+        CodeVision AVR<br />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityMonitoring" target="_top">
+        <span>Open Source</span>
+    </a></td>
+  </tr>
+
    <tr>
     <td>
         <img
