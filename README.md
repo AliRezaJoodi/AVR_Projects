@@ -826,7 +826,7 @@
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityMonitoring/Simulate/Album.png"
         alt="ts"
         width="150"
-        height="60"
+        height="37"
         />
     </td>
     <td>
