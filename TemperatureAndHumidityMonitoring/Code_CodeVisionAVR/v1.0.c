@@ -16,32 +16,13 @@
 
 #define ACTIVE 1
 #define INACTIVE 0
-#define OUTPUT 1
-#define INPUT 0
-
-typedef unsigned char byte;
-flash byte char0[8]={
-    0b10000111,
-    0b10000101,
-    0b10000111,
-    0b10000000,
-    0b10000000,
-    0b10000000,
-    0b10000000,
-    0b10000000
-};
- 
-char buffer_lcd[16]; 
-//unsigned char status_display=0;
-//bit status_key_set=0;
 
 float humidity=0;
 float temperature=0;
 
 void Config_Buzzer(void);
-void Display(void);
 void Sound_Menu(void);
-void define_char(byte flash *pc,byte);
+void Display_MainPage(void);
                                 
 void main(void){ 
     Config_Buzzer();
@@ -49,19 +30,15 @@ void main(void){
     DDRB.1=0; PORTB.1=1;
     DDRB.0=1; PORTB.0=0;
                                
-    lcd_init(16);
-    
+    lcd_init(16);   
     lcd_gotoxy(0,0); lcd_putsf("Please Wait ...");
-    //delay_ms(400);
-    define_char(char0,0);
-    //lcd_clear();
     
     Sound_Menu();
                                        
     while(1){
-        humidity=read_sensor(0);
-        temperature=read_sensor(1);
-        Display(); 
+        humidity= Get_Humidity();
+        temperature= Get_Temp();
+        Display_MainPage(); 
         delay_ms(100);                                        
     }
 }
@@ -72,12 +49,12 @@ void Config_Buzzer(void){
 }
 
 //******************************************
-void Display(void){
+void Display_MainPage(void){
+    char txt[16]; 
     lcd_clear();
-    sprintf(buffer_lcd,"RH: %3.1f%%",humidity); lcd_gotoxy(0,0); lcd_puts(buffer_lcd);  
-    sprintf(buffer_lcd,"Temp: %3.1f",temperature); lcd_gotoxy(0,1); lcd_puts(buffer_lcd); lcd_putchar(0); lcd_putsf("C   ");
+    sprintf(txt,"RH(%%)=%3.1f",humidity); lcd_gotoxy(0,0); lcd_puts(txt);  
+    sprintf(txt,"Temp(C)=%3.1f",temperature); lcd_gotoxy(0,1); lcd_puts(txt); 
 }
-
 
 //******************************************
 void Sound_Menu(void){
@@ -86,13 +63,6 @@ void Sound_Menu(void){
         BUZZER=1; delay_us(250);
         BUZZER=0; delay_us(250);
     };    
-}
-
-//********************************************************
-void define_char(byte flash *pc,byte char_code){
-    byte i,a;
-    a=(char_code<<3) | 0x40;
-    for (i=0; i<8; i++) lcd_write_byte(a++,*pc++);
 }
 
 
