@@ -2,7 +2,7 @@
 
 MCU:		ATmega16A  
 Frequency:     	4MHz  
-Display:        64x128 GLCD  
+Display:        128*64 KS108 GLCD  
 Input:		Touch Screen  
 
 Note: Included simulation file with Proteus  

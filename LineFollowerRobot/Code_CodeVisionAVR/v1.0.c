@@ -1,4 +1,4 @@
-// GitHub Account:     GitHub.com/AliRezaJoodi
+// GitHub Account: GitHub.com/AliRezaJoodi
 
 #include <mega32a.h>
 #include <io.h>
