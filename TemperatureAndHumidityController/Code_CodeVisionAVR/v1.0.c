@@ -1,6 +1,6 @@
 // GitHub Account: GitHub.com/AliRezaJoodi
 
-#include <mega16.h>               
+#include <mega32a.h>               
 #include <delay.h>                                      
 #include <stdio.h>  
 #include <Attachment/shtxx.h>   
@@ -87,7 +87,9 @@ void main(void){
     DDRB.0=1; PORTB.0=1;
                                
     lcd_init(16);
-    
+    lcd_clear();
+    lcd_gotoxy(0,0); lcd_putsf("Please Wait ...");
+        
     if(KEY_DOWN1==0 && KEY_DOWN2==0){
         Eeprom_Defult();
         lcd_clear();
