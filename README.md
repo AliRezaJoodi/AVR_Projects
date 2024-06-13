@@ -842,6 +842,29 @@
         <span>Open Source</span>
     </a></td>
   </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityControllerWithRF_HMT&HMR/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="144"
+        />
+    </td>
+    <td>
+        Temperature and Humidity Controller<br />
+        <span style="color:#999">Sensor with SHT10</span> <br />
+        <span style="color:#999"> HMR and HMT Module </span> <br />
+    </td>
+    <td>
+        CodeVision AVR<br />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityControllerWithRF_HMT&HMR" target="_top">
+        <span>Open Source</span>
+    </a></td>
+  </tr>
  
   <tr>
     <td>
