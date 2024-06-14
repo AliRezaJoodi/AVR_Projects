@@ -853,9 +853,11 @@
         />
     </td>
     <td>
-        Temperature and Humidity Controller<br />
+        Wireless Temperature and Humidity Controller<br />
+        <span style="color:#999">RF Module with HMR & HMT</span> <br />
         <span style="color:#999">Sensor with SHT10</span> <br />
-        <span style="color:#999"> HMR and HMT Module </span> <br />
+	<span style="color:#999">Output with Relay x4</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
         CodeVision AVR<br />
