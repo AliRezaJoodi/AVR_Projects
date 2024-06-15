@@ -860,7 +860,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
-        CodeVision AVR<br />
+        Bascom AVR<br />
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityControllerWithRF_HMT&HMR" target="_top">
