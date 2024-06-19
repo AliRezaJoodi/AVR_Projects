@@ -846,7 +846,7 @@
   <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityControllerWithRF_4Outputs_HMT&HMR/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityControllerWithRF_4Outputs/Pictures/Album.jpg"
         alt="ts"
         width="150"
         height="144"
@@ -863,7 +863,7 @@
         Bascom AVR<br />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityControllerWithRF_4Outputs_HMT&HMR" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityControllerWithRF_4Outputs" target="_top">
         <span>Open Source</span>
     </a></td>
   </tr>
@@ -1009,7 +1009,7 @@
    <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TextDisplayWithLCD16x2_ControlledByPcKeyboard/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TextDisplayWithLCD16x2_ControlledWithPcKeyboard/Pictures/Album.jpg"
         alt="ts"
         width="151"
         height="74"
@@ -1025,7 +1025,7 @@
         Bascom AVR <br />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TextDisplayWithLCD16x2_ControlledByPcKeyboard" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TextDisplayWithLCD16x2_ControlledWithPcKeyboard" target="_top">
         <span>Open Source</span>
     </a></td>
   </tr>
@@ -1033,7 +1033,7 @@
    <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TextDisplayWithLCD16x2_ControlledByComputer/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TextDisplayWithLCD16x2_ControlledWithComputer/Pictures/Album.jpg"
         alt="ts"
         width="151"
         height="68"
@@ -1049,7 +1049,7 @@
         Bascom AVR <br />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TextDisplayWithLCD16x2_ControlledByComputer" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TextDisplayWithLCD16x2_ControlledWithComputer" target="_top">
         <span>Open Source</span>
     </a></td>
   </tr>
