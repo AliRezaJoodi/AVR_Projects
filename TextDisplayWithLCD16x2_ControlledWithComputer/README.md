@@ -20,20 +20,21 @@ It has included:
 - `Code_BascomAVR` (Code with Basic Language)
 - `Code_CodeVisionAVR` (Code with C Language)
 - `Code_VB6` (Software with Visual Basic)
-- `Hardware` (Included hardware layers)
+- `Hardware_USB_FT232BL` (Included hardware laye)
+- `Hardware_USB_FT232RL` (Included hardware laye)
 - `Pictures` (Photos Samples Made)
 - `Simulate` (Simulator File)
 
-### Pictures (with FT232BL USB Controller): v1.0
+### Picture, USB Controller with FT232BL: v1.0
 ![](Pictures/USB_FT232BL_v1.0.jpg)
 
-### Pictures (with FT232RL USB Controller): v1.0
+### Picture, USB Controller with FT232RL: v1.0
 ![](Pictures/USB_FT232RL_v1.0.jpg)
 
 ### Software: v1.0
 ![](Code_VB6/v1.0.png)
 
-### Schematic (with FT232RL USB Controller): v1.0
+### Schematic, USB Controller with FT232RL: v1.0
 ![](Hardware_FT232RL/v1.0.png)
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
