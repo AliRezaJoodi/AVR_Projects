@@ -906,7 +906,7 @@
         <span style="color:#999">Output with Relay x2</span> <br />
     </td>
     <td>
-        CodeVision AVR<br />
+        Bascom AVR<br />
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureControllerWithComputer_2Outputs" target="_top">
@@ -929,7 +929,7 @@
 	<span style="color:#999">Display with 7-Segment</span> <br />
     </td>
     <td> 
-        Bascom AVR <br />
+        Bascom AVR<br />
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureMonitoring_7Segment_2Digit" target="_top">
