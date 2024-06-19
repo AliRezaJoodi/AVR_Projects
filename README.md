@@ -823,7 +823,7 @@
   <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityController/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityController_4Outputs/Pictures/Album.jpg"
         alt="ts"
         width="150"
         height="88"
@@ -838,7 +838,7 @@
         CodeVision AVR<br />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityController" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityController_4Outputs" target="_top">
         <span>Open Source</span>
     </a></td>
   </tr>
@@ -846,7 +846,7 @@
   <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityControllerWithRF_HMT&HMR/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityControllerWithRF_4Outputs_HMT&HMR/Pictures/Album.jpg"
         alt="ts"
         width="150"
         height="144"
@@ -863,7 +863,7 @@
         Bascom AVR<br />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityControllerWithRF_HMT&HMR" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityControllerWithRF_4Outputs_HMT&HMR" target="_top">
         <span>Open Source</span>
     </a></td>
   </tr>
