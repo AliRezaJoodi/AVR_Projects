@@ -903,7 +903,7 @@
     <td>
         Temperature Controller With Computer<br />
         <span style="color:#999">Sensor with LM35</span> <br />
-        <span style="color:#999">Output with Relay x4</span> <br />
+        <span style="color:#999">Output with Relay x2</span> <br />
     </td>
     <td>
         CodeVision AVR<br />
