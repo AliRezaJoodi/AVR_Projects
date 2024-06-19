@@ -891,6 +891,29 @@
     </a></td>
   </tr>
 
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureControllerWithComputer_2Outputs/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="67"
+        />
+    </td>
+    <td>
+        Temperature Controller With Computer<br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Output with Relay x4</span> <br />
+    </td>
+    <td>
+        CodeVision AVR<br />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureControllerWithComputer_2Outputs" target="_top">
+        <span>Open Source</span>
+    </a></td>
+  </tr>
+
    <tr>
     <td>
         <img
