@@ -3,10 +3,10 @@
 MCU:        		ATmega32  
 Sensor:     		LM35  
 Display:    		16x2 Character LCD  
-Output:			Relay	x2
-Computer Interfacing:	RS232 to UART Converter with MAX232
-Computer Interfacing:	UART to USB Converter with FT232BL and FT232RL 
-Computer Software:	VB6
+Output:			Relay x2  
+Computer Interfacing:	RS232 to UART Converter with MAX232  
+Computer Interfacing:	UART to USB Converter with FT232BL and FT232RL  
+Computer Software:	VB6  
 
 Note: Included simulator, schematic and PCB layout with Proteus.  
 Note: It's a prototype and should get better.  
