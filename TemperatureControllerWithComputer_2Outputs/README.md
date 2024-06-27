@@ -36,10 +36,10 @@ It has included:
 ![](Hardware_RS232/v1.0.png)
 
 ### Schematic, USB Controller with FT232BL: v1.0
-![](Hardware_FT232BL/v1.0.png)
+![](Hardware_USB_FT232BL/v1.0.png)
 
 ### Schematic, USB Controller with FT232RL: v1.0
-![](Hardware_FT232RL/v1.0.png)
+![](Hardware_USB_FT232RL/v1.0.png)
 
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
