@@ -918,6 +918,29 @@
   <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_2Outputs/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="71"
+        />
+    </td>
+    <td>
+        Temperature Controller<br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Output with Relay x2</span> <br />
+    </td>
+    <td>
+	Bascom AVR<br />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_2Outputs" target="_top">
+        <span>Open Source</span>
+    </a></td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureControllerWithComputer_2Outputs/Pictures/Album.jpg"
         alt="ts"
         width="150"
