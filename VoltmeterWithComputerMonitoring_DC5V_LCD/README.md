@@ -4,7 +4,7 @@ MCU:			ATmega32A
 Frequency:     		11.059200MHz (External Crystal)   
 Display:        	16x2 LCD          
 Input Voltage: 		0~5V DC  
-Computer Interfacing:	UART to RS232 Converter  
+Computer Interfacing:	UART to RS232 Converter with MAX232    
 Computer Software:	VB6  
 
 Note: Frame format is String.  

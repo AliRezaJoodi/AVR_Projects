@@ -3,7 +3,7 @@
 MCU: ATmega32A  
 Display: 16x2 Character LCD  
 RF Module: HMR and HMT Module  
-Computer Interfacing: UART to USB Converter with FT232  
+Computer Interfacing: UART to USB Converter with FT232BL  
 Computer Software: VB6  
     
 Note: Included schematic and PCB layout with Proteus  
