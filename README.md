@@ -941,6 +941,31 @@
   <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureControllerWithComputer_1Output/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="89"
+        />
+    </td>
+    <td>
+        Temperature Controller With Computer<br />
+	<span style="color:#999">RS232 to UART Converter with MAX232</span> <br />
+	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Output with Relay x1</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureControllerWithComputer_1Output" target="_top">
+        <span>Open Source</span>
+    </a></td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureControllerWithComputer_2Outputs/Pictures/Album.jpg"
         alt="ts"
         width="150"
@@ -949,6 +974,9 @@
     </td>
     <td>
         Temperature Controller With Computer<br />
+	<span style="color:#999">RS232 to UART Converter with MAX232</span> <br />
+	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
+	<span style="color:#999">UART to USB Converter with FT232RL</span> <br />
         <span style="color:#999">Sensor with LM35</span> <br />
         <span style="color:#999">Output with Relay x2</span> <br />
     </td>
@@ -1088,7 +1116,8 @@
     </td>
     <td>
         Text Displayer<br />
-        <span style="color:#999"> Input from Computer </span> <br />
+	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
+	<span style="color:#999">UART to USB Converter with FT232RL</span> <br />
         <span style="color:#999"> Display with 16x2 LCD </span> <br />
     </td>
     <td> 
@@ -1220,6 +1249,7 @@
     <td>
         Voltmeter With Computer Monitoring<br />
         <span style="color:#999"> 0~5V DC </span> <br />
+	<span style="color:#999">RS232 to UART Converter with MAX232</span> <br />
         <span style="color:#999"> Display with 16x2 LCD </span> <br />
     </td>
     <td> 
@@ -1268,7 +1298,8 @@
     <td>
         Wireless Communication With RF<br />
         From Computer to MCU<br />
-        <span style="color:#999"> Input from Computer </span> <br />
+	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
+	<span style="color:#999">UART to USB Converter with FT232RL</span> <br />
         <span style="color:#999"> Display with 16x2 LCD </span> <br />
         <span style="color:#999"> HMR and HMT Module </span> <br />
     </td>
@@ -1293,6 +1324,7 @@
     <td>
         Wireless Communication With RF<br />
         From MCU to Computer<br />
+	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
         <span style="color:#999"> Input from USB Keyboard </span> <br />
         <span style="color:#999"> Display with 16x2 LCD </span> <br />
         <span style="color:#999"> HMR and HMT Module </span> <br />
