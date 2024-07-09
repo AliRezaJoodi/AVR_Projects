@@ -22,6 +22,9 @@ It has included:
 ### Pictures: Receiver_v1.0
 ![](Pictures/Receiver_v1.0.jpg)
 
+### Software: v1.0
+![](Code_VB6/v1.0.png)
+
 ### Schematic: Transfer_v1.0
 ![](Hardware/Transfer_v1.0.png)
 
