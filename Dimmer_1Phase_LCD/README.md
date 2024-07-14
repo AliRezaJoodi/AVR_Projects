@@ -1,13 +1,17 @@
-## Digital Single Phase Dimmer with PWM
-Phase control with PWM that synchronized with zero crossing.
+## Digital Single Phase Dimmer
+Phase control with Zero-Crossing Synchronized PWM
  
 MCU:        	ATmega32  
-Frequency:  	4MHz  
+Frequency:  	4MHz 
 Timer0:		PWM Mode with inverted output  
-External INT0:	Rising Edge Mode
+External INT0:	Rising Edge Mode  
+Display: 	16x2 LCD  
 	
 Note: INT0 used for end to the timer0 task  
 Note: Used of a MOC3021 for TRIAC gate driver  
+
+It's a personal project.  
+Date in Jul 2023 
 
 ### Pictures: v1.x
 ![](Pictures/v1.x.jpg)
