@@ -31,8 +31,8 @@ It has included:
 ### Schematic, RS232 Driver with MAX232: v1.0
 ![](Hardware_RS232/v1.0.png)
 
-### Schematic, USB Controller with FT232BL: v1.0
-![](Hardware_USB_FT232BL/v1.0.png)
+### Schematic, USB Controller with FT232BL: v2.0
+![](Hardware_USB_FT232BL/v2.0.png)
 
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
