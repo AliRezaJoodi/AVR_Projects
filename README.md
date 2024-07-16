@@ -907,7 +907,7 @@
    <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Thermometer_2Alarm/Simulate/Album.png"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureMonitoring_2Alarm/Simulate/Album.png"
         alt="ts"
         width="151"
         height="45"
