@@ -830,7 +830,7 @@
         />
     </td>
     <td>
-        Temperature and Humidity Controller<br />
+        Temperature and Humidity Controller, 4 Relay Outputs<br />
         <span style="color:#999">Sensor with SHT10</span> <br />
         <span style="color:#999">Output with Relay x4</span> <br />
     </td>
@@ -846,14 +846,14 @@
   <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityControllerWithRF_4Outputs/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityController_4Outputs_WirelessSensorWithRF/Pictures/Album.jpg"
         alt="ts"
         width="150"
         height="144"
         />
     </td>
     <td>
-        Wireless Temperature and Humidity Controller<br />
+        Wireless Temperature and Humidity Controller, 4 Relay Outputs, Wireless Sensor With RF<br />
         <span style="color:#999">RF Module with HMR & HMT</span> <br />
         <span style="color:#999">Sensor with SHT10</span> <br />
 	<span style="color:#999">Output with Relay x4</span> <br />
@@ -863,7 +863,7 @@
         Bascom AVR<br />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityControllerWithRF_4Outputs" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityController_4Outputs_WirelessSensorWithRF" target="_top">
         <span>Open Source</span>
     </a></td>
   </tr>
@@ -901,7 +901,7 @@
         />
     </td>
     <td>
-        Temperature Controller<br />
+        Temperature Controller, 1 Relay Output<br />
         <span style="color:#999">Sensor with LM35</span> <br />
         <span style="color:#999">Output with Relay x1</span> <br />
     </td>
@@ -925,7 +925,7 @@
         />
     </td>
     <td>
-        Temperature Controller<br />
+        Temperature Controller, 2 Relay Outputs<br />
         <span style="color:#999">Sensor with LM35</span> <br />
         <span style="color:#999">Output with Relay x2</span> <br />
     </td>
@@ -941,14 +941,14 @@
   <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureControllerWithComputer_1Output/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_1Output_ComputerMonitoring/Pictures/Album.jpg"
         alt="ts"
         width="150"
         height="89"
         />
     </td>
     <td>
-        Temperature Controller With Computer<br />
+        Temperature Controller, 1 Relay Output, Computer Monitoring<br />
 	<span style="color:#999">RS232 to UART Converter with MAX232</span> <br />
 	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
         <span style="color:#999">Sensor with LM35</span> <br />
@@ -958,7 +958,7 @@
         Bascom AVR<br />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureControllerWithComputer_1Output" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_1Output_ComputerMonitoring" target="_top">
         <span>Open Source</span>
     </a></td>
   </tr>
@@ -966,14 +966,14 @@
   <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureControllerWithComputer_2Outputs/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_2Outputs_ComputerMonitoring/Pictures/Album.jpg"
         alt="ts"
         width="150"
         height="67"
         />
     </td>
     <td>
-        Temperature Controller With Computer<br />
+        Temperature Controller, 2 Relay Ouputs, Computer Monitoring<br />
 	<span style="color:#999">RS232 to UART Converter with MAX232</span> <br />
 	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
 	<span style="color:#999">UART to USB Converter with FT232RL</span> <br />
@@ -984,7 +984,7 @@
         Bascom AVR<br />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureControllerWithComputer_2Outputs" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_2Outputs_ComputerMonitoring" target="_top">
         <span>Open Source</span>
     </a></td>
   </tr>
