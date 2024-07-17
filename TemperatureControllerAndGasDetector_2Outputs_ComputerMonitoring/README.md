@@ -27,7 +27,7 @@ It has included:
 ### Software: v1.0
 ![](Code_VB6/v1.0.png)
 
-### Schematic, USB Controller with FT232BL: v1.0
+### Schematic: v1.0
 ![](Hardware_USB_FT232BL/v1.0.png)
 
 
