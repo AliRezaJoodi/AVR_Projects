@@ -904,6 +904,28 @@
     </td>
   </tr>
 
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureControllerAndGasDetector_2Outputs_ComputerMonitoring/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="67"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureControllerAndGasDetector_2Outputs_ComputerMonitoring" target="_top">
+        <span>Temperature Controller And Gas Detector, 2 Relay Ouputs, Computer Monitoring</span>
+        </a> <br />
+	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Gas Sensor with MQ9</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+  </tr>
+
    <tr>
     <td>
         <img
