@@ -21,9 +21,6 @@ It has included:
 ### Main Board: v1.0
 ![](Pictures/v1.0.jpg)
 
-### Gas Panel: v1.0
-![](Pictures/GasPanel_v1.0.jpg)
-
 ### Software: v1.0
 ![](Code_VB6/v1.0.png)
 
