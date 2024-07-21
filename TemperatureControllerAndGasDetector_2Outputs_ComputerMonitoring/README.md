@@ -25,7 +25,7 @@ It has included:
 ![](Code_VB6/v1.0.png)
 
 ### Schematic: v1.0
-![](Hardware_USB_FT232BL/v1.0.png)
+![](Hardware/MainBoard_v1.0.png)
 
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
