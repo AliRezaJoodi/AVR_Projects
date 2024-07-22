@@ -773,6 +773,27 @@
   <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityController_4Outputs_ComputerMonitoring_Bluetooth/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="89"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityController_4Outputs_ComputerMonitoring_Bluetooth" target="_top">
+        <span>Temperature and Humidity Controller, 4 Relay Outputs, Bluetooth Computer Monitoring</span>
+        </a> <br />
+        <span style="color:#999">Sensor with SHT10</span> <br />
+        <span style="color:#999">Output with Relay x4</span> <br />
+    </td>
+    <td>
+        CodeVision AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityController_4Outputs_WirelessSensorWithRF/Pictures/Album.jpg"
         alt="ts"
         width="150"
