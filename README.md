@@ -784,6 +784,7 @@
         <span>Temperature and Humidity Controller, 4 Relay Outputs, Bluetooth Computer Monitoring</span>
         </a> <br />
         <span style="color:#999">Sensor with SHT10</span> <br />
+	<span style="color:#999">Bluetooth Module with HC-05</span> <br />
         <span style="color:#999">Output with Relay x4</span> <br />
     </td>
     <td>

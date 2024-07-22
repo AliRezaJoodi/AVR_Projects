@@ -22,7 +22,7 @@ It has included:
 
 ### More Pictures:
 ![](Pictures/BluetoothModule.jpg)  
-![](Hardware/SensorPCB.png)  
+![](Pictures/SensorPCB.png)  
 
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
