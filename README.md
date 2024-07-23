@@ -788,7 +788,7 @@
         <span style="color:#999">Output with Relay x4</span> <br />
     </td>
     <td>
-        CodeVision AVR<br />
+        Bascom AVR<br />
     </td>
   </tr>
 

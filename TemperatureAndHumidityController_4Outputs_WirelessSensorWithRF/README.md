@@ -1,4 +1,4 @@
-## Wireless Temperature and Humidity Controller
+## Wireless Temperature and Humidity Controller, 4 Relay outputs
 
 MCU:		ATmega32A  
 Sensor:     	SHT10  

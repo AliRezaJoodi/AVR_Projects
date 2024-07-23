@@ -1,4 +1,4 @@
-## Temperature and Humidity Controller with Bluetooth Computer Monitoring
+## Temperature and Humidity Controller, 4 Relay outputs, Bluetooth Computer Monitoring
 
 MCU:        		ATmega32  
 Sensor:     		SHT10
@@ -22,7 +22,7 @@ It has included:
 
 ### More Pictures:
 ![](Pictures/BluetoothModule.jpg)  
-![](Pictures/SensorPCB.png)  
+![](Pictures/SensorPCB.jpg)  
 
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  

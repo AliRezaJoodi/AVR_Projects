@@ -1,5 +1,5 @@
-## Temperature Controller
-  
+## Temperature Controller, 1 Relay output
+
 MCU:        	ATmega32  
 Sensor:     	LM35  
 Display:    	16x2 Character LCD  

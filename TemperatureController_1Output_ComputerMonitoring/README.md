@@ -1,4 +1,4 @@
-## Temperature Controller With Computer
+## Temperature Controller, 1 Relay output, Computer Monitoring
   
 MCU:        		ATmega32  
 Sensor:     		LM35  

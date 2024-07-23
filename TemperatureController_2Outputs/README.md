@@ -1,4 +1,4 @@
-## Temperature Controller
+## Temperature Controller, 2 Relay outputs
   
 MCU:        	ATmega32  
 Sensor:     	LM35  

@@ -1,4 +1,4 @@
-## Temperature Controller And Gas Detector With Computer Monitoring
+## Temperature Controller And Gas Detector, 2 Relay outputs, Computer Monitoring
 
 MCU:        		ATmega32  
 Temperature Sensor:     LM35  

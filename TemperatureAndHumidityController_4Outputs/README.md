@@ -1,4 +1,4 @@
-## Temperature and Humidity Controller
+## Temperature and Humidity Controller, 4 Relay outputs
   
 MCU:        	ATmega32  
 Sensor:     	SHT10  
