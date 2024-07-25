@@ -26,8 +26,8 @@ C Code with CodeVisionAVR without Computer Monitoring: [TemperatureAndHumidityCo
 ### Software: v1.0
 ![](Code_VB6/v1.0.png)
 
-### Schematic: v1.1
-![](Hardware/v1.1.png)
+### Schematic: v1.0
+![](Hardware/v1.0.png)
 
 ### More Pictures:
 ![](Pictures/BluetoothModule.jpg)  
