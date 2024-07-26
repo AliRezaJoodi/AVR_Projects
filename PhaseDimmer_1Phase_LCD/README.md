@@ -8,9 +8,14 @@ Display: 	16x2 LCD
 	
 Note: INT0 used for end to the timer0 task  
 Note: Used of a MOC3021 for TRIAC gate driver  
-
-It's a personal project.  
+  
 Date in Jul 2023 
+
+Note: It's a personal project.
+
+My Tasks:  
+- Hardware Design: 100%
+- AVR Programming: 100%
 
 ### Pictures: v1.x
 ![](Pictures/v1.x.jpg)
