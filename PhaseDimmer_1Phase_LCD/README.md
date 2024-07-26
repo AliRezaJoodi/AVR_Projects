@@ -1,5 +1,4 @@
-## Digital Single Phase Dimmer
-Phase control with Zero-Crossing Synchronized PWM
+## Phase Dimmer, 1-Phase, Based On AVR MCU, With Zero-Crossing Synchronized PWM
  
 MCU:        	ATmega32  
 Frequency:  	4MHz 

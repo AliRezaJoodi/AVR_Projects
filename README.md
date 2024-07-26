@@ -450,15 +450,15 @@
   <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Dimmer_1Phase_LCD/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/PhaseDimmer_1Phase_LCD/Pictures/Album.jpg"
         alt="ts"
         width="151"
         height="72"
         />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/Dimmer_1Phase_LCD" target="_top">
-        <span>Single Phase Dimmer</span>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/PhaseDimmer_1Phase_LCD" target="_top">
+        <span>Phase Dimmer, 1-Phase, With Zero-Crossing Synchronized PWM</span>
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
