@@ -861,6 +861,50 @@
   <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_1Output_ComputerMonitoring/Pictures/Album_RS232.jpg"
+        alt="ts"
+        width="150"
+        height="89"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_1Output_ComputerMonitoring" target="_top">
+        <span>Temperature Controller, 1 Relay Output, Computer Monitoring, RS232</span>
+        </a> <br />
+	<span style="color:#999">RS232 to UART Converter with MAX232</span> <br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Output with Relay x1</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_1Output_ComputerMonitoring/Pictures/Album_USB_FT232BL.jpg"
+        alt="ts"
+        width="150"
+        height="74"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_1Output_ComputerMonitoring" target="_top">
+        <span>Temperature Controller, 1 Relay Output, Computer Monitoring, USB</span>
+        </a> <br />
+	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Output with Relay x1</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_2Outputs/Pictures/Album.jpg"
         alt="ts"
         width="150"
@@ -882,20 +926,19 @@
   <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_1Output_ComputerMonitoring/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_2Outputs_ComputerMonitoring/Pictures/Album_RS232.jpg"
         alt="ts"
         width="150"
-        height="89"
+        height="70"
         />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_1Output_ComputerMonitoring" target="_top">
-        <span>Temperature Controller, 1 Relay Output, Computer Monitoring</span>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_2Outputs_ComputerMonitoring" target="_top">
+        <span>Temperature Controller, 2 Relay Ouputs, Computer Monitoring, RS232</span>
         </a> <br />
 	<span style="color:#999">RS232 to UART Converter with MAX232</span> <br />
-	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
         <span style="color:#999">Sensor with LM35</span> <br />
-        <span style="color:#999">Output with Relay x1</span> <br />
+        <span style="color:#999">Output with Relay x2</span> <br />
     </td>
     <td>
         Bascom AVR<br />
@@ -905,7 +948,7 @@
   <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_2Outputs_ComputerMonitoring/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_2Outputs_ComputerMonitoring/Pictures/Album_USB_FT232BL.jpg"
         alt="ts"
         width="150"
         height="67"
@@ -913,10 +956,30 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_2Outputs_ComputerMonitoring" target="_top">
-        <span>Temperature Controller, 2 Relay Ouputs, Computer Monitoring</span>
+        <span>Temperature Controller, 2 Relay Ouputs, Computer Monitoring, USB</span>
         </a> <br />
-	<span style="color:#999">RS232 to UART Converter with MAX232</span> <br />
 	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Output with Relay x2</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_2Outputs_ComputerMonitoring/Pictures/Album_USB_FT232RL.jpg"
+        alt="ts"
+        width="150"
+        height="68"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_2Outputs_ComputerMonitoring" target="_top">
+        <span>Temperature Controller, 2 Relay Ouputs, Computer Monitoring, USB</span>
+        </a> <br />
 	<span style="color:#999">UART to USB Converter with FT232RL</span> <br />
         <span style="color:#999">Sensor with LM35</span> <br />
         <span style="color:#999">Output with Relay x2</span> <br />
