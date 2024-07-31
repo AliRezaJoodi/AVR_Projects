@@ -73,6 +73,27 @@
         Bascom AVR <br />
     </td>
   </tr>
+ 
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/ClockWithTimer2&Thermometer_GLCD/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="60"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/ClockWithTimer2&Thermometer_GLCD" target="_top">
+        <span>Clock with Internal Timer, Thermometer</span>
+        </a> <br />
+        <span style="color:#999">Thermometer with LM35</span><br />
+        <span style="color:#999">Display with 128*64 KS108 GLCD</span><br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
   
   <tr>
     <td>
