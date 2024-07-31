@@ -2,7 +2,7 @@
   
 MCU:        	ATmega16  
 Frequency:  	8MHz  
-Display:	128*64 KS108 GLCD
+Display:	128*64 KS108 GLCD  
 Timer: 		Internal Timer (Timer2)    
 Sensor:     	LM35     
 
