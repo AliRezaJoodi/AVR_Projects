@@ -1,0 +1,1 @@
+copy in the "C:\Program Files\MCS Electronics\BASCOM-AVR\LIB"
