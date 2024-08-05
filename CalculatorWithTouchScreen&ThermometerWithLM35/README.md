@@ -1,6 +1,6 @@
 ## Calculator with GLCD Display and TouchScreen, Thermometer with LM35 Sensor	   
 
-MCU:		ATmega32A     
+MCU:		ATmega16A     
 Display:	128*64 KS108 GLCD   
 Touch:		Resistive Touch Screen  
 Sensor:     	LM35  
