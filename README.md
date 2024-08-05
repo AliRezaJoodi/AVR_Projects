@@ -33,6 +33,28 @@
   <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/CalculatorWithTouchScreen&ThermometerWithLM35/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="64"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/CalculatorWithTouchScreen&ThermometerWithLM35" target="_top">
+        <span>Calculator with TouchScreen, Thermometer with LM35 Sensor</span>
+        </a> <br />
+        <span style="color:#999">Display with 128*64 KS108 GLCD </span>  <br />
+        <span style="color:#999">Input from TouchScreen</span> <br />
+ <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/ClockWithDS1307&Thermometer&Voltmeter_LCD/Pictures/Album.jpg"
         alt="ts"
         width="151"
