@@ -13,7 +13,7 @@ It has included:
 - `Hardware` (Included hardware laye)
 - `Pictures` (Photos Samples Made)
 
-Link for code: [TemperatureControllerWithComputer_2Outputs](TemperatureController_2Outputs_ComputerMonitoring) 
+Link for code: [Temperature Controller, 2 Relay outputs, Computer Monitoring](https://github.com/AliRezaJoodi/AVR_Projects/tree/main/TemperatureController_2Outputs_ComputerMonitoring) 
 
 ### Pictures: v1.0
 ![](Pictures/v1.0.jpg)
