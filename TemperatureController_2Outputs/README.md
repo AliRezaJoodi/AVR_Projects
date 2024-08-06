@@ -20,7 +20,7 @@ It has included:
 ![](Hardware/v1.0.png)
 
 
-Link for code: [TemperatureControllerWithComputer_2Outputs](https://github.com/AliRezaJoodi/AVR_Projects/tree/main/TemperatureControllerWithComputer_2Outputs)  
+Link for code: [TemperatureControllerWithComputer_2Outputs](TemperatureController_2Outputs_ComputerMonitoring)  
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
