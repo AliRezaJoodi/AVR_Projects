@@ -1057,21 +1057,21 @@
    <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureMonitoring_2Alarm/Simulate/Album.png"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureMonitoring_2Alarms/Simulate/Album.png"
         alt="ts"
         width="151"
         height="45"
         />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureMonitoring_2Alarm" target="_top">
-        <span>Thermometer with 2-Alarm</span>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureMonitoring_2Alarms" target="_top">
+        <span>Thermometer with LM35 Sensor and 2 Alarms</span>
         </a> <br />
-        <span style="color:#999"> LM35 Sensor </span> <br />
-        <span style="color:#999"> Display with 16x2 LCD </span> <br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td> 
-        Bascom AVR <br />
+        Bascom AVR<br />
     </td>
   </tr>
 
