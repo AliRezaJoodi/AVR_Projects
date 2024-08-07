@@ -1,7 +1,6 @@
-## Thermometer Using LM35 with 2-Alarms
+## Thermometer with LM35 Sensor and 2 Alarms
   
 MCU:        ATmega32  
-Frequency:  1.000000 MHz  
 Display:    16x2 Character LCD  
 Sensor:     LM35     
 
