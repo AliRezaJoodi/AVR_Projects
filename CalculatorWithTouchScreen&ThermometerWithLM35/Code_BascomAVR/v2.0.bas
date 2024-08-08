@@ -16,14 +16,12 @@ Declare Sub Ashar_number()
 
 Config Portc.2 = Input : Portc.2 = 1 : Set_key Alias Pinc.2
 
-
 Config Portc.2 = Input
 Config Portc.3 = Input
 Ddra.0 = 0 : Porta.0 = 0
 
 Config Adc = Single , Prescaler = Auto
 Start Adc
-
 
 Config Portc.1 = Output : Buzzer Alias Portc.1 : Reset Buzzer
 
@@ -128,7 +126,6 @@ Management_menu:
 
 
 End
-
 
 '*********************************************
 Management_calculator:
