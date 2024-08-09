@@ -1,31 +1,1424 @@
-## Calculator with GLCD Display and TouchScreen, Thermometer with SMT160 Sensor	   
 
-MCU:		ATmega16A     
-Display:	128*64 KS108 GLCD   
-Touch:		Resistive Touch Screen  
-Sensor:     	SMT160  
+### Personal Projects, Based on AVR MCU, Open Source
 
-Note: Included schematic and PCB layout with Proteus  
-Note: It's a prototype and should get better 
+<table>
+  <tr>
+    <th>Picture</th>
+    <th>Title</th>
+    <th>Compiler</th>
+  </tr>
 
-### Folder and Files Description
-It has included:
-- `Code_BascomAVR` (Code with Basic Language)
-- `Hardware` (Included hardware laye
-- `Pictures` (Photos Samples Made)
-- `Simulate` (Simulator File)
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Calculator_LCD/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="69"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/Calculator_LCD" target="_top">
+        <span>Simple Calculator</span>
+        </a> <br />
+        <span style="color:#999">Input from 4x4 Keypad</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td>
+        CodeVision AVR <br />
+        Bascom AVR <br />
+    </td>
+  </tr>
 
-### Pictures: v1.0
-![](Pictures/v1.0.jpg)
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/CalculatorWithTouchScreen&ThermometerWithLM35/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="64"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/CalculatorWithTouchScreen&ThermometerWithLM35" target="_top">
+        <span>Calculator with TouchScreen, Thermometer with LM35 Sensor</span>
+        </a> <br />
+        <span style="color:#999">Display with 128*64 KS108 GLCD </span>  <br />
+        <span style="color:#999">Input from TouchScreen</span> <br />
+ <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
 
-### Pictures: v1.0, Bottom
-![](Pictures/v1.0_Bottom.jpg)
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/CalculatorWithTouchScreen&ThermometerWithSMT160/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="60"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/CalculatorWithTouchScreen&ThermometerWithSMT160" target="_top">
+        <span>Calculator with TouchScreen, Thermometer with SMT160 Sensor</span>
+        </a> <br />
+        <span style="color:#999">Display with 128*64 KS108 GLCD </span>  <br />
+        <span style="color:#999">Input from TouchScreen</span> <br />
+ <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
 
-### Pictures: SensorPanel
-![](Pictures/SensorPanel.jpg)
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/ClockWithDS1307&Thermometer&Voltmeter_LCD/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="72"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/ClockWithDS1307&Thermometer&Voltmeter_LCD" target="_top">
+        <span>Clock, Thermometer, DC Voltmeter</span>
+        </a> <br />
+        <span style="color:#999">Clock With DS1307 RTC </span><br />
+        <span style="color:#999">Thermometer Sensor with LM35 </span><br />
+        <span style="color:#999">Voltmeter for 0~30V DC </span><br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/ClockWithDS1307&Thermometer_LCD/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="76"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/ClockWithDS1307&Thermometer_LCD" target="_top">
+        <span>Clock With DS1307 RTC, Thermometer</span>
+        </a> <br />
+        <span style="color:#999">Clock With DS1307 RTC </span><br />
+        <span style="color:#999">Thermometer Sensor With LM35</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+ 
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/ClockWithTimer2&Thermometer_GLCD/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="60"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/ClockWithTimer2&Thermometer_GLCD" target="_top">
+        <span>Clock with Internal Timer, Thermometer</span>
+        </a> <br />
+        <span style="color:#999">Thermometer with LM35</span><br />
+        <span style="color:#999">Display with 128*64 KS108 GLCD</span><br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/ClockWithTimer2&Thermometer_LCD/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="76"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/ClockWithTimer2&Thermometer_LCD" target="_top">
+        <span>Clock with Internal Timer, Thermometer</span>
+        </a> <br />
+        <span style="color:#999">Thermometer with LM35 </span><br />
+        <span style="color:#999">Display with 16x2 LCD</span><br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
 
-### Schematic: v1.0
-![](Hardware/v1.0.png)
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/ClockWithTimer2_7Segment/Simulate/Album.png"
+        alt="ts"
+        width="151"
+        height="49"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/ClockWithTimer2_7Segment" target="_top">
+        <span>Clock With Internal Timer</span>
+        </a> <br />
+        <span style="color:#999">Display with 4-Digit 7-segment</span> <br />
+    </td>
+    <td>
+        CodeVision AVR <br />
+        Bascom AVR <br />
+    </td>
+  </tr>
 
-My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/CodeLockWithKeypad4x3/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="84"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/CodeLockWithKeypad4x3" target="_top">
+        <span>Code Lock with 4x3 Keypad</span>
+        </a> <br />
+        <span style="color:#999">Input from 4x3 Keypad</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/CodeLockWithKeypad4x4/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="79"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/CodeLockWithKeypad4x4" target="_top">
+        <span>Code Lock with 4x4 Keypad</span>
+        </a> <br />
+        <span style="color:#999">Input from 4x4 Keypad</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/CodeLockWithRFID_LCD/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="73"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/CodeLockWithRFID_LCD" target="_top">
+        <span>Code Lock With RFID</span>
+        </a> <br />
+        <span style="color:#999">125KHz RFID Tag</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+ 
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/CodeLockWithRFID_LED/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="72"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/CodeLockWithRFID_LED" target="_top">
+        <span>Code Lock With RFID</span>
+        </a> <br />
+        <span style="color:#999">125KHz RFID Tag</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/CodeLockWithRFID_Standard/Hardware/Album.png"
+        alt="ts"
+        width="151"
+        height="82"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/CodeLockWithRFID_Standard" target="_top">
+        <span>Code Lock With RFID</span>
+        </a> <br />
+        <span style="color:#999">125KHz RFID Tag</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+ 
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/CodeLockWithTelCard_LCD/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="73"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/CodeLockWithTelCard_LCD" target="_top">
+        <span>Code Lock With TelCard</span>
+        </a> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+ 
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/CodeLockWithTelCard_LED/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="68"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/CodeLockWithTelCard_LED" target="_top">
+        <span>Code Lock With TelCard</span>
+        </a> <br />
+    </td>
+    <td>
+        CodeVision AVR <br />
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/ConferenceTimer_7Segment_ATmega8/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="106"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/ConferenceTimer_7Segment_ATmega8" target="_top">
+        <span>Conference Timer</span>
+        </a> <br />
+        <span style="color:#999">Display with 6-Digit 7-segment</span> <br />
+        <span style="color:#999">ATmega8 MCU</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/ConferenceTimer_7Segment_ATmega32/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="76"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/ConferenceTimer_7Segment_ATmega32" target="_top">
+        <span>Conference Timer</span>
+        </a> <br />
+        <span style="color:#999">Display with 6-Digit 7-segment</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+ 
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Counter_7Segment_2Digit/Simulate/Album.png"
+        alt="Null"
+        width="150"
+        height="111"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/tree/main/Counter_7Segment_2Digit" target="_top">
+        <span>Counter</span>
+        </a> <br />
+        <span style="color:#999">Display with 2-Digit 7-segment</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DigitalDice/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="64"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DigitalDice" target="_top">
+        <span>Digital Dice</span>
+        </a> <br />
+        <span style="color:#999">Display with 1-Digit 7-segment</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DigitalMeterWithUltrasonicMoudle_SRF02_7Segment/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="66"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DigitalMeterWithUltrasonicMoudle_SRF02_7Segment" target="_top">
+        <span>Digital Meter</span>
+        </a> <br />
+        <span style="color:#999">SRF02 Ultrasonic Module</span> <br />
+        <span style="color:#999">Display with 4-Digit 7-segment</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DigitalMeterWithUltrasonicMoudle_SRF02_GLCD/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="58"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DigitalMeterWithUltrasonicMoudle_SRF02_GLCD" target="_top">
+        <span>Digital Meter</span>
+        </a> <br />
+        <span style="color:#999">SRF02 Ultrasonic Module</span> <br />
+        <span style="color:#999">128x64 GLCD Display</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+ 
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DigitalMeterWithUltrasonicMoudle_SRF02_LCD/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="65"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DigitalMeterWithUltrasonicMoudle_SRF02_LCD" target="_top">
+        <span>Digital Meter</span>
+        </a> <br />
+        <span style="color:#999">SRF02 Ultrasonic Module</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td>
+        CodeVision AVR <br />
+        Bascom AVR <br />
+        mikroC PRO for AVR <br />
+    </td>
+  </tr>
+ 
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DigitalMeterWithUltrasonicMoudle_SRF05_LCD/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="64"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DigitalMeterWithUltrasonicMoudle_SRF05_LCD" target="_top">
+        <span>Digital Meter</span>
+        </a> <br />
+        <span style="color:#999">SRF05 Ultrasonic Module</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DigitalWaterLevelMeterWithUltrasonicMoudle_SRF05_LCD/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="75"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DigitalWaterLevelMeterWithUltrasonicMoudle_SRF05_LCD" target="_top">
+        <span>Digital Water Level Meter</span>
+        </a> <br />
+        <span style="color:#999">SRF05 Ultrasonic Module</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/PhaseDimmer_1Phase_LCD/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="72"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/PhaseDimmer_1Phase_LCD" target="_top">
+        <span>Phase Dimmer, 1-Phase, With Zero-Crossing Synchronized PWM</span>
+        </a> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td>
+        CodeVision AVR <br />
+    </td>
+  </tr>
+ 
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/FlasherWithTriacs_16CH/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="129"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/FlasherWithTriacs_16CH" target="_top">
+        <span>16CH Flashing Light with Triacs</span>
+        </a> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Game_TicTacToe_GLCD_TouchScreen/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="60"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/Game_TicTacToe_GLCD_TouchScreen" target="_top">
+        <span>Tic Tac Toe Game</span>
+        </a> <br />
+	<span style="color:#999">Display with 64x128 GLCD</span> <br />
+	<span style="color:#999">Input from Touch Screen</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Game_TicTacToe_LED/Simulate/Album.png"
+        alt="ts"
+        width="150"
+        height="75"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/Game_TicTacToe_LED" target="_top">
+        <span>Tic Tac Toe Game</span>
+        </a> <br />
+	<span style="color:#999">Display with LED</span> <br />
+	<span style="color:#999">Input from Matrix Button</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+ 
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/LineFollowerRobot/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="105"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/LineFollowerRobot" target="_top">
+        <span>Line Follower Robot</span>
+        </a> <br />
+    </td>
+    <td>
+        CodeVision AVR <br />
+        Bascom AVR <br />
+    </td>
+  </tr>
+ 
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/PhoneBook_AT24C512/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="75"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/PhoneBook_AT24C512" target="_top">
+        <span>Phone Book</span>
+        </a> <br />
+        <span style="color:#999">Input from 4x4 Keypad</span> <br />
+        <span style="color:#999">External EEPROM AT24C512</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+ 
+ <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/PhoneBookWithDialer/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="78"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/PhoneBookWithDialer" target="_top">
+        <span>Phone Book With Dialer</span>
+        </a> <br />
+        <span style="color:#999">Input from 4x4 Keypad</span> <br />
+        <span style="color:#999">Internal EEPROM </span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+ 
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Programmer_STK200/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="113"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/Programmer_STK200" target="_top">
+        <span>STK200/STK300 Programmer</span>
+        </a> <br />
+        <span style="color:#999">Parallel Port </span> <br />
+        <span style="color:#999">Power with USB </span> <br />
+    </td>
+    <td> </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Programmer_USBASP/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="137"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/Programmer_USBASP" target="_top">
+        <span>USBASP Programmer</span>
+        </a> <br />
+    </td>
+    <td> </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayControllerWithLaserPointer_1CH_ATmega8/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="73"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/RelayControllerWithLaserPointer_1CH_ATmega8" target="_top">
+        <span>1CH Relay Controller with Laser Pointer</span>
+        </a> <br />
+        <span style="color:#999">ATmega8 MCU </span> <br />
+    </td>
+    <td> 
+        CodeVision AVR <br />
+        Bascom AVR <br />
+    </td>
+  </tr>
+ 
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayControllerWithLaserPointer_1CH_ATtiny13/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="75"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/RelayControllerWithLaserPointer_1CH_ATtiny13" target="_top">
+        <span>1CH Relay Controller with Laser Pointer</span>
+        </a> <br />
+        <span style="color:#999">ATtiny13 MCU </span> <br />
+    </td>
+    <td> 
+        CodeVision AVR <br />
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayControllerWithLaserPointer_1CH_ATtiny26/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="73"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/RelayControllerWithLaserPointer_1CH_ATtiny26" target="_top">
+        <span>1CH Relay Controller with Laser Pointer</span>
+        </a> <br />
+        <span style="color:#999">ATtiny26 MCU </span> <br />
+    </td>
+    <td> 
+        CodeVision AVR <br />
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayControllerWithLaserPointer_1CH_ATtiny2313/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="82"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/RelayControllerWithLaserPointer_1CH_ATtiny2313" target="_top">
+        <span>1CH Relay Controller with Laser Pointer</span>
+        </a> <br />
+        <span style="color:#999">ATtiny2313 MCU </span> <br />
+    </td>
+    <td> 
+        CodeVision AVR <br />
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/SmartParkingSimulator/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="52"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/SmartParkingSimulator" target="_top">
+        <span>Smart Parking Simulator</span>
+        </a> <br />
+    </td>
+    <td> 
+        Bascom AVR <br />
+    </td>
+  </tr>
+ 
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TelCardReader/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="74"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TelCardReader" target="_top">
+        <span>Tel Card Reader</span>
+        </a> <br />
+    </td>
+    <td> 
+        CodeVision AVR <br />
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityController_4Outputs/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="88"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityController_4Outputs" target="_top">
+        <span>Temperature and Humidity Controller, 4 Relay Outputs</span>
+        </a> <br />
+        <span style="color:#999">Sensor with SHT10</span> <br />
+        <span style="color:#999">Output with Relay x4</span> <br />
+    </td>
+    <td>
+        CodeVision AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityController_4Outputs_ComputerMonitoring_Bluetooth/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="89"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityController_4Outputs_ComputerMonitoring_Bluetooth" target="_top">
+        <span>Temperature and Humidity Controller, 4 Relay Outputs, Bluetooth Computer Monitoring</span>
+        </a> <br />
+        <span style="color:#999">Sensor with SHT10</span> <br />
+	<span style="color:#999">Bluetooth Module with HC-05</span> <br />
+        <span style="color:#999">Output with Relay x4</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityController_4Outputs_WirelessSensorWithRF/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="144"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityController_4Outputs_WirelessSensorWithRF" target="_top">
+        <span>Temperature and Humidity Controller, 4 Relay Outputs, Wireless Sensor With RF</span>
+        </a> <br />
+        <span style="color:#999">RF Module with HMR & HMT</span> <br />
+        <span style="color:#999">Sensor with SHT10</span> <br />
+	<span style="color:#999">Output with Relay x4</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+  </tr>
+ 
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureAndHumidityMonitoring/Simulate/Album.png"
+        alt="ts"
+        width="150"
+        height="37"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureAndHumidityMonitoring" target="_top">
+        <span>Temperature and Humidity Monitoring</span>
+        </a> <br />
+        <span style="color:#999">Sensor with SHT10</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td>
+        CodeVision AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_1Output/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="72"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_1Output" target="_top">
+        <span>Temperature Controller, 1 Relay Output</span>
+        </a> <br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Output with Relay x1</span> <br />
+    </td>
+    <td>
+        CodeVision AVR<br />
+	Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_1Output_ComputerMonitoring/Pictures/Album_RS232.jpg"
+        alt="ts"
+        width="150"
+        height="89"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_1Output_ComputerMonitoring" target="_top">
+        <span>Temperature Controller, 1 Relay Output, Computer Monitoring, RS232</span>
+        </a> <br />
+	<span style="color:#999">RS232 to UART Converter with MAX232</span> <br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Output with Relay x1</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_1Output_ComputerMonitoring/Pictures/Album_USB_FT232BL.jpg"
+        alt="ts"
+        width="150"
+        height="74"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_1Output_ComputerMonitoring" target="_top">
+        <span>Temperature Controller, 1 Relay Output, Computer Monitoring, USB</span>
+        </a> <br />
+	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Output with Relay x1</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_2Outputs/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="71"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_2Outputs" target="_top">
+        <span>Temperature Controller, 2 Relay Outputs</span>
+        </a> <br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Output with Relay x2</span> <br />
+    </td>
+    <td>
+	Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_2Outputs_ComputerMonitoring/Pictures/Album_RS232.jpg"
+        alt="ts"
+        width="150"
+        height="70"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_2Outputs_ComputerMonitoring" target="_top">
+        <span>Temperature Controller, 2 Relay Ouputs, Computer Monitoring, RS232</span>
+        </a> <br />
+	<span style="color:#999">RS232 to UART Converter with MAX232</span> <br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Output with Relay x2</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_2Outputs_ComputerMonitoring/Pictures/Album_USB_FT232BL.jpg"
+        alt="ts"
+        width="150"
+        height="67"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_2Outputs_ComputerMonitoring" target="_top">
+        <span>Temperature Controller, 2 Relay Ouputs, Computer Monitoring, USB</span>
+        </a> <br />
+	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Output with Relay x2</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureController_2Outputs_ComputerMonitoring/Pictures/Album_USB_FT232RL.jpg"
+        alt="ts"
+        width="150"
+        height="68"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureController_2Outputs_ComputerMonitoring" target="_top">
+        <span>Temperature Controller, 2 Relay Ouputs, Computer Monitoring, USB</span>
+        </a> <br />
+	<span style="color:#999">UART to USB Converter with FT232RL</span> <br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Output with Relay x2</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureControllerAndGasDetector_2Outputs_ComputerMonitoring/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="67"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureControllerAndGasDetector_2Outputs_ComputerMonitoring" target="_top">
+        <span>Temperature Controller And Gas Detector, 2 Relay Ouputs, Computer Monitoring</span>
+        </a> <br />
+	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Gas Sensor with MQ9</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureMonitoring_2Alarms/Simulate/Album.png"
+        alt="ts"
+        width="151"
+        height="45"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureMonitoring_2Alarms" target="_top">
+        <span>Thermometer with LM35 Sensor and 2 Alarms</span>
+        </a> <br />
+        <span style="color:#999">Sensor with LM35</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td> 
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureMonitoring_7Segment_2Digit/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="84"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureMonitoring_7Segment_2Digit" target="_top">
+        <span>Thermometer</span>
+        </a> <br />
+	<span style="color:#999">Temperature Sensor with LM35</span> <br />
+	<span style="color:#999">Display with 7-Segment</span> <br />
+    </td>
+    <td> 
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureMonitoring_GLCD_LM35/Simulate/Album.png"
+        alt="ts"
+        width="149"
+        height="71"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureMonitoring_GLCD_LM35" target="_top">
+        <span>Thermometer</span>
+        </a> <br />
+        <span style="color:#999">Temperature Sensors with LM35</span> <br />
+        <span style="color:#999">Display with 64x128 GLCD</span> <br />
+    </td>
+    <td> 
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureMonitoring_LCD_DS18B20_4Sensors/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="73"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureMonitoring_LCD_DS18B20_4Sensors" target="_top">
+        <span>Thermometer with 4Sensors</span>
+        </a> <br />
+        <span style="color:#999">Temperature Sensors with DS18B20 x4</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td> 
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TemperatureMonitoring_LCD_LM35/Simulate/Album.png"
+        alt="ts"
+        width="150"
+        height="38"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TemperatureMonitoring_LCD_LM35" target="_top">
+        <span>Thermometer</span>
+        </a> <br />
+        <span style="color:#999">Temperature Sensors with LM35</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td> 
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TextDisplayWithLCD16x2_ControlledWithPcKeyboard/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="74"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TextDisplayWithLCD16x2_ControlledWithPcKeyboard" target="_top">
+        <span>Text Displayer</span>
+        </a> <br />
+        <span style="color:#999"> Input from PS2 Keyboard </span> <br />
+        <span style="color:#999"> Display with 16x2 LCD </span> <br />
+    </td>
+    <td> 
+        CodeVision AVR <br />
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TextDisplayWithLCD16x2_ControlledWithComputer/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="68"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TextDisplayWithLCD16x2_ControlledWithComputer" target="_top">
+        <span>Text Displayer</span>
+        </a> <br />
+	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
+	<span style="color:#999">UART to USB Converter with FT232RL</span> <br />
+        <span style="color:#999"> Display with 16x2 LCD </span> <br />
+    </td>
+    <td> 
+        CodeVision AVR <br />
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TrafficLights/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="87"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TrafficLights" target="_top">
+        <span>Traffic Lights</span>
+        </a> <br />
+    </td>
+    <td> 
+        Bascom AVR <br />
+    </td>
+  </tr>
+ 
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TrainingBoardExclusiveForDimmer/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="95"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TrainingBoardExclusiveForDimmer" target="_top">
+        <span>AVR Training Board Exclusive for Dimmer</span>
+        </a> <br />
+    </td>
+    <td> </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TrainingBoardExclusiveForIR/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="69"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TrainingBoardExclusiveForIR" target="_top">
+        <span>AVR Training Board Exclusive For IR Remote</span>
+        </a> <br />
+    </td>
+    <td> </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/VoltmeterWithBarGraph_DC20V_LCD/Simulate/Album.png"
+        alt="ts"
+        width="151"
+        height="45"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/VoltmeterWithBarGraph_DC20V_LCD" target="_top">
+        <span>Voltmeter With BarGraph</span>
+        </a> <br />
+        <span style="color:#999"> LM35 Sensor </span> <br />
+        <span style="color:#999"> Display with 16x2 LCD </span> <br />
+    </td>
+    <td> 
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/VoltmeterWithComputerMonitoring_DC5V_LCD/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="70"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/VoltmeterWithComputerMonitoring_DC5V_LCD" target="_top">
+        <span>Voltmeter 0~5V/DC, Computer Monitoring</span>
+        </a> <br />
+	<span style="color:#999">RS232 to UART Converter with MAX232</span> <br />
+        <span style="color:#999"> Display with 16x2 LCD </span> <br />
+    </td>
+    <td> 
+        Bascom AVR <br />
+    </td>
+  </tr>
+  
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/WirelessCommunicationWithIR_FromMCUtoMCU/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="154"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/WirelessCommunicationWithIR_FromMCUtoMCU" target="_top">
+        <span>Wireless Communication With IR From MCU to MCU</span>
+        </a> <br />
+        <span style="color:#999"> Input from PS2 Keyboard </span> <br />
+        <span style="color:#999"> Display with 16x2 LCD </span> <br />
+        <span style="color:#999"> HMR and HMT Module </span> <br />
+    </td>
+    <td> 
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/WirelessCommunicationWithRF_FromComputerToMCU/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="106"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/WirelessCommunicationWithRF_FromComputerToMCU" target="_top">
+        <span>Wireless Communication With RF From Computer to MCU</span>
+        </a> <br />
+	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
+	<span style="color:#999">UART to USB Converter with FT232RL</span> <br />
+        <span style="color:#999"> Display with 16x2 LCD </span> <br />
+        <span style="color:#999"> HMR and HMT Module </span> <br />
+    </td>
+    <td> 
+        Bascom AVR <br />
+    </td>
+  </tr>
+  
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/WirelessCommunicationWithRF_FromMCUtoComputer/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="163"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/WirelessCommunicationWithRF_FromMCUtoComputer" target="_top">
+        <span>Wireless Communication With RF From MCU to Computer</span>
+        </a> <br />
+	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
+        <span style="color:#999"> Input from USB Keyboard </span> <br />
+        <span style="color:#999"> Display with 16x2 LCD </span> <br />
+        <span style="color:#999"> HMR and HMT Module </span> <br />
+    </td>
+    <td> 
+        Bascom AVR <br />
+    </td>
+    </a></td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/WirelessCommunicationWithRF_FromMCUtoMCU/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="138"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/WirelessCommunicationWithRF_FromMCUtoMCU" target="_top">
+        <span>Wireless Communication With RF From MCU to MCU</span>
+        </a> <br />
+        <span style="color:#999"> Input from PS2 Keyboard </span> <br />
+        <span style="color:#999"> Display with 16x2 LCD </span> <br />
+        <span style="color:#999"> HMR and HMT Module </span> <br />
+    </td>
+    <td> 
+        Bascom AVR <br />
+    </td>
+  </tr>
+  
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+</table>
+
+
+
