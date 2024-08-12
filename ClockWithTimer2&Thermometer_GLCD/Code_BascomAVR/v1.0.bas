@@ -34,10 +34,6 @@ Dim Temp As Single
 Dim Temp_str As String * 10
 Dim Status As Byte
 
-'Gosub Create_password_1
-'Gosub Czech_password_1
-Gosub Czech_password_2
-
 'Gosub Sub_status
 'Readeeprom Status , &H00 : Waitms 10
 'If Status = 1 Then
@@ -57,19 +53,6 @@ Do
 Loop
 
 End
-'//////////////////////////////////////////////
-
-U0:
-$bgf "U0.bgf"
-
-P0:
-$bgf "P0.bgf"
-
-P1:
-$bgf "P1.bgf"
-
-P2:
-$bgf "P2.bgf"
 
 '*****************************************
 Sub_status:
@@ -91,7 +74,6 @@ Return
 '*****************************************
 Sub_university:
    Cls : Setfont Font8x8
-   Showpic 0 , 0 , U0 : Wait Delay_3 : Cls
    Lcdat 1 , 1 , "Islamic"
    Lcdat 2 , 1 , "Azad University"
    Setfont Font16x16 : Lcdat 5 , 1 , "Abhar"
@@ -271,27 +253,14 @@ Menu_day:
       Goto Repeat
 Return
 
-'*************************************************
-Create_password_1:
-   Dim Pass_1 As String * 1 : Pass_1 = "_"
-   Writeeeprom Pass_1 , &H126
-Return
-
-'*************************************************
-Czech_password_1:
-   Dim Pass_2 As String * 1
-   Readeeprom Pass_2 , &H126
-   If Pass_2 <> "_" Then
-      Do
-      Loop
-   End If
-
-'*************************************************
-Czech_password_2:
-   Config Porta.2 = Output : Porta.2 = 0
-   Config Pina.1 = Input : Porta.1 = 1
-   Bitwait Pina.1 , Reset : Waitms 100
-Return
-
 $include "font8x8.font"
 $include "font16x16.font"
+
+P0:
+$bgf "P0.bgf"
+
+P1:
+$bgf "P1.bgf"
+
+P2:
+$bgf "P2.bgf"
