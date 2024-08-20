@@ -1320,6 +1320,27 @@
         Bascom AVR <br />
     </td>
   </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/WiredCommunicationWithUART/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="77"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/WiredCommunicationWithUART" target="_top">
+        <span>Wired Communication With UART, From MCU to MCU, Typing With PS2 Keyboard</span>
+        </a> <br />
+        <span style="color:#999">Input from PS2 Keyboard</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td> 
+        Bascom AVR<br />
+    </td>
+  </tr>
   
    <tr>
     <td>

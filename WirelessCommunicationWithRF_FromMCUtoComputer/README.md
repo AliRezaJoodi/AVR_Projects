@@ -1,10 +1,11 @@
 ## Wireless Communication With RF, From MCU to Computer, Typing With USB Keyboard
 
-MCU: ATmega32A  
-Display: 16x2 Character LCD  
-RF Module: HMR and HMT Module  
-Computer Interfacing: UART to USB Converter with FT232BL  
-Computer Software: VB6  
+MCU: 			ATmega32A  
+Display: 		16x2 Character LCD  
+RF Module: 		HMR and HMT Module  
+Computer Interfacing: 	UART to USB Converter with FT232BL  
+Input:			PS2 Keyboard  
+Computer Software: 	VB6  
     
 Note: Included schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better 

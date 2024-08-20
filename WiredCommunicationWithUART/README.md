@@ -2,6 +2,7 @@
 
 MCU:		ATmega32A  
 Display:    	16x2 Character LCD
+Input:		PS2 Keyboard  
     
 Note: Included schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better 
