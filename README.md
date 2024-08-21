@@ -11,6 +11,27 @@
   <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/AlarmForWindowAndDoor/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="69"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/AlarmForWindowAndDoor" target="_top">
+        <span>Door And Window Alarm</span>
+        </a> <br />
+        <span style="color:#999">Included Shock Sensor</span> <br />
+        <span style="color:#999">Included Magnetic Sensor</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Calculator_LCD/Pictures/Album.jpg"
         alt="ts"
         width="151"
