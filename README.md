@@ -13,8 +13,8 @@
         <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/AlarmForWindowAndDoor/Pictures/Album.jpg"
         alt="ts"
-        width="151"
-        height="69"
+        width="150"
+        height="109"
         />
     </td>
     <td>
