@@ -1,0 +1,20 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+Temperature                                                       0260h        4
+Humidity                                                          0264h        4
+Buffer_LCD                                                        0268h       16
+_base_y                                                           0278h        4
+p                                                                 027Ch        2
+_seed                                                             027Eh        4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+_lcd_x                                                            R5           1
+_lcd_y                                                            R4           1
+_lcd_maxx                                                         R7           1
