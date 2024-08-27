@@ -17,7 +17,7 @@ It has included:
 ### Pictures: v1.0
 ![](Pictures/v1.0.png)
 
-### Schematic: v2.0
+### Schematic: v1.0
 ![](Hardware/v1.0.png)
 
 
