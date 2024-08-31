@@ -1,4 +1,3 @@
-
 ### Personal Projects, Based on AVR MCU, Open Source
 
 <table>
@@ -26,6 +25,28 @@
     </td>
     <td>
         Bascom AVR <br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/AlarmWithPIR_1Zone_Dialer/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="95"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/AlarmWithPIR_1Zone_Dialer" target="_top">
+        <span>Alarm with PIR Sensor, 1 Zone</span>
+        </a> <br />
+        <span style="color:#999">Included PIR Sensor</span> <br />
+        <span style="color:#999">Input from 4x4 Keypad</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
     </td>
   </tr>
 
