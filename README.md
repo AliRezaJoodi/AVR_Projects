@@ -53,6 +53,28 @@
   <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/AlarmWithPIR_3Zones_Dialer/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="71"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/AlarmWithPIR_3Zones_Dialer" target="_top">
+        <span>Alarm with PIR Sensor, 3 Zones</span>
+        </a> <br />
+        <span style="color:#999">Included PIR Sensor</span> <br />
+        <span style="color:#999">Input from 4x4 Keypad</span> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+    </td>
+    <td>
+        Bascom AVR<br />
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Calculator_LCD/Pictures/Album.jpg"
         alt="ts"
         width="151"
