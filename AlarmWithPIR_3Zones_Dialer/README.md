@@ -1,9 +1,9 @@
 ## Alarm with PIR Sensor, 3 Zones
 
-MCU:		ATmega32A      
+MCU:		ATmega32A  
 Display:        16x2 LCD  
-Sensor:		PIR
-Input:		4x4 Keypad		
+Sensor:		PIR  
+Input:		4x4 Keypad  	
 
 Note: Included schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better 
