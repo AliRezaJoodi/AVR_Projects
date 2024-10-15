@@ -2,7 +2,8 @@
 
 MCU:		ATmega32A  
 Sensor:     	SHT10  
-Display:    	16x2 Character LCD  
+Display:    	16x2 Character LCD 
+Output:		Relay	x4  
 RF Module:	HMR and HMT Module  
     
 Note: Included schematic and PCB layout with Proteus  

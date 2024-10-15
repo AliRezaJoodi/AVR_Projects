@@ -2,7 +2,7 @@
 
 MCU:		ATmega32A  
 Display:        16x2 LCD  
-Sensor:		PIR  
+Sensor:		PIR x3 
 Input:		4x4 Keypad  	
 
 Note: Included schematic and PCB layout with Proteus  
