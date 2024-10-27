@@ -1,8 +1,8 @@
 'GitHub Account: GitHub.com/AliRezaJoodi
 
 $regfile = "m16def.dat"
-'$crystal = 8000000
-$crystal = 11059200
+$crystal = 8000000
+'$crystal = 11059200
 
 '$PROG &HFF,&HE1,&H99,&H00' generated. Take care that the chip supports all fuse bytes.
 
@@ -55,7 +55,7 @@ Const Column = 8
 Dim Scan As Word
 Dim I As Word
 Dim Refresh As Byte
-Dim Spead As Byte : Spead = 1
+Dim Spead As Byte : Spead = 10
 Dim T As Word
 Dim B As Word
 Dim D As Word
@@ -81,7 +81,7 @@ Dim Status As Bit : Status = 0
 
 Main:
 
-'Spead = 5 : Text = "HELLO" : Gosub Save_eeprom
+'Spead = 10 : Text = "Hello" : Gosub Save_eeprom
 
 Gosub Load_eeprom
 Gosub Erase_data
