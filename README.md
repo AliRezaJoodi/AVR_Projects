@@ -602,13 +602,14 @@
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DisplayWithLED_8x8/Pictures/Album.jpg"
         alt="ts"
         width="150"
-        height="70"
+        height="61"
         />
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLED_8x8" target="_top">
         <span>Display With 8x8 LED</span>
         </a> <br />
+        <span style="color:#999">Input from PS2 keyboard</span> <br />
     </td>
     <td>
         Bascom AVR <br />
