@@ -607,7 +607,47 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLED_8x8" target="_top">
-        <span>Display With 8x8 LED</span>
+        <span>Display with 8x8 LED</span>
+        </a> <br />
+        <span style="color:#999">Input from PS2 keyboard</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DisplayWithLED_8x16/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="56"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLED_8x16" target="_top">
+        <span>Display with 8x16 LED</span>
+        </a> <br />
+        <span style="color:#999">Input from PS2 keyboard</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DisplayWithLED_8x16/Pictures/Album2.jpg"
+        alt="ts"
+        width="150"
+        height="47"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLED_8x16" target="_top">
+        <span>Display with Two 8x6 Dot Matrix</span>
         </a> <br />
         <span style="color:#999">Input from PS2 keyboard</span> <br />
     </td>

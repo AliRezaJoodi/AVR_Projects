@@ -1,6 +1,6 @@
 'GitHub Account: GitHub.com/AliRezaJoodi
 
-$regfile = "m16def.dat"
+$regfile = "m32def.dat"
 $crystal = 8000000
 
 Config Porta = Output

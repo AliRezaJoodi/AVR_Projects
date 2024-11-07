@@ -1,6 +1,6 @@
 'GitHub Account: GitHub.com/AliRezaJoodi
 
-$regfile = "m16def.dat"
+$regfile = "m32def.dat"
 '$crystal = 11059200
 $crystal = 8000000
 
@@ -48,7 +48,7 @@ Dim Character As String * 1
 Dim Key As Byte
 
 Main:
-Spead = 5 : Text = "AliRezaJoodi" : Gosub Save_eeprom
+'Spead = 5 : Text = "AliRezaJoodi" : Gosub Save_eeprom
 Gosub Load_eeprom
 
 Gosub Erase_data

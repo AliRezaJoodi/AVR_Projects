@@ -3,7 +3,7 @@
 MCU:		ATmega32A  
 
 Note: The text changeable with a PS2 keyboard
-Note: Included schematic and PCB layout with Proteus  
+Note: Included simulator, schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better 
 
 ### Folder and Files Description
