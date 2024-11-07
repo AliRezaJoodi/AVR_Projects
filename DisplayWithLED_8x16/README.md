@@ -2,6 +2,9 @@
 
 MCU:		ATmega32A  
 
+Note: Model 1 with 8x16 LED
+Note: Model 2 with 8x16 Dot Matrix
+
 Note: The text changeable with a PS2 keyboard
 Note: Included simulator, schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better 
