@@ -25,7 +25,7 @@ It has included:
 
 ### Video: v1.0
 <a href="https://www.youtube.com/watch?v=eApixDPH1R0&t=5s" target="_blank">
-    <img src="https://raw.githubusercontent.com/AliRezaJoodi/AVR_Projects/refs/heads/main/TrafficLights/Pictures/YouTube.jpg" alt="Video Thumbnail"/>
+    <img src="Pictures/YouTube.jpg" alt="Video Thumbnail"/>
 </a>
 <br><br>
 
