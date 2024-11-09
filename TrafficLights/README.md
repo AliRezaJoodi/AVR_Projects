@@ -24,6 +24,9 @@ It has included:
 ![](Simulate/v1.0.png)
 
 ### Video: v1.0
+[![Assembly Shot][YT-screenshot]](https://www.youtube.com/watch?v=eApixDPH1R0)
+
+
 [Youtube.com/@AliRezaJoodi](https://youtu.be/eApixDPH1R0) 
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
