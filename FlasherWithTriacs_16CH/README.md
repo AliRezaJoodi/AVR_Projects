@@ -20,7 +20,10 @@ It has included:
 
 
 ### Video: v1.0
-[Youtube.com/@AliRezaJoodi](https://www.youtube.com/watch?v=kVtlkroPYHs) 
+<a href="https://www.youtube.com/watch?v=kVtlkroPYHs" target="_blank">
+    <img src="Pictures/YouTube.jpg" alt="Video Thumbnail"/>
+</a>
+<br><br>
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
