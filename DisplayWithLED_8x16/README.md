@@ -22,6 +22,9 @@ It has included:
 ### Pictures: Model2, v1.0
 ![](Pictures/Model2_v1.0.jpg)
 
+### Pictures: Model2, v1.0, Bottom
+![](Pictures/Model2_v1.0_Bottom.jpg)
+
 ### Schematic: Model1, v2.0
 ![](Hardware/Model1_v2.0.png)
 
