@@ -78,7 +78,7 @@ Dim Key As Byte
 
 Dim Status As Bit : Status = 0
 
-Text = "HELLO" : Spead = 5 : Gosub Save_eeprom
+'Text = "HELLO" : Spead = 5 : Gosub Save_eeprom
 
 Main:
 Gosub Load_eeprom
@@ -364,5 +364,4 @@ Data 000 , 124 , 000 , 000 , 000 , 062 , 000 , 000 , 000 , 008
 Data 000 , 000 , 049 , 000 , 052 , 055 , 000 , 000 , 000 , 000
 Data 048 , 044 , 050 , 053 , 054 , 056 , 000 , 000 , 000 , 043
 Data 051 , 045 , 042 , 057 , 000 , 000
-
 

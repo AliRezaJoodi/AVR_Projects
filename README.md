@@ -647,7 +647,7 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLED_8x16" target="_top">
-        <span>Display with Two 8x16 Dot Matrix</span>
+        <span>Display with 8x16 Dot Matrix</span>
         </a> <br />
         <span style="color:#999">Input from PS2 keyboard</span> <br />
     </td>
