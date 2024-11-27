@@ -619,6 +619,26 @@
    <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DisplayWithLED_8x8_Expandable/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="92"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLED_8x8_Expandable" target="_top">
+        <span>Display with 8x8 LED, Expandable</span>
+        </a> <br />
+        <span style="color:#999">Example for 8x16 Display</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DisplayWithLED_8x16/Pictures/Album.jpg"
         alt="ts"
         width="150"
