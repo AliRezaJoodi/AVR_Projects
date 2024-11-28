@@ -2,8 +2,8 @@
 
 MCU:		ATmega32A  
 
-Note: Included simulator, schematic and PCB layout with Proteus  
-Note: It's a prototype and should get better 
+Note: Included simulator, schematic and PCB layout with Proteus.  
+Note: It's a prototype and should get better.  
 
 ### Folder and Files Description
 It has included:
