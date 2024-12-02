@@ -41,7 +41,7 @@ DebugOutputObjectFilesDirectory=Debug
 DebugOutputExecutableFilesDirectory=Debug\Exe
 DebugOutputLinkerFilesDirectory=Debug\Link
 F1=T5.c
-ActiveTab=1
+ActiveTab=0
 [Compiler]
 RebuildAll=0
 LinkageInformationPresent=1
@@ -570,7 +570,7 @@ Row=0
 Column=0
 ScrollPosX=0
 ScrollPosY=0
-TimeStamp=1501210939
+TimeStamp=1501801437
 [BookmarksFoldedCode]
 Files=1
 F1=T5.c

@@ -9,8 +9,8 @@ Note: It's a prototype and should get better
 ### Folder and Files Description
 It has included:
 - `Code_BascomAVR` (Code with Basic Language)
-- `Code_CodeVisionAVR` (Code with C Language), Need to check.
-- `Code_VB6` (Software with Visual Basic), Need to check.
+- `Code_CodeVisionAVR` (Code with C Language). Need to check.
+- `Code_VB6` (Software with Visual Basic). Need to check.
 - `Hardware` (Included hardware laye
 - `Pictures` (Photos Samples Made)
 - `Simulate` (Simulator File)
