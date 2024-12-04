@@ -719,6 +719,25 @@
    <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DisplayWithLED_8x32/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="90"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLED_8x32" target="_top">
+        <span>Display with 8x24 LED</span>
+        </a> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/FlasherWithTriacs_16CH/Pictures/Album.jpg"
         alt="ts"
         width="151"

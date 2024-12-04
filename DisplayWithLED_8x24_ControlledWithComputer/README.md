@@ -1,6 +1,6 @@
 ## Display With 8x24 LED
 
-MCU:		ATmega32A  
+MCU:		ATmega8A  
 
 Note: The text changeable with RS232
 Note: Included simulator, schematic and PCB layout with Proteus  
