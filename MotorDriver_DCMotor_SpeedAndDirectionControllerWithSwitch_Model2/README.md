@@ -1,4 +1,4 @@
-## DC Motor Driver, Speed and Direction Controller With Switch
+## DC Motor Driver, Speed and Direction Controller with Switch
 
 MCU:		ATmega32A  
 Display:        16x2 LCD  
