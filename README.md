@@ -727,7 +727,7 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLED_8x32" target="_top">
-        <span>Display with 8x24 LED</span>
+        <span>Display with 8x32 LED</span>
         </a> <br />
     </td>
     <td>
