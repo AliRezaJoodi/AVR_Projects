@@ -896,7 +896,7 @@
         <span>DC Motor Driver, Speed Controller With Feedback</span>
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
-        <span style="color:#999">Driver with Mosfet and Relay</span> <br />
+        <span style="color:#999">Driver with Mosfet</span> <br />
         <span style="color:#999">Input from Matlab</span> <br />
         <span style="color:#999">Input from Visual Basic</span> <br />
     </td>
