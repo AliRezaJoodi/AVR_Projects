@@ -11,7 +11,6 @@ Note: It's a prototype and should get better
 ### Folder and Files Description
 It has included:
 - `Code_BascomAVR` (Code with Basic Language)
-- `Code_CodeVisionAVR` (Code with C Language)
 - `Hardware` (Included hardware laye
 - `Pictures` (Photos Samples Made)
 
