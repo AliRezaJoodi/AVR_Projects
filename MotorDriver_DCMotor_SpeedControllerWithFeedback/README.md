@@ -1,8 +1,11 @@
 ## DC Motor Driver, Speed Controller With Feedback
 
-MCU:		ATmega32A  
-Display:        16x2 LCD  
-Driver: 	Mosfet for Speed Controller  
+MCU:			ATmega32A  
+Display:        	16x2 LCD  
+Driver: 		Mosfet for Speed Controller  
+Computer Interfacing:	RS232 to UART Converter with MAX232  
+Computer Software:	Matlab  
+Computer Software:	Visual Basic  
 
 Note: Included schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better 
@@ -21,6 +24,9 @@ It has included:
 
 ### Schematic: v1.1
 ![](Hardware/v1.1.png)
+
+### Software: Visual Basic 6.0, v1.0
+![](Code_VB6/v1.0.jpg)
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
