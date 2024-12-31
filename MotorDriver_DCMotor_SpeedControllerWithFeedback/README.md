@@ -25,7 +25,7 @@ It has included:
 ### Schematic: v1.1
 ![](Hardware/v1.1.png)
 
-### Software: Visual Basic 6.0, v1.0
+### Software with Visual Basic: v1.0
 ![](Code_VB6/v1.0.jpg)
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
