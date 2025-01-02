@@ -16,17 +16,18 @@ It has included:
 - `Hardware` (Included hardware laye
 - `Pictures` (Photos Samples Made)
 
+### Pictures: Transmitter, v1.1
+![](Pictures/Transmitter_v1.1.jpg)
+
 ### Pictures: Receiver, v2.0
 ![](Pictures/Receiver_v2.0.jpg)
 
-### Pictures: Transmitter, v1.1
-![](Pictures/Transmitter_v1.1.jpg)
+### Schematic: Transmitter, v1.1
+![](Hardware/Transmitter_v1.1.png)
 
 ### Schematic: Receiver, v2.0
 ![](Hardware/Receiver_v2.0.png)
 
-### Schematic: Transmitter, v1.1
-![](Hardware/Transmitter_v1.1.png)
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
