@@ -21,6 +21,9 @@ It has included:
 ### Pictures: Receiver, v1.0
 ![](Pictures/Receiver_v1.0.jpg)
 
+### PCB: Receiver, v1.0
+![](Hardware/Receiver_v1.0.png)
+
 ### Schematic: Transmitter, v1.0
 ![](Hardware/Transmitter_v1.0.png)
 
