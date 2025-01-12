@@ -22,7 +22,7 @@ It has included:
 ![](Pictures/Receiver_v1.0.jpg)
 
 ### PCB: Receiver, v1.0
-![](Hardware/Receiver_v1.0.png)
+![](Hardware/Receiver_v1.0_PCB.png)
 
 ### Schematic: Transmitter, v1.0
 ![](Hardware/Transmitter_v1.0.png)
