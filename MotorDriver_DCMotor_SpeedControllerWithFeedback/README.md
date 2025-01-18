@@ -23,7 +23,7 @@ It has included:
 ![](Pictures/v1.0.jpg)
 
 ### Schematic: v1.1
-![](Hardware/v1.1.png)
+![](Hardware_MAX232/v1.1.png)
 
 ### Software with Visual Basic: v1.0
 ![](Code_VB6/v1.0.jpg)
