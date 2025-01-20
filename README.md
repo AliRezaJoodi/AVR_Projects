@@ -840,6 +840,28 @@
    <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DCMotor_SpeedAndDirectionControllerWithComputer_USB/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="73"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DCMotor_SpeedAndDirectionControllerWithComputer_USB" target="_top">
+        <span>DC Motor Driver, Speed and Direction Controller with Computer, USB Interface</span>
+        </a> <br />
+        <span style="color:#999">Display with 16x2 LCD</span> <br />
+        <span style="color:#999">Driver with MOSFET</span> <br />
+        <span style="color:#999">UART to USB Converter with FT232RL</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DCMotor_SpeedAndDirectionControllerWithRF_ASK/Pictures/Album.jpg"
         alt="ts"
         width="150"
