@@ -1,6 +1,6 @@
 'GitHub Account: GitHub.com/AliRezaJoodi
 
-$regfile = "m16def.dat"
+$regfile = "m32def.dat"
 $crystal = 8000000
 
 Config Lcd = 16 * 2
@@ -28,10 +28,10 @@ Config Portd.2 = Input
 Config Portc.0 = Output : Portc.0 = 0 : Relay Alias Portc.0
 Config Portb.4 = Output : Portb.4 = 0 : Led Alias Portb.4
 
-Config Porta.3 = Input
+'Config Porta.3 = Input
 
-Config Portc.6 = Input
-Config Portc.7 = Input
+'Config Portc.6 = Input
+'Config Portc.7 = Input
 
 Dim Pwm_motor As Byte
 Dim Pwm_motor_eeprom As Eram Byte
@@ -42,6 +42,7 @@ Dim B As Byte
 
 Start Watchdog
 
+'Gosub Eeprom_Default
 Gosub Eeprom_load : Reset Watchdog
 Gosub Display_lcd : Reset Watchdog
 Gosub Driver : Reset Watchdog
@@ -57,7 +58,7 @@ End
 T4:
    Do
       Set Led
-      Gosub Red_key
+      Gosub Get_Commands
 
       Select Case B
          Case 8:
@@ -97,7 +98,7 @@ T4:
 Return
 
 '********************************************
-Red_key:
+Get_Commands:
    B.0 = Pinb.0
    B.1 = Pinb.1
    B.2 = Pinb.2
@@ -158,9 +159,17 @@ Return
 '********************************************
 Eeprom_save:
    Pwm_motor_eeprom = Pwm_motor
+   waitms 10
 Return
 
 '********************************************
 Eeprom_load:
    Pwm_motor = Pwm_motor_eeprom
+Return
+
+'********************************************
+Eeprom_Default:
+   Pwm_motor=125
+   Pwm_motor_eeprom = Pwm_motor
+   waitms 10
 Return
