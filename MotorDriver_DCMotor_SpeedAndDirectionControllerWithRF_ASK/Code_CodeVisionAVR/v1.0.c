@@ -17,9 +17,10 @@
 #define RELAY PORTC.0
 #define LED PORTB.4
 
-void Configuration_LCD(void);
+void LCD_Config(void);
 void EEPROM_Load(void);
 void EEPROM_Save(void);
+void EEPROM_Default(void);
 void Start_Sub(void);
 void Motor_UP(void);
 void Motor_Down(void);
@@ -113,7 +114,8 @@ DDRD.5=1; PORTD.5=0;
    
     #asm("sei")  // Global enable interrupts
 
-    Configuration_LCD();
+    LCD_Config();
+    EEPROM_Default();
     EEPROM_Load();
     Start_Sub();
     
@@ -124,7 +126,7 @@ DDRD.5=1; PORTD.5=0;
 }
 
 //********************************************************
-void Configuration_LCD(void){
+void LCD_Config(void){
     lcd_init(16); lcd_clear();   
 }
 
@@ -178,10 +180,19 @@ void Motor_Stop(void){
 
 //********************************************************
 void EEPROM_Load(void){
-    PWM_Motor=PWM_Motor_EEPROM; delay_ms(10);
+    PWM_Motor=PWM_Motor_EEPROM;
 }
 
 //********************************************************
 void EEPROM_Save(void){
-    PWM_Motor_EEPROM=PWM_Motor; delay_ms(10);
+    PWM_Motor_EEPROM=PWM_Motor;
+    delay_ms(10);
+}
+
+//********************************************************
+void EEPROM_Default(void){
+    PWM_Motor=50;
+    PWM_Motor_EEPROM=PWM_Motor;
+    delay_ms(10); 
+    PWM_Motor=PWM_Motor_EEPROM;
 }
