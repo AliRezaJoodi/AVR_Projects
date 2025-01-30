@@ -55,8 +55,7 @@ interrupt [EXT_INT0] void ext_int0_isr(void){
         if(key==3){
             t=t+1; if(t>=16000){t=0; Motor_Down();}
         }        
-    }
-    while (PIND.2==1);
+    }while(PIND.2==1);
     LED=0;   
 }
 
@@ -106,11 +105,13 @@ DDRD.5=1; PORTD.5=0;
 
     DDRC.0=1; PORTC.0=0;
     DDRB.4=1; PORTB.4=0;
+    
     DDRB.0=0; PORTB.0=1;
     DDRB.1=0; PORTB.1=1;
     DDRB.2=0; PORTB.2=1;
     DDRB.3=0; PORTB.3=1;
     
+    DDRD.2=0;
    
     #asm("sei")  // Global enable interrupts
 
