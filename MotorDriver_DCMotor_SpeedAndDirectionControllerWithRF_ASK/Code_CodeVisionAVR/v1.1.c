@@ -37,27 +37,28 @@ unsigned char key;
 unsigned int t;
 
 interrupt [EXT_INT0] void ext_int0_isr(void){
-    key=0;
-    do{
-        //LED=1;
-        if(PINB.0==1){SETBIT(key,0);} else if(PINB.0==0){CLRBIT(key,0);}
-        if(PINB.1==1){SETBIT(key,1);} else if(PINB.1==0){CLRBIT(key,1);}
-        if(PINB.2==1){SETBIT(key,2);} else if(PINB.2==0){CLRBIT(key,2);}
-        if(PINB.3==1){SETBIT(key,3);} else if(PINB.3==0){CLRBIT(key,3);}
-        //lcd_gotoxy(0,1); lcd_putsf("key= "); 
-        //itoa(key,buffer); lcd_puts(buffer); lcd_putsf("    "); 
-        //delay_ms(200);
-        if(key==8){Motor_Left(); t=0;}
-        if(key==1){Motor_Right(); t=0;} 
-        if(key==4){Motor_Stop(); t=0;} 
-        if(key==2){
-            t=t+1; if(t>=16000){t=0; Motor_UP();}
-        } 
-        if(key==3){
-            t=t+1; if(t>=16000){t=0; Motor_Down();}
-        }        
-    }while(PIND.2==1);
-    LED=0;   
+    int_task=1;
+//    key=0;
+//    do{
+//        //LED=1;
+//        if(PINB.0==1){SETBIT(key,0);} else if(PINB.0==0){CLRBIT(key,0);}
+//        if(PINB.1==1){SETBIT(key,1);} else if(PINB.1==0){CLRBIT(key,1);}
+//        if(PINB.2==1){SETBIT(key,2);} else if(PINB.2==0){CLRBIT(key,2);}
+//        if(PINB.3==1){SETBIT(key,3);} else if(PINB.3==0){CLRBIT(key,3);}
+//        //lcd_gotoxy(0,1); lcd_putsf("key= "); 
+//        //itoa(key,buffer); lcd_puts(buffer); lcd_putsf("    "); 
+//        //delay_ms(200);
+//        if(key==8){Motor_Left(); t=0;}
+//        if(key==1){Motor_Right(); t=0;} 
+//        if(key==4){Motor_Stop(); t=0;} 
+//        if(key==2){
+//            t=t+1; if(t>=16000){t=0; Motor_UP();}
+//        } 
+//        if(key==3){
+//            t=t+1; if(t>=16000){t=0; Motor_Down();}
+//        }        
+//    }while(PIND.2==1);
+//    LED=0;   
 }
 
 void main(void){
@@ -123,7 +124,33 @@ DDRD.5=1; PORTD.5=0;
     
     while (1){
         //Motor_Down(); delay_ms(400);
-        //LED=0;
+        //LED=0; 
+        if(int_task==1){
+        
+                key=0;
+    do{
+        LED=1;
+        if(PINB.0==1){SETBIT(key,0);} else if(PINB.0==0){CLRBIT(key,0);}
+        if(PINB.1==1){SETBIT(key,1);} else if(PINB.1==0){CLRBIT(key,1);}
+        if(PINB.2==1){SETBIT(key,2);} else if(PINB.2==0){CLRBIT(key,2);}
+        if(PINB.3==1){SETBIT(key,3);} else if(PINB.3==0){CLRBIT(key,3);}
+        //lcd_gotoxy(0,1); lcd_putsf("key= "); 
+        //itoa(key,buffer); lcd_puts(buffer); lcd_putsf("    "); 
+        //delay_ms(200);
+        if(key==8){Motor_Left(); t=0;}
+        if(key==1){Motor_Right(); t=0;} 
+        if(key==4){Motor_Stop(); t=0;} 
+        if(key==2){
+            t=t+1; if(t>=16000){t=0; Motor_UP();}
+        } 
+        if(key==3){
+            t=t+1; if(t>=16000){t=0; Motor_Down();}
+        }        
+    }while(PIND.2==1);
+    LED=0;
+    
+            int_task=0;
+        }
     }
 }
 
