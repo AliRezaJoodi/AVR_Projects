@@ -14,6 +14,7 @@
 
 #define SETBIT(ADDRESS,BIT)  (ADDRESS|=1<<BIT)
 #define CLRBIT(ADDRESS,BIT)  (ADDRESS &=~(1<<BIT))
+
 #define RELAY PORTC.0
 #define LED PORTB.4
 
@@ -29,8 +30,9 @@ void Motor_Right(void);
 void Motor_Stop(void);
 
 unsigned char motor_pwm;
-eeprom unsigned char PWM_Motor_EEPROM; 
-bit Status_Motor;
+eeprom unsigned char PWM_Motor_EEPROM;
+bit motor_direction=0; 
+bit motor_run=0;
 bit int_task=0;
 char buffer[16];
 unsigned char key;
@@ -108,8 +110,6 @@ TIMSK=0x00;
 //OCR1AL=0xF3;
 
 DDRD.5=1; PORTD.5=0;
-
-    DDRC.0=1; PORTC.0=0;
     DDRB.4=1; PORTB.4=0;
     
     DDRB.0=0; PORTB.0=1;
@@ -120,13 +120,15 @@ DDRD.5=1; PORTD.5=0;
     DDRD.2=0;
     
     DDRD.5=1; PORTD.5=0;
+    DDRC.0=1; PORTC.0=0;
     
     #asm("sei")  // Global enable interrupts
 
     LCD_Config();
     EEPROM_Default();
     EEPROM_Load(); 
-    OCR1A=motor_pwm; 
+    //OCR1A=motor_pwm;
+     
     Start_Sub();
     
     while (1){
@@ -157,6 +159,20 @@ DDRD.5=1; PORTD.5=0;
             
             LED=0;
             int_task=0;
+        }
+        
+        if(motor_run==1){
+            OCR1A=motor_pwm;
+        }
+        else{
+            OCR1A=0;
+        }
+        
+        if(motor_direction==1){
+            RELAY=1;
+        }
+        else{
+            RELAY=0;
         }
     }
 }
@@ -192,8 +208,9 @@ void Motor_Down(void){
 
 //********************************************************
 void Motor_Left(void){
-    RELAY=1;
-    Status_Motor=1;
+    //RELAY=1;
+    motor_direction=0;
+    motor_run=1;
     lcd_gotoxy(0,0); lcd_putsf("Rotate Left  ");
     lcd_gotoxy(0,1); lcd_putsf("PWM= "); 
     itoa(motor_pwm,buffer); lcd_puts(buffer);      
@@ -201,8 +218,9 @@ void Motor_Left(void){
 
 //********************************************************
 void Motor_Right(void){
-    RELAY=0;
-    Status_Motor=1;
+    //RELAY=0; 
+    motor_direction=1;
+    motor_run=1;
     lcd_gotoxy(0,0); lcd_putsf("Rotate Right  ");
     lcd_gotoxy(0,1); lcd_putsf("PWM= "); 
     itoa(motor_pwm,buffer); lcd_puts(buffer);  
@@ -210,7 +228,7 @@ void Motor_Right(void){
 
 //********************************************************
 void Motor_Stop(void){
-    Status_Motor=0;
+    motor_run=0;
     lcd_gotoxy(0,0); lcd_putsf("Stop Motor      ");    
 }
 
