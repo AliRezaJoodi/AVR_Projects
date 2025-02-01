@@ -27,12 +27,12 @@ enum MotorStatus motor_status = STOP;
     
 unsigned char motor_pwm;
 eeprom unsigned char motor_pwm_eeprom;
-bit motor_direction=0; 
-bit motor_run=0;
+//bit motor_direction=0; 
+//bit motor_run=0;
 
 bit int_task=0;
 char buffer[16];
-unsigned char key;
+unsigned char command;
 unsigned int t;
 
 void LCD_Config(void);
@@ -40,33 +40,35 @@ void LCD_DisplayMainPage(void);
 void EEPROM_Load(void);
 void EEPROM_Save(void);
 void EEPROM_Default(void);
-void Start_Sub(void);
-void Motor_Speed_Incr(void);
-void Motor_Speed_Decr(void);
-void Motor_Left(void);
-void Motor_Right(void);
-void Motor_Stop(void);
+//void Start_Sub(void);
+void GetCommand(void);
+void Motor_IncreaseSpeed(void);
+void Motor_DecreaseSpeed(void);
+//void Motor_Left(void);
+//void Motor_Right(void);
+//void Motor_Stop(void);
+void Motor_Driver(void);
 
 interrupt [EXT_INT0] void ext_int0_isr(void){
     int_task=1;
-//    key=0;
+//    command=0;
 //    do{
 //        //LED=1;
-//        if(PINB.0==1){SETBIT(key,0);} else if(PINB.0==0){CLRBIT(key,0);}
-//        if(PINB.1==1){SETBIT(key,1);} else if(PINB.1==0){CLRBIT(key,1);}
-//        if(PINB.2==1){SETBIT(key,2);} else if(PINB.2==0){CLRBIT(key,2);}
-//        if(PINB.3==1){SETBIT(key,3);} else if(PINB.3==0){CLRBIT(key,3);}
-//        //lcd_gotoxy(0,1); lcd_putsf("key= "); 
-//        //itoa(key,buffer); lcd_puts(buffer); lcd_putsf("    "); 
+//        if(PINB.0==1){SETBIT(command,0);} else if(PINB.0==0){CLRBIT(command,0);}
+//        if(PINB.1==1){SETBIT(command,1);} else if(PINB.1==0){CLRBIT(command,1);}
+//        if(PINB.2==1){SETBIT(command,2);} else if(PINB.2==0){CLRBIT(command,2);}
+//        if(PINB.3==1){SETBIT(command,3);} else if(PINB.3==0){CLRBIT(command,3);}
+//        //lcd_gotoxy(0,1); lcd_putsf("command= "); 
+//        //itoa(command,buffer); lcd_puts(buffer); lcd_putsf("    "); 
 //        //delay_ms(200);
-//        if(key==8){Motor_Left(); t=0;}
-//        if(key==1){Motor_Right(); t=0;} 
-//        if(key==4){Motor_Stop(); t=0;} 
-//        if(key==2){
-//            t=t+1; if(t>=16000){t=0; Motor_Speed_Incr();}
+//        if(command==8){Motor_Left(); t=0;}
+//        if(command==1){Motor_Right(); t=0;} 
+//        if(command==4){Motor_Stop(); t=0;} 
+//        if(command==2){
+//            t=t+1; if(t>=16000){t=0; Motor_IncreaseSpeed();}
 //        } 
-//        if(key==3){
-//            t=t+1; if(t>=16000){t=0; Motor_Speed_Decr();}
+//        if(command==3){
+//            t=t+1; if(t>=16000){t=0; Motor_DecreaseSpeed();}
 //        }        
 //    }while(PIND.2==1);
 //    LED=0;   
@@ -140,34 +142,34 @@ DDRD.5=1; PORTD.5=0;
     EEPROM_Load();
     if(0>motor_pwm || motor_pwm>255){ 
         EEPROM_Default();
-    } 
-    //OCR1A=motor_pwm;
+    }
+    
+    Motor_Driver(); 
+    ///OCR1A=motor_pwm;
     LCD_DisplayMainPage(); 
-    //Start_Sub();
+    ///Start_Sub();
     
     while (1){
-        //Motor_Speed_Decr(); delay_ms(400);
+        //Motor_DecreaseSpeed(); delay_ms(400);
         //LED=0; 
         if(int_task==1){
             LED=1;
         
-                key=0;
+                command=0;
     do{
-        if(PINB.0==1){SETBIT(key,0);} else if(PINB.0==0){CLRBIT(key,0);}
-        if(PINB.1==1){SETBIT(key,1);} else if(PINB.1==0){CLRBIT(key,1);}
-        if(PINB.2==1){SETBIT(key,2);} else if(PINB.2==0){CLRBIT(key,2);}
-        if(PINB.3==1){SETBIT(key,3);} else if(PINB.3==0){CLRBIT(key,3);}
-        //lcd_gotoxy(0,1); lcd_putsf("key= "); 
-        //itoa(key,buffer); lcd_puts(buffer); lcd_putsf("    "); 
+        GetCommand();
+        
+        //lcd_gotoxy(0,1); lcd_putsf("command= "); 
+        //itoa(command,buffer); lcd_puts(buffer); lcd_putsf("    "); 
         //delay_ms(200);
-        if(key==8){Motor_Left(); t=0;}
-        if(key==1){Motor_Right(); t=0;} 
-        if(key==4){Motor_Stop(); t=0;} 
-        if(key==2){
-            t=t+1; if(t>=16000){t=0; Motor_Speed_Incr();}
+        if(command==8){motor_status=LEFT; Motor_Driver(); LCD_DisplayMainPage(); t=0;}
+        if(command==1){motor_status=RIGHT; Motor_Driver(); LCD_DisplayMainPage(); t=0;} 
+        if(command==4){motor_status=STOP; Motor_Driver(); LCD_DisplayMainPage(); t=0;} 
+        if(command==2){
+            t=t+1; if(t>=16000){t=0; Motor_IncreaseSpeed(); EEPROM_Save(); LCD_DisplayMainPage();}
         } 
-        if(key==3){
-            t=t+1; if(t>=16000){t=0; Motor_Speed_Decr();}
+        if(command==3){
+            t=t+1; if(t>=16000){t=0; Motor_DecreaseSpeed(); EEPROM_Save(); LCD_DisplayMainPage();}
         }        
     }while(PIND.2==1);
             
@@ -175,25 +177,57 @@ DDRD.5=1; PORTD.5=0;
             int_task=0;
         }
         
-        if(motor_run==1){
-            OCR1A=motor_pwm;
-        }
-        else{
-            OCR1A=0;
-        }
+//        if(motor_run==1){
+//            OCR1A=motor_pwm;
+//        }
+//        else{
+//            OCR1A=0;
+//        }
+//        
+//        if(motor_direction==1){
+//            RELAY=1;
+//        }
+//        else{
+//            RELAY=0;
+//        } 
         
-        if(motor_direction==1){
-            RELAY=1;
-        }
-        else{
+    }
+}
+
+//********************************************************
+void GetCommand(void){
+    command=0;
+    if(PINB.0==1){SETBIT(command,0);} else if(PINB.0==0){CLRBIT(command,0);}
+    if(PINB.1==1){SETBIT(command,1);} else if(PINB.1==0){CLRBIT(command,1);}
+    if(PINB.2==1){SETBIT(command,2);} else if(PINB.2==0){CLRBIT(command,2);}
+    if(PINB.3==1){SETBIT(command,3);} else if(PINB.3==0){CLRBIT(command,3);}    
+}
+
+//********************************************************
+void Motor_Driver(void){
+    switch(motor_status){
+        case STOP: 
             RELAY=0;
-        }
+            OCR1A=0; 
+            break;
+        case LEFT:
+            RELAY=0;
+            OCR1A=motor_pwm;
+            break;
+        case RIGHT:
+            RELAY=1;
+            OCR1A=motor_pwm;
+            break;
+        default:    
+            RELAY=0;
+            OCR1A=0; 
+            break;
     }
 }
 
 //********************************************************
 void LCD_DisplayMainPage(void){
-    lcd_clear();
+    //lcd_clear();
     
     switch(motor_status){
         case STOP:
@@ -216,68 +250,70 @@ void LCD_DisplayMainPage(void){
     
     lcd_gotoxy(0,1);
     lcd_putsf("PWM= "); 
-    itoa(motor_pwm,buffer); lcd_puts(buffer); 
+    itoa(motor_pwm,buffer); lcd_puts(buffer);
+    lcd_putsf("        "); 
 }
 
 //********************************************************
 void LCD_Config(void){
-    lcd_init(16); lcd_clear();   
+    lcd_init(16);
+    lcd_clear();   
 }
 
 //********************************************************
-void Start_Sub(void){    
-    lcd_clear(); 
-    lcd_gotoxy(0,0); lcd_putsf("Stop Motor");
-    lcd_gotoxy(0,1); lcd_putsf("PWM= "); 
-    itoa(motor_pwm,buffer); lcd_puts(buffer);         
-}
+//void Start_Sub(void){    
+//    lcd_clear(); 
+//    lcd_gotoxy(0,0); lcd_putsf("Stop Motor");
+//    lcd_gotoxy(0,1); lcd_putsf("PWM= "); 
+//    itoa(motor_pwm,buffer); lcd_puts(buffer);         
+//}
 
 //********************************************************
-void Motor_Speed_Incr(void){
+void Motor_IncreaseSpeed(void){
     motor_pwm=motor_pwm+5; 
     if(motor_pwm==4){motor_pwm=0;}
-    lcd_gotoxy(0,1); lcd_putsf("PWM= "); itoa(motor_pwm,buffer); lcd_puts(buffer); lcd_putsf("        ");
+//    lcd_gotoxy(0,1); lcd_putsf("PWM= "); itoa(motor_pwm,buffer); lcd_puts(buffer); lcd_putsf("        ");
     ///motor_pwm_eeprom=motor_pwm; delay_ms(10); 
-    EEPROM_Save();
+//    EEPROM_Save();
 }
 
 //********************************************************
-void Motor_Speed_Decr(void){
+void Motor_DecreaseSpeed(void){
     motor_pwm=motor_pwm-5; 
     if(motor_pwm==251){motor_pwm=255;}
-    lcd_gotoxy(0,1); lcd_putsf("PWM= "); itoa(motor_pwm,buffer); lcd_puts(buffer); lcd_putsf("        ");
+//    lcd_gotoxy(0,1); lcd_putsf("PWM= "); itoa(motor_pwm,buffer); lcd_puts(buffer); lcd_putsf("        ");
     ///motor_pwm_eeprom=motor_pwm; delay_ms(10); 
-    EEPROM_Save();
+//    EEPROM_Save();
 }
 
 //********************************************************
-void Motor_Left(void){
-    motor_status=LEFT;
-    //RELAY=1;
-    motor_direction=0;
-    motor_run=1;
-    lcd_gotoxy(0,0); lcd_putsf("Rotate Left  ");
-    lcd_gotoxy(0,1); lcd_putsf("PWM= "); 
-    itoa(motor_pwm,buffer); lcd_puts(buffer);      
-}
+//void Motor_Left(void){
+//    motor_status=LEFT;
+//    //RELAY=1;
+//    motor_direction=0;
+//    motor_run=1;
+//    lcd_gotoxy(0,0); lcd_putsf("Rotate Left  ");
+//    lcd_gotoxy(0,1); lcd_putsf("PWM= "); 
+//    itoa(motor_pwm,buffer); lcd_puts(buffer);      
+//}
 
 //********************************************************
-void Motor_Right(void){
-    motor_status=RIGHT;
-    //RELAY=0; 
-    motor_direction=1;
-    motor_run=1;
-    lcd_gotoxy(0,0); lcd_putsf("Rotate Right  ");
-    lcd_gotoxy(0,1); lcd_putsf("PWM= "); 
-    itoa(motor_pwm,buffer); lcd_puts(buffer);  
-}
+//void Motor_Right(void){
+//    motor_status=RIGHT;
+//    //RELAY=0; 
+//    motor_direction=1;
+//    motor_run=1;
+//    lcd_gotoxy(0,0); lcd_putsf("Rotate Right  ");
+//    lcd_gotoxy(0,1); lcd_putsf("PWM= "); 
+//    itoa(motor_pwm,buffer); lcd_puts(buffer);  
+//}
 
 //********************************************************
-void Motor_Stop(void){
-    motor_status=STOP;
-    motor_run=0;
-    lcd_gotoxy(0,0); lcd_putsf("Stop Motor      ");    
-}
+//void Motor_Stop(void){
+//    motor_status=STOP;
+//    motor_run=0;
+//    lcd_gotoxy(0,0); lcd_putsf("Stop Motor      ");    
+//}
 
 //********************************************************
 void EEPROM_Load(void){
