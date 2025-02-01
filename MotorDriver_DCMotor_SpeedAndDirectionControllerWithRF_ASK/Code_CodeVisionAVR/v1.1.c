@@ -21,7 +21,9 @@
 enum MotorStatus{
     STOP,  // 0
     LEFT,  // 1
-    RIGHT  // 2
+    RIGHT, // 2
+    INCR,  // 3
+    DECR   // 4
 };
 enum MotorStatus motor_status = STOP;
     
@@ -75,6 +77,7 @@ interrupt [EXT_INT0] void ext_int0_isr(void){
 }
 
 void main(void){
+    enum MotorStatus motor_task = STOP;
     //enum MotorStatus motor_status = STOP;
     //char motor_status=0;
 
@@ -140,9 +143,10 @@ DDRD.5=1; PORTD.5=0;
 
     LCD_Config();
     EEPROM_Load();
-    if(0>motor_pwm || motor_pwm>255){ 
-        EEPROM_Default();
-    }
+    if(0<motor_pwm || motor_pwm<255){}
+        else{
+            EEPROM_Default();
+        }
     
     Motor_Driver(); 
     ///OCR1A=motor_pwm;
@@ -155,7 +159,6 @@ DDRD.5=1; PORTD.5=0;
         if(int_task==1){
             LED=1;
         
-                command=0;
     do{
         GetCommand();
         
@@ -218,10 +221,10 @@ void Motor_Driver(void){
             RELAY=1;
             OCR1A=motor_pwm;
             break;
-        default:    
-            RELAY=0;
-            OCR1A=0; 
-            break;
+//        default:    
+//            RELAY=0;
+//            OCR1A=0; 
+//            break;
     }
 }
 
@@ -242,10 +245,10 @@ void LCD_DisplayMainPage(void){
             lcd_gotoxy(0,0);
             lcd_putsf("Status: Right   "); 
             break;
-        default:
-            lcd_gotoxy(0,0);
-            lcd_putsf("Status: Unknown "); 
-            break;
+//        default:
+//            lcd_gotoxy(0,0);
+//            lcd_putsf("Status: Unknown "); 
+//            break;
     } 
     
     lcd_gotoxy(0,1);
