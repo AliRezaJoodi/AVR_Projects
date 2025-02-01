@@ -18,7 +18,25 @@
 #define RELAY PORTC.0
 #define LED PORTB.4
 
+enum MotorStatus{
+    STOP,  // 0
+    LEFT,  // 1
+    RIGHT  // 2
+};
+enum MotorStatus motor_status = STOP;
+    
+unsigned char motor_pwm;
+eeprom unsigned char motor_pwm_eeprom;
+bit motor_direction=0; 
+bit motor_run=0;
+
+bit int_task=0;
+char buffer[16];
+unsigned char key;
+unsigned int t;
+
 void LCD_Config(void);
+void LCD_DisplayMainPage(void);
 void EEPROM_Load(void);
 void EEPROM_Save(void);
 void EEPROM_Default(void);
@@ -28,15 +46,6 @@ void Motor_Speed_Decr(void);
 void Motor_Left(void);
 void Motor_Right(void);
 void Motor_Stop(void);
-
-unsigned char motor_pwm;
-eeprom unsigned char motor_pwm_eeprom;
-bit motor_direction=0; 
-bit motor_run=0;
-bit int_task=0;
-char buffer[16];
-unsigned char key;
-unsigned int t;
 
 interrupt [EXT_INT0] void ext_int0_isr(void){
     int_task=1;
@@ -64,6 +73,9 @@ interrupt [EXT_INT0] void ext_int0_isr(void){
 }
 
 void main(void){
+    //enum MotorStatus motor_status = STOP;
+    //char motor_status=0;
+
 
     // External Interrupt(s) initialization
     // INT0: On
@@ -130,8 +142,8 @@ DDRD.5=1; PORTD.5=0;
         EEPROM_Default();
     } 
     //OCR1A=motor_pwm;
-     
-    Start_Sub();
+    LCD_DisplayMainPage(); 
+    //Start_Sub();
     
     while (1){
         //Motor_Speed_Decr(); delay_ms(400);
@@ -180,6 +192,34 @@ DDRD.5=1; PORTD.5=0;
 }
 
 //********************************************************
+void LCD_DisplayMainPage(void){
+    lcd_clear();
+    
+    switch(motor_status){
+        case STOP:
+            lcd_gotoxy(0,0);
+            lcd_putsf("Status: Stop    "); 
+            break;
+        case LEFT:
+            lcd_gotoxy(0,0);
+            lcd_putsf("Status: Left    "); 
+            break;
+        case RIGHT:
+            lcd_gotoxy(0,0);
+            lcd_putsf("Status: Right   "); 
+            break;
+        default:
+            lcd_gotoxy(0,0);
+            lcd_putsf("Status: Unknown "); 
+            break;
+    } 
+    
+    lcd_gotoxy(0,1);
+    lcd_putsf("PWM= "); 
+    itoa(motor_pwm,buffer); lcd_puts(buffer); 
+}
+
+//********************************************************
 void LCD_Config(void){
     lcd_init(16); lcd_clear();   
 }
@@ -212,6 +252,7 @@ void Motor_Speed_Decr(void){
 
 //********************************************************
 void Motor_Left(void){
+    motor_status=LEFT;
     //RELAY=1;
     motor_direction=0;
     motor_run=1;
@@ -222,6 +263,7 @@ void Motor_Left(void){
 
 //********************************************************
 void Motor_Right(void){
+    motor_status=RIGHT;
     //RELAY=0; 
     motor_direction=1;
     motor_run=1;
@@ -232,6 +274,7 @@ void Motor_Right(void){
 
 //********************************************************
 void Motor_Stop(void){
+    motor_status=STOP;
     motor_run=0;
     lcd_gotoxy(0,0); lcd_putsf("Stop Motor      ");    
 }
