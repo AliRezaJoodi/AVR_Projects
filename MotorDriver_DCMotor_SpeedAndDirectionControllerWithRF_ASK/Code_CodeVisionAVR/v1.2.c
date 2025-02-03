@@ -49,6 +49,8 @@ interrupt [EXT_INT0] void ext_int0_isr(void){
 }
 
 void main(void){
+    static unsigned int t=0;
+    
     // External Interrupt(s) initialization
     // INT0: On
     // INT0 Mode: Rising Edge
@@ -121,33 +123,40 @@ DDRD.5=1; PORTD.5=0;
     while (1){
         if(int_task==1){
             LED=1;
-            do{
-                GetCommand();
-                switch(command){
-                    case 8:
-                        motor_status=LEFT;
-                        //Motor_Driver();
-                        //LCD_DisplayMainPage();  
-                        break; 
-                    case 1:
-                        motor_status=RIGHT;
-                        //Motor_Driver();
-                        //LCD_DisplayMainPage();  
-                        break;
-                    case 4:
-                        motor_status=STOP;
-                        //Motor_Driver();
-                        //LCD_DisplayMainPage();  
-                        break;
-                    case 2:
-                        Motor_IncreaseSpeed();  
-                        break;
-                    case 3:
-                        Motor_DecreaseSpeed();  
-                        break;
-                }       
-            }while(PIND.2==1);
-            
+            GetCommand();
+            switch(command){
+                case 8:
+                    motor_status=LEFT;  
+                    break; 
+                case 1:
+                    motor_status=RIGHT;  
+                    break;
+                case 4:
+                    motor_status=STOP;  
+                    break;
+                case 2:
+                    do{
+                        t=t+1;
+                        if(t>16000){ 
+                            Motor_IncreaseSpeed();
+                            EEPROM_Save();
+                            LCD_DisplayMainPage();
+                            Motor_Driver();
+                        }
+                    }while(PIND.2==1);  
+                    break;
+                case 3:
+                    do{
+                        t=t+1;
+                        if(t>16000){
+                            Motor_DecreaseSpeed(); 
+                            EEPROM_Save();
+                            LCD_DisplayMainPage();
+                            Motor_Driver();
+                        }
+                    }while(PIND.2==1); 
+                    break;
+            }       
             LCD_DisplayMainPage();
             Motor_Driver();
             LED=0;
@@ -214,32 +223,15 @@ void LCD_Config(void){
 
 //********************************************************
 void Motor_IncreaseSpeed(void){
-    static unsigned int t=0;
-    
-    t=t+1;
-    if(t>16000){ 
-        motor_pwm=motor_pwm+5; 
-        if(motor_pwm==4){motor_pwm=0;}
-        EEPROM_Save();
-        LCD_DisplayMainPage();
-        Motor_Driver();
-        t=0;
-    }
+    motor_pwm=motor_pwm+5; 
+    if(motor_pwm==4){motor_pwm=0;}
+
 }
 
 //********************************************************
 void Motor_DecreaseSpeed(void){
-    static unsigned int t=0;
-    
-    t=t+1;
-    if(t>16000){ 
-        motor_pwm=motor_pwm-5; 
-        if(motor_pwm==251){motor_pwm=255;}
-        EEPROM_Save();
-        LCD_DisplayMainPage();
-        Motor_Driver();
-        t=0;
-    }
+    motor_pwm=motor_pwm-5; 
+    if(motor_pwm==251){motor_pwm=255;}
 }
 
 //********************************************************

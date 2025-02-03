@@ -12,7 +12,7 @@ Config Watchdog = 256
 
 Enable Interrupts
 
-Config Timer1 = Pwm , Pwm = 8 , Compare A Pwm = Clear Down , Compare B Pwm = Disconnect , Prescale = 64
+Config Timer1 = Pwm , Pwm = 8 , Compare A Pwm = Clear_Up , Compare B Pwm = Disconnect , Prescale = 64
 'Start Timer1
 Pwm1a = 0
 
