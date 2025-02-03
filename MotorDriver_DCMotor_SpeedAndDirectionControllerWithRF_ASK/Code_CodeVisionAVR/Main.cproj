@@ -38,7 +38,7 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="v1.1.c">
+    <Compile Include="v1.2.c">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
