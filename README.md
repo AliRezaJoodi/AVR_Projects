@@ -840,6 +840,27 @@
    <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DCMotor_SpeedAndDirectionControllerWithBluetooth/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="77"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DCMotor_SpeedAndDirectionControllerWithBluetooth" target="_top">
+        <span>DC Motor Driver, Speed and Direction Controller with Bluetooth from Computer/Mobile</span>
+        </a> <br />
+        <span style="color:#999">Driver with MOSFET</span> <br />
+        <span style="color:#999">Bluetooth module with HC-05</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DCMotor_SpeedAndDirectionControllerWithComputer_USB/Pictures/Album.jpg"
         alt="ts"
         width="150"
