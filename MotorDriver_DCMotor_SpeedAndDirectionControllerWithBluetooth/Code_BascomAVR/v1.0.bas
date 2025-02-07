@@ -149,7 +149,7 @@ Uart_receiver:
             Disable Urxc : Gosub Anti_clockwise : Enable Urxc
          Case "R" :
             Disable Urxc : Gosub Clockwise : Enable Urxc
-         Case "C" :
+         Case "S" :
             Disable Urxc : Gosub Stop_motor : Enable Urxc
          Case "U" :
             Disable Urxc : Gosub Up_motor : Enable Urxc
