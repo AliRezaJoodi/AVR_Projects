@@ -1,80 +1,54 @@
 clc;
 clear;
-%--------------------------------------------   
-fprintf('**********************************************************************\r')
-fprintf('*                       www.M32.ir                                   *\r')
-fprintf('---------------------------------------------------------------------*\r')
-fprintf('* Title         :  DC Motor control With Matlab Version 7.6.0.324    *\r')
-fprintf('* Last Updated  :  13.07.2011                                        *\r')
-fprintf('* Author        :  Alireza Joodi                                     *\r')
-fprintf('* Mobile        :  09112204314                                       *\r')
-fprintf('* Email         :  info@M32.ir                                       *\r')
-fprintf('**********************************************************************\r')
+%--------------------------------------------------------------------------
+fprintf('*****************************************************\r')
+fprintf('*           DC Motor Control with MATLAB            *\r')
+fprintf('*****************************************************\r')
 fprintf('\r')
-%--------------------------------------------
+%--------------------------------------------------------------------------
 s=serial('COM1');
 set(s,'baudrate',9600,'Terminator',13,'Timeout',1,'InputBufferSize',16,'OutputBufferSize',8);
 fopen(s);
 %--------------------------------------------
 fprintf('Enter number of rpm_set\r')
 rpm_set=input('rpm_set=     ');
-%--------------------------------------------   start
-if rpm_set <= 2000; pwm = 28; else;
-if rpm_set > 2000 & rpm_set <= 2500; pwm = 34; else;
-if rpm_set > 2500 & rpm_set <= 3000; pwm = 37; else;
-if rpm_set > 3000 & rpm_set <= 3500; pwm = 21; else;
-if rpm_set > 3500 & rpm_set <= 4000; pwm = 24; else;
-if rpm_set > 4000 & rpm_set <= 4500; pwm = 25; else;
-if rpm_set > 4500 & rpm_set <= 5000; pwm = 25; else;
-if rpm_set > 5000 & rpm_set <= 5500; pwm = 28; else;
-if rpm_set > 5500 & rpm_set <= 6000; pwm = 28; else;
-if rpm_set > 6000 & rpm_set <= 6500; pwm = 35; else;
-if rpm_set > 6500 & rpm_set <= 7000; pwm = 38; else;
-if rpm_set > 7000 & rpm_set <= 7100; pwm = 38; else;
-if rpm_set > 7100 & rpm_set <= 7200; pwm = 38; else;                                               
-if rpm_set > 7200 & rpm_set <= 7300; pwm = 38; else;
-if rpm_set > 7300 & rpm_set <= 7400; pwm = 39; else;
-if rpm_set > 7400 & rpm_set <= 7500; pwm = 39; else;
-if rpm_set > 7500 & rpm_set <= 8000; pwm = 54; else;
-    pwm = 55;
-end; end; end; end; end; end; end; end; end; end; end; end; end; end; end; end; end;
-pwm = 40;
+
+pwm = 55;
 fprintf('PWM=	%d\n', pwm);
 pwm_str = num2str(pwm);
 fprintf(s,pwm_str);
-pause(4);
+pause(1);
+
+pwm = 35;
+fprintf('PWM=	%d\n', pwm);
+pwm_str = num2str(pwm);
+fprintf(s,pwm_str);
+pause(3);
 
 %--------------------------------------------   Controler
 while (1)
    rpm_str = fgets(s);
    rpm = str2num(rpm_str);
-   %fprintf('RPM=	%d\n', rpm);
-   %fprintf('                   \r');
-   %fprintf('...................\r');
-   if rpm ~= pwm ;
+   %if rpm ~= pwm ;
         if rpm >= 60 ;
             a=[rpm_set - rpm];        
-            a=a/320;
+            a=a/500;
             a=round(a);
             pwm=pwm+a;
-            if pwm > 255 ;
-                pwm = 255;
+            if pwm > 70 ;
+                pwm = 70;
                 else if pwm < 0 ;
                     pwm=0;
                 end
             end
         end
-            %fprintf('PWM=	%d\n', pwm);
-            %fprintf('                   \r');
-            %fprintf('...................\r');
-            %fprintf('RPM=	%d\n', rpm);
+            fprintf('                   \r');
+            fprintf('...................\r');
+            fprintf('RPM=	%d\n', rpm);
             fprintf('PWM=	%d\n', pwm);
-            %fprintf('                   \r');
-            fprintf('...................\r')
-            %pwm=40;
             pwm_str = num2str(pwm);
             fprintf(s,pwm_str);
-   end
+   %end
 end
 clear;
 fclose(s);

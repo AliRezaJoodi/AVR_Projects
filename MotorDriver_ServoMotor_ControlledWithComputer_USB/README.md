@@ -2,10 +2,12 @@
 	   
 MCU:			ATmega32A  
 Frequency:     		11.059200MHz (External Crystal)  
-Computer Interfacing:	UART to USB Converter with FT232BL and FT232RL  
-Computer Software:	VB6 and MATLAB  
+Computer Interfacing:	UART to USB Converter with FT232BL  
+Computer Interfacing:	UART to USB Converter with FT232RL  
+Computer Software:	VB6  
+Computer Software:	MATLAB   
 Servo Motor:		4x  
-Isolated:		TLP521			 
+Isolated:		TLP521  
 
 Note: Included schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better

@@ -1,4 +1,4 @@
-## DC Motor Driver, Speed and Direction Controller with Computer, USB Interface
+## DC Motor Driver, Speed and Direction Controller with Computer, USB Interface, Optically Isolated
 
 MCU:			ATmega32A  
 Display:        	16x2 LCD  
@@ -6,6 +6,7 @@ Driver: 		Mosfet for Speed Controller
 Driver:			Relay for Direction Controller  
 Computer Interfacing:	UART to USB Converter with FT232RL  
 Computer Software:	VB6  
+Isolated:		TLP521	
 
 Note: Included schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better 

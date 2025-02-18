@@ -1,9 +1,10 @@
-## DC Motor Driver, Speed and Direction Controller with Bluetooth from Computer/Mobile
+## DC Motor Driver, Speed and Direction Controller with Bluetooth from Computer/Mobile, Optically Isolated
 
 MCU:			ATmega32A  
 Driver: 		Mosfet for Speed Controller  
 Driver:			Relay for Direction Controller  
 Bluetooth module:	HC-05  
+Isolated:		TLP521
 
 Note: Included schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better 

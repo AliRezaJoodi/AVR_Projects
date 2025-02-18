@@ -1,10 +1,11 @@
-## DC Motor Driver, Speed and Direction Controller with ASK RF Module
+## DC Motor Driver, Speed and Direction Controller with ASK RF Module, Optically Isolated
 
 MCU:		ATmega32A  
 Display:        16x2 LCD  
 Driver: 	Mosfet for Speed Controller  
 Driver:		Relay for Direction Controller  
 RF Module:	ASK  
+Isolated:	TLP521	
 
 Note: Included schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better 

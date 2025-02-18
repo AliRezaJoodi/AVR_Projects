@@ -1,4 +1,4 @@
-## DC Motor Driver, Speed Controller With Feedback
+## DC Motor Driver, Speed Controller With Feedback, Optically Isolated
 
 MCU:			ATmega32A  
 Display:        	16x2 LCD  
@@ -6,6 +6,7 @@ Driver: 		Mosfet for Speed Controller
 Computer Interfacing:	RS232 to UART Converter with MAX232  
 Computer Software:	Matlab  
 Computer Software:	Visual Basic  
+Isolated:		TLP521  
 
 Note: Included schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better 
