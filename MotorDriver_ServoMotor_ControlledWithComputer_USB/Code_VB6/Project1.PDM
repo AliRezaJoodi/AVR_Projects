@@ -1,0 +1,106 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Transmit text with wireless communication]
+Icon1="Send Text of the PC.exe"
+Title1=Transmit text with wireless communication
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Send Text of the PC]
+Icon1="Send Text of the PC.exe"
+Title1=Send Text of the PC
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Electronics\Projects\AVR Projects\Servo Motor Contoroler\Servo Motor Contoroler with USB\Model 2\For Make\Application_VB6_Source
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\COMCT232.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\Electronics\Projects\AVR Projects\Servo Motor Contoroler\Servo Motor Contoroler with USB\Model 2\For Make\Application_VB6_Source\Servo Motor Controler.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+F:\Electronics\Projects\AVR Projects\Wireless Communication\RF\Send Text of the PC\For Make\Compiler_Bascom AVR\Send Text of the PC.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT232.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\Electronics\Projects\AVR Projects\Servo Motor Contoroler\Servo Motor Contoroler with USB\Model 2\For Make\Application_VB6_Source\Servo Motor Controler.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+F:\Electronics\Projects\AVR Projects\Wireless Communication\RF\Send Text of the PC\For Make\Compiler_Bascom AVR\Send Text of the PC.exe=No
+F:\Electronics\Projects\AVR Projects\Servo Motor Contoroler\Servo Motor Contoroler with USB\Model 2\For Make\Application_VB6_Source\Servo Motor Controler.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Servo Motor Contoroler
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=True
+Parent0=
+
+[Package|Standard Setup Package 1|$(Programs)]
+Icon1="Servo Motor Controler.exe"
+Title1=Servo Motor Contoroler
+StartIn1=$(AppPath)
+Key1=Icon2
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=F:\Electronics\Projects\AVR Projects\Servo Motor Contoroler\Servo Motor Contoroler with USB\Model 2\For Make\Application_VB6_Source
+ProjectFolder=F:\Electronics\Projects\AVR Projects\Servo Motor Contoroler\Servo Motor Contoroler with USB\Model 2\For Make\Application_VB6_Source
+ServerSideCab=
+File1=F:\Electronics\Projects\AVR Projects\Servo Motor Contoroler\Servo Motor Contoroler with USB\Model 2\For Make\Application_VB6_Source\setup.exe
+File2=F:\Electronics\Projects\AVR Projects\Servo Motor Contoroler\Servo Motor Contoroler with USB\Model 2\For Make\Application_VB6_Source\Setup.Lst
+File3=F:\Electronics\Projects\AVR Projects\Servo Motor Contoroler\Servo Motor Contoroler with USB\Model 2\For Make\Application_VB6_Source\Servo Motor Controler.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
