@@ -30,9 +30,6 @@ It has included:
 ### Software, VB6: v1.0
 ![](Code_VB6/v1.0.png)
 
-### Software, MATLAB: v1.0
-![](Code_MATLAB/v1.0.png)
-
 ### Schematic, USB Controller with FT232RL: v1.0
 ![](Hardware_FT232RL/v1.0.png)
 
