@@ -848,9 +848,10 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DCMotor_SpeedAndDirectionControllerWithBluetooth" target="_top">
-        <span>DC Motor Driver, Speed and Direction Controller with Bluetooth from Computer/Mobile</span>
+        <span>DC Motor Driver, Speed and Direction Controller with Computer/Mobile, Bluetooth Interface</span>
         </a> <br />
         <span style="color:#999">Driver with MOSFET</span> <br />
+	<span style="color:#999">Isolated with TLP521</span> <br />
         <span style="color:#999">Bluetooth module with HC-05</span> <br />
     </td>
     <td>
@@ -873,6 +874,7 @@
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
         <span style="color:#999">Driver with MOSFET</span> <br />
+	<span style="color:#999">Isolated with TLP521</span> <br />
         <span style="color:#999">UART to USB Converter with FT232RL</span> <br />
     </td>
     <td>
@@ -895,6 +897,7 @@
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
         <span style="color:#999">Driver with MOSFET</span> <br />
+	<span style="color:#999">Isolated with TLP521</span> <br />
         <span style="color:#999">Input from ASK RF Transmitter</span> <br />
     </td>
     <td>
@@ -918,6 +921,7 @@
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
         <span style="color:#999">Driver with MOSFET</span> <br />
+	<span style="color:#999">Isolated with TLP521</span> <br />
         <span style="color:#999">Input from FSK RF Transmitter</span> <br />
     </td>
     <td>
@@ -964,6 +968,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
         <span style="color:#999">Input from 5-Switch</span> <br />
         <span style="color:#999">Driver with Mosfet and Relay</span> <br />
+	<span style="color:#999">Isolated with TLP521</span> <br />
     </td>
     <td>
         Bascom AVR <br />
@@ -985,6 +990,7 @@
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
         <span style="color:#999">Driver with Mosfet</span> <br />
+	<span style="color:#999">Isolated with TLP521</span> <br />
         <span style="color:#999">Input from Matlab</span> <br />
         <span style="color:#999">Input from Visual Basic</span> <br />
     </td>
