@@ -1,7 +1,6 @@
 ## Servo Motor Driver Controlled with Computer, 4 Motors, Optically Isolated, USB Interface
 	   
-MCU:			ATmega32A  
-Frequency:     		11.059200MHz (External Crystal)  
+MCU:			ATmega32A    
 Computer Interfacing:	UART to USB Converter with FT232BL  
 Computer Interfacing:	UART to USB Converter with FT232RL  
 Computer Software:	VB6  
