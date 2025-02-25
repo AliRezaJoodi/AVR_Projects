@@ -33,7 +33,7 @@ It has included:
 ![](Hardware_FT232RL/v1.0.png)
 
 ### Schematic, USB Controller with FT232BL: v1.0
-![](Hardware_FT232BL/v1.0.png)
+![](Hardware_FT232BL/v1.1.png)
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
