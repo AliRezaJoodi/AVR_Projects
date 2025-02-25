@@ -1,4 +1,4 @@
-## Servo Motor Driver Controlled with Computer, 4 Motors, Optically Isolated, USB Interface
+## Driver for 4 Servo Motors, Optically Isolated, Computer Controlled, USB Interface
 	   
 MCU:			ATmega32A    
 Computer Interfacing:	UART to USB Converter with FT232BL  
