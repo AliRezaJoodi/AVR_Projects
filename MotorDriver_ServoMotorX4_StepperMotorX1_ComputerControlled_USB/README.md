@@ -20,6 +20,9 @@ It has included:
 ### Picture: v1.0
 ![](Pictures/v1.0.jpg)
 
+### Picture: v1.0 with Box
+![](Pictures/v1.0_Box.jpg)
+
 ### Schematic: v1.0
 ![](Hardware/v1.1.png)
 
