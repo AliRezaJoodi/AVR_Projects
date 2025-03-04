@@ -1002,14 +1002,14 @@
    <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_ServoMotorX4_ComputerControlled_USB/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_ServoX4_ComputerControlled_USB/Pictures/Album.jpg"
         alt="ts"
         width="150"
         height="68"
         />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_ServoMotorX4_ComputerControlled_USB" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_ServoX4_ComputerControlled_USB" target="_top">
         <span>Motor Driver, 4 Servo Motors, Optically Isolated, Computer Controlled, USB Interface</span>
         </a> <br />
         <span style="color:#999">UART to USB Converter with FT232BL</span> <br />
@@ -1024,14 +1024,14 @@
    <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_ServoMotorX4_ComputerControlled_USB/Pictures/Album2.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_ServoX4_ComputerControlled_USB/Pictures/Album2.jpg"
         alt="ts"
         width="150"
         height="75"
         />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_ServoMotorX4_ComputerControlled_USB" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_ServoX4_ComputerControlled_USB" target="_top">
         <span>Motor Driver, 4 Servo Motors, Optically Isolated, Computer Controlled, USB Interface</span>
         </a> <br />
         <span style="color:#999">UART to USB Converter with FT232RL</span> <br />
