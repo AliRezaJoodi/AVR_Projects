@@ -840,14 +840,14 @@
    <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DCMotor_SpeedAndDirectionControllerWithBluetooth/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DC_NoFeedback_RemoteControlled_Bluetooth/Pictures/Album.jpg"
         alt="ts"
         width="150"
         height="77"
         />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DCMotor_SpeedAndDirectionControllerWithBluetooth" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DC_NoFeedback_RemoteControlled_Bluetooth" target="_top">
         <span>DC Motor Driver, Speed and Direction Controller with Computer/Mobile, Bluetooth Interface</span>
         </a> <br />
         <span style="color:#999">Driver with MOSFET</span> <br />
