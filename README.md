@@ -885,14 +885,14 @@
    <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DCMotor_SpeedAndDirectionControllerWithRF_ASK/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DC_NoFeedback_RemoteControlled_RF_ASK/Pictures/Album.jpg"
         alt="ts"
         width="150"
         height="139"
         />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DCMotor_SpeedAndDirectionControllerWithRF_ASK" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DC_NoFeedback_RemoteControlled_RF_ASK" target="_top">
         <span>DC Motor Driver, Speed and Direction Controller with ASK RF Module</span>
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
