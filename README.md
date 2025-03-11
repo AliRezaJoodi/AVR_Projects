@@ -932,14 +932,14 @@
    <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DCMotor_SpeedAndDirectionControllerWithSwitch_L298/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DC_NoFeedback_ManualControlled_L298/Pictures/Album.jpg"
         alt="ts"
         width="150"
         height="68"
         />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DCMotor_SpeedAndDirectionControllerWithSwitch_L298" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DC_NoFeedback_ManualControlled_L298" target="_top">
         <span>DC Motor Driver, Speed and Direction Controller With Switch</span>
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
