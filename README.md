@@ -978,14 +978,14 @@
    <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DCMotor_SpeedControllerWithFeedback/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DC_WithFeedback_ComputerControlled_RS232/Pictures/Album.jpg"
         alt="ts"
         width="150"
         height="114"
         />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DCMotor_SpeedControllerWithFeedback" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DC_WithFeedback_ComputerControlled_RS232" target="_top">
         <span>DC Motor Driver, Speed Controller With Feedback</span>
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
