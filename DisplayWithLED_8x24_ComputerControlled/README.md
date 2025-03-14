@@ -1,4 +1,4 @@
-## Display With 8x24 LED
+## Display With 8x24 LED, Computer Controlled
 
 MCU:		ATmega8A  
 

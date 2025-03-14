@@ -1,4 +1,4 @@
-## DC Motor Driver, Speed and Direction Controller with Computer, USB Interface, Optically Isolated
+## DC Motor Driver, No Feedback, Computer Controlled, USB Interface, Optically Isolated
 
 MCU:			ATmega32A  
 Display:        	16x2 LCD  

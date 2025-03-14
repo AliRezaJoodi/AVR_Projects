@@ -679,14 +679,14 @@
    <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DisplayWithLED_8x24_ControlledWithComputer/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DisplayWithLED_8x24_ComputerControlled/Pictures/Album.jpg"
         alt="ts"
         width="150"
         height="85"
         />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLED_8x24_ControlledWithComputer" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLED_8x24_ComputerControlled" target="_top">
         <span>Display with 8x24 LED, Controlled with Computer</span>
         </a> <br />
         <span style="color:#999">Input from RS232</span> <br />
