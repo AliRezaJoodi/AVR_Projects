@@ -1658,14 +1658,14 @@
    <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TextDisplayWithLCD16x2_ControlledWithComputer/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DisplayWithLCD16x2_ComputerControlled/Pictures/Album.jpg"
         alt="ts"
         width="151"
         height="68"
         />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TextDisplayWithLCD16x2_ControlledWithComputer" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLCD16x2_ComputerControlled" target="_top">
         <span>Text Displayer</span>
         </a> <br />
 	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
