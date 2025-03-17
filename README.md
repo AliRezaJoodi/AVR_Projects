@@ -1636,14 +1636,14 @@
    <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/TextDisplayWithLCD16x2_ControlledWithPcKeyboard/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DisplayWithLCD16x2_KeyboardControlled/Pictures/Album.jpg"
         alt="ts"
         width="151"
         height="74"
         />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/TextDisplayWithLCD16x2_ControlledWithPcKeyboard" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLCD16x2_KeyboardControlled" target="_top">
         <span>Text Displayer</span>
         </a> <br />
         <span style="color:#999"> Input from PS2 Keyboard </span> <br />
