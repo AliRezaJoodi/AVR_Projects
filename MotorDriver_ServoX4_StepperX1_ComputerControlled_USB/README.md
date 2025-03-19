@@ -23,8 +23,11 @@ It has included:
 ### Picture: v1.0 with Box
 ![](Pictures/v1.0_Box.jpg)
 
-### Schematic: v1.0
+### Schematic: v1.0, Main
 ![](Hardware/v1.1.png)
+
+### Schematic: v1.0, Driver
+![](Hardware/v1.0_Driver.png)
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
