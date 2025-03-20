@@ -11,6 +11,19 @@ Isolated:		TLP521
 Note: Included schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better
 
+Command Format:  
+Each command is made of a letter (device selector) and a number (control value).   
+`XNNN`
+- `X` = A, B, C, D and E
+- `NNN` = number between 0 and 255
+
+Examples:
+- `A124` = Select servo 1, pulse value 124
+- `B200` = Select servo 2, pulse value 200
+- `C0` = Select servo 3, pulse value 0
+- `D255` = Select servo 4, pulse value 255
+
+
 ### Folder and Files Description
 It has included:
 - `Code_BascomAVR` (Code with Basic Language)

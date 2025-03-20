@@ -1,4 +1,4 @@
-## DC Motor Driver, Speed and Direction Controller with Computer/Mobile, Bluetooth Interface, Optically Isolated
+## DC Motor Driver, No Feedback, Remote Controlled, Bluetooth Interface, Optically Isolated
 
 MCU:			ATmega32A  
 Driver: 		Mosfet for Speed Controller  
