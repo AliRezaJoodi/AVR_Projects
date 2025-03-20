@@ -4,11 +4,27 @@ MCU:			ATmega32A
 Computer Interfacing:	UART to USB Converter with FT232BL    
 Computer Software:	MATLAB   
 Servo Motor:		4x  
-Stepper Motor:		1x  
+Stepper Motor:		1x Unipolar Stepper Motor
 Isolated:		TLP521  
 
 Note: Included schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better
+
+Command Format:  
+Each command is made of a letter (device selector) and a number (control value).   
+`XNNN`
+- `X` = A, B, C, D and E
+- `NNN` = number between 0 and 255
+Examples:
+- `A124` = Select servo 1, pulse value 124
+- `B200` = Select servo 2, pulse value 200
+- `C0` = Select servo 3, pulse value 0
+- `D255` = Select servo 4, pulse value 255
+- `E8` = Select stepper motor, output is 1000
+Note: The number is converted to 4-bit binary and sent to 4 stepper motor pins:  
+Example:
+- `E8` = 1000
+- `E3` = 0011
 
 ### Folder and Files Description
 It has included:
