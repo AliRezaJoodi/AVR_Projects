@@ -11,7 +11,7 @@ Isolated:		TLP521
 Note: Included schematic and PCB layout with Proteus  
 Note: It's a prototype and should get better
 
-Command Format:  
+### Command Format 
 Each command is made of a letter (device selector) and a number (control value).   
 `XNNN`
 - `X` = A, B, C, D and E
