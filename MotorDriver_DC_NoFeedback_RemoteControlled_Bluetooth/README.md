@@ -1,4 +1,4 @@
-## DC Motor Driver, No Feedback, Remote Controlled, Bluetooth Interface, Optically Isolated
+## DC Motor Driver, No Feedback, Remote Controlled, Bluetooth Interface
 Note: This is just a prototype and needs improvement. 
 
 ### Pictures

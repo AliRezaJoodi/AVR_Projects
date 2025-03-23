@@ -848,7 +848,7 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DC_NoFeedback_RemoteControlled_Bluetooth" target="_top">
-        <span>DC Motor Driver, Speed and Direction Controller with Computer/Mobile, Bluetooth Interface</span>
+        <span>DC Motor Driver, No Feedback, Remote Controlled, Bluetooth Interface</span>
         </a> <br />
         <span style="color:#999">Driver with MOSFET</span> <br />
 	<span style="color:#999">Isolated with TLP521</span> <br />
