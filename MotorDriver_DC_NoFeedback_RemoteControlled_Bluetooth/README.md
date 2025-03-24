@@ -9,7 +9,7 @@ v1.0
 - MCU: ATmega32A  
 - Driver: Mosfet for Speed Controller  
 - Driver: Relay for Direction Controller  
-- Isolated: Optically with TLP521
+- Isolated: Optocoupler TLP521
 - Bluetooth module: HC-05  
 - Power Supply: x2
 
@@ -25,7 +25,7 @@ Commands can be sent from any device with Bluetooth, like a computer or smartpho
 This project includes:
 - `Code_BascomAVR` _ Microcontroller Programming in BASCOM-AVR with Basic Language
 - `Hardware` _ Included schematic and PCB layout with Proteus
-- `Pictures` _ Sample Photos of Projects
+- `Pictures` _ Sample Photos of Project
 
 ### Schematic
 v1.0, DC Motor Driver  
