@@ -619,6 +619,51 @@
    <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DisplayWithLCD16x2_ComputerControlled/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="68"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLCD16x2_ComputerControlled" target="_top">
+        <span>Text Displayer</span>
+        </a> <br />
+	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
+	<span style="color:#999">UART to USB Converter with FT232RL</span> <br />
+        <span style="color:#999"> Display with 16x2 LCD </span> <br />
+    </td>
+    <td> 
+        CodeVision AVR <br />
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DisplayWithLCD16x2_KeyboardControlled/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="74"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLCD16x2_KeyboardControlled" target="_top">
+        <span>Text Displayer</span>
+        </a> <br />
+        <span style="color:#999"> Input from PS2 Keyboard </span> <br />
+        <span style="color:#999"> Display with 16x2 LCD </span> <br />
+    </td>
+    <td> 
+        CodeVision AVR <br />
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DisplayWithLED_8x8_Expandable/Pictures/Album.jpg"
         alt="ts"
         width="150"
@@ -991,8 +1036,8 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
         <span style="color:#999">Driver with Mosfet</span> <br />
 	<span style="color:#999">Isolated with TLP521</span> <br />
-        <span style="color:#999">Input from Matlab</span> <br />
-        <span style="color:#999">Input from Visual Basic</span> <br />
+        <span style="color:#999">Device control commands from Matlab</span> <br />
+        <span style="color:#999">Device control commands from Visual Basic</span> <br />
     </td>
     <td>
         Bascom AVR <br />
@@ -1057,8 +1102,8 @@
         <span>Motor Driver, 4 Servo Motors and 1 Stepper Motor, Optically Isolated, Computer Controlled, USB Interface</span>
         </a> <br />
         <span style="color:#999">UART to USB Converter with FT232BL</span> <br />
-        <span style="color:#999">Input from Matlab</span> <br />
-        <span style="color:#999">Input from Visual Basic</span> <br />
+        <span style="color:#999">Device control commands from Matlab</span> <br />
+        <span style="color:#999">Device control commands from Visual Basic</span> <br />
     </td>
     <td>
         Bascom AVR <br />
@@ -1630,51 +1675,6 @@
     </td>
     <td> 
         Bascom AVR<br />
-    </td>
-  </tr>
-
-   <tr>
-    <td>
-        <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DisplayWithLCD16x2_KeyboardControlled/Pictures/Album.jpg"
-        alt="ts"
-        width="151"
-        height="74"
-        />
-    </td>
-    <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLCD16x2_KeyboardControlled" target="_top">
-        <span>Text Displayer</span>
-        </a> <br />
-        <span style="color:#999"> Input from PS2 Keyboard </span> <br />
-        <span style="color:#999"> Display with 16x2 LCD </span> <br />
-    </td>
-    <td> 
-        CodeVision AVR <br />
-        Bascom AVR <br />
-    </td>
-  </tr>
-
-   <tr>
-    <td>
-        <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/DisplayWithLCD16x2_ComputerControlled/Pictures/Album.jpg"
-        alt="ts"
-        width="151"
-        height="68"
-        />
-    </td>
-    <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/DisplayWithLCD16x2_ComputerControlled" target="_top">
-        <span>Text Displayer</span>
-        </a> <br />
-	<span style="color:#999">UART to USB Converter with FT232BL</span> <br />
-	<span style="color:#999">UART to USB Converter with FT232RL</span> <br />
-        <span style="color:#999"> Display with 16x2 LCD </span> <br />
-    </td>
-    <td> 
-        CodeVision AVR <br />
-        Bascom AVR <br />
     </td>
   </tr>
 
