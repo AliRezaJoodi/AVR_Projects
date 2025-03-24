@@ -47,6 +47,5 @@ USB Controller with FT232BL: v1.0
 ![](Hardware_FT232BL/v1.1.png)
 
 ### More Information
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
-
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)
