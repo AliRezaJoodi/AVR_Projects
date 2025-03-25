@@ -1,4 +1,4 @@
-## Motor Driver, 4 Servo Motors and 1 Stepper Motor, Optically Isolated, Computer Controlled, USB Interface
+## 4-Channel Servo Motor Controller and Stepper Motor Driver, Computer Controlled, USB Interface
 	   
 MCU:			ATmega32A    
 Computer Interfacing:	UART to USB Converter with FT232BL    

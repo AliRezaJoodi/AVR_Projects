@@ -1,4 +1,4 @@
-## Motor Driver, 4 Servo Motors, Computer Controlled, USB Interface
+## 4-Channel Servo Motor Controller, Computer Controlled, USB Interface
 Note: This is just a prototype and needs improvement. 
 
 ### Pictures

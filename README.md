@@ -1055,7 +1055,7 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_ServoX4_ComputerControlled_USB" target="_top">
-        <span>Motor Driver, 4 Servo Motors, Computer Controlled, USB Interface</span>
+        <span>4-Channel Servo Motor Controller, Computer Controlled, USB Interface</span>
         </a> <br />
         <span style="color:#999">UART to USB Converter with FT232BL</span> <br />
         <span style="color:#999">Device control commands from Matlab</span> <br />
@@ -1077,7 +1077,7 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_ServoX4_ComputerControlled_USB" target="_top">
-        <span>Motor Driver, 4 Servo Motors, Computer Controlled, USB Interface</span>
+        <span>4-Channel Servo Motor Controller, Computer Controlled, USB Interface</span>
         </a> <br />
         <span style="color:#999">UART to USB Converter with FT232RL</span> <br />
         <span style="color:#999">Device control commands from Matlab</span> <br />
@@ -1099,7 +1099,7 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_ServoX4_StepperX1_ComputerControlled_USB" target="_top">
-        <span>Motor Driver, 4 Servo Motors and 1 Stepper Motor, Optically Isolated, Computer Controlled, USB Interface</span>
+        <span>4-channel Servo Motor Controller and Stepper Motor Driver, Computer Controlled, USB Interface</span>
         </a> <br />
         <span style="color:#999">UART to USB Converter with FT232BL</span> <br />
         <span style="color:#999">Device control commands from Matlab</span> <br />
