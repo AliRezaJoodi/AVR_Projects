@@ -915,12 +915,13 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DC_NoFeedback_ComputerControlled_USB" target="_top">
-        <span>DC Motor Driver, Speed and Direction Controller with Computer, USB Interface</span>
+        <span>DC Motor Driver, No Feedback, Computer Controlled, USB Interface</span>
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
         <span style="color:#999">Driver with MOSFET</span> <br />
 	<span style="color:#999">Isolated with TLP521</span> <br />
         <span style="color:#999">UART to USB Converter with FT232RL</span> <br />
+	<span style="color:#999">Device control commands from Visual Basic</span> <br />
     </td>
     <td>
         Bascom AVR <br />
@@ -1099,7 +1100,7 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_ServoX4_StepperX1_ComputerControlled_USB" target="_top">
-        <span>4-channel Servo Motor Controller and Stepper Motor Driver, Computer Controlled, USB Interface</span>
+        <span>4-Channel Servo Motor Controller and Stepper Motor Driver, Computer Controlled, USB Interface</span>
         </a> <br />
         <span style="color:#999">UART to USB Converter with FT232BL</span> <br />
         <span style="color:#999">Device control commands from Matlab</span> <br />
