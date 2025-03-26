@@ -32,12 +32,12 @@ Examples:
 
 ### Folders and Files
 This project includes:
-- `Code_BascomAVR` _ Microcontroller Programming in BASCOM-AVR with Basic Language
-- `Code_Matlab` _Software developed in Matlab
-- `Code_VB6` _Software developed in Visual Basic (VB6)
-- `Hardware_FT232BL` _ Included schematic and PCB layout with Proteus
-- `Hardware_FT232RL` _ Included schematic and PCB layout with Proteus
-- `Pictures` _ Sample Photos of Project
+- `Code_BascomAVR` — Microcontroller Programming in BASCOM-AVR with Basic Language
+- `Code_Matlab` — Software developed in Matlab
+- `Code_VB6` — Software developed in Visual Basic (VB6)
+- `Hardware_FT232BL` — Included schematic and PCB layout with Proteus
+- `Hardware_FT232RL` — Included schematic and PCB layout with Proteus
+- `Pictures` — Sample Photos of Project
 
 ### Schematic
 USB Controller with FT232RL: v1.0  

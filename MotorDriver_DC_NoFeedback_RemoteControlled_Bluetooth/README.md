@@ -23,9 +23,9 @@ Commands can be sent from any device with Bluetooth, like a computer or smartpho
 
 ### Folders and Files
 This project includes:
-- `Code_BascomAVR` _ Microcontroller Programming in BASCOM-AVR with Basic Language
-- `Hardware` _ Included schematic and PCB layout with Proteus
-- `Pictures` _ Sample Photos of Project
+- `Code_BascomAVR` — Microcontroller Programming in BASCOM-AVR with Basic Language
+- `Hardware` — Included schematic and PCB layout with Proteus
+- `Pictures` — Sample Photos of Project
 
 ### Schematic
 v1.0, DC Motor Driver  
@@ -37,4 +37,3 @@ v1.0, Main
 ### More Information
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-
