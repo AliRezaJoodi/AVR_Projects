@@ -10,7 +10,7 @@ v1.0
 - **Bluetooth Module:** HC-05
 - **Motor Speed Control:** MOSFET based driver
 - **Motor Direction Control:** Relay based driver
-- **Isolation:** TLP521 optocoupler for signal isolation
+- **Motor Driver Isolation:** TLP521 optocoupler for signal isolation
 - **Power Supply**: x2
 
 ### Command Format 

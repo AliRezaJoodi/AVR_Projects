@@ -17,9 +17,9 @@ Software, VB6, v1.0
 - **Computer Interface:** USB to UART converter, FT232RL
 - **Motor Speed Control:** MOSFET based driver
 - **Motor Direction Control:** Relay based driver
-- **Isolation:** TLP521 optocoupler for signal isolation
-- **Controller Power Supply:** USB powered  
-- **Motor Power Supply:** External adapter
+- **Motor Driver Isolation:** TLP521 optocoupler for signal isolation
+- **Power Supply for Controller:** USB powered  
+- **Power Supply for Motor:** External adapter
 
 ### Folders and Files
 This project includes:

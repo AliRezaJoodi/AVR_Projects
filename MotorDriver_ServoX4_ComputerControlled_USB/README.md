@@ -15,10 +15,10 @@ Software, VB6: v1.0
 - **Microcontroller:** ATmega32A
 - **Computer Interface:** USB to UART converter, FT232BL
 - **Computer Interface:** USB to UART converter, FT232RL
-- **Isolation:** TLP521 optocoupler for signal isolation
+- **Motor Driver Isolation:** TLP521 optocoupler for signal isolation
 - **Servo Motor:** 4x
-- **Controller Power Supply:** USB powered  
-- **Motor Power Supply:** External adapter
+- **Power Supply for Controller:** USB powered  
+- **Power Supply for Motor:** External adapter
 
 ### Command Format 
 Each command is made of a letter (device selector) and a number (control value).   
