@@ -1,14 +1,22 @@
-## 4-Channel Servo Motor Controller and Stepper Motor Driver, Computer Controlled, USB Interface
-	   
-MCU:			ATmega32A    
-Computer Interfacing:	UART to USB Converter with FT232BL    
-Computer Software:	MATLAB   
-Servo Motor:		4x  
-Stepper Motor:		1x Unipolar Stepper Motor
-Isolated:		TLP521  
+## 4-Channel Servo Motor Controller and Single Stepper Motor Driver, Computer Controlled, USB Interface
+Note: This is just a prototype and needs improvement.
 
-Note: Included schematic and PCB layout with Proteus  
-Note: It's a prototype and should get better
+### Pictures
+v1.0  
+![](Pictures/v1.0.jpg)
+
+v1.0 with Box  
+![](Pictures/v1.0_Box.jpg)
+
+### Features
+- **Servo Motor:** 4x
+- **Stepper Motor:** 1x Unipolar Stepper Motor
+- **Microcontroller:** ATmega32A
+- **Computer Interface:** USB to UART converter, FT232BL
+- **Computer Interface:** USB to UART converter, FT232RL
+- **Motor Driver Isolation:** TLP521 optocoupler for signal isolation
+- **Power Supply for Controller:** USB powered  
+- **Power Supply for Motor:** External adapter 
 
 ### Command Format
 Each command is made of a letter (device selector) and a number (control value).   
@@ -28,23 +36,18 @@ Example:
 - `E8` = 1000
 - `E3` = 0011
 
-### Folder and Files Description
-It has included:
-- `Code_BascomAVR` (Code with Basic Language)
-- `Code_Matlab` (Software with Matlab)
-- `Hardware` (Included hardware laye)
-- `Pictures` (Photos Samples Made)
+### Folders and Files
+This project includes:
+- `Code_BascomAVR` — Microcontroller programmed in BASCOM-AVR (BASIC)
+- `Code_Matlab` — Software developed in Matlab
+- `Hardware` — Schematic and PCB layout with Proteus
+- `Pictures` — Project photos
 
-### Picture: v1.0
-![](Pictures/v1.0.jpg)
-
-### Picture: v1.0 with Box
-![](Pictures/v1.0_Box.jpg)
-
-### Schematic: v1.0, Main
+### Schematic
+v1.0, Main  
 ![](Hardware/v1.0.png)
 
-### Schematic: v1.0, Driver
+v1.0, Driver  
 ![](Hardware/v1.0_Driver.png)
 
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  

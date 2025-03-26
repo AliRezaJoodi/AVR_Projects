@@ -2,21 +2,21 @@
 Note: This is just a prototype and needs improvement. 
 
 ### Pictures
-USB Controller with FT232BL: v1.0  
-![](Pictures/USB_FT232BL_v1.0.jpg)
-
 USB Controller with FT232RL: v1.0  
 ![](Pictures/USB_FT232RL_v1.0.jpg)
+
+USB Controller with FT232BL: v1.0  
+![](Pictures/USB_FT232BL_v1.0.jpg)
 
 Software, VB6: v1.0  
 ![](Code_VB6/v1.0.png)
 
 ### Features
+- **Servo Motor:** 4x
 - **Microcontroller:** ATmega32A
 - **Computer Interface:** USB to UART converter, FT232BL
 - **Computer Interface:** USB to UART converter, FT232RL
 - **Motor Driver Isolation:** TLP521 optocoupler for signal isolation
-- **Servo Motor:** 4x
 - **Power Supply for Controller:** USB powered  
 - **Power Supply for Motor:** External adapter
 
