@@ -986,11 +986,11 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DC_NoFeedback_ManualControlled_L298" target="_top">
-        <span>DC Motor Driver, Speed and Direction Controller With Switch</span>
+        <span>DC Motor Driver, Manual Controlled</span>
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
-        <span style="color:#999">Input from 5-Switch</span> <br />
-        <span style="color:#999">Driver with L298</span> <br />
+        <span style="color:#999">Command from 5-Switch</span> <br />
+        <span style="color:#999">Motor Driver Based on L298</span> <br />
     </td>
     <td>
         CodeVision AVR <br />
