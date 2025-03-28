@@ -9,6 +9,8 @@ v1.0, Bottom
 ![](Pictures/v1.0_Bottom.jpg)
 
 ### Features
+- **Motor Type:** DC motor
+- **Control Method:** Manual, 5 push buttons
 - **Microcontroller:** ATmega32A 
 - **Display:** 16x2 Character LCD
 - **Motor Driver:** L298 based 

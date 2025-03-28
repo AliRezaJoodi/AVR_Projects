@@ -12,6 +12,9 @@ Software, VB6, v1.0
 ![](Code_VB6/v1.0.png)
 
 ### Features
+- **Motor Type:** DC motor
+- **Control Method 1:** Manual, 5 push buttons
+- **Control Method 2:** Computer Controlled, USB Interface
 - **Microcontroller:** ATmega32A
 - **Display:** 16x2 Character LCD
 - **Computer Interface:** USB to UART converter, FT232RL

@@ -6,6 +6,9 @@ v1.0
 ![](Pictures/v1.0.jpg)
 
 ### Features
+- **Motor Type:** DC motor
+- **Control Method 1:** Manual, 5 push buttons
+- **Control Method 2:** Remote Controlled, Bluetooth Interface
 - **Microcontroller:** ATmega32A
 - **Bluetooth Module:** HC-05
 - **Motor Speed Control:** MOSFET based driver

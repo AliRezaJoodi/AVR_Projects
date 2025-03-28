@@ -9,8 +9,9 @@ v1.0 with Box
 ![](Pictures/v1.0_Box.jpg)
 
 ### Features
-- **Servo Motor:** 4x
-- **Stepper Motor:** 1x Unipolar Stepper Motor
+- **Motor Type 1:** 4 Servo Motors
+- **Motor Type 2:** Single Unipolar Stepper Motor
+- **Control Method:** Computer Controlled, USB Interface
 - **Microcontroller:** ATmega32A
 - **Computer Interface:** USB to UART converter, FT232BL
 - **Computer Interface:** USB to UART converter, FT232RL

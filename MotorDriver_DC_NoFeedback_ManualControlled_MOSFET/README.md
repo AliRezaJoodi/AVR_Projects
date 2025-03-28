@@ -9,18 +9,21 @@ v1.0, Bottom
 ![](Pictures/v1.0_Bottom.jpg)
 
 ### Features
+- **Motor Type:** DC motor
+- **Control Method:** Manual, 5 push buttons
 - **Microcontroller:** ATmega32A
 - **Display:** 16x2 Character LCD
 - **Motor Speed Control:** MOSFET based driver
 - **Motor Direction Control:** Relay based driver
 - **Motor Driver Isolation:** TLP521 optocoupler for signal isolation
-- **Power Supply:** x2 
+- **Power Supply:** x2
 
 ### Folders and Files
 This project includes:
 - `Code_BascomAVR` — Microcontroller programmed in BASCOM-AVR (BASIC)
 - `Hardware` — Schematic and PCB layout with Proteus
 - `Pictures` — Project photos
+- `Simulate` — Simulating the project with Proteus
 
 ### Schematic
 v1.1, Controller  

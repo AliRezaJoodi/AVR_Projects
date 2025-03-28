@@ -12,7 +12,8 @@ Software, VB6: v1.0
 ![](Code_VB6/v1.0.png)
 
 ### Features
-- **Servo Motor:** 4x
+- **Motor Type:** 4 Servo Motors
+- **Control Method:** Computer Controlled, USB Interface
 - **Microcontroller:** ATmega32A
 - **Computer Interface:** USB to UART converter, FT232BL
 - **Computer Interface:** USB to UART converter, FT232RL
