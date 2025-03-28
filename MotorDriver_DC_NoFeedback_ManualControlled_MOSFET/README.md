@@ -1,28 +1,35 @@
-## DC Motor Driver, Speed and Direction Controller with Switch, Optically Isolated
+## DC Motor Driver, Manual Controlled, Driver Based on MOSFET
+Note: This is just a prototype and needs improvement.
 
-MCU:		ATmega32A  
-Display:        16x2 LCD  
-Driver: 	Mosfet for Speed Controller  
-Driver:		Relay for Direction Controller  
-Isolated:	TLP521  
-
-Note: Included schematic and PCB layout with Proteus  
-Note: It's a prototype and should get better 
-
-### Folder and Files Description
-It has included:
-- `Code_BascomAVR` (Code with Basic Language)
-- `Hardware` (Included hardware laye
-- `Pictures` (Photos Samples Made)
-
-### Pictures: v1.0
+### Pictures
+v1.0, Top  
 ![](Pictures/v1.0.jpg)
 
-### Pictures: v1.0, Bottom
+v1.0, Bottom  
 ![](Pictures/v1.0_Bottom.jpg)
 
-### Schematic: v1.1
+### Features
+- **Microcontroller:** ATmega32A
+- **Display:** 16x2 Character LCD
+- **Motor Speed Control:** MOSFET based driver
+- **Motor Direction Control:** Relay based driver
+- **Motor Driver Isolation:** TLP521 optocoupler for signal isolation
+- **Power Supply:** x2 
+
+### Folders and Files
+This project includes:
+- `Code_BascomAVR` — Microcontroller programmed in BASCOM-AVR (BASIC)
+- `Hardware` — Schematic and PCB layout with Proteus
+- `Pictures` — Project photos
+
+### Schematic
+v1.1, Controller  
 ![](Hardware/v1.1.png)
 
+v1.1, Driver  
+![](Hardware/v1.1_Driver.png)
+
+### More Information
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
+

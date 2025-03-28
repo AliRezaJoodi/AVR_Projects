@@ -1009,12 +1009,12 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DC_NoFeedback_ManualControlled_MOSFET" target="_top">
-        <span>DC Motor Driver, Speed and Direction Controller With Switch</span>
+        <span>DC Motor Driver, Manual Controlled, Driver Based on MOSFET</span>
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
-        <span style="color:#999">Input from 5-Switch</span> <br />
-        <span style="color:#999">Driver with Mosfet and Relay</span> <br />
-	<span style="color:#999">Isolated with TLP521</span> <br />
+        <span style="color:#999">Command from 5-Switch</span> <br />
+        <span style="color:#999">Driver Based on Mosfet and Relay</span> <br />
+	<span style="color:#999">Signal isolated with TLP521</span> <br />
     </td>
     <td>
         Bascom AVR <br />

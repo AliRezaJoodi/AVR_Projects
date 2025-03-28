@@ -1,4 +1,4 @@
-## DC Motor Driver, Manual Controlled
+## DC Motor Driver, Manual Controlled, Driver Based on L298
 Note: This is just a prototype and needs improvement.
 
 ### Pictures
