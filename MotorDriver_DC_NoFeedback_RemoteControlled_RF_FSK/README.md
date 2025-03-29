@@ -31,8 +31,11 @@ This project includes:
 Transmitter: v1.0  
 ![](Hardware/Transmitter_v1.0.png)
 
-Receiver: v1.0  
+Receiver: v1.0, Controller  
 ![](Hardware/Receiver_v1.0.png)
+
+Receiver: v1.0, Driver  
+![](Hardware/Receiver_v1.0_Driver.png)
 
 ### More Information
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
