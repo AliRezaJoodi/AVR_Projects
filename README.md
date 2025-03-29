@@ -963,7 +963,7 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DC_NoFeedback_RemoteControlled_RF_FSK" target="_top">
-        <span>DC Motor Driver, Speed and Direction Controller with FSK RF Module</span>
+        <span>DC Motor Driver, No Feedback, Remote Controlled, FSK RF Module</span>
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
         <span style="color:#999">Driver with MOSFET</span> <br />

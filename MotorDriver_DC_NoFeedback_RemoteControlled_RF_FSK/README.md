@@ -1,36 +1,39 @@
-## DC Motor Driver, Speed and Direction Controller with FSK RF Module, Optically Isolated
+## DC Motor Driver, No Feedback, Remote Controlled, FSK RF Module
+Note: This is just a prototype and needs improvement.
 
-MCU:		ATmega32A  
-Display:        16x2 LCD  
-Driver: 	Mosfet for Speed Controller  
-Driver:		Relay for Direction Controller  
-RF Module:	FSK  
-Isolated:	TLP521	
-
-Note: Included schematic and PCB layout with Proteus  
-Note: It's a prototype and should get better 
-
-### Folder and Files Description
-It has included:
-- `Code_BascomAVR` (Code with Basic Language)
-- `Hardware` (Included hardware laye
-- `Pictures` (Photos Samples Made)
-
-### Pictures: Transmitter, v1.0
+### Pictures
+Transmitter: v1.0  
 ![](Pictures/Transmitter_v1.0.jpg)
 
-### Pictures: Receiver, v1.0
+Receiver: v1.0  
 ![](Pictures/Receiver_v1.0.jpg)
 
-### PCB: Receiver, v1.0
+Receiver: v1.0  
 ![](Hardware/Receiver_v1.0_PCB.png)
 
-### Schematic: Transmitter, v1.0
+### Features
+- **Motor Type:** DC motor
+- **Control Method:** Remote Controlled, FSK RF Module
+- **Microcontroller:** ATmega32A
+- **Display:** 16x2 Character LCD
+- **Motor Speed Control:** MOSFET based driver
+- **Motor Direction Control:** Relay based driver
+- **Motor Driver Isolation:** TLP521 optocoupler for signal isolation
+- **Power Supply:** x2
+
+### Folders and Files
+This project includes:
+- `Code_BascomAVR` — Microcontroller programmed in BASCOM-AVR (BASIC)
+- `Hardware` — Schematic and PCB layout with Proteus
+- `Pictures` — Project photos
+
+### Schematic
+Transmitter: v1.0  
 ![](Hardware/Transmitter_v1.0.png)
 
-### Schematic: Receiver, v1.0
+Receiver: v1.0  
 ![](Hardware/Receiver_v1.0.png)
 
-
+### More Information
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)

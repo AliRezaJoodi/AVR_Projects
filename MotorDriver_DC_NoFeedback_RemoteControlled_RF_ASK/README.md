@@ -24,6 +24,7 @@ This project includes:
 - `Code_CodeVisionAVR` — Microcontroller programmed in CodeVisionAVR (C)
 - `Hardware` — Schematic and PCB layout with Proteus
 - `Pictures` — Project photos
+- `Simulate` — Simulating the project with Proteus
 
 ### Schematic
 Transmitter: v1.1  
