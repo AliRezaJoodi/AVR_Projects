@@ -2,10 +2,10 @@
 Note: This is just a prototype and needs improvement.
 
 ### Pictures
-v1.0
+Hardware with RS232: v1.0  
 ![](Pictures/v1.0.jpg)
 
-Software, Visual Basic: v1.0
+Software with Visual Basic: v1.0  
 ![](Code_VB6/v1.0.jpg)
 
 ### Features
@@ -30,7 +30,7 @@ It has included:
 - `Pictures` — Project photos
 
 ### Schematic
-v1.1  
+Hardware with RS232:v1.1  
 ![](Hardware_MAX232/v1.1.png)
 
 ### More Information
