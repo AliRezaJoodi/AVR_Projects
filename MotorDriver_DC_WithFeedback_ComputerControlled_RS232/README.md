@@ -1,33 +1,38 @@
-## DC Motor Driver, Speed Controller With Feedback, Optically Isolated
+## DC Motor Driver, With Feedback, Computer Controlled
+Note: This is just a prototype and needs improvement.
 
-MCU:			ATmega32A  
-Display:        	16x2 LCD  
-Driver: 		Mosfet for Speed Controller  
-Computer Interfacing:	RS232 to UART Converter with MAX232  
-Computer Software:	Matlab  
-Computer Software:	Visual Basic  
-Isolated:		TLP521  
+### Pictures
+v1.0
+![](Pictures/v1.0.jpg)
 
-Note: Included schematic and PCB layout with Proteus  
-Note: It's a prototype and should get better 
+Software, Visual Basic: v1.0
+![](Code_VB6/v1.0.jpg)
+
+### Features
+- **Motor Type:** DC motor
+- **Control Method 1:** Computer Controlled, USB Interface
+- **Control Method 2:** Computer Controlled, RS232 Interface
+- **Microcontroller:** ATmega32A
+- **Display:** 16x2 Character LCD
+- **Computer Interface:** R323 to UART converter, MAX232
+- **Motor Speed Control:** MOSFET based driver
+- **Motor Driver Isolation:** TLP521 optocoupler for signal isolation
+- **Power Supply:** x2
 
 ### Folder and Files Description
 It has included:
-- `Code_BascomAVR_InputFromMatlab` (Code with Basic Language)
-- `Code_BascomAVR_InputFromVB` (Code with Basic Language)
-- `Code_Matlab` (Software with Matlab)
-- `Code_VB6` (Software with Visual Basic)
-- `Hardware` (Included hardware laye
-- `Pictures` (Photos Samples Made)
+- `Code_BascomAVR_InputFromMatlab` — Microcontroller programmed in BASCOM-AVR (BASIC)
+- `Code_BascomAVR_InputFromVB` — Microcontroller programmed in BASCOM-AVR (BASIC)
+- `Code_Matlab` — Software developed in Matlab
+- `Code_VB6` — Software developed in Visual Basic 6.0 (BASIC)
+- `Hardware_FT232RL` — Schematic and PCB layout with Proteus
+- `Hardware_MAX232` — Schematic and PCB layout with Proteus
+- `Pictures` — Project photos
 
-### Pictures: v1.0
-![](Pictures/v1.0.jpg)
-
-### Schematic: v1.1
+### Schematic
+v1.1  
 ![](Hardware_MAX232/v1.1.png)
 
-### Software with Visual Basic: v1.0
-![](Code_VB6/v1.0.jpg)
-
-My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
+### More Information
+ **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
+ My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi) 

@@ -1032,7 +1032,7 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DC_WithFeedback_ComputerControlled_RS232" target="_top">
-        <span>DC Motor Driver, Speed Controller With Feedback</span>
+        <span>DC Motor Driver, With Feedback, Computer Controlled</span>
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
         <span style="color:#999">Driver with Mosfet</span> <br />
