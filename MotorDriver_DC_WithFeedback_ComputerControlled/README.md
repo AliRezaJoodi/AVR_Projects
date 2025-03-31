@@ -30,7 +30,7 @@ It has included:
 - `Pictures` — Project photos
 
 ### Schematic
-Hardware with RS232:v1.1  
+Hardware with RS232: v1.1  
 ![](Hardware_MAX232/v1.1.png)
 
 ### More Information
