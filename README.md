@@ -1044,6 +1044,26 @@
         Bascom AVR <br />
     </td>
   </tr>
+
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_ServoX2_TimeScheduled/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="97"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_ServoX2_TimeScheduled" target="_top">
+        <span>2-Channel Servo Motor Controller, Time Scheduled</span>
+        </a> <br />
+        <span style="color:#999">Timer Type: External RTC, DS1307</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
  
    <tr>
     <td>
