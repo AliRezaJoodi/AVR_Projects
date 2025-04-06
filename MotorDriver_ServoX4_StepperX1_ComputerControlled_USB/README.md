@@ -14,7 +14,6 @@ v1.0 with Box
 - **Control Method:** Computer Controlled, USB Interface
 - **Microcontroller:** ATmega32A
 - **Computer Interface:** USB to UART converter, FT232BL
-- **Computer Interface:** USB to UART converter, FT232RL
 - **Motor Driver Isolation:** TLP521 optocoupler for signal isolation
 - **Power Supply for Controller:** USB powered  
 - **Power Supply for Motor:** External adapter 
