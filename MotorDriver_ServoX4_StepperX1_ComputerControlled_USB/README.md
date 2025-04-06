@@ -12,7 +12,7 @@ v1.0 with Box
 - **Motor Type 1:** 4 Servo Motors
 - **Motor Type 2:** Single Unipolar Stepper Motor
 - **Control Method:** Computer Controlled, USB Interface
-- **Microcontroller:** ATmega32A
+- **Microcontroller:** ATmega8A
 - **Computer Interface:** USB to UART converter, FT232BL
 - **Motor Driver Isolation:** TLP521 optocoupler for signal isolation
 - **Power Supply for Controller:** USB powered  
