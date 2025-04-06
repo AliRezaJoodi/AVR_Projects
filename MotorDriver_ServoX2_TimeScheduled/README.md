@@ -22,9 +22,12 @@ This project includes:
 - `Simulate` — Simulating the project with Proteus
 
 ### Schematic
-v1.0  
+v1.0, Main  
 ![](Hardware/v1.0.png)
+
+v1.0, Driver  
+![](Hardware/v1.0_Driver.png)
 
 ### More Information
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
-My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)
+My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
