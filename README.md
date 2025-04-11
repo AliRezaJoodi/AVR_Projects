@@ -1134,6 +1134,26 @@
    <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_StepperX4_CodeControlled/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="133"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_StepperX4_CodeControlled" target="_top">
+        <span>4 Stepper-Motor Driver, Code Controlled</span>
+        </a> <br />
+        <span style="color:#999">Motor Driver: ULN2803 x2</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/PhoneBook_AT24C512/Pictures/Album.jpg"
         alt="ts"
         width="151"

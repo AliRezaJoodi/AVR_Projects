@@ -1,4 +1,4 @@
-## 4 Stepper Motors Driver, Code Controlled
+## 4 Stepper-Motor Driver, Code Controlled
 Note: This is just a prototype and needs improvement.
 
 ### Pictures
