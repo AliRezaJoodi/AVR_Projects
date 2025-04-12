@@ -1,6 +1,6 @@
 'GitHub Account: GitHub.com/AliRezaJoodi
 
-$regfile = "m16def.dat"
+$regfile = "m32def.dat"
 $crystal = 8000000
 
 Config Porta = Output
@@ -13,7 +13,7 @@ Config Portd.5 = Output : Reset Portd.5 : Led_4 Alias Portd.5
 
 Dim I As Word
 Dim End_i As Word : End_i = 125
-Dim T As Word : T = 20
+Dim T As Word : T = 150
 
 Gosub Stepper_motor_1
 Gosub Stepper_motor_3
