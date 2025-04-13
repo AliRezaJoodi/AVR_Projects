@@ -28,5 +28,6 @@ v1.0, Main
 v1.0, Driver  
 ![](Hardware/v1.0_Driver.png)
 
-My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
+### More Information
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
+My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi) 

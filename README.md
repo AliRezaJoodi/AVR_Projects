@@ -978,15 +978,15 @@
    <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DC_NoFeedback_ManualControlled_L298/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DC_NoFeedback_ManuallyControlled_L298/Pictures/Album.jpg"
         alt="ts"
         width="150"
         height="68"
         />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DC_NoFeedback_ManualControlled_L298" target="_top">
-        <span>DC Motor Driver, Manual Controlled</span>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DC_NoFeedback_ManuallyControlled_L298" target="_top">
+        <span>DC Motor Driver, Manually Controlled</span>
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
         <span style="color:#999">Command from 5-Switch</span> <br />
@@ -1001,15 +1001,15 @@
    <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DC_NoFeedback_ManualControlled_MOSFET/Pictures/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_DC_NoFeedback_ManuallyControlled_MOSFET/Pictures/Album.jpg"
         alt="ts"
         width="150"
         height="70"
         />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DC_NoFeedback_ManualControlled_MOSFET" target="_top">
-        <span>DC Motor Driver, Manual Controlled, Driver Based on MOSFET</span>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_DC_NoFeedback_ManuallyControlled_MOSFET" target="_top">
+        <span>DC Motor Driver, Manually Controlled, Driver Based on MOSFET</span>
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
         <span style="color:#999">Command from 5-Switch</span> <br />

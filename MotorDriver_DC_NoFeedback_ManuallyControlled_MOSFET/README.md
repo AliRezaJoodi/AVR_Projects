@@ -1,4 +1,4 @@
-## DC Motor Driver, Manual Controlled, Driver Based on MOSFET
+## DC Motor Driver, Manually Controlled, Driver Based on MOSFET
 Note: This is just a prototype and needs improvement.
 
 ### Pictures
