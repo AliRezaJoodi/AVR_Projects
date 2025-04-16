@@ -7,7 +7,7 @@ v1.0
 
 ### Features
 - **Motor Type:** 1 Unipolar Stepper Motors
-- **Control Method:** Manual, 4x4 Matrix Keypad 
+- **Control Method:** Manually, 4x4 Matrix Keypad 
 - **Microcontroller:** ATmega32A
 - **Display:** 16x2 Character LCD
 - **Motor Driver:** ULN2003

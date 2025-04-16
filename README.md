@@ -1133,6 +1133,29 @@
    <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_StepperX1_ManuallyControlled_Keypad/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="106"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_StepperX1_ManuallyControlled_Keypad" target="_top">
+        <span>Single Stepper Motor Driver, Manually Controlled</span>
+        </a> <br />
+	<span style="color:#999">Control Method: Manually, 4x4 Matrix Keypad</span> <br />
+	<span style="color:#999">Display: 16x2 Character LCD</span> <br />
+	<span style="color:#999">Motor Type: 1 Unipolar Stepper Motors</span> <br />
+        <span style="color:#999">Motor Driver: ULN2003</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+   <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_StepperX4_CodeControlled/Pictures/Album.jpg"
         alt="ts"
         width="150"
