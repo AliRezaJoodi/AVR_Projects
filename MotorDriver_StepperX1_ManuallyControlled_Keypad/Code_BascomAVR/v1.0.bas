@@ -3,8 +3,6 @@
 $regfile = "m16def.dat"
 $crystal = 11059200
 
-'$PROG &HFF,&HFF,&HD3,&H00' generated. Take care that the chip supports all fuse bytes.
-
 Config Lcdpin = Pin , Rs = Porta.0 , E = Porta.2 , Db4 = Porta.4 , Db5 = Porta.5 , Db6 = Porta.6 , Db7 = Porta.7
 Config Lcd = 16 * 2
 Cursor Off

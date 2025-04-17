@@ -2,7 +2,6 @@
 
 $regfile = "m32def.dat"
 $crystal = 8000000
-'$crystal = 11059200
 $baud = 9600
 'Config Debounce = 30
 
