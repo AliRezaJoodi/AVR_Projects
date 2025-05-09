@@ -5,14 +5,13 @@ $regfile = "attiny2313.dat"
 
 $baud = 9600
 
+Config Portb = Output
 
 Dim Value As Byte
 
-Config Portb = Output
-
 Do
    Input "Give input: " , Value
-   Porta = Value
+   Portb = Value
 Loop
 
 End

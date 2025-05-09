@@ -6,12 +6,13 @@ $crystal = 11059200
 
 $baud = 9600
 
+Config PortC = Output
+
 Dim value As Byte
 
 Do
    Input value
-   Porta = value
+   PortC = value
 Loop
 
 End
-
