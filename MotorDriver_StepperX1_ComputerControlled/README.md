@@ -1,5 +1,6 @@
 ## Single Stepper Motor Driver, Computer Controlled
-Note: This is just a prototype and needs improvement.
+Note: This is just a prototype and needs improvement.  
+Note: The project was developed in 5 models.  
 
 ### Pictures
 Model 5: USB, FT232RL, v1.0  
