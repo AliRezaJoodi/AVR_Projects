@@ -20,7 +20,8 @@ Model 1: RS232, ATtiny2313, v1.0
 
 ### Features
 - **Motor Type:** Unipolar Stepper Motors x1
-- **Microcontroller:** ATmega32A
+- **Microcontroller in Model 1:** ATtiny2313
+- **Microcontroller in Model 2 to 5:** ATmega32A
 - **Control Method:** Computer Controlled
 - **Computer Interface in Model 1,2 and 3:** RS232 to UART converter, MAX232
 - **Computer Interface in Model 4:** USB to UART converter, FT232BL

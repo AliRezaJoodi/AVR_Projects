@@ -1187,6 +1187,31 @@
    <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_StepperX1_ComputerControlled/Pictures_Model1_RS232_ATtiny2313/Album.jpg"
+        alt="ts"
+        width="150"
+        height="100"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_StepperX1_ComputerControlled" target="_top">
+        <span>Single Stepper Motor Driver, Computer Controlled, RS232</span>
+        </a> <br />
+	<span style="color:#999">Motor Type: Unipolar Stepper Motor x1</span> <br />
+        <span style="color:#999">Motor Driver: ULN2003</span> <br />
+        <span style="color:#999">Control Method: Computer Controlled</span> <br />
+        <span style="color:#999">Computer Interface: RS232 to UART converter, MAX232</span> <br />
+        <span style="color:#999">Computer Software: Matlab</span> <br />
+    </td>
+    <td>
+        Bascom AVR <br />
+    </td>
+  </tr>
+
+ <!-- ********************** -->
+   <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_StepperX1_ManuallyControlled_Keypad/Pictures/Album.jpg"
         alt="ts"
         width="150"
