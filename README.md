@@ -25,7 +25,7 @@
         <span style="color:#999">Included Magnetic Sensor</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -48,7 +48,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
 
@@ -71,7 +71,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
 
@@ -93,8 +93,8 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
-        CodeVision AVR <br />
-        Bascom AVR <br />
+        CodeVisionAVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -117,7 +117,7 @@
  <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -140,7 +140,7 @@
  <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -163,7 +163,7 @@
         <span style="color:#999">Voltmeter for 0~30V DC </span><br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
  
@@ -186,7 +186,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
  
@@ -208,7 +208,7 @@
         <span style="color:#999">Display with 128*64 KS108 GLCD</span><br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
  
@@ -230,7 +230,7 @@
         <span style="color:#999">Display with 16x2 LCD</span><br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -251,8 +251,8 @@
         <span style="color:#999">Display with 4-Digit 7-segment</span> <br />
     </td>
     <td>
-        CodeVision AVR <br />
-        Bascom AVR <br />
+        CodeVisionAVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -274,7 +274,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -296,7 +296,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -318,7 +318,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
  
@@ -339,7 +339,7 @@
         <span style="color:#999">125KHz RFID Tag</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -360,7 +360,7 @@
         <span style="color:#999">125KHz RFID Tag</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
  
@@ -381,7 +381,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
  
@@ -401,8 +401,8 @@
         </a> <br />
     </td>
     <td>
-        CodeVision AVR <br />
-        Bascom AVR <br />
+        CodeVisionAVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -424,7 +424,7 @@
         <span style="color:#999">ATmega8 MCU</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -445,7 +445,7 @@
         <span style="color:#999">Display with 6-Digit 7-segment</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
  
@@ -466,7 +466,7 @@
         <span style="color:#999">Display with 2-Digit 7-segment</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -487,7 +487,7 @@
         <span style="color:#999">Display with 1-Digit 7-segment</span> <br />
     </td>
     <td>
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
 
@@ -509,7 +509,7 @@
         <span style="color:#999">Display with 4-Digit 7-segment</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -531,7 +531,7 @@
         <span style="color:#999">128x64 GLCD Display</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
  
@@ -553,8 +553,8 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
-        CodeVision AVR <br />
-        Bascom AVR <br />
+        CodeVisionAVR <br />
+        Bascom-AVR <br />
         mikroC PRO for AVR <br />
     </td>
   </tr>
@@ -577,7 +577,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -599,7 +599,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -620,7 +620,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
-        CodeVision AVR <br />
+        CodeVisionAVR <br />
     </td>
   </tr>
 
@@ -641,7 +641,7 @@
         <span style="color:#999">Input from PS2 keyboard</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -664,8 +664,8 @@
         <span style="color:#999"> Display with 16x2 LCD </span> <br />
     </td>
     <td> 
-        CodeVision AVR <br />
-        Bascom AVR <br />
+        CodeVisionAVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -687,8 +687,8 @@
         <span style="color:#999"> Display with 16x2 LCD </span> <br />
     </td>
     <td> 
-        CodeVision AVR <br />
-        Bascom AVR <br />
+        CodeVisionAVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -709,7 +709,7 @@
         <span style="color:#999">Example for 8x16 Display</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -730,7 +730,7 @@
         <span style="color:#999">Input from PS2 keyboard</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -751,7 +751,7 @@
         <span style="color:#999">Input from PS2 keyboard</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -772,7 +772,7 @@
         <span style="color:#999">Input from RS232</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
  
@@ -793,7 +793,7 @@
         <span style="color:#999">Input from PS2 keyboard</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -813,7 +813,7 @@
         </a> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -833,7 +833,7 @@
         </a> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -855,7 +855,7 @@
 	<span style="color:#999">Input from Touch Screen</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -877,7 +877,7 @@
 	<span style="color:#999">Input from Matrix Button</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -899,7 +899,7 @@
         <span style="color:#999">Output is 4-20mA</span> <br />
     </td>
     <td>
-        CodeVision AVR <br />
+        CodeVisionAVR <br />
     </td>
   </tr>
  
@@ -919,8 +919,8 @@
         </a> <br />
     </td>
     <td>
-        CodeVision AVR <br />
-        Bascom AVR <br />
+        CodeVisionAVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -943,7 +943,7 @@
         <span style="color:#999">Bluetooth module with HC-05</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -968,7 +968,7 @@
 	<span style="color:#999">Device control commands from Visual Basic</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -992,8 +992,8 @@
         <span style="color:#999">Input from ASK RF Transmitter</span> <br />
     </td>
     <td>
-        CodeVision AVR <br />
-        Bascom AVR <br />
+        CodeVisionAVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1017,7 +1017,7 @@
         <span style="color:#999">Input from FSK RF Transmitter</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1039,8 +1039,8 @@
         <span style="color:#999">Display: 16x2 Character LCD</span> <br />
     </td>
     <td>
-        CodeVision AVR <br />
-        Bascom AVR <br />
+        CodeVisionAVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1064,7 +1064,7 @@
 	<span style="color:#999">Signal isolated with TLP521</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1089,7 +1089,7 @@
         <span style="color:#999">Device control commands from Visual Basic</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1110,7 +1110,7 @@
         <span style="color:#999">Timer Type: External RTC, DS1307</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
  
@@ -1133,7 +1133,7 @@
         <span style="color:#999">Device control commands from Visual Basic</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1156,7 +1156,7 @@
         <span style="color:#999">Device control commands from Visual Basic</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1179,7 +1179,7 @@
         <span style="color:#999">Device control commands from Visual Basic</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1204,7 +1204,33 @@
         <span style="color:#999">Computer Software: Matlab</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
+    </td>
+  </tr>
+
+ <!-- ********************** -->
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/MotorDriver_StepperX1_ComputerControlled/Pictures_Model2_RS232/Album.jpg"
+        alt="ts"
+        width="150"
+        height="77"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/MotorDriver_StepperX1_ComputerControlled" target="_top">
+        <span>Single Stepper Motor Driver, Computer Controlled, RS232</span>
+        </a> <br />
+	<span style="color:#999">Motor Type: Unipolar Stepper Motor x1</span> <br />
+        <span style="color:#999">Motor Driver: ULN2003</span> <br />
+        <span style="color:#999">Control Method: Computer Controlled</span> <br />
+        <span style="color:#999">Computer Interface: RS232 to UART converter, MAX232</span> <br />
+        <span style="color:#999">Computer Software: Matlab</span> <br />
+    </td>
+    <td>
+        CodeVisionAVR <br />
+	Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1228,7 +1254,7 @@
         <span style="color:#999">Motor Driver: ULN2003</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1249,7 +1275,7 @@
         <span style="color:#999">Motor Driver: ULN2803 x2</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1271,7 +1297,7 @@
         <span style="color:#999">External EEPROM AT24C512</span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1293,7 +1319,7 @@
         <span style="color:#999">Internal EEPROM </span> <br />
     </td>
     <td>
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
  
@@ -1352,8 +1378,8 @@
         <span style="color:#999">ATmega8 MCU </span> <br />
     </td>
     <td> 
-        CodeVision AVR <br />
-        Bascom AVR <br />
+        CodeVisionAVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
  
@@ -1374,8 +1400,8 @@
         <span style="color:#999">ATtiny13 MCU </span> <br />
     </td>
     <td> 
-        CodeVision AVR <br />
-        Bascom AVR <br />
+        CodeVisionAVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1396,8 +1422,8 @@
         <span style="color:#999">ATtiny26 MCU </span> <br />
     </td>
     <td> 
-        CodeVision AVR <br />
-        Bascom AVR <br />
+        CodeVisionAVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1418,8 +1444,8 @@
         <span style="color:#999">ATtiny2313 MCU </span> <br />
     </td>
     <td> 
-        CodeVision AVR <br />
-        Bascom AVR <br />
+        CodeVisionAVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1439,7 +1465,7 @@
         </a> <br />
     </td>
     <td> 
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
  
@@ -1459,8 +1485,8 @@
         </a> <br />
     </td>
     <td> 
-        CodeVision AVR <br />
-        Bascom AVR <br />
+        CodeVisionAVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1482,7 +1508,7 @@
         <span style="color:#999">Output with Relay x4</span> <br />
     </td>
     <td>
-        CodeVision AVR<br />
+        CodeVisionAVR<br />
     </td>
   </tr>
 
@@ -1505,7 +1531,7 @@
         <span style="color:#999">Output with Relay x4</span> <br />
     </td>
     <td>
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
 
@@ -1529,7 +1555,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
  
@@ -1551,7 +1577,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td>
-        CodeVision AVR<br />
+        CodeVisionAVR<br />
     </td>
   </tr>
 
@@ -1573,8 +1599,8 @@
         <span style="color:#999">Output with Relay x1</span> <br />
     </td>
     <td>
-        CodeVision AVR<br />
-	Bascom AVR<br />
+        CodeVisionAVR<br />
+	Bascom-AVR<br />
     </td>
   </tr>
 
@@ -1597,7 +1623,7 @@
         <span style="color:#999">Output with Relay x1</span> <br />
     </td>
     <td>
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
 
@@ -1620,7 +1646,7 @@
         <span style="color:#999">Output with Relay x1</span> <br />
     </td>
     <td>
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
 
@@ -1642,7 +1668,7 @@
         <span style="color:#999">Output with Relay x2</span> <br />
     </td>
     <td>
-	Bascom AVR<br />
+	Bascom-AVR<br />
     </td>
   </tr>
 
@@ -1665,7 +1691,7 @@
         <span style="color:#999">Output with Relay x2</span> <br />
     </td>
     <td>
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
 
@@ -1688,7 +1714,7 @@
         <span style="color:#999">Output with Relay x2</span> <br />
     </td>
     <td>
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
 
@@ -1711,7 +1737,7 @@
         <span style="color:#999">Output with Relay x2</span> <br />
     </td>
     <td>
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
 
@@ -1734,7 +1760,7 @@
         <span style="color:#999">Gas Sensor with MQ9</span> <br />
     </td>
     <td>
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
 
@@ -1756,7 +1782,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td> 
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
 
@@ -1778,7 +1804,7 @@
 	<span style="color:#999">Display with 7-Segment</span> <br />
     </td>
     <td> 
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
 
@@ -1800,7 +1826,7 @@
         <span style="color:#999">Display with 64x128 GLCD</span> <br />
     </td>
     <td> 
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
 
@@ -1822,7 +1848,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td> 
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
 
@@ -1844,7 +1870,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td> 
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
 
@@ -1864,7 +1890,7 @@
         </a> <br />
     </td>
     <td> 
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
  
@@ -1922,7 +1948,7 @@
         <span style="color:#999"> Display with 16x2 LCD </span> <br />
     </td>
     <td> 
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1944,7 +1970,7 @@
         <span style="color:#999"> Display with 16x2 LCD </span> <br />
     </td>
     <td> 
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -1966,7 +1992,7 @@
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>
     <td> 
-        Bascom AVR<br />
+        Bascom-AVR<br />
     </td>
   </tr>
  
@@ -1989,7 +2015,7 @@
         <span style="color:#999"> HMR and HMT Module </span> <br />
     </td>
     <td> 
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
 
@@ -2013,7 +2039,7 @@
         <span style="color:#999"> HMR and HMT Module </span> <br />
     </td>
     <td> 
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
   
@@ -2037,7 +2063,7 @@
         <span style="color:#999"> HMR and HMT Module </span> <br />
     </td>
     <td> 
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
     </a></td>
   </tr>
@@ -2061,7 +2087,7 @@
         <span style="color:#999"> HMR and HMT Module </span> <br />
     </td>
     <td> 
-        Bascom AVR <br />
+        Bascom-AVR <br />
     </td>
   </tr>
   
