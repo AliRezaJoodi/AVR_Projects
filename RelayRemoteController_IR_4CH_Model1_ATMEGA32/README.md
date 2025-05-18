@@ -9,7 +9,7 @@ v1.2
 ![](Pictures/v1.2.jpg)
 
 ### Features
-- **Output Type:** Relay x1
+- **Output Type:** Relay x4
 - **Control Method:** Remote Controlled, IR
 - **Relay Driver:** ULN2003
 - **Microcontroller:** ATmega32A
