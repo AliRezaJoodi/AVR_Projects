@@ -3,10 +3,10 @@ Note: This is just a prototype and needs improvement.
 
 ### Pictures
 v1.0  
-![](Pictures/v1.0.jpg)
+![](Pictures_Model1_ATMEGA32/v1.0.jpg)
 
 v1.2  
-![](Pictures/v1.2.jpg)
+![](Pictures_Model1_ATMEGA32/v1.2.jpg)
 
 ### Features
 - **Output Type:** Relay x4
@@ -23,7 +23,7 @@ This project includes:
 
 ### Schematic
 v1.2  
-![](Hardware/v1.2.png)
+![](Hardware_Model1_ATMEGA32/v1.2.png)
 
 ### More Information
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
