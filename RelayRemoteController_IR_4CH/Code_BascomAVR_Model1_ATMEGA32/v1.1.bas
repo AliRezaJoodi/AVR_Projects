@@ -160,7 +160,6 @@ End
 
 '*************************************************
 Setting_address:
-   Address_hardware = 0
    If Jumper_address = 0 Then
        Address_hardware = 0
    Elseif Jumper_address = 1 Then
