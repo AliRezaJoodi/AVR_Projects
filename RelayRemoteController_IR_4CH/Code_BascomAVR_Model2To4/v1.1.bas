@@ -8,7 +8,7 @@ Start Watchdog
 
 Enable Interrupts
 
-$include "Attachment\Hardware_Model4_v1.1.inc"
+$include "Attachment\Hardware_Model4_v2.0.inc"
 
 Const Delay_IR = 300
 Const Delay_Relay = 800
@@ -34,7 +34,7 @@ Do
    Reset Led_IR
    Getrc5(address , Command) : Gosub Convert
    If Address = Address_hardware Then
-      If Command_hardware = 0 Then
+      If Command_hardware = 1 Then
          Select Case Command
             Case 1:
                If Jumper_Relay1 = 1 Then
@@ -93,7 +93,7 @@ Do
             Case Else:
                Set Led_IR : Waitms Delay_IR : Reset Led_IR
          End Select
-      Elseif Command_hardware = 1 Then
+      Elseif Command_hardware = 0 Then
          Select Case Command
             Case 5:
                If Jumper_Relay1 = 1 Then
@@ -160,10 +160,9 @@ End
 
 '*************************************************
 Setting_address:
-   Address_hardware = 0
-   If Jumper_address = 0 Then
-       Address_hardware = 0
-   Elseif Jumper_address = 1 Then
+   If Jumper_address = 1 Then
+      Address_hardware = 0
+   Else
       Address_hardware = 1
    End If
 Return
@@ -172,7 +171,7 @@ Return
 Setting_command:
    If Jumper_command = 0 Then
       Command_hardware = 0
-   Elseif Jumper_command = 1 Then
+   Else
       Command_hardware = 1
    End If
 Return

@@ -2,10 +2,10 @@
 Note: This is just a prototype and needs improvement.
 
 ### Pictures
-v1.0  
-![](Pictures_Model1_ATMEGA32/v1.0.jpg)
+Model 4, v1.0  
+![](Pictures_Model4/v1.0.jpg)
 
-v1.2  
+Model 1, v1.2  
 ![](Pictures_Model1_ATMEGA32/v1.2.jpg)
 
 ### Features
@@ -22,7 +22,10 @@ This project includes:
 - `Pictures` — Project photos
 
 ### Schematic
-v1.2  
+Model 4, v2.0  
+![](Hardware_Model4/v2.0.png)
+
+Model 1, v1.2  
 ![](Hardware_Model1_ATMEGA32/v1.2.png)
 
 ### More Information
