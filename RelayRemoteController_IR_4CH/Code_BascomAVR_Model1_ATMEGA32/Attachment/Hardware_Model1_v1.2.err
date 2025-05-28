@@ -1,0 +1,4 @@
+Error : 41    Line :   4     Variable can not be used with SET [DDRA]  , in File : F:\GitHub\AVR_Projects\RelayRemoteController_IR_4CH\Code_BascomAVR_Model1_ATMEGA32\Attachment\Hardware_Model1_v1.2.inc
+Error : 93    Line :   4     Variable not dimensioned [ 0-> 0]  , in File : F:\GitHub\AVR_Projects\RelayRemoteController_IR_4CH\Code_BascomAVR_Model1_ATMEGA32\Attachment\Hardware_Model1_v1.2.inc
+Error : 243   Line :   4     Bit index out of range for supplied data type [1]  , in File : F:\GitHub\AVR_Projects\RelayRemoteController_IR_4CH\Code_BascomAVR_Model1_ATMEGA32\Attachment\Hardware_Model1_v1.2.inc
+Error : 31    Line :   4     Invalid data type [[0011] 0[PORTA]]  , in File : F:\GitHub\AVR_Projects\RelayRemoteController_IR_4CH\Code_BascomAVR_Model1_ATMEGA32\Attachment\Hardware_Model1_v1.2.inc

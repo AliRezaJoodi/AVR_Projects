@@ -22,7 +22,6 @@ Dim Status_relay As Byte
 Dim Status_relay_eeprom As Eram Byte
 
 Gosub Setting_address
-Gosub Setting_command
 
 Gosub Eeprom_load
 Gosub Relay_driver
@@ -34,7 +33,7 @@ Do
    Reset Led_IR
    Getrc5(address , Command) : Gosub Convert
    If Address = Address_hardware Then
-      If Command_hardware = 1 Then
+      If Jumper_command = 1 Then
          Select Case Command
             Case 1:
                If Jumper_Relay1 = 1 Then
@@ -93,7 +92,7 @@ Do
             Case Else:
                Set Led_IR : Waitms Delay_IR : Reset Led_IR
          End Select
-      Elseif Command_hardware = 0 Then
+      Elseif Jumper_command = 0 Then
          Select Case Command
             Case 5:
                If Jumper_Relay1 = 1 Then
@@ -164,15 +163,6 @@ Setting_address:
       Address_hardware = 0
    Else
       Address_hardware = 1
-   End If
-Return
-
-'*************************************************
-Setting_command:
-   If Jumper_command = 0 Then
-      Command_hardware = 0
-   Else
-      Command_hardware = 1
    End If
 Return
 
