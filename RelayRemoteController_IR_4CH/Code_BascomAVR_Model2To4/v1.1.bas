@@ -8,6 +8,7 @@ Start Watchdog
 
 Enable Interrupts
 
+'$include "Attachment\Hardware_Model2_v1.0.inc"
 $include "Attachment\Hardware_Model4_v2.0.inc"
 
 Const Delay_IR = 300
