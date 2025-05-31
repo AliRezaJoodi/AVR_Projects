@@ -1,16 +1,20 @@
 ## Relay Remote Controller, IR, 4CH
 Note: This is just a prototype and needs improvement.
+Note: The Current firmware supports RC5 remotes only.
 
 ### Pictures
 Model 4, v1.0  
 ![](Pictures_Model4/v1.0.jpg)
+
+Model 3, v1.0  
+![](Pictures_Model3_2Layer/v1.0.jpg)
 
 Model 1, v1.2  
 ![](Pictures_Model1_ATMEGA32/v1.2.jpg)
 
 ### Features
 - **Output Type:** Relay x4
-- **Control Method:** Remote Controlled, IR
+- **Control Method:** Remote Controlled, IR, RC5
 - **Relay Driver:** ULN2003
 - **Microcontroller:** ATmega32A
 - **Power Supply:** x1	
