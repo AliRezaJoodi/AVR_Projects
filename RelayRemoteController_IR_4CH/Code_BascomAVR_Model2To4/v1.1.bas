@@ -3,11 +3,6 @@
 $regfile = "M8DEF.DAT"
 $crystal = 8000000
 
-Config Watchdog = 2048
-Start Watchdog
-
-Enable Interrupts
-
 '$include "Attachment\Hardware_Model2_v1.0.inc"
 '$include "Attachment\Hardware_Model3_v2.0.inc"
 $include "Attachment\Hardware_Model4_v2.0.inc"
@@ -22,6 +17,13 @@ Dim Address As Byte : Address = 255
 Dim Command As Byte : Command = 255
 Dim Status_relay As Byte
 Dim Status_relay_eeprom As Eram Byte
+
+Config Watchdog = 2048
+Start Watchdog
+
+Config Rc5 = IR_PIN
+
+Enable Interrupts
 
 Gosub Setting_address
 

@@ -1,4 +1,4 @@
-Config Rc5 = Pind.2
+IR_PIN Alias Pind.2
 
 Config Portd.4 = Output : Portd.4 = 0 : Relay1 Alias Portd.4
 Config Portd.5 = Output : Portd.5 = 0 : Relay2 Alias Portd.5
@@ -11,6 +11,7 @@ Config Portc.4 = Output : PortC.4 = 0 : Led_IR Alias PortC.4
 
 Config PortB.1 = Input : PortB.1 = 1 : Jumper_address Alias PinB.1
 Config PortB.2 = Input : PortB.2 = 1 : Jumper_command Alias PinB.2
+
 Config Portc.3 = Input : Portc.3 = 1 : Jumper_Relay1 Alias Pinc.3
 Config Portc.2 = Input : Portc.2 = 1 : Jumper_Relay2 Alias Pinc.2
 Config Portc.1 = Input : Portc.1 = 1 : Jumper_Relay3 Alias Pinc.1

@@ -1,6 +1,6 @@
 ## Relay Remote Controller, IR, 4CH
-Note: This is just a prototype and needs improvement.
-Note: The Current firmware supports RC5 remotes only.
+Note: This is just a prototype and needs improvement.  
+Note: The Current firmware supports RC5 remotes only.  
 
 ### Pictures
 Model 4, v1.0  
