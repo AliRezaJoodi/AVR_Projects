@@ -9,8 +9,11 @@ Model 4, v1.0
 Model 3, v1.0  
 ![](Pictures_Model3_2Layer/v1.0.jpg)
 
+Model 2, v1.0  
+![](Pictures_Model2/v1.0.png)
+
 Model 1, v1.2  
-![](Pictures_Model1_ATMEGA32/v1.2.jpg)
+![](Hardware_Model1_ATMEGA32/v1.0.jpg)
 
 ### Features
 - **Output Type:** Relay x4
