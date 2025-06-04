@@ -3,23 +3,20 @@ Note: This is just a prototype and needs improvement.
 Note: The Current firmware supports RC5 remotes only.  
 
 ### Pictures
-Model 4, v1.0  
-![](Pictures_Model4/v1.0.jpg)
-
 Model 3, v1.0  
-![](Pictures_Model3_2Layer/v1.0.jpg)
+![](Pictures_Model3/v1.0.jpg)
 
 Model 2, v1.0  
-![](Pictures_Model2/v1.0.png)
+![](Pictures_Model2_2Layer/v1.0.jpg)
 
-Model 1, v1.2  
-![](Pictures_Model1_ATMEGA32/v1.2.jpg)
+Model 1, v1.0  
+![](Pictures_Model1/v1.0.png)
 
 ### Features
 - **Output Type:** Relay x4
 - **Control Method:** Remote Controlled, IR, RC5
 - **Relay Driver:** ULN2003
-- **Microcontroller:** ATmega32A
+- **Microcontroller:** ATmega8A
 - **Power Supply:** x1	
 
 ### Folders and Files
@@ -29,11 +26,8 @@ This project includes:
 - `Pictures` — Project photos
 
 ### Schematic
-Model 4, v2.0  
-![](Hardware_Model4/v2.0.png)
-
-Model 1, v1.2  
-![](Hardware_Model1_ATMEGA32/v1.2.png)
+Model 3, v2.0  
+![](Hardware_Model3/v2.0.png)
 
 ### More Information
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
