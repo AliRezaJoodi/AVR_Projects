@@ -1,6 +1,6 @@
 ## Relay Remote Controller, IR, 8CH
 Note: This is just a prototype and needs improvement.  
-Note: The Current firmware supports RC5 remotes only.  
+Note: The current firmware supports RC5 remotes only.  
 
 ### Pictures
 v1.0:  

@@ -1,6 +1,6 @@
 ## Relay Remote Controller, IR, 4CH
 Note: This is just a prototype and needs improvement.  
-Note: The Current firmware supports RC5 remotes only.  
+Note: The current firmware supports RC5 remotes only.  
 
 ### Pictures
 Model 3, v1.0  
@@ -15,7 +15,8 @@ Model 1, v1.0
 ### Features
 - **Output Type:** Relay x4
 - **Control Method:** Remote Controlled, IR, RC5
-- **Relay Driver:** ULN2003
+- **Relay Driver in model 1:** BC547
+- **Relay Driver in model 2 and 3:** ULN2003
 - **Microcontroller:** ATmega8A
 - **Power Supply:** x1	
 
