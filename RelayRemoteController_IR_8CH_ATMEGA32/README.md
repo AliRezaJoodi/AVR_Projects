@@ -1,4 +1,4 @@
-## Relay Remote Controller, IR, 4CH
+## Relay Remote Controller, IR, 8CH
 Note: This is just a prototype and needs improvement.  
 Note: The current firmware supports RC5 remotes only.  
 
@@ -7,7 +7,7 @@ v1.0:
 ![](Pictures/v1.0.jpg)
 
 ### Features
-- **Output Type:** Relay x4
+- **Output Type:** Relay x8
 - **Control Method:** Remote Controlled, IR, RC5
 - **Relay Driver:** ULN2803
 - **Microcontroller:** ATmega32A
