@@ -1443,6 +1443,75 @@
   <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRelayRemoteController_IR_4CH_ATMEGA8/Pictures_Model3/Album.jpg"
+        alt="ts"
+        width="151"
+        height="110"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/RelayRemoteController_IR_4CH_ATMEGA8" target="_top">
+        <span>Relay Remote Controller, IR, 4CH</span>
+        </a> <br />
+        <span style="color:#999">Output Type: Relay x4</span> <br />
+	<span style="color:#999">Control Method: Remote Controlled, IR, RC5</span> <br />
+	<span style="color:#999">Relay Driver: ULN2003</span> <br />
+    </td>
+    <td> 
+        Bascom-AVR <br />
+    </td>
+  </tr>
+
+ <!-- ********************** -->
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRelayRemoteController_IR_4CH_ATMEGA8/Pictures_Model2_2Layer/Album.jpg"
+        alt="ts"
+        width="151"
+        height="185"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/RelayRemoteController_IR_4CH_ATMEGA8" target="_top">
+        <span>Relay Remote Controller, IR, 4CH</span>
+        </a> <br />
+        <span style="color:#999">Output Type: Relay x4</span> <br />
+	<span style="color:#999">Control Method: Remote Controlled, IR, RC5</span> <br />
+	<span style="color:#999">Relay Driver: ULN2003</span> <br />
+    </td>
+    <td> 
+        Bascom-AVR <br />
+    </td>
+  </tr>
+
+ <!-- ********************** -->
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRelayRemoteController_IR_4CH_ATMEGA8/Pictures_Model1/Album.jpg"
+        alt="ts"
+        width="151"
+        height="66"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/RelayRemoteController_IR_4CH_ATMEGA8" target="_top">
+        <span>Relay Remote Controller, IR, 4CH</span>
+        </a> <br />
+        <span style="color:#999">Output Type: Relay x4</span> <br />
+	<span style="color:#999">Control Method: Remote Controlled, IR, RC5</span> <br />
+	<span style="color:#999">Relay Driver: ULN2003</span> <br />
+    </td>
+    <td> 
+        Bascom-AVR <br />
+    </td>
+  </tr>
+
+ <!-- ********************** -->
+  <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRemoteController_IR_4CH_ATMEGA32/Pictures/Album.jpg"
         alt="ts"
         width="151"
