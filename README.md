@@ -1443,7 +1443,7 @@
   <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRelayRemoteController_IR_4CH_ATMEGA8/Pictures_Model3/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRemoteController_IR_4CH_ATMEGA8/Pictures_Model3/Album.jpg"
         alt="ts"
         width="151"
         height="110"
@@ -1466,7 +1466,7 @@
   <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRelayRemoteController_IR_4CH_ATMEGA8/Pictures_Model2_2Layer/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRemoteController_IR_4CH_ATMEGA8/Pictures_Model2_2Layer/Album.jpg"
         alt="ts"
         width="151"
         height="185"
@@ -1489,7 +1489,7 @@
   <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRelayRemoteController_IR_4CH_ATMEGA8/Pictures_Model1/Album.jpg"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRemoteController_IR_4CH_ATMEGA8/Pictures_Model1/Album.jpg"
         alt="ts"
         width="151"
         height="66"
