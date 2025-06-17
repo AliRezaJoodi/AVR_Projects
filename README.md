@@ -1479,7 +1479,7 @@
         <span style="color:#999">Output Type: Relay x4</span> <br />
 	<span style="color:#999">Control Method: Remote Controlled, IR, RC5</span> <br />
 	<span style="color:#999">Relay Driver: ULN2003</span> <br />
-	<span style="color:#999">MCU:ATmega8, SMD</span> <br />
+	<span style="color:#999">MCU: ATmega8, SMD</span> <br />
 	<span style="color:#999">PCB: 2-Layer</span> <br />
     </td>
     <td> 
@@ -1504,7 +1504,7 @@
         <span style="color:#999">Output Type: Relay x4</span> <br />
 	<span style="color:#999">Control Method: Remote Controlled, IR, RC5</span> <br />
 	<span style="color:#999">Relay Driver: BC547</span> <br />
-	<span style="color:#999">MCU:ATmega8</span> <br />
+	<span style="color:#999">MCU: ATmega8</span> <br />
     </td>
     <td> 
         Bascom-AVR <br />
@@ -1528,7 +1528,7 @@
         <span style="color:#999">Output Type: Relay x4</span> <br />
 	<span style="color:#999">Control Method: Remote Controlled, IR, RC5</span> <br />
 	<span style="color:#999">Relay Driver: ULN2003</span> <br />
-	<span style="color:#999">MCU:ATmega32</span> <br />
+	<span style="color:#999">MCU: ATmega32</span> <br />
     </td>
     <td> 
         Bascom-AVR <br />
