@@ -1608,6 +1608,29 @@
   <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRemoteController_IR_14CH/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="104"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/RelayRemoteController_IR_14CH" target="_top">
+        <span>Relay Remote Controller, IR, 14CH</span>
+        </a> <br />
+        <span style="color:#999">Output Type: Relay x14</span> <br />
+	<span style="color:#999">Control Method: Remote Controlled, IR, RC5</span> <br />
+	<span style="color:#999">Relay Driver: ULN2003 x2</span> <br />
+    </td>
+    <td> 
+        Bascom-AVR <br />
+    </td>
+  </tr>
+
+ <!-- ********************** -->
+  <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRemoteController_LaserPointer_1CH_ATmega8/Pictures/Album.jpg"
         alt="ts"
         width="151"
