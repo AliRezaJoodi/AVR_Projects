@@ -1631,6 +1631,29 @@
   <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRemoteController_IR_210CH/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="145"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/RelayRemoteController_IR_210CH" target="_top">
+        <span>Relay Remote Controller, IR, 210CH</span>
+        </a> <br />
+        <span style="color:#999">Output Type: Relay x210</span> <br />
+	<span style="color:#999">Control Method: Remote Controlled, IR, RC5</span> <br />
+	<span style="color:#999">Relay Driver: ULN2003</span> <br />
+    </td>
+    <td> 
+        Bascom-AVR <br />
+    </td>
+  </tr>
+
+ <!-- ********************** -->
+  <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRemoteController_LaserPointer_1CH_ATmega8/Pictures/Album.jpg"
         alt="ts"
         width="151"
