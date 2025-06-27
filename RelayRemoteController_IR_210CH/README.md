@@ -2,9 +2,9 @@
 Note: This is just a prototype and needs improvement.  
 Note: The current firmware supports RC5 remotes only.  
 
-This board controls 210 relays with infrared.
-It has a 14-channel receiver with 4-bit addressing, so up to 15 boards can work together.
-The transmitter uses a keyboard to select the device address and relay number, then sends the signal
+This board controls 210 relays with infrared.  
+It has a 14-channel receiver with 4-bit addressing, so up to 15 boards can work together.  
+The transmitter uses a keyboard to select the device address and relay number, then sends the signal.  
 
 ### Pictures
 Receiver, v1.0:  
