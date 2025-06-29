@@ -20,8 +20,8 @@ This project includes:
 - `Pictures` — Project photos
 
 ### Schematic
-v1.1:  
-![](Hardware/v1.1.png)
+v1.2:  
+![](Hardware/v1.2.png)
 
 ### More Information
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
