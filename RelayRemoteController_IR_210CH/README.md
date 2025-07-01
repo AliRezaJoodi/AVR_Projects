@@ -27,8 +27,8 @@ This project includes:
 - `Pictures` — Project photos
 
 ### Schematic
-Receiver, v1.0:  
-![](Hardware/Receiver_v1.0.png)
+Receiver, v1.1:  
+![](Hardware/Receiver_v1.1.png)
 
 Transmitter, v1.0:  
 ![](Hardware/Transmitter_v1.0.png)
