@@ -885,18 +885,18 @@
   <tr>
     <td>
         <img
-        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/HumidityTo4-20mAConversion_SHT10/Pictures/Album.png"
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Converter_HumidityTo4-20mA_SHT10/Pictures/Album.png"
         alt="ts"
         width="150"
         height="60"
         />
     </td>
     <td>
-        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/HumidityTo4-20mAConversion_SHT10" target="_top">
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/Converter_HumidityTo4-20mA_SHT10" target="_top">
         <span>Humidity to 4-20mA Conversion</span>
         </a> <br />
-        <span style="color:#999">Sensor with SH10</span> <br />
-        <span style="color:#999">Output is 4-20mA</span> <br />
+        <span style="color:#999">Sensor: SH10</span> <br />
+        <span style="color:#999">Output: 4-20mA</span> <br />
     </td>
     <td>
         CodeVisionAVR <br />
