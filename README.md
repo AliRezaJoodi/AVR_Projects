@@ -1443,6 +1443,28 @@
   <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/Converter_IRtoUART/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="93"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/Converter_IRtoUART" target="_top">
+        <span>Converter, IR to UART, RC5</span>
+        </a> <br />
+	<span style="color:#999">Control Method: Remote Controlled, IR, RC5</span> <br />
+        <span style="color:#999">Output Type: UART</span> <br />
+    </td>
+    <td> 
+        Bascom-AVR <br />
+    </td>
+  </tr>
+
+ <!-- ********************** -->
+  <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRemoteController_IR_4CH_ATMEGA8/Pictures_Model3/Album.jpg"
         alt="ts"
         width="151"
