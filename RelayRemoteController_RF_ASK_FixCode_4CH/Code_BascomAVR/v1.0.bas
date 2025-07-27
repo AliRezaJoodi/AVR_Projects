@@ -17,10 +17,8 @@ Config Portb.5 = Output : Portb.5 = 0 : Relay_3 Alias Portb.5
 Config Portb.4 = Output : Portb.4 = 0 : Relay_4 Alias Portb.4
 Config Portb.1 = Output : Portb.1 = 0 : Relay_enable Alias Portb.1
 
-Config Portd.4 = Output : Portd.4 = 0 : Led_rc5 Alias Portd.4
+Config Portd.4 = Output : Portd.4 = 0 : Led_RF Alias Portd.4
 
-Config Portd.0 = Input : Portd.0 = 1 : Jamper_address Alias Pind.0
-Config Portd.1 = Input : Portd.1 = 1 : Jamper_command Alias Pind.1
 Config Portc.5 = Input : Portc.5 = 1 : Jamper_relay_1 Alias Pinc.5
 Config Portc.4 = Input : Portc.4 = 1 : Jamper_relay_2 Alias Pinc.4
 Config Portc.3 = Input : Portc.3 = 1 : Jamper_relay_3 Alias Pinc.3
@@ -31,7 +29,8 @@ Config Portb.6 = Input : Portb.6 = 1 : D9 Alias Pinb.6
 Config Portd.5 = Input : Portd.5 = 1 : D10 Alias Pind.5
 Config Portd.3 = Input : Portd.3 = 1 : D11 Alias Pind.3
 
-Const Delay_rc5 = 300
+Const Delay1 = 300
+Const Delay2 = 800
 
 Dim Address_hardware As Byte : Address_hardware = 0
 Dim Command_hardware As Bit : Command_hardware = 0
@@ -40,152 +39,78 @@ Dim Command As Byte : Command = 255
 Dim Status_relay As Byte
 Dim Status_relay_eeprom As Eram Byte
 
-Dim Z As Byte : Z = 0
-
-Gosub Setting_address
-Gosub Setting_command
+Dim task As Byte : task = 0
 
 Gosub Eeprom_load : Gosub Relay_driver
 
-Set Led_rc5 : Waitms Delay_rc5 : Reset Led_rc5
+Set Led_RF : Waitms Delay1 : Reset Led_RF
 
 Do
    Reset Watchdog
-   Reset Led_rc5
-If Z = 1 Then
-   If Address_hardware = 1 Then
+   Reset Led_RF
+   If task = 1 Then
          Select Case Command
             Case 1:
                If Jamper_relay_1 = 0 Then
                   Toggle Status_relay.0 : Gosub Eeprom_save : Gosub Relay_driver
-                  Set Led_rc5 : Waitms Delay_rc5 : Reset Led_rc5
+                  Set Led_RF : Waitms Delay1 : Reset Led_RF
                Else
-                  Set Led_rc5
+                  Set Led_RF
                   Set Status_relay.0 : Gosub Eeprom_save : Gosub Relay_driver
-                  Waitms 800
+                  Waitms Delay2
                   Reset Status_relay.0 : Gosub Eeprom_save : Gosub Relay_driver
-                  Reset Led_rc5
+                  Reset Led_RF
                End If
             Case 2:
                If Jamper_relay_2 = 0 Then
                   Toggle Status_relay.1 : Gosub Eeprom_save : Gosub Relay_driver
-                  Set Led_rc5 : Waitms Delay_rc5 : Reset Led_rc5
+                  Set Led_RF : Waitms Delay1 : Reset Led_RF
                Else
-                  Set Led_rc5
+                  Set Led_RF
                   Set Status_relay.1 : Gosub Eeprom_save : Gosub Relay_driver
-                  Waitms 800
+                  Waitms Delay2
                   Reset Status_relay.1 : Gosub Eeprom_save : Gosub Relay_driver
-                  Reset Led_rc5
+                  Reset Led_RF
                End If
             Case 4:
                If Jamper_relay_3 = 0 Then
                   Toggle Status_relay.2 : Gosub Eeprom_save : Gosub Relay_driver
-                  Set Led_rc5 : Waitms Delay_rc5 : Reset Led_rc5
+                  Set Led_RF : Waitms Delay1 : Reset Led_RF
                Else
-                  Set Led_rc5
+                  Set Led_RF
                   Set Status_relay.2 : Gosub Eeprom_save : Gosub Relay_driver
-                  Waitms 800
+                  Waitms Delay2
                   Reset Status_relay.2 : Gosub Eeprom_save : Gosub Relay_driver
-                  Reset Led_rc5
+                  Reset Led_RF
                End If
             Case 8:
                If Jamper_relay_4 = 0 Then
                   Toggle Status_relay.3 : Gosub Eeprom_save : Gosub Relay_driver
-                  Set Led_rc5 : Waitms Delay_rc5 : Reset Led_rc5
+                  Set Led_RF : Waitms Delay1 : Reset Led_RF
                Else
-                  Set Led_rc5
+                  Set Led_RF
                   Set Status_relay.3 : Gosub Eeprom_save : Gosub Relay_driver
-                  Waitms 800
+                  Waitms Delay2
                   Reset Status_relay.3 : Gosub Eeprom_save : Gosub Relay_driver
-                  Reset Led_rc5
+                  Reset Led_RF
                End If
             Case Else:
-               Set Led_rc5 : Waitms Delay_rc5 : Reset Led_rc5
+               Set Led_RF : Waitms Delay1 : Reset Led_RF
          End Select
-   Elseif Address_hardware = 0 Then
-      Select Case Command
-            Case 2:
-               If Jamper_relay_1 = 0 Then
-                  Toggle Status_relay.0 : Gosub Eeprom_save : Gosub Relay_driver
-                  Set Led_rc5 : Waitms Delay_rc5 : Reset Led_rc5
-               Else
-                  Set Led_rc5
-                  Set Status_relay.0 : Gosub Eeprom_save : Gosub Relay_driver
-                  Waitms 800
-                  Reset Status_relay.0 : Gosub Eeprom_save : Gosub Relay_driver
-                  Reset Led_rc5
-               End If
-            Case 8:
-               If Jamper_relay_2 = 0 Then
-                  Toggle Status_relay.1 : Gosub Eeprom_save : Gosub Relay_driver
-                  Set Led_rc5 : Waitms Delay_rc5 : Reset Led_rc5
-               Else
-                  Set Led_rc5
-                  Set Status_relay.1 : Gosub Eeprom_save : Gosub Relay_driver
-                  Waitms 800
-                  Reset Status_relay.1 : Gosub Eeprom_save : Gosub Relay_driver
-                  Reset Led_rc5
-               End If
-            Case 1:
-               If Jamper_relay_3 = 0 Then
-                  Toggle Status_relay.2 : Gosub Eeprom_save : Gosub Relay_driver
-                  Set Led_rc5 : Waitms Delay_rc5 : Reset Led_rc5
-               Else
-                  Set Led_rc5
-                  Set Status_relay.2 : Gosub Eeprom_save : Gosub Relay_driver
-                  Waitms 800
-                  Reset Status_relay.2 : Gosub Eeprom_save : Gosub Relay_driver
-                  Reset Led_rc5
-               End If
-            Case 4:
-               If Jamper_relay_4 = 0 Then
-                  Toggle Status_relay.3 : Gosub Eeprom_save : Gosub Relay_driver
-                  Set Led_rc5 : Waitms Delay_rc5 : Reset Led_rc5
-               Else
-                  Set Led_rc5
-                  Set Status_relay.3 : Gosub Eeprom_save : Gosub Relay_driver
-                  Waitms 800
-                  Reset Status_relay.3 : Gosub Eeprom_save : Gosub Relay_driver
-                  Reset Led_rc5
-               End If
-            Case Else:
-               Set Led_rc5 : Waitms Delay_rc5 : Reset Led_rc5
-         End Select
+   task = 0
    End If
-Z = 0
-End If
-
 Loop
-
 End
 
+'*************************************************
 T4:
-   'Set Led_rc5
+   'Set Led_RF
    Command = 0
    If D11 = 1 Then Command = Command + 1
    If D10 = 1 Then Command = Command + 2
    If D9 = 1 Then Command = Command + 4
    If D8 = 1 Then Command = Command + 8
-   Z = 1
-Return
-
-'*************************************************
-Setting_address:
-   Address_hardware = 0
-   If Jamper_address = 0 Then
-       Address_hardware = 0
-   Elseif Jamper_address = 1 Then
-      Address_hardware = 1
-   End If
-Return
-
-'*************************************************
-Setting_command:
-   If Jamper_command = 0 Then
-      Command_hardware = 0
-   Elseif Jamper_command = 1 Then
-      Command_hardware = 1
-   End If
+   task = 1
 Return
 
 '*************************************************
@@ -199,7 +124,7 @@ Return
 
 '*************************************************
 Eeprom_save:
-   Status_relay_eeprom = Status_relay
+   Status_relay_eeprom = Status_relay : WAITMS 10
 Return
 
 '*************************************************
