@@ -3,13 +3,13 @@ Note: This is just a prototype and needs improvement.
 
 ### Pictures
 Receiver: Model2, v1.0:  
-![](Pictures_Receiver_Model2/v1.0.png)
+![](Pictures_Receiver_Model2/v1.0.jpg)
 
 Receiver: Model1, v1.0:  
-![](Pictures_Receiver_Model1/v1.0.png)
+![](Pictures_Receiver_Model1/v1.0.jpg)
 
 Transmitter: v2.0:  
-![](Pictures_Transmitter/v2.0.png)
+![](Pictures_Transmitter/v2.0.jpg)
 
 ### Features
 - **Output Type:** Relay x4
@@ -22,9 +22,9 @@ Transmitter: v2.0:
 
 ### Folders and Files
 This project includes:
-- `Code_BascomAVR_` — Microcontroller programmed in BASCOM-AVR (BASIC)
-- `Hardware_` — Schematic and PCB layout with Proteus
-- `Pictures_` — Project photos
+- `Code_BascomAVR` — Microcontroller programmed in BASCOM-AVR (BASIC)
+- `Hardware` — Schematic and PCB layout with Proteus
+- `Pictures` — Project photos
 
 ### Schematic
 Receiver: Model2, v1.0:  
@@ -33,7 +33,7 @@ Receiver: Model2, v1.0:
 Receiver: Model1, v1.1:  
 ![](Hardware_Receiver_Model1/v1.1.png)
 
-Receiver: v2.0:  
+Transmitter: v2.0:  
 ![](Hardware_Transmitter/v2.0.png)
 
 ### More Information
