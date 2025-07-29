@@ -51,7 +51,7 @@ Do
    If task = 1 Then
          Select Case Command
             Case 1:
-               If Jamper_relay_1 = 0 Then
+               If Jamper_relay_1 = 1 Then
                   Toggle Status_relay.0 : Gosub Eeprom_save : Gosub Relay_driver
                   Set Led_RF : Waitms Delay1 : Reset Led_RF
                Else
@@ -62,7 +62,7 @@ Do
                   Reset Led_RF
                End If
             Case 2:
-               If Jamper_relay_2 = 0 Then
+               If Jamper_relay_2 = 1 Then
                   Toggle Status_relay.1 : Gosub Eeprom_save : Gosub Relay_driver
                   Set Led_RF : Waitms Delay1 : Reset Led_RF
                Else
@@ -73,7 +73,7 @@ Do
                   Reset Led_RF
                End If
             Case 4:
-               If Jamper_relay_3 = 0 Then
+               If Jamper_relay_3 = 1 Then
                   Toggle Status_relay.2 : Gosub Eeprom_save : Gosub Relay_driver
                   Set Led_RF : Waitms Delay1 : Reset Led_RF
                Else
@@ -84,7 +84,7 @@ Do
                   Reset Led_RF
                End If
             Case 8:
-               If Jamper_relay_4 = 0 Then
+               If Jamper_relay_4 = 1 Then
                   Toggle Status_relay.3 : Gosub Eeprom_save : Gosub Relay_driver
                   Set Led_RF : Waitms Delay1 : Reset Led_RF
                Else
