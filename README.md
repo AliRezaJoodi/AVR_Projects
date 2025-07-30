@@ -1767,7 +1767,7 @@
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRemoteController_RF_ASK_FixCode_4CH/Pictures/Album.jpg"
         alt="ts"
         width="150"
-        height="40"
+        height="140"
         />
     </td>
     <td>
@@ -1802,7 +1802,7 @@
         <span style="color:#999">Output Type: Relay x4</span> <br />
 	<span style="color:#999">Relay Driver: ULN2003</span> <br />
 	<span style="color:#999">Control Method: Remote Controlled, RF, FSK</span> <br />
-	<span style="color:#999">Power Supply:** Adapter x1</span> <br />
+	<span style="color:#999">Power Supply: Adapter x1</span> <br />
     </td>
     <td> 
         Bascom-AVR <br />
@@ -1826,7 +1826,7 @@
         <span style="color:#999">Output Type: Relay x4</span> <br />
 	<span style="color:#999">Relay Driver: ULN2003</span> <br />
 	<span style="color:#999">Control Method: Remote Controlled, RF, FSK</span> <br />
-	<span style="color:#999">Power Supply:** Transformer x1</span> <br />
+	<span style="color:#999">Power Supply: Transformer x1</span> <br />
     </td>
     <td> 
         Bascom-AVR <br />
