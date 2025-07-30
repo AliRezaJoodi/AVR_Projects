@@ -1764,6 +1764,79 @@
    <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRemoteController_RF_ASK_FixCode_4CH/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="40"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/RelayRemoteController_RF_ASK_FixCode_4CH" target="_top">
+        <span>Relay Remote Controller, RF, ASK, FixCode, 4CH</span>
+        </a> <br />
+        <span style="color:#999">Output Type: Relay x4</span> <br />
+	<span style="color:#999">Relay Driver: ULN2003</span> <br />
+	<span style="color:#999">Control Method: Remote Controlled, RF, ASK</span> <br />
+	<span style="color:#999">Encoder: FixCode, PT2262</span> <br />
+	<span style="color:#999">Decoder: PT2272</span> <br />
+    </td>
+    <td> 
+        Bascom-AVR <br />
+    </td>
+  </tr>
+
+ <!-- ********************** -->
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRemoteController_RF_FSK_4CH/Pictures_Receiver_Model1/Album.jpg"
+        alt="ts"
+        width="150"
+        height="130"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/RelayRemoteController_RF_FSK_4CH" target="_top">
+        <span>Relay Remote Controller, RF, FSK, 4CH</span>
+        </a> <br />
+        <span style="color:#999">Output Type: Relay x4</span> <br />
+	<span style="color:#999">Relay Driver: ULN2003</span> <br />
+	<span style="color:#999">Control Method: Remote Controlled, RF, FSK</span> <br />
+	<span style="color:#999">Power Supply:** Adapter x1</span> <br />
+    </td>
+    <td> 
+        Bascom-AVR <br />
+    </td>
+  </tr>
+
+ <!-- ********************** -->
+   <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRemoteController_RF_FSK_4CH/Pictures_Receiver_Model2/Album.jpg"
+        alt="ts"
+        width="150"
+        height="132"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/RelayRemoteController_RF_FSK_4CH" target="_top">
+        <span>Relay Remote Controller, RF, FSK, 4CH</span>
+        </a> <br />
+        <span style="color:#999">Output Type: Relay x4</span> <br />
+	<span style="color:#999">Relay Driver: ULN2003</span> <br />
+	<span style="color:#999">Control Method: Remote Controlled, RF, FSK</span> <br />
+	<span style="color:#999">Power Supply:** Transformer x1</span> <br />
+    </td>
+    <td> 
+        Bascom-AVR <br />
+    </td>
+  </tr>
+
+ <!-- ********************** -->
+   <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/SmartParkingSimulator/Pictures/Album.jpg"
         alt="ts"
         width="151"
