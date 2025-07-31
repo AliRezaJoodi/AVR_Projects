@@ -27,8 +27,8 @@ This project includes:
 - `Pictures` — Project photos
 
 ### Schematic
-Receiver: Model2, v1.0:  
-![](Hardware_Receiver_Model2/v1.0.png)
+Receiver: Model2, v1.1:  
+![](Hardware_Receiver_Model2/v1.1.png)
 
 Receiver: Model1, v1.1:  
 ![](Hardware_Receiver_Model1/v1.1.png)
