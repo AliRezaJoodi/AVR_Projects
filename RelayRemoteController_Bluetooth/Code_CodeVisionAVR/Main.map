@@ -1,0 +1,21 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+_seed                                                             0160h        4
+p                                                                 0164h        2
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+Status_Relay_EEPROM                                               0000h        1
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+Status_Relay                                                      R5           1
+Status_Key                                                        R2.0      1bit
+j                                                                 R2.1      1bit
+T                                                                 R4           1
+I                                                                 R7           1
+s                                                                 R6           1
+z                                                                 R9           1
