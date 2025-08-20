@@ -1,8 +1,11 @@
-## AVR Training Board Exclusive For Dimmer
+## AVR Training Board Exclusive for Dimmer
 
-Features:
+### Photo
+v1.0  
+![](Pictures/v1.0.jpg)
+
+### Features
 - ATmega32 Microcontroller 
-- 11.059200MHz External Crystal
 - Dual isolated power supply for SCR drivers
 - SCR Gate Driver (2x)
 - Zero Crossing Detector
@@ -18,21 +21,21 @@ Features:
 - Potentiometer for ADC
 - Button (5x)
 
-### Folder and Files Description
-It has included:
-- `Example` (Sample Codes)
-- `Hardware` (Included hardware layers)
+### Folders and Files
+This project includes:
+- `Example` — Sample Codes
+- `Hardware` — Schematic and PCB layout
 - `Pictures` (Photos Samples Made)
-- `Simulate` (Simulator File)
+- `Simulate` — Project photos
 
-### Pictures: v1.0
-![](Pictures/v1.0.jpg)
-
-### Schematic: v1.0
+### Schematic
+v1.0  
 ![](Hardware/Main.png)
 
-### Simulate: v1.0
+### Simulate
+v1.0  
 ![](Simulate/v1.0.png)
 
+### More Information
+**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
 My GitHub Account: [GitHub.com/AliRezaJoodi](https://github.com/AliRezaJoodi)  
-**Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)
