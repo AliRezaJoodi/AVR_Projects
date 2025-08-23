@@ -5,7 +5,7 @@ Note: This is just a prototype and needs improvement.
 Hardware: v1.0  
 ![](Pictures/v1.0.jpg)
 
-Software: v1.0  
+Software, VB6: v1.0  
 ![](Code_VB6/v1.0.png)
 
 ### Features
@@ -13,7 +13,7 @@ Software: v1.0
 - **Control Method:** Remote Controlled, RF, Bluetooth
 - **Relay Driver:** ULN2803
 - **Microcontroller:** ATmega32A
-- **Power Supply:** x1	
+- **Power Supply:** x1
 
 ### Folders
 - `Code_BascomAVR` — Microcontroller programmed in BASCOM-AVR (BASIC)
