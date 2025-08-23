@@ -32,8 +32,7 @@ Model 1: RS232, ATtiny2313, v1.0
 - **Power Supply in Model 3:** External adapter x2
 - **Power Supply in Model 4 and 5:** USB powered and External adapter x1
 
-### Folders and Files
-This project includes:
+### Folders
 - `Code_BascomAVR` — Microcontroller programmed in BASCOM-AVR (BASIC)
 - `Code_CodeVisionAVR` — Microcontroller programmed in CodeVisionAVR (C)
 - `Code_Matlab` — Software developed in Matlab
