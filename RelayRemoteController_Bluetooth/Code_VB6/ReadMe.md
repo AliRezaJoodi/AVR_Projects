@@ -1,4 +1,2 @@
-### Description
-
-v1.0:
-- Last opened with Visual Basic 6.0
+### v1.0
+- Saved in **Visual Basic 6.0**
