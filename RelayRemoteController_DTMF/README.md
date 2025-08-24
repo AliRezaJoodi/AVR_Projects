@@ -1,4 +1,4 @@
-## Relay Remote Controller, DialTone, 8CH
+## Relay Remote Controller, DTMF, 8CH
 Note: This is just a prototype and needs improvement.   
 
 ### Photo
