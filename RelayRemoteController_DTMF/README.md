@@ -20,7 +20,9 @@ v1.0
 
 ### Schematic
 v2.0  
-![](Hardware/v2.0.png)
+![](Hardware/v2.0_p1.png)  
+![](Hardware/v2.0_p2.png)  
+![](Hardware/v2.0_p3.png)  
 
 ### More Information
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
