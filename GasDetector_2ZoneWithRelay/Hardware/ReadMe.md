@@ -1,9 +1,9 @@
-### Main_v1.0.pdsprj
+### v1.0_Main.pdsprj
 - Built and tested successfully
 - Included schematic and PCB layout
 - Saved in **Proteus 8 Professional v8.13 SP0**
 
-### Panel_v1.0.pdsprj
+### v1.0_Panel.pdsprj
 - Built and tested successfully
 - Included schematic and PCB layout
 - Saved in **Proteus 8 Professional v8.13 SP0**
