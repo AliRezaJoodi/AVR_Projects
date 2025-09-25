@@ -615,7 +615,7 @@
     </td>
     <td>
         <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/PhaseDimmer_1Phase_LCD" target="_top">
-        <span>Phase Dimmer, 1-Phase, With Zero-Crossing Synchronized PWM</span>
+        <span>Single-Phase Dimmer with Zero-Crossing Synchronized PWM, Based On AVR MCU</span>
         </a> <br />
         <span style="color:#999">Display with 16x2 LCD</span> <br />
     </td>

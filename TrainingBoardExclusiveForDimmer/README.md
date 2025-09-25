@@ -8,6 +8,7 @@ v1.0
 - ATmega32 Microcontroller 
 - Dual isolated power supply for SCR drivers
 - SCR Gate Driver (2x)
+- Requires external Thyristor or Triac
 - Zero Crossing Detector
 - 4~20mA Analog Input
 - 4~20mA Analog Output
@@ -25,7 +26,7 @@ v1.0
 This project includes:
 - `Example` — Sample Codes
 - `Hardware` — Schematic and PCB layout
-- `Pictures` (Photos Samples Made)
+- `Pictures` — Project photos
 - `Simulate` — Project photos
 
 ### Schematic
