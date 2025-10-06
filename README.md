@@ -1476,11 +1476,34 @@
         <span>Relay Remote Controller, RF, Bluetooth, 8CH</span>
         </a> <br />
         <span style="color:#999">Output Type: Relay x8</span> <br />
-	<span style="color:#999">Control Method: Remote Controlled, IRF, Bluetooth</span> <br />
 	<span style="color:#999">Relay Driver: ULN2803</span> <br />
+	<span style="color:#999">Control Method: Remote Controlled, RF, Bluetooth</span> <br />
     </td>
     <td> 
         CodeVisionAVR<br />
+        Bascom-AVR<br />
+    </td>
+  </tr>
+
+ <!-- ********************** -->
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/RelayRemoteController_DTMF/Pictures/Album.jpg"
+        alt="ts"
+        width="151"
+        height="133"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/RelayRemoteController_DTMF" target="_top">
+        <span>Relay Remote Controller, DTMF, 8CH</span>
+        </a> <br />
+        <span style="color:#999">Output Type: Relay x8</span> <br />
+	<span style="color:#999">Control Method: Remote Controlled, DTMF</span> <br />
+	<span style="color:#999">DTMF Decoder: MT8870</span> <br />
+    </td>
+    <td> 
         Bascom-AVR<br />
     </td>
   </tr>
