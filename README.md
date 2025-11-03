@@ -904,6 +904,29 @@
   </tr>
  
  <!-- ********************** -->
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/GasDetector_WirelessAndComputerMonitoring/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="100"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/GasDetector_WirelessAndComputerMonitoring" target="_top">
+        <span>Wireless Gas Detector with Computer Monitoring</span>
+        </a> <br />
+        <span style="color:#999">Gas Type: MQ Series Gas Sensor</span> <br />
+	<span style="color:#999">Communication Method: Wireless, FSK RF Module</span> <br />
+	<span style="color:#999">Computer Interface: USB to UART converter, FT232BL</span> <br />
+    </td>
+    <td>
+        Bascom-AVR <br />
+    </td>
+  </tr>
+
+ <!-- ********************** -->
    <tr>
     <td>
         <img
