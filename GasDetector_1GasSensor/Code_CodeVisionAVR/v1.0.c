@@ -1,3 +1,5 @@
+// GitHub Account: GitHub.com/AliRezaJoodi
+
 #include <mega32a.h>
 #include <delay.h>
 //#include <stdio.h>

@@ -7,7 +7,8 @@ v1.0
 ![](Pictures/v1.0.jpg)
 
 ### Features
-- **Gas Type:** MQ Series Gas Sensor
+- **Gas Type:** MQ Series Gas Sensor x1
+- **Alarm Type:** Buzzer, Relay
 - **Display:** 16x2 Character LCD
 - **Output Type:** Relay x1
 - **Microcontroller:** ATmega32A
@@ -16,13 +17,13 @@ v1.0
 ### Folders
 - `Code_BascomAVR` — Microcontroller programmed in BASCOM-AVR (BASIC)
 - `Code_CodeVisionAVR` — Microcontroller programmed in CodeVisionAVR (C)
-- `Hardware` — Schematic and PCB layout with Proteus
+- `Hardware` — Schematic and PCB layout
 - `Pictures` — Project photos
 - `Simulate` — Simulating the project with Proteus
 
 ### Schematic
-v1.0  
-![](Hardware/v1.0.png)
+v1.1, Block Diagram   
+![](Hardware/v1.1/Main.png)
 
 ### More Information
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  
