@@ -1,6 +1,6 @@
-## Gas Detector, 2 Zone with Relay
+## Gas Detector, 2-Zone with Relay
 Note: This is just a prototype and needs improvement.  
-Note: Usable for MQ series sensors except MQ-7 and MQ-9 .  
+Note: Usable for MQ series sensors, except MQ-7 and MQ-9.  
 
 ### Photo
 v1.0  
@@ -8,6 +8,7 @@ v1.0
 
 ### Features
 - **Gas Type:** MQ Series Gas Sensor x2
+- **Alarm Type:** Buzzer, Relay
 - **Display:** 16x2 Character LCD
 - **Output Type:** Relay x2
 - **Microcontroller:** ATmega32A
