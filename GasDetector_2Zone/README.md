@@ -7,7 +7,7 @@ v1.0
 ![](Pictures/v1.0.jpg)
 
 ### Features
-- **Gas Type:** MQ Series Gas Sensor x2
+- **Gas Sensor Type:** MQ Series Gas Sensor x2
 - **Alarm Type:** Buzzer, Relay
 - **Display:** 16x2 Character LCD
 - **Output Type:** Relay x2
@@ -21,8 +21,11 @@ v1.0
 - `Simulate` — Simulating the project with Proteus
 
 ### Schematic
-v1.0  
-![](Hardware/v1.0.png)
+v1.0, Main  
+![](Hardware/v1.0_Main.png)
+
+v1.0, Panel  
+![](Hardware/v1.0_Panel.png)
 
 ### More Information
 **Note**: [You can go here to download a single folder or file from GitHub.com](https://minhaskamal.github.io/DownGit/#/home)  

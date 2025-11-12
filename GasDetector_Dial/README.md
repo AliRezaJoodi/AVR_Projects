@@ -1,6 +1,6 @@
 ## Gas Detector with Dial
 Note: This is just a prototype and needs improvement.  
-Note: Usable for MQ series sensors except MQ-7 and MQ-9 .  
+Note: Usable for MQ series sensors except MQ-7 and MQ-9.  
 
 ### Photo
 v1.0, Main  
@@ -10,7 +10,7 @@ v1.0, Panel
 ![](Pictures/v1.0_Panel.jpg)
 
 ### Features
-- **Gas Type:** MQ Series Gas Sensor
+- **Gas Sensor Type:** MQ Series Gas Sensor
 - **Alarm Type:** Buzzer, Relay, Dial
 - **Display:** 16x2 Character LCD
 - **Output Type:** Relay x1

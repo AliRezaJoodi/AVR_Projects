@@ -13,7 +13,7 @@ Software, VB6, v1.0
 ![](Code_VB6/v1.0.png)
 
 ### Features
-- **Gas Type:** MQ Series Gas Sensor
+- **Gas Sensor Type:** MQ Series Gas Sensor
 - **Communication Method:** Wireless, FSK RF Module
 - **RF Module:** HMR and HMT Module
 - **Display:** 16x2 Character LCD

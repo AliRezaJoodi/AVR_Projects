@@ -10,7 +10,7 @@ v1.0, Panel
 ![](Pictures/v1.0_Panel.jpg)
 
 ### Features
-- **Gas Type:** MQ Series Gas Sensor
+- **Gas Sensor Type:** MQ Series Gas Sensor
 - **Alarm Type:** Buzzer, Relay, Dial
 - **Display:** 16x2 Character LCD
 - **Output Type:** Relay x1
