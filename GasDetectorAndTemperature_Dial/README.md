@@ -6,11 +6,11 @@ Note: Usable for MQ series sensors except MQ-7 and MQ-9 .
 v1.0, Main  
 ![](Pictures/v1.0_Main.jpg)
 
-v1.0, Panel, Gas  
-![](Pictures/v1.0_Panel_Gas.jpg)
+v1.0, Gas Panel  
+![](Pictures/v1.0_GasPanel.jpg)
 
-v1.0, Panel, Temp  
-![](Pictures/v1.0_Panel_Temp.jpg)
+v1.0, Temp Panel  
+![](Pictures/v1.0_TempPanel.jpg)
 
 ### Features
 - **Gas Sensor Type:** MQ Series Gas Sensor x1
