@@ -1018,6 +1018,29 @@
   <tr>
     <td>
         <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/GasDetector_GSM/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="92"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/GasDetector_GSM" target="_top">
+        <span>Gas Detector with Alarm Using GSM</span>
+        </a> <br />
+        <span style="color:#999">Gas Type: MQ Series Gas Sensor</span> <br />
+        <span style="color:#999">GSM Type: SIM300CZ</span> <br />
+        <span style="color:#999">Alarm Type: Relay, Dial</span> <br />
+    </td>
+    <td>
+        Bascom-AVR <br />
+    </td>
+  </tr>
+
+ <!-- ********************** -->
+  <tr>
+    <td>
+        <img
         src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/GasDetector_WirelessAndComputerMonitoring/Pictures/Album.jpg"
         alt="ts"
         width="150"
@@ -1053,7 +1076,7 @@
         </a> <br />
         <span style="color:#999">Gas Type: MQ Series Gas Sensor</span> <br />
         <span style="color:#999">Temperature Sensor Type: LM35</span> <br />
-        <span style="color:#999">Alarm Type: Buzzer, Relay</span> <br />
+        <span style="color:#999">Alarm Type: Buzzer, Relay x2</span> <br />
     </td>
     <td>
         Bascom-AVR <br />
@@ -1076,7 +1099,7 @@
         </a> <br />
         <span style="color:#999">Gas Type: MQ Series Gas Sensor</span> <br />
         <span style="color:#999">Temperature Sensor Type: LM35</span> <br />
-        <span style="color:#999">Alarm Type: Buzzer, Relay, Dial</span> <br />
+        <span style="color:#999">Alarm Type: Buzzer, Relay x2, Dial</span> <br />
     </td>
     <td>
         Bascom-AVR <br />
