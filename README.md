@@ -1107,6 +1107,29 @@
   </tr>
 
  <!-- ********************** -->
+  <tr>
+    <td>
+        <img
+        src="https://github.com/AliRezaJoodi/AVR_Projects/raw/main/GasDetectorWithHumiditySensor_3Zone/Pictures/Album.jpg"
+        alt="ts"
+        width="150"
+        height="90"
+        />
+    </td>
+    <td>
+        <a href="https://github.com/AliRezaJoodi/AVR_Projects/blob/main/GasDetectorWithHumiditySensor_3Zone" target="_top">
+        <span>Gas Detector and Humidity Sensor, 3-Zone</span>
+        </a> <br />
+        <span style="color:#999">Gas Type: MQ Series Gas Sensor</span> <br />
+        <span style="color:#999">Humidity Sensor Type: SHT10</span> <br />
+        <span style="color:#999">Alarm Type: Buzzer, Relay x3</span> <br />
+    </td>
+    <td>
+        Bascom-AVR <br />
+    </td>
+  </tr>
+
+ <!-- ********************** -->
    <tr>
     <td>
         <img
