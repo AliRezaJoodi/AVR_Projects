@@ -3,9 +3,9 @@ Note: This is just a prototype and needs improvement.
 Note: Usable for MQ series sensors except MQ-7 and MQ-9 .  
 
 ### Photo
-v1.0
+v1.0  
 ![](Pictures/v1.0.jpg)  
-![](Pictures/v1.0_Buttom.jpg)
+![](Pictures/v1.0_Buttom.jpg)  
 
 ### Features
 - **Gas Sensor Type:** MQ Series Gas Sensor
